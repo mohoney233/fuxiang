@@ -1,0 +1,812 @@
+{
+ "status": {
+  "doc": "",
+  "args": [],
+  "fn": "op_status",
+  "real": "op_status",
+  "file": "fuxiang_edit.py"
+ },
+ "map_info": {
+  "doc": "",
+  "args": [],
+  "fn": "op_map_info",
+  "real": "op_map_info",
+  "file": "fuxiang_edit.py"
+ },
+ "list_types": {
+  "doc": "组件类型清单。",
+  "args": [
+   "limit"
+  ],
+  "fn": "op_list_types",
+  "real": "op_list_component_types",
+  "file": "fuxiang_edit.py"
+ },
+ "list_components": {
+  "doc": "",
+  "args": [
+   "limit",
+   "offset",
+   "type"
+  ],
+  "fn": "op_list_components",
+  "real": "op_list_components",
+  "file": "fuxiang_edit.py"
+ },
+ "get_component": {
+  "doc": "",
+  "args": [
+   "child_key",
+   "full",
+   "ugc_id"
+  ],
+  "fn": "op_get_component",
+  "real": "op_get_component",
+  "file": "fuxiang_edit.py"
+ },
+ "material_info": {
+  "doc": "只读：实体运行时材质 vs 组件属性袋材质，逐件对比。args: ugc_ids",
+  "args": [
+   "ugc_ids"
+  ],
+  "fn": "op_material_info",
+  "real": "op_material_info",
+  "file": "fuxiang_edit.py"
+ },
+ "create_component": {
+  "doc": "低层附加组件接口：检查类型和空闲 owner，分配无冲突 ID。 普通场景物件应使用 op_place_item，以完成实体创建和组件初始化。",
+  "args": [
+   "info"
+  ],
+  "fn": "op_create_component",
+  "real": "op_create_component",
+  "file": "fuxiang_edit.py"
+ },
+ "remove_component": {
+  "doc": "",
+  "args": [
+   "ugc_id"
+  ],
+  "fn": "op_remove_component",
+  "real": "op_remove_component",
+  "file": "fuxiang_edit.py"
+ },
+ "repair_index": {
+  "doc": "自愈：把仍存活但脱离索引的组件重新登记回管理器， 并报告 ghost（索引有、对象无）与 orphan（对象有、索引无）。",
+  "args": [
+   "allow_heap_scan"
+  ],
+  "fn": "op_repair_index",
+  "real": "op_repair_index",
+  "file": "fuxiang_edit.py"
+ },
+ "list_items": {
+  "doc": "列出可放置物件目录（ugc_item_data），支持关键字/类型/分类过滤。",
+  "args": [
+   "category_id",
+   "include_hidden",
+   "item_type",
+   "limit",
+   "offset",
+   "query"
+  ],
+  "fn": "op_list_items",
+  "real": "op_build",
+  "file": "fuxiang_edit.py"
+ },
+ "plan_item": {
+  "doc": "",
+  "args": [],
+  "fn": "op_plan_item",
+  "real": "plan",
+  "file": "fuxiang_edit.py"
+ },
+ "place_item": {
+  "doc": "",
+  "args": [],
+  "fn": "op_place_item",
+  "real": "place",
+  "file": "fuxiang_edit.py"
+ },
+ "place_poll": {
+  "doc": "",
+  "args": [],
+  "fn": "op_place_poll",
+  "real": "place_poll",
+  "file": "fuxiang_edit.py"
+ },
+ "place_batch": {
+  "doc": "批量摆放：一条命令登记 N 件（快照还原提速；逐件仍走同一套 plan 护栏）。",
+  "args": [],
+  "fn": "op_place_batch",
+  "real": "place_batch",
+  "file": "fuxiang_edit.py"
+ },
+ "place_poll_batch": {
+  "doc": "批量 poll：一条命令推进整批摆放请求（逐 token 回执 + 退避建议）。",
+  "args": [],
+  "fn": "op_place_poll_batch",
+  "real": "place_poll_batch",
+  "file": "fuxiang_edit.py"
+ },
+ "recover_pending": {
+  "doc": "恢复\"服务端已创建、原生确认未完成\"的物件登记（room 被重建后的待确认态）。",
+  "args": [],
+  "fn": "op_recover_pending",
+  "real": "recover_pending",
+  "file": "fuxiang_edit.py"
+ },
+ "remove_item": {
+  "doc": "",
+  "args": [],
+  "fn": "op_remove_item",
+  "real": "remove",
+  "file": "fuxiang_edit.py"
+ },
+ "set_transform": {
+  "doc": "",
+  "args": [],
+  "fn": "op_set_transform",
+  "real": "set_transform",
+  "file": "fuxiang_edit.py"
+ },
+ "pending_saves": {
+  "doc": "查看编辑器的待保存队列（save_component_info）。",
+  "args": [
+   "limit"
+  ],
+  "fn": "op_pending_saves",
+  "real": "op_pending_saves",
+  "file": "fuxiang_edit.py"
+ },
+ "get_params": {
+  "doc": "",
+  "args": [
+   "child_key",
+   "key"
+  ],
+  "fn": "op_get_params",
+  "real": "op_get_params",
+  "file": "fuxiang_edit.py"
+ },
+ "set_params": {
+  "doc": "",
+  "args": [
+   "child_key",
+   "info",
+   "key"
+  ],
+  "fn": "op_set_params",
+  "real": "op_set_params",
+  "file": "fuxiang_edit.py"
+ },
+ "list_events": {
+  "doc": "",
+  "args": [],
+  "fn": "op_list_events",
+  "real": "op_list_events",
+  "file": "fuxiang_edit.py"
+ },
+ "create_event": {
+  "doc": "",
+  "args": [
+   "args",
+   "event_type"
+  ],
+  "fn": "op_create_event",
+  "real": "op_create_event",
+  "file": "fuxiang_edit.py"
+ },
+ "save": {
+  "doc": "旧保存标记/改名接口，尚未验证完整地图持久化。",
+  "args": [
+   "name",
+   "with_dump"
+  ],
+  "fn": "op_save",
+  "real": "op_save",
+  "file": "fuxiang_edit.py"
+ },
+ "save_map": {
+  "doc": "发起一次服务端保存（async）。与点编辑器保存按钮同链路： ui._save_change() → send_battle_event(UGC, {key:'save_change',...})。 主线程只发事件、丢回执观察器，不等待。用 op_save_map_poll 轮询回执。",
+  "args": [
+   "request_id",
+   "stale_after"
+  ],
+  "fn": "op_save_map",
+  "real": "op_save_map",
+  "file": "fuxiang_edit.py"
+ },
+ "save_map_poll": {
+  "doc": "轮询保存回执：room.ugc_save_finish 一旦被引擎回调即视为服务端已回执。",
+  "args": [
+   "request_id",
+   "timeout"
+  ],
+  "fn": "op_save_map_poll",
+  "real": "op_save_map_poll",
+  "file": "fuxiang_edit.py"
+ },
+ "save_dirty": {
+  "doc": "诊断：读编辑器当前的『未保存改动缓冲』。",
+  "args": [
+   "detail"
+  ],
+  "fn": "op_save_dirty",
+  "real": "op_save_dirty",
+  "file": "fuxiang_edit.py"
+ },
+ "eval": {
+  "doc": "在主线程执行一段 Python 语句，返回 __result__（若有）。",
+  "args": [
+   "code",
+   "timeout"
+  ],
+  "fn": "op_eval",
+  "real": "op_eval",
+  "file": "fuxiang_bridge.py"
+ },
+ "catalog_summary": {
+  "doc": "",
+  "args": [],
+  "fn": "op_catalog_summary",
+  "real": "op_catalog_summary",
+  "file": "fuxiang_catalog.py"
+ },
+ "catalog_types": {
+  "doc": "列出全部组件类型（含无实现类的孤儿），可按 only/query 过滤。",
+  "args": [],
+  "fn": "op_catalog_types",
+  "real": "op_list_component_types",
+  "file": "fuxiang_edit.py"
+ },
+ "catalog_type": {
+  "doc": "单个组件类型的完整档案：实现类、目录物件、属性 schema 可得性。",
+  "args": [],
+  "fn": "op_catalog_type",
+  "real": "op_get_component_type",
+  "file": "fuxiang_edit.py"
+ },
+ "catalog_find": {
+  "doc": "统一寻址：item_id / component_type / query / enum 任一定位组件或物件。",
+  "args": [],
+  "fn": "op_catalog_find",
+  "real": "op_find",
+  "file": "fuxiang_edit.py"
+ },
+ "catalog_schema": {
+  "doc": "取组件类型的属性 schema（ugc_item_property / ugc_control_panel）。",
+  "args": [],
+  "fn": "op_catalog_schema",
+  "real": "op_component_schema",
+  "file": "fuxiang_edit.py"
+ },
+ "catalog_enums": {
+  "doc": "列出组件属性取值枚举（common_cs.ugc.UGCEnums）。",
+  "args": [],
+  "fn": "op_catalog_enums",
+  "real": "op_list_enums",
+  "file": "fuxiang_edit.py"
+ },
+ "catalog_categories": {
+  "doc": "列出编辑器的物件分类树（ugc_item_tab）。",
+  "args": [],
+  "fn": "op_catalog_categories",
+  "real": "op_list_categories",
+  "file": "fuxiang_edit.py"
+ },
+ "catalog_export": {
+  "doc": "把注册表导出到 tools/fuxiang/registry/。",
+  "args": [],
+  "fn": "op_catalog_export",
+  "real": "op_registry_export",
+  "file": "fuxiang_edit.py"
+ },
+ "catalog_items": {
+  "doc": "逐个枚举物件目录（含隐藏项），支持分页与多维过滤。",
+  "args": [],
+  "fn": "op_catalog_items",
+  "real": "op_catalog_items",
+  "file": "fuxiang_catalog.py"
+ },
+ "catalog_verify": {
+  "doc": "全量可达性自检：一次调用走通全部物件与全部组件类型。",
+  "args": [],
+  "fn": "op_catalog_verify",
+  "real": "op_catalog_verify",
+  "file": "fuxiang_catalog.py"
+ },
+ "hall_info": {
+  "doc": "资源大厅（组合库）总览：结构常量、库状态、标签表、记录字段表。",
+  "args": [],
+  "fn": "op_hall_info",
+  "real": "op_hall_info",
+  "file": "fuxiang_edit.py"
+ },
+ "hall_items": {
+  "doc": "枚举资源大厅里的组合记录（官方 PGC + 玩家自制）。",
+  "args": [],
+  "fn": "op_hall_items",
+  "real": "op_hall_items",
+  "file": "fuxiang_edit.py"
+ },
+ "hall_item": {
+  "doc": "按 combo_id / share_code 取单条组合，含 combo_data 拆解。",
+  "args": [],
+  "fn": "op_hall_item",
+  "real": "op_hall_item",
+  "file": "fuxiang_edit.py"
+ },
+ "hall_verify": {
+  "doc": "资源大厅记录自检：字段完整性、combo_data 可解析性。",
+  "args": [],
+  "fn": "op_hall_verify",
+  "real": "op_hall_verify",
+  "file": "fuxiang_edit.py"
+ },
+ "hall_ui": {
+  "doc": "资源大厅列表页实况：页签/排序/标签状态、分类树、已渲染卡片数。",
+  "args": [],
+  "fn": "op_hall_ui",
+  "real": "op_hall_ui",
+  "file": "fuxiang_edit.py"
+ },
+ "hall_cards": {
+  "doc": "枚举资源大厅当前页签下的卡片（资源清单）。",
+  "args": [],
+  "fn": "op_hall_cards",
+  "real": "op_hall_cards",
+  "file": "fuxiang_edit.py"
+ },
+ "hall_export": {
+  "doc": "把资源大厅当前页签的卡片清单导出为 JSON 快照。",
+  "args": [],
+  "fn": "op_hall_export",
+  "real": "op_hall_export",
+  "file": "fuxiang_edit.py"
+ },
+ "edit_targets": {
+  "doc": "列出可编辑物件（含可编辑性判定）。",
+  "args": [],
+  "fn": "op_edit_targets",
+  "real": "op_edit_targets",
+  "file": "fuxiang_edit.py"
+ },
+ "edit_target": {
+  "doc": "定位单个可编辑物件的变换与属性袋（可联表属性 schema）。",
+  "args": [],
+  "fn": "op_edit_target",
+  "real": "op_edit_target",
+  "file": "fuxiang_edit.py"
+ },
+ "edit_transform": {
+  "doc": "修改已存在物件的位置/旋转/缩放，并登记保存变更集。",
+  "args": [],
+  "fn": "op_edit_transform",
+  "real": "op_edit_transform",
+  "file": "fuxiang_edit.py"
+ },
+ "edit_props": {
+  "doc": "修改已存在物件的组件属性（property_id -> 值）。",
+  "args": [],
+  "fn": "op_edit_props",
+  "real": "op_edit_props",
+  "file": "fuxiang_edit.py"
+ },
+ "set_component_info": {
+  "doc": "整段回写 component_info['events']（快照复原用；带回读校验与失败回滚）。",
+  "args": [],
+  "fn": "op_set_component_info",
+  "real": "op_set_component_info",
+  "file": "fuxiang_edit.py"
+ },
+ "set_component_info_batch": {
+  "doc": "批量整袋回写 N 件（快照 props 阶段提速；逐件同一护栏 + 逐件升级重试）。",
+  "args": [],
+  "fn": "op_set_component_info_batch",
+  "real": "op_set_component_info_batch",
+  "file": "fuxiang_edit.py"
+ },
+ "set_map_setting": {
+  "doc": "写地图设置（key/value；跨图还原场景框架用，key \"14\"=框架 4001/4002/4003）。",
+  "args": [],
+  "fn": "op_set_map_setting",
+  "real": "op_set_map_setting",
+  "file": "fuxiang_edit.py"
+ },
+ "get_map_bgm": {
+  "doc": "读地图默认背景音乐（`ugc_props_info['ugc_bgm_conf']`，快照的 map.props 那一层）。",
+  "args": [],
+  "fn": "op_get_map_bgm",
+  "real": "op_get_map_bgm",
+  "file": "fuxiang_edit.py"
+ },
+ "set_map_bgm": {
+  "doc": "写地图默认背景音乐（走「更多→网易云音乐→背景音乐设置」面板的同一条通道）。",
+  "args": [],
+  "fn": "op_set_map_bgm",
+  "real": "op_set_map_bgm",
+  "file": "fuxiang_edit.py"
+ },
+ "global_singletons": {
+  "doc": "只读：列出**全局单例**组件（天空盒/雾/LUT/游戏时间/倒计时/安装器…）。",
+  "args": [
+   "floor",
+   "types",
+   "with_ci"
+  ],
+  "fn": "op_global_singletons",
+  "real": "op_global_singletons",
+  "file": "fuxiang_edit.py"
+ },
+ "edit_history": {
+  "doc": "查看本会话经接口做过的数值改动。",
+  "args": [],
+  "fn": "op_edit_history",
+  "real": "op_edit_history",
+  "file": "fuxiang_edit.py"
+ },
+ "motion_preview": {
+  "doc": "把对象绑定到运动器(203911)并开启/停止运动驱动（可同时持久化绑定）。",
+  "args": [],
+  "fn": "op_motion_preview",
+  "real": "op_motion_preview",
+  "file": "fuxiang_edit.py"
+ },
+ "event_list": {
+  "doc": "列出场景全部事件（注册表+引用解析+保存口径）。",
+  "args": [],
+  "fn": "op_event_list",
+  "real": "op_event_list",
+  "file": "fuxiang_edit.py"
+ },
+ "event_create": {
+  "doc": "新建事件（原生命令层）。args: name",
+  "args": [],
+  "fn": "op_event_create",
+  "real": "op_event_create",
+  "file": "fuxiang_edit.py"
+ },
+ "event_delete": {
+  "doc": "删除事件（清引用+注册表移除）。args: event_key",
+  "args": [],
+  "fn": "op_event_delete",
+  "real": "op_event_delete",
+  "file": "fuxiang_edit.py"
+ },
+ "event_bind": {
+  "doc": "把事件绑定到物体的事件类参数槽。args: ugc_id, event_key, property_id|index, params_idx",
+  "args": [],
+  "fn": "op_event_bind",
+  "real": "op_event_bind",
+  "file": "fuxiang_edit.py"
+ },
+ "event_unbind": {
+  "doc": "解除事件绑定。args: ugc_id, event_key",
+  "args": [],
+  "fn": "op_event_unbind",
+  "real": "op_event_unbind",
+  "file": "fuxiang_edit.py"
+ },
+ "preview_plan": {
+  "doc": "只算不拍：由包围盒推导视角列表（正俯视 + 四角斜视）。",
+  "args": [],
+  "fn": "op_preview_plan",
+  "real": "op_preview_plan",
+  "file": "fuxiang_edit.py"
+ },
+ "preview_pose": {
+  "doc": "把编辑器相机摆到指定视角，首次调用会备份原姿态。",
+  "args": [],
+  "fn": "op_preview_pose",
+  "real": "op_preview_pose",
+  "file": "fuxiang_edit.py"
+ },
+ "preview_fire": {
+  "doc": "让引擎把当前帧写成图片文件（异步落盘）。",
+  "args": [],
+  "fn": "op_preview_fire",
+  "real": "op_preview_fire",
+  "file": "fuxiang_edit.py"
+ },
+ "preview_restore": {
+  "doc": "把相机还原到备份姿态。",
+  "args": [],
+  "fn": "op_preview_restore",
+  "real": "op_preview_restore",
+  "file": "fuxiang_edit.py"
+ },
+ "preview_state": {
+  "doc": "诊断：相机姿态、备份状态、出图接口可用性。",
+  "args": [],
+  "fn": "op_preview_state",
+  "real": "op_preview_state",
+  "file": "fuxiang_edit.py"
+ },
+ "preview_layout": {
+  "doc": "导出俯视平面图数据（绘制在主机侧完成）。",
+  "args": [],
+  "fn": "op_preview_layout",
+  "real": "op_preview_layout",
+  "file": "fuxiang_edit.py"
+ },
+ "combo_download": {
+  "doc": "发送一条组合下载请求（服务端写入）。非阻塞，结果用 poll 查。",
+  "args": [],
+  "fn": "op_combo_download",
+  "real": "op_combo_download",
+  "file": "fuxiang_combo_dl.py"
+ },
+ "combo_download_poll": {
+  "doc": "查询下载结果：库中是否新增了条目。",
+  "args": [],
+  "fn": "op_combo_download_poll",
+  "real": "op_combo_download_poll",
+  "file": "fuxiang_combo_dl.py"
+ },
+ "combo_download_status": {
+  "doc": "查看下载器状态与库容量（不发起下载）。",
+  "args": [],
+  "fn": "op_combo_download_status",
+  "real": "op_combo_download_status",
+  "file": "fuxiang_combo_dl.py"
+ },
+ "delete_preview": {
+  "doc": "删除预览：哪些对象会被删、组合级联预估（只读）。",
+  "args": [],
+  "fn": "op_delete_preview",
+  "real": "op_del_preview",
+  "file": "fuxiang_edit.py"
+ },
+ "delete_objects": {
+  "doc": "删除场景中的对象（走游戏原生命令层，支持 dry_run）。",
+  "args": [],
+  "fn": "op_delete_objects",
+  "real": "op_del_objects",
+  "file": "fuxiang_edit.py"
+ },
+ "story_fields": {
+  "doc": "剧情字段字典：语义名/property_id/允许值（写文件前先查它）。",
+  "args": [],
+  "fn": "op_story_fields",
+  "real": "op_story_fields",
+  "file": "fuxiang_edit.py"
+ },
+ "story_tree": {
+  "doc": "当前地图的剧情树（剧情→对话→选项，只读）。compact=true 只看概要。",
+  "args": [],
+  "fn": "op_story_tree",
+  "real": "op_story_tree",
+  "file": "fuxiang_edit.py"
+ },
+ "story_create": {
+  "doc": "发起创建一个剧情节点（异步）。args: kind=story|dialogue|choice, fields{...}",
+  "args": [],
+  "fn": "op_story_create",
+  "real": "op_story_create",
+  "file": "fuxiang_edit.py"
+ },
+ "story_create_poll": {
+  "doc": "查询创建请求；placed 后自动落 fields。args: request_id",
+  "args": [],
+  "fn": "op_story_create_poll",
+  "real": "op_story_create_poll",
+  "file": "fuxiang_edit.py"
+ },
+ "story_set": {
+  "doc": "改一个剧情节点的字段。args: ugc_id, fields{...}, dry_run",
+  "args": [],
+  "fn": "op_story_set",
+  "real": "op_story_set",
+  "file": "fuxiang_edit.py"
+ },
+ "story_delete": {
+  "doc": "删除剧情节点。args: ugc_id|ugc_ids, cascade, dry_run",
+  "args": [],
+  "fn": "op_story_delete",
+  "real": "op_story_delete",
+  "file": "fuxiang_edit.py"
+ },
+ "story_export": {
+  "doc": "导出剧情到文件。args: path（可省）, format=json|md",
+  "args": [],
+  "fn": "op_story_export",
+  "real": "op_story_export",
+  "file": "fuxiang_edit.py"
+ },
+ "story_export_doc": {
+  "doc": "导出剧情但**不落盘**：内容以 JSON 字符串回传（给快照用）。",
+  "args": [],
+  "fn": "op_story_export_doc",
+  "real": "op_story_export_doc",
+  "file": "fuxiang_edit.py"
+ },
+ "story_import": {
+  "doc": "剧情文件 → 变更计划（dry_run 默认 true）/ 应用。args: path|data|text, prune",
+  "args": [],
+  "fn": "op_story_import",
+  "real": "op_story_import",
+  "file": "fuxiang_edit.py"
+ },
+ "story_import_next": {
+  "doc": "推进导入计划里的下一个创建（begin→placed→落字段→下一个）。",
+  "args": [],
+  "fn": "op_story_import_next",
+  "real": "op_story_import_next",
+  "file": "fuxiang_edit.py"
+ },
+ "ui_state": {
+  "doc": "界面编辑器定位与概览（视图是否打开 / 控件计数 / 画布尺寸 / 事件表）。",
+  "args": [],
+  "fn": "op_ui_state",
+  "real": "op_ui_state",
+  "file": "fuxiang_edit.py"
+ },
+ "ui_parts": {
+  "doc": "界面编辑器各子 part 的定位（19 个面板的类名 / 分工 / 方法）。",
+  "args": [],
+  "fn": "op_ui_parts",
+  "real": "op_ui_parts",
+  "file": "fuxiang_edit.py"
+ },
+ "ui_catalog": {
+  "doc": "界面编辑器可放置的控件目录（组件类型 200000 的全部物件）。",
+  "args": [],
+  "fn": "op_ui_catalog",
+  "real": "op_ui_catalog",
+  "file": "fuxiang_edit.py"
+ },
+ "ui_schema": {
+  "doc": "控件字段字典：别名 / property_id / 事件类型 / 应用方法 / 面板文案 / 值形态。",
+  "args": [],
+  "fn": "op_ui_schema",
+  "real": "op_ui_schema",
+  "file": "fuxiang_edit.py"
+ },
+ "ui_list": {
+  "doc": "地图上已有控件清单（include_native 附带 UI_NATIVE 概要）。",
+  "args": [],
+  "fn": "op_ui_list",
+  "real": "op_ui_list",
+  "file": "fuxiang_edit.py"
+ },
+ "ui_get": {
+  "doc": "单个控件的属性袋 / 事件绑定 / 登记状态 / 保存报文形态。",
+  "args": [],
+  "fn": "op_ui_get",
+  "real": "op_ui_get",
+  "file": "fuxiang_edit.py"
+ },
+ "ui_add": {
+  "doc": "新增控件（服务端建件；确认走原生 on_check_ui_component_limit）。args: item_id|item|name, pos[x,y]",
+  "args": [],
+  "fn": "op_ui_add",
+  "real": "op_ui_add",
+  "file": "fuxiang_edit.py"
+ },
+ "ui_add_poll": {
+  "doc": "查询 ui_add 的结果，直到 status=placed。args: request_id",
+  "args": [],
+  "fn": "op_ui_add_poll",
+  "real": "op_ui_add_poll",
+  "file": "fuxiang_edit.py"
+ },
+ "ui_set": {
+  "doc": "改控件属性（pos/width/height/alpha/visible/name/content/字体/颜色…）。args: ugc_id, props",
+  "args": [],
+  "fn": "op_ui_set",
+  "real": "op_ui_set",
+  "file": "fuxiang_edit.py"
+ },
+ "ui_move": {
+  "doc": "把控件挪到画布 2D 坐标。args: ugc_id, pos [x, y]",
+  "args": [],
+  "fn": "op_ui_move",
+  "real": "op_ui_move",
+  "file": "fuxiang_edit.py"
+ },
+ "ui_bind": {
+  "doc": "给控件绑事件（on_click/on_release/on_long_press/on_show/on_hide）。args: ugc_id, slot, event_key",
+  "args": [],
+  "fn": "op_ui_bind",
+  "real": "op_ui_bind",
+  "file": "fuxiang_edit.py"
+ },
+ "ui_unbind": {
+  "doc": "解绑控件上的事件。args: ugc_id, event_key",
+  "args": [],
+  "fn": "op_ui_unbind",
+  "real": "op_ui_unbind",
+  "file": "fuxiang_edit.py"
+ },
+ "ui_delete": {
+  "doc": "删除控件（原生删除命令；默认 dry_run）。args: ugc_id|ugc_ids, dry_run=false 才真删",
+  "args": [],
+  "fn": "op_ui_delete",
+  "real": "op_ui_delete",
+  "file": "fuxiang_edit.py"
+ },
+ "ui_verify": {
+  "doc": "落库前自检：是否进报文 / 事件引用双向一致 / 待删除标记。",
+  "args": [],
+  "fn": "op_ui_verify",
+  "real": "op_ui_verify",
+  "file": "fuxiang_edit.py"
+ },
+ "cover_state": {
+  "doc": "封面实况：槽位 / 服务器回读的封面 / 发布面板开没开 / 图片目录。",
+  "args": [],
+  "fn": "op_cover_state",
+  "real": "op_cover_state",
+  "file": "fuxiang_cover.py"
+ },
+ "cover_set_slot": {
+  "doc": "把一张已在 doc_dir 下的图片写成封面（等价于原生\"确认\"那两行）。",
+  "args": [],
+  "fn": "op_cover_set_slot",
+  "real": "op_cover_set_slot",
+  "file": "fuxiang_cover.py"
+ },
+ "cover_upload": {
+  "doc": "按原生发布流程的写法上传封面图（不发布地图）。",
+  "args": [],
+  "fn": "op_cover_upload",
+  "real": "op_cover_upload",
+  "file": "fuxiang_cover.py"
+ },
+ "cover_upload_poll": {
+  "doc": "查上传回执：pending / uploaded（带 share_url）/ failed（带现场）。",
+  "args": [],
+  "fn": "op_cover_upload_poll",
+  "real": "op_cover_upload_poll",
+  "file": "fuxiang_cover.py"
+ },
+ "cover_apply": {
+  "doc": "落库：Avatar.set_ugc_map_cover_photo(ugc_key, [url…])。",
+  "args": [],
+  "fn": "op_cover_apply",
+  "real": "op_cover_apply",
+  "file": "fuxiang_cover.py"
+ },
+ "ping": {
+  "doc": "",
+  "args": [],
+  "fn": "op_ping",
+  "real": "op_ping",
+  "file": "fuxiang_bridge.py"
+ },
+ "info": {
+  "doc": "",
+  "args": [],
+  "fn": "op_info",
+  "real": "op_info",
+  "file": "fuxiang_bridge.py"
+ },
+ "modules": {
+  "doc": "列出/筛选已加载模块与其中的类方法。",
+  "args": [
+   "keyword"
+  ],
+  "fn": "op_modules",
+  "real": "op_modules",
+  "file": "fuxiang_bridge.py"
+ },
+ "introspect": {
+  "doc": "对一个已加载模块或类做反射。",
+  "args": [
+   "target"
+  ],
+  "fn": "op_introspect",
+  "real": "op_introspect",
+  "file": "fuxiang_bridge.py"
+ },
+ "find_spec": {
+  "doc": "批量测试模块是否存在于脚本包内（不导入）。",
+  "args": [
+   "names"
+  ],
+  "fn": "op_find_spec",
+  "real": "op_find_spec",
+  "file": "fuxiang_bridge.py"
+ }
+}

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page
+    x:Class="FuxiangConsole.Pages.DashboardPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <ScrollViewer Padding="20,16,20,20">
+        <StackPanel Spacing="14" MaxWidth="1100" HorizontalAlignment="Left">
+            <TextBlock Text="首页" FontSize="24" FontWeight="SemiBold"/>
+
+            <!-- 首次使用引导 -->
+            <InfoBar x:Name="GuideBar" Severity="Informational" Title="第一次用？三步就能开始"
+                     IsOpen="False" IsClosable="True" CloseButtonClick="GuideBar_CloseClick"
+                     Message="① 打开游戏并进入「随笔浮想」编辑器，打开一张地图　② 首页会提示你「重新连接」，点按钮并在弹窗里点「是」　③ 用左侧的「备份与恢复」「剧情」「截图」等功能"/>
+
+            <!-- 桥接切换条（多开游戏时选要操作哪个） -->
+            <Border Style="{StaticResource Card}">
+                <StackPanel Orientation="Horizontal" Spacing="10">
+                    <TextBlock Text="当前桥接：" FontWeight="SemiBold" VerticalAlignment="Center"/>
+                    <ComboBox x:Name="BridgeSelector" MinWidth="230" SelectionChanged="BridgeSelector_SelectionChanged"/>
+                    <TextBlock x:Name="BridgeStatusText" VerticalAlignment="Center" FontSize="12.5" Foreground="Gray"/>
+                    <Button x:Name="BtnAddBridge" Content="添加桥接…" Click="BtnAddBridge_Click"/>
+                    <Button x:Name="BtnRemoveBridge" Content="移除当前" Click="BtnRemoveBridge_Click"/>
+                </StackPanel>
+            </Border>
+
+            <!-- 状态引导横幅 -->
+            <Border x:Name="Hero" CornerRadius="12" Padding="20,16" Background="#1f6feb22"
+                    BorderBrush="#1f6feb55" BorderThickness="1">
+                <StackPanel Spacing="6">
+                    <TextBlock x:Name="HeroTitle" Text="正在检查状态…" FontSize="19" FontWeight="SemiBold"/>
+                    <TextBlock x:Name="HeroBody" Text="" FontSize="13.5" TextWrapping="Wrap" Opacity="0.9"/>
+                    <StackPanel Orientation="Horizontal" Spacing="10" Margin="0,6,0,0">
+                        <Button x:Name="HeroBtn" Content="重新连接"
+                                Click="HeroBtn_Click" Visibility="Collapsed"/>
+                        <ProgressRing x:Name="HeroRing" IsActive="False" Width="22" Height="22"
+                                      Visibility="Collapsed"/>
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+
+            <!-- 快捷操作 -->
+            <Grid ColumnSpacing="12" RowSpacing="12">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/><ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/><ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Button Grid.Column="0" x:Name="QaSave" Click="BtnSave_Click" HorizontalAlignment="Stretch"
+                        HorizontalContentAlignment="Left" Padding="16,12" MinHeight="64">
+                    <StackPanel Orientation="Horizontal" Spacing="12">
+                        <FontIcon Glyph="&#xE74E;" FontSize="16" VerticalAlignment="Center"/>
+                        <StackPanel Spacing="2" VerticalAlignment="Center">
+                            <TextBlock Text="保存地图" FontSize="14" FontWeight="SemiBold"/>
+                            <TextBlock Text="把改动写入游戏存档" FontSize="12" Foreground="Gray"/>
+                        </StackPanel>
+                    </StackPanel>
+                </Button>
+                <Button Grid.Column="1" x:Name="QaBackup" Click="QaBackup_Click" HorizontalAlignment="Stretch"
+                        HorizontalContentAlignment="Left" Padding="16,12" MinHeight="64">
+                    <StackPanel Orientation="Horizontal" Spacing="12">
+                        <FontIcon Glyph="&#xE8E5;" FontSize="16" VerticalAlignment="Center"/>
+                        <StackPanel Spacing="2" VerticalAlignment="Center">
+                            <TextBlock Text="备份地图" FontSize="14" FontWeight="SemiBold"/>
+                            <TextBlock Text="存一份完整档案，随时可恢复" FontSize="12" Foreground="Gray"/>
+                        </StackPanel>
+                    </StackPanel>
+                </Button>
+                <Button Grid.Column="2" x:Name="QaShots" Click="QaShots_Click" HorizontalAlignment="Stretch"
+                        HorizontalContentAlignment="Left" Padding="16,12" MinHeight="64">
+                    <StackPanel Orientation="Horizontal" Spacing="12">
+                        <FontIcon Glyph="&#xE722;" FontSize="16" VerticalAlignment="Center"/>
+                        <StackPanel Spacing="2" VerticalAlignment="Center">
+                            <TextBlock Text="拍多角度截图" FontSize="14" FontWeight="SemiBold"/>
+                            <TextBlock Text="俯视+四个斜角共 5 张" FontSize="12" Foreground="Gray"/>
+                        </StackPanel>
+                    </StackPanel>
+                </Button>
+                <Button Grid.Column="3" x:Name="QaCover" Click="QaCover_Click" HorizontalAlignment="Stretch"
+                        HorizontalContentAlignment="Left" Padding="16,12" MinHeight="64">
+                    <StackPanel Orientation="Horizontal" Spacing="12">
+                        <FontIcon Glyph="&#xE8B9;" FontSize="16" VerticalAlignment="Center"/>
+                        <StackPanel Spacing="2" VerticalAlignment="Center">
+                            <TextBlock Text="更换封面" FontSize="14" FontWeight="SemiBold"/>
+                            <TextBlock Text="选一张图片设为地图封面" FontSize="12" Foreground="Gray"/>
+                        </StackPanel>
+                    </StackPanel>
+                </Button>
+            </Grid>
+
+            <InfoBar x:Name="ResultBar" Severity="Success" IsOpen="False"/>
+
+            <!-- 地图信息 -->
+            <Border Style="{StaticResource Card}">
+                <StackPanel Spacing="8">
+                    <TextBlock Text="当前地图" FontWeight="SemiBold"/>
+                    <TextBlock x:Name="MapText" FontSize="13" IsTextSelectionEnabled="True" TextWrapping="Wrap"
+                               Text="还没有读取到地图信息。"/>
+                </StackPanel>
+            </Border>
+
+            <!-- 技术详情（折叠） -->
+            <Expander Header="详细信息（连接状态 / 技术参数）" HorizontalAlignment="Stretch" HorizontalContentAlignment="Left">
+                <StackPanel Spacing="12" Margin="0,6">
+                    <TextBlock x:Name="BrText" FontSize="12" IsTextSelectionEnabled="True" TextWrapping="Wrap"/>
+                    <TextBlock x:Name="EdText" FontSize="12" IsTextSelectionEnabled="True" TextWrapping="Wrap"/>
+                    <TextBlock x:Name="SessText" FontSize="12" IsTextSelectionEnabled="True" TextWrapping="Wrap"/>
+                    <TextBlock x:Name="GameText" FontSize="12" IsTextSelectionEnabled="True"/>
+                    <StackPanel Spacing="8">
+                        <StackPanel Orientation="Horizontal" Spacing="8">
+                            <Button x:Name="BtnInstall" Content="安装 / 重注入桥接（高级）" Click="BtnInstall_Click"/>
+                            <Button x:Name="BtnDirty" Content="查脏缓冲（高级）" Click="BtnDirty_Click"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Spacing="8">
+                            <Button x:Name="BtnRefresh" Content="刷新状态" Click="BtnRefresh_Click"/>
+                            <Button x:Name="BtnExports" Content="重建导出表（游戏更新后）" Click="BtnExports_Click"/>
+                        </StackPanel>
+                    </StackPanel>
+                </StackPanel>
+            </Expander>
+
+            <TextBlock Text="任务日志" FontWeight="SemiBold"/>
+            <TextBox x:Name="LogBox" IsReadOnly="True" AcceptsReturn="True" TextWrapping="NoWrap"
+                     FontFamily="Cascadia Mono" Height="170" FontSize="12"
+                     ScrollViewer.VerticalScrollBarVisibility="Auto"
+                     ScrollViewer.HorizontalScrollBarVisibility="Auto"/>
+        </StackPanel>
+    </ScrollViewer>
+</Page>

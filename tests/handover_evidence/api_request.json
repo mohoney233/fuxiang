@@ -1,0 +1,9 @@
+{
+  "request_id": "handover-fix-20260916-01",
+  "status": "pending",
+  "scope": "server",
+  "persistence_verified": false,
+  "elapsed_s": 0.0,
+  "poll_after_ms": 500,
+  "note": "请求已发送；用 fuxiang_place_poll 查询。等待期间请勿拖入新物件。"
+}

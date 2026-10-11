@@ -1,0 +1,418 @@
+{
+ "date": "2026-09-23",
+ "map": "当前打开的地图界面编辑器会话（pid 19024）",
+ "baseline_widget_362": [
+  {
+   "ugc_id": 362,
+   "owner_uid": 1000313,
+   "unit_class": "UgcGlobalUnit",
+   "component_class": "UGCUiCustomComponent",
+   "component_type": 200000,
+   "item_id": 5201002,
+   "item_name_cn": "按钮1（常态）",
+   "category_cn": "按钮",
+   "category_group_cn": "按钮",
+   "properties": {
+    "pos": [
+     451.6151428222656,
+     625.197265625
+    ],
+    "height": [
+     122.0
+    ],
+    "width": [
+     122.0
+    ],
+    "name": [
+     "按钮"
+    ],
+    "on_click": [
+     "按钮触发1",
+     1286
+    ]
+   },
+   "events": {
+    "on_click": {
+     "event_key": "按钮触发1",
+     "info": [
+      "按钮触发1",
+      1286
+     ],
+     "direction": "sender",
+     "label": "点击"
+    }
+   },
+   "registration": {
+    "in_change_unit": false,
+    "in_change_component": true,
+    "pending_delete_component": false,
+    "pending_delete_unit": false,
+    "in_all_ugc_uid_set": false
+   },
+   "in_save_payload": true
+  }
+ ],
+ "ui_state": {
+  "ok": true,
+  "view_name": "UIBattleUGCCustomUI",
+  "view_open": true,
+  "view_instance": "UIBattleUGCCustomUI",
+  "sub_part_count": 19,
+  "canvas_design_size": [
+   1334.0,
+   750.0
+  ],
+  "ui_custom_count": 1,
+  "ui_native_count": 48,
+  "widget_owner_unit_class": "UgcGlobalUnit",
+  "widget_registration_note": "控件单元不在 all_ugc_uid_set（写操作需 allow_unregistered，本模块已内置）",
+  "component_nums": 342,
+  "occupancy": 1395,
+  "max_item_num": 0,
+  "events": [
+   "剧情被触发",
+   "塞回门缝",
+   "山庄来信触发",
+   "拆开信件",
+   "按钮触发1",
+   "测试",
+   "选项1",
+   "选项2"
+  ],
+  "note": "控件=组件类型 200000(UI_CUSTOM)，一个控件独占一个 UgcGlobalUnit；200001(UI_NATIVE) 是原生技能/操作位，不在画布上摆放。写操作要求 view_open=true；落库判据是保存后重进，详见 UI_EDIT.md。"
+ },
+ "add_poll_placed": {
+  "ugc_id": 363,
+  "canvas_position": [
+   1100.0,
+   650.0
+  ],
+  "editor_registered": true,
+  "component_count": 343,
+  "occupancy": 1400,
+  "entity_mode": "ui_widget",
+  "source": "cli/fxui.py add 5201002 --pos 1100,650"
+ },
+ "bind_result": {
+  "ok": true,
+  "event_key": "UI工具链测试事件",
+  "property_id": 20000016605,
+  "slot": "on_click",
+  "slot_label": "点击",
+  "located_by": "property_id_created",
+  "index": 17,
+  "own_index": 14,
+  "params_idx": 0,
+  "event_created": true,
+  "canvas_refresh": {
+   "by": "refresh_ui_custom",
+   "ok": true
+  }
+ },
+ "set_result": [
+  "20000016501"
+ ],
+ "verify_after_writes": {
+  "ok": true,
+  "view_open": true,
+  "count": 2,
+  "widgets": [
+   {
+    "ugc_id": 362,
+    "item_id": 5201002,
+    "params_in_save": 5,
+    "has_pos": true,
+    "events": [
+     {
+      "slot": "on_click",
+      "event_key": "按钮触发1",
+      "event_in_registry": true,
+      "ref_back_to_widget": true
+     }
+    ],
+    "registration": {
+     "in_change_unit": false,
+     "in_change_component": true,
+     "pending_delete_component": false,
+     "pending_delete_unit": false,
+     "in_all_ugc_uid_set": false
+    }
+   },
+   {
+    "ugc_id": 363,
+    "item_id": 5201002,
+    "params_in_save": 5,
+    "has_pos": true,
+    "events": [
+     {
+      "slot": "on_click",
+      "event_key": "UI工具链测试事件",
+      "event_in_registry": true,
+      "ref_back_to_widget": true
+     }
+    ],
+    "registration": {
+     "in_change_unit": false,
+     "in_change_component": true,
+     "pending_delete_component": false,
+     "pending_delete_unit": false,
+     "in_all_ugc_uid_set": false
+    }
+   }
+  ],
+  "problems": [],
+  "note": "自检只看内存里的登记状态；persistence 仍须游戏内保存 + 重进核实（重进后 ugc_id 整体重编号，请按 item_id/名称比对）。"
+ },
+ "save_payload_component_363": {
+  "component[0]#363": [
+   {
+    "t": -999,
+    "i": [
+     0.0,
+     -65536.0,
+     0.0
+    ]
+   },
+   {
+    "t": -999,
+    "i": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "t": -999,
+    "i": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   {
+    "t": 20000010001,
+    "i": [
+     1100.0,
+     650.0
+    ]
+   },
+   {
+    "t": 20000010007,
+    "i": [
+     60.0
+    ]
+   },
+   {
+    "t": 20000010008,
+    "i": [
+     140.0
+    ]
+   },
+   {
+    "t": 20000016605,
+    "i": [
+     "UI工具链测试事件",
+     1286
+    ]
+   },
+   {
+    "t": 20000016501,
+    "i": [
+     "工具链按钮"
+    ]
+   }
+  ]
+ },
+ "packets": [
+  {
+   "evt": [
+    2006,
+    {
+     "uid": 1000311,
+     "key": "add_unit"
+    }
+   ],
+   "ts": 1790137254.1809673
+  },
+  {
+   "evt": [
+    2006,
+    {
+     "et": 2006,
+     "key": "edit_active"
+    }
+   ],
+   "ts": 1790137596.6960154
+  },
+  {
+   "evt": [
+    2006,
+    {
+     "uid": 1000311,
+     "key": "save_change",
+     "change_uid": {
+      "component": {
+       "0": {
+        "362": [
+         "<deep>",
+         "<deep>",
+         "<deep>",
+         "<deep>",
+         "<deep>",
+         "<deep>",
+         "<deep>",
+         "<deep>"
+        ],
+        "363": [
+         "<deep>",
+         "<deep>",
+         "<deep>",
+         "<deep>",
+         "<deep>",
+         "<deep>",
+         "<deep>",
+         "<deep>"
+        ]
+       }
+      }
+     },
+     "only_save": true,
+     "reload_save": false,
+     "from_release": false,
+     "del_uid": {
+      "unit": [],
+      "component": []
+     }
+    }
+   ],
+   "ts": 1790137614.3370144
+  },
+  {
+   "evt": [
+    2006,
+    {
+     "uid": 1000311,
+     "key": "save_change",
+     "change_uid": {},
+     "only_save": true,
+     "reload_save": false,
+     "from_release": false,
+     "del_uid": {
+      "unit": [],
+      "component": []
+     }
+    }
+   ],
+   "ts": 1790137715.9539685
+  },
+  {
+   "evt": [
+    2006,
+    {
+     "uid": "1000311",
+     "key": "\"save_change\"",
+     "change_uid": "{\"component\": {\"0\": {\"363\": [{\"type\": \"<deep>\", \"info\": \"<deep>\"}, {\"type\": \"<deep>\", \"info\": \"<deep>\"}, {\"type\": \"<deep>\", \"info\": \"<deep>\"}, {\"type\": \"<deep>\", \"info\": \"<deep>\"}, {\"type\": \"<deep>\", \"info\": \"<deep>\"}, {\"type\": \"<deep>\", \"info\": \"<deep>\"}, {\"type\": \"<deep>\", \"info\": \"<deep>\"}, {\"type\": \"<deep>\", \"info\": \"<deep>\"}]}}}",
+     "only_save": true,
+     "reload_save": false,
+     "from_release": false,
+     "del_uid": "{\"unit\": [], \"component\": []}"
+    }
+   ],
+   "ts": 1790137744.0432658
+  },
+  {
+   "evt": [
+    2006,
+    {
+     "uid": "1000311",
+     "key": "\"save_change\"",
+     "change_uid": "{\"component\": {\"0\": {}}}",
+     "only_save": true,
+     "reload_save": false,
+     "from_release": false,
+     "del_uid": "{\"unit\": [], \"component\": [363]}"
+    }
+   ],
+   "ts": 1790137822.289783
+  }
+ ],
+ "save_dirty_after": {
+  "ok": true,
+  "change_units_is_dict": true,
+  "change_units_length": 0,
+  "change_units_per_key": {},
+  "save_events_length": 0,
+  "is_save_component_info": false,
+  "registry_before": 293,
+  "registry_after": 293,
+  "dropped_count": 0,
+  "dropped_uids": []
+ },
+ "verify_after_delete": {
+  "ok": false,
+  "view_open": true,
+  "count": 2,
+  "widgets": [
+   {
+    "ugc_id": 362,
+    "item_id": 5201002,
+    "params_in_save": 5,
+    "has_pos": true,
+    "events": [
+     {
+      "slot": "on_click",
+      "event_key": "按钮触发1",
+      "event_in_registry": true,
+      "ref_back_to_widget": true
+     }
+    ],
+    "registration": {
+     "in_change_unit": false,
+     "in_change_component": false,
+     "pending_delete_component": false,
+     "pending_delete_unit": false,
+     "in_all_ugc_uid_set": false
+    }
+   },
+   {
+    "ugc_id": 363,
+    "item_id": 5201002,
+    "params_in_save": 5,
+    "has_pos": true,
+    "events": [
+     {
+      "slot": "on_click",
+      "event_key": "UI工具链测试事件",
+      "event_in_registry": true,
+      "ref_back_to_widget": true
+     }
+    ],
+    "registration": {
+     "in_change_unit": false,
+     "in_change_component": false,
+     "pending_delete_component": true,
+     "pending_delete_unit": false,
+     "in_all_ugc_uid_set": false
+    }
+   }
+  ],
+  "problems": [
+   {
+    "ugc_id": 363,
+    "why": "在待删除袋里 —— 保存会把它删掉"
+   }
+  ],
+  "note": "自检只看内存里的登记状态；persistence 仍须游戏内保存 + 重进核实（重进后 ugc_id 整体重编号，请按 item_id/名称比对）。"
+ },
+ "add_call": {
+  "op": "ui_add",
+  "args": {
+   "item_id": 5201002,
+   "pos": [
+    1100,
+    650
+   ]
+  },
+  "request_id": "uitest-1"
+ }
+}

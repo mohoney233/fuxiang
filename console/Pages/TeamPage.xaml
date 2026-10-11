@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page
+    x:Class="FuxiangConsole.Pages.TeamPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <ScrollViewer Padding="20,16,20,20">
+        <StackPanel Spacing="12" MaxWidth="1100" HorizontalAlignment="Left">
+            <TextBlock Text="队伍" FontSize="24" FontWeight="SemiBold"/>
+
+            <InfoBar Severity="Informational" IsOpen="True" IsClosable="False"
+                     Title="队伍就是「队员槽位」"
+                     Message="加一支队伍 = 在地图上放新的队员槽位（求生者/监管者）；人数随槽位增减。队名、职业、天赋、皮肤请在游戏里的「阵营设置」面板调整——控制台不改这些。"/>
+
+            <InfoBar x:Name="ResultBar" Severity="Success" IsOpen="False"/>
+
+            <Grid ColumnSpacing="12">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/><ColumnDefinition Width="430"/>
+                </Grid.ColumnDefinitions>
+
+                <Border Grid.Column="0" Style="{StaticResource Card}">
+                    <StackPanel Spacing="8">
+                        <StackPanel Orientation="Horizontal" Spacing="8">
+                            <TextBlock Text="当前队伍配置" FontWeight="SemiBold" VerticalAlignment="Center"/>
+                            <Button x:Name="BtnRead" Content="读取队伍数据" Click="BtnRead_Click"/>
+                            <ProgressRing x:Name="ReadRing" IsActive="False" Width="22" Height="22"/>
+                        </StackPanel>
+                        <TextBlock x:Name="TeamsSummary" Text="点上方「读取队伍数据」查看。" FontSize="14" TextWrapping="Wrap"/>
+                        <StackPanel x:Name="TeamsFriendly" Spacing="8"/>
+                        <Expander Header="技术详情（原始数据 / 删除预览结果）" HorizontalAlignment="Stretch" HorizontalContentAlignment="Left">
+                            <ScrollViewer MaxHeight="300" Margin="0,6">
+                                <TextBox x:Name="TeamsView" IsReadOnly="True" AcceptsReturn="True" TextWrapping="NoWrap"
+                                         MinHeight="60" Width="960" HorizontalAlignment="Left"
+                                         FontFamily="Cascadia Mono" FontSize="12"
+                                         ScrollViewer.VerticalScrollBarVisibility="Auto"
+                                         ScrollViewer.HorizontalScrollBarVisibility="Auto"/>
+                            </ScrollViewer>
+                        </Expander>
+                    </StackPanel>
+                </Border>
+
+                <StackPanel Grid.Column="1" Spacing="12">
+                    <Border Style="{StaticResource Card}">
+                        <StackPanel Spacing="8">
+                            <TextBlock Text="添加一支队伍" FontWeight="SemiBold"/>
+                            <TextBox x:Name="PosBox" Header='出现位置（游戏坐标 [x, y, z]，Y 一般填 2）' Text="[0, 2, 0]"
+                                     FontFamily="Cascadia Mono"/>
+                            <StackPanel Orientation="Horizontal" Spacing="12">
+                                <CheckBox x:Name="CivChk" Content="求生者槽位" IsChecked="True"/>
+                                <CheckBox x:Name="ButchChk" Content="监管者槽位" IsChecked="True"/>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal" Spacing="8">
+                                <Button x:Name="BtnAdd" Content="添加槽位" Click="BtnAdd_Click"/>
+                                <Button x:Name="BtnSave" Content="随后保存地图" Click="BtnSave_Click"/>
+                                <ProgressRing x:Name="AddRing" IsActive="False" Width="22" Height="22"/>
+                            </StackPanel>
+                            <TextBlock FontSize="12" Foreground="Gray" TextWrapping="Wrap"
+                                       Text="添加后需要保存才生效；队名等细节等重进游戏后由游戏自动生成，可在「阵营设置」面板改。"/>
+                        </StackPanel>
+                    </Border>
+
+                    <Border Style="{StaticResource Card}">
+                        <StackPanel Spacing="8">
+                            <TextBlock Text="删除队员槽位" FontWeight="SemiBold"/>
+                            <ComboBox x:Name="DelSlot" Header="先「读取队伍数据」，再在这里选要删的槽位"
+                                      HorizontalAlignment="Stretch" PlaceholderText="（先读取队伍数据）"/>
+                            <TextBox x:Name="DelId" Header="或手动输入槽位编号" PlaceholderText="如 14582"/>
+                            <StackPanel Orientation="Horizontal" Spacing="8">
+                                <Button Content="先预览会删什么" Click="BtnDelPreview_Click"/>
+                                <Button Content="删除" Click="BtnDel_Click"/>
+                            </StackPanel>
+                        </StackPanel>
+                    </Border>
+                </StackPanel>
+            </Grid>
+
+            <TextBlock Text="任务日志" FontWeight="SemiBold"/>
+            <TextBox x:Name="LogBox" IsReadOnly="True" AcceptsReturn="True" TextWrapping="NoWrap"
+                     Height="160" FontFamily="Cascadia Mono" FontSize="12"
+                     ScrollViewer.VerticalScrollBarVisibility="Auto"
+                     ScrollViewer.HorizontalScrollBarVisibility="Auto"/>
+        </StackPanel>
+    </ScrollViewer>
+</Page>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page
+    x:Class="FuxiangConsole.Pages.StoryPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <ScrollViewer Padding="20,16,20,20">
+        <StackPanel Spacing="12" MaxWidth="1150" HorizontalAlignment="Left">
+            <TextBlock Text="剧情管理" FontSize="24" FontWeight="SemiBold"/>
+
+            <InfoBar Severity="Informational" IsOpen="True" IsClosable="False"
+                     Title="这里可以看和管理地图里的剧情"
+                     Message="剧情树会自动加载。可以导出成文件留档，也可以把别人分享的剧情文件导入进来。导入默认只预览，确认后才会真正改动。"/>
+
+            <Border Style="{StaticResource Card}">
+                <StackPanel Orientation="Horizontal" Spacing="8">
+                    <Button x:Name="BtnTree" Content="刷新剧情树" Click="BtnTree_Click"/>
+                    <Button Content="导出存档文件 (JSON)" Click="BtnExportJson_Click"/>
+                    <Button Content="导出文本 (Markdown)" Click="BtnExportMd_Click"/>
+                    <Button Content="续跑被中断的导入" Click="BtnResume_Click"/>
+                    <Button Content="字段参考" Click="BtnFields_Click"/>
+                    <ProgressRing x:Name="TreeRing" IsActive="False" Width="22" Height="22"/>
+                </StackPanel>
+            </Border>
+
+            <InfoBar x:Name="ResultBar" Severity="Success" IsOpen="False"/>
+
+            <Grid ColumnSpacing="12">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/><ColumnDefinition Width="430"/>
+                </Grid.ColumnDefinitions>
+
+                <Border Grid.Column="0" Style="{StaticResource Card}">
+                    <StackPanel Spacing="6">
+                        <TextBlock Text="剧情树（STORY → DIALOGUE → CHOICE）" FontWeight="SemiBold"/>
+                        <ScrollViewer MaxHeight="420">
+                            <TreeView x:Name="Tree" CanReorderItems="False" CanDrag="False" MinHeight="200">
+                                <TreeView.ItemTemplate>
+                                    <DataTemplate>
+                                        <ContentPresenter Content="{Binding Content}" Margin="0,1"/>
+                                    </DataTemplate>
+                                </TreeView.ItemTemplate>
+                            </TreeView>
+                        </ScrollViewer>
+                    </StackPanel>
+                </Border>
+
+                <Border Grid.Column="1" Style="{StaticResource Card}">
+                    <StackPanel Spacing="8">
+                        <TextBlock Text="从文件导入剧情" FontWeight="SemiBold"/>
+                        <Grid ColumnSpacing="6">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/>
+                            </Grid.ColumnDefinitions>
+                            <ComboBox x:Name="ImportFile" HorizontalAlignment="Stretch" MinWidth="200"/>
+                            <Button Grid.Column="1" Content="选择文件…" Click="BtnPickImport_Click"/>
+                        </Grid>
+                        <StackPanel Orientation="Horizontal" Spacing="12">
+                            <CheckBox x:Name="ImportApply" Content="真正导入（否则只预览）"/>
+                            <CheckBox x:Name="ImportPrune" Content="删除文件里没有的剧情"/>
+                        </StackPanel>
+                        <Button x:Name="BtnImport" Content="开始导入" Click="BtnImport_Click"/>
+                        <TextBlock FontSize="12" Foreground="Gray" TextWrapping="Wrap"
+                                   Text="不勾「真正导入」时只显示计划、不改动地图。导入不会自动去重：如果上次导入被打断，请用「续跑被中断的导入」恢复，不要重复导入。"/>
+                    </StackPanel>
+                </Border>
+            </Grid>
+
+            <Expander Header="高级：直接修改剧情节点（一般用不到）" HorizontalAlignment="Stretch" HorizontalContentAlignment="Left">
+                <StackPanel Spacing="10" Margin="0,6">
+                    <Grid ColumnSpacing="12">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/><ColumnDefinition Width="*"/><ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <StackPanel Grid.Column="0" Spacing="6">
+                            <TextBlock Text="修改 story_set" FontWeight="SemiBold" FontSize="13"/>
+                            <TextBox x:Name="SetId" Header="ugc_id" PlaceholderText="12345"/>
+                            <TextBox x:Name="SetFields" Header="字段（每行 k=v）" Height="76" AcceptsReturn="True"
+                                     FontFamily="Cascadia Mono" FontSize="12"/>
+                            <StackPanel Orientation="Horizontal" Spacing="8">
+                                <CheckBox x:Name="SetDry" Content="dry-run" IsChecked="True"/>
+                                <Button Content="执行" Click="BtnSet_Click"/>
+                            </StackPanel>
+                        </StackPanel>
+                        <StackPanel Grid.Column="1" Spacing="6">
+                            <TextBlock Text="新建 story_create" FontWeight="SemiBold" FontSize="13"/>
+                            <ComboBox x:Name="CreateKind" Header="类型" SelectedIndex="0" HorizontalAlignment="Stretch">
+                                <ComboBoxItem Content="story 剧情"/><ComboBoxItem Content="dialogue 对话"/><ComboBoxItem Content="choice 选项"/>
+                            </ComboBox>
+                            <TextBox x:Name="CreateFields" Header="字段（每行 k=v）" Height="76" AcceptsReturn="True"
+                                     FontFamily="Cascadia Mono" FontSize="12"/>
+                            <Button Content="执行" Click="BtnCreate_Click"/>
+                        </StackPanel>
+                        <StackPanel Grid.Column="2" Spacing="6">
+                            <TextBlock Text="删除 story_delete" FontWeight="SemiBold" FontSize="13"/>
+                            <TextBox x:Name="DelIds" Header="ugc_ids（逗号分隔）"/>
+                            <StackPanel Orientation="Horizontal" Spacing="10">
+                                <CheckBox x:Name="DelCascade" Content="级联"/>
+                                <CheckBox x:Name="DelForce" Content="--force（必需）"/>
+                                <CheckBox x:Name="DelDry" Content="dry-run" IsChecked="True"/>
+                            </StackPanel>
+                            <Button Content="执行" Click="BtnDelete_Click"/>
+                        </StackPanel>
+                    </Grid>
+                </StackPanel>
+            </Expander>
+
+            <TextBlock Text="任务日志" FontWeight="SemiBold"/>
+            <TextBox x:Name="LogBox" IsReadOnly="True" AcceptsReturn="True" TextWrapping="NoWrap"
+                     Height="180" FontFamily="Cascadia Mono" FontSize="12"
+                     ScrollViewer.VerticalScrollBarVisibility="Auto"
+                     ScrollViewer.HorizontalScrollBarVisibility="Auto"/>
+        </StackPanel>
+    </ScrollViewer>
+</Page>

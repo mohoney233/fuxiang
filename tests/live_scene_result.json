@@ -1,0 +1,192 @@
+{
+  "initialize": {
+    "protocolVersion": "2024-11-05",
+    "capabilities": {
+      "tools": {}
+    },
+    "serverInfo": {
+      "name": "fuxiang-ugc-editor",
+      "version": "0.6.0"
+    }
+  },
+  "tool_count": 20,
+  "status": {
+    "pid": 31264,
+    "bridge_alive": true,
+    "editor_core": {
+      "repr": "<common_cs.ugc_edit_core.core.UGCEditCore.UGCEditCore object at 0x000001963C28C590>",
+      "is_client": true,
+      "room": "<worlds.WorldBattleUGCEdit.WorldBattleUGCEdit object at 0x000001968C671A50>"
+    },
+    "component_manager": true,
+    "event_manager": true,
+    "frame_count": 1726510,
+    "frame_rate": 60,
+    "component_count": 117
+  },
+  "before": {
+    "count": 117,
+    "digest": "0351f7682cf009f51759e8ab6369da9b3d03505fee5138095da2b51e99095f28"
+  },
+  "plan": {
+    "item_id": 202009,
+    "component_type": 100000,
+    "unit_type": 10541,
+    "model_path": "scene/model/h55_playground_ugc/dm65_scene_vip_14_ugc.gim",
+    "position": [
+      100.0,
+      20.0,
+      100.0
+    ],
+    "rotation": [
+      0.0,
+      30.0,
+      0.0
+    ],
+    "scale": [
+      1.1,
+      1.2,
+      1.3
+    ],
+    "scope": "client_local",
+    "persistence_verified": false,
+    "server_place_supported": true,
+    "object_list_visible": false,
+    "component_type_verified": true,
+    "visually_verified": true
+  },
+  "placed": {
+    "ugc_id": 118,
+    "owner_uid": 1000076,
+    "unit_class": "UgcComUnit",
+    "item_id": 202009,
+    "transform": {
+      "position": [
+        100.0,
+        20.0,
+        100.0
+      ],
+      "rotation": [
+        0.0,
+        30.000001907348633,
+        0.0
+      ],
+      "scale": [
+        1.100000023841858,
+        1.2000000476837158,
+        1.2999999523162842
+      ]
+    },
+    "scope": "client_local",
+    "persistence_verified": false,
+    "note": "客户端本地创建；此路径的物件不参与服务器保存"
+  },
+  "readback": {
+    "class": "UGCObstacleComponent",
+    "component_type": 100000,
+    "owner_uid": 1000076,
+    "ugc_id": 118,
+    "position": [
+      100.0,
+      20.0,
+      100.0
+    ],
+    "rotation": [
+      0.0,
+      30.000001907348633,
+      0.0
+    ],
+    "scale": [
+      1.100000023841858,
+      1.2000000476837158,
+      1.2999999523162842
+    ],
+    "component_info": {
+      "component_id": 202009,
+      "events": []
+    }
+  },
+  "transformed": {
+    "ugc_id": 118,
+    "before": {
+      "position": [
+        100.0,
+        20.0,
+        100.0
+      ],
+      "rotation": [
+        0.0,
+        30.000001907348633,
+        0.0
+      ],
+      "scale": [
+        1.100000023841858,
+        1.2000000476837158,
+        1.2999999523162842
+      ]
+    },
+    "transform": {
+      "position": [
+        -100.0,
+        25.0,
+        120.0
+      ],
+      "rotation": [
+        0.0,
+        60.000003814697266,
+        0.0
+      ],
+      "scale": [
+        0.800000011920929,
+        0.8999999761581421,
+        1.2000000476837158
+      ]
+    },
+    "scope": "client_local",
+    "persistence_verified": false
+  },
+  "transform_readback": {
+    "class": "UGCObstacleComponent",
+    "component_type": 100000,
+    "owner_uid": 1000076,
+    "ugc_id": 118,
+    "position": [
+      -100.0,
+      25.0,
+      120.0
+    ],
+    "rotation": [
+      0.0,
+      60.000003814697266,
+      0.0
+    ],
+    "scale": [
+      0.800000011920929,
+      0.8999999761581421,
+      1.2000000476837158
+    ],
+    "component_info": {
+      "component_id": 202009,
+      "events": []
+    }
+  },
+  "during": {
+    "count": 118,
+    "digest": "90e81744a2e92b78c0f7aefbb9b2dddebff806459006930c64c0b27bd5354858"
+  },
+  "removed": {
+    "removed": true,
+    "owner_uid": 1000076,
+    "ugc_id": 118,
+    "create_set_removed": false,
+    "change_set_removed": false,
+    "change_units": {}
+  },
+  "after": {
+    "count": 117,
+    "digest": "0351f7682cf009f51759e8ab6369da9b3d03505fee5138095da2b51e99095f28"
+  },
+  "original_components_unchanged": true,
+  "server_stderr": "",
+  "passed": true
+}

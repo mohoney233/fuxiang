@@ -1,0 +1,56 @@
+{
+ "server": {
+  "name": "fuxiang-ugc-editor",
+  "version": "0.8.0"
+ },
+ "tool_count": 50,
+ "dl_tools_present": {
+  "fuxiang_combo_download": true,
+  "fuxiang_combo_download_poll": true,
+  "fuxiang_combo_download_status": true
+ },
+ "status": {
+  "limits": {
+   "max_shared": 200,
+   "max_local": 200,
+   "recent_dl": 100,
+   "recent_use": 100
+  },
+  "library": {
+   "shared_count": 2,
+   "shared_full": false,
+   "local_count": 0,
+   "local_full": false
+  },
+  "pending": null,
+  "capability": {
+   "part": "UGCEditCompositeLibraryPart",
+   "fetch_method": "fetch_shared_composite(share_code)",
+   "rpc": "core.call_server(<iUGCEditCompositeLibraryPart>, ...)",
+   "concurrency": "一次一条（UI 侧 _op_fetch.running 互斥；本接口另有 pending 锁）"
+  }
+ },
+ "status_err": null,
+ "poll_when_idle": {
+  "status": "idle",
+  "last": {
+   "share_code": "uyWnjPBf",
+   "before_ids": [
+    "317053"
+   ],
+   "before_count": 1,
+   "status": "downloaded",
+   "new_ids": [
+    "65552"
+   ],
+   "detail": {
+    "combo_id": "65552",
+    "name": "小白花",
+    "share_code": "uyWnjPBf",
+    "has_combo_data": true
+   }
+  },
+  "note": "没有待确认的下载。用 fuxiang_combo_download 发起一条。"
+ },
+ "poll_err": null
+}

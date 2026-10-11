@@ -1,0 +1,89 @@
+{
+  "verified": true,
+  "verification": "recovered in a new game process; compared native identity, transform and refreshed object-list data",
+  "current_server_version": "0.8.0",
+  "current_tool_count": 50,
+  "current_game_pid": 9228,
+  "before": {
+    "request_id": "correct-cover-202014-01",
+    "status": "placed",
+    "scope": "server",
+    "ugc_id": 119,
+    "owner_uid": 1000077,
+    "item_id": 202014,
+    "transform": {
+      "position": [
+        628.0,
+        2.0,
+        -60.0
+      ],
+      "rotation": [
+        0.0,
+        25.000001907348633,
+        0.0
+      ],
+      "scale": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929
+      ]
+    },
+    "editor_registered": true,
+    "persistence_verified": false,
+    "catalog_hidden": false,
+    "object_list_eligible": true,
+    "component_count": 109,
+    "occupancy": 229,
+    "note": "已完成原生确认；持久化须保存并重进地图核实。"
+  },
+  "after": {
+    "ugc_id": 119,
+    "uid": 1000074,
+    "item_id": 202014,
+    "catalog": {
+      "id": 202014,
+      "item_tid": "TID_UGC_ITEM_202014",
+      "component_id": 202014,
+      "is_visible": null,
+      "simple_hide": 1,
+      "model_path": "scene/model/h55_playground_ugc/dm65_scene_vip_14_ugc.gim",
+      "src_model_path": "scene/model/ordnance_factory1/dm65_scene_vip_14.gim",
+      "item_type": 1,
+      "tap_order_sec": 201,
+      "occupancy_value": "3.37"
+    },
+    "position": [
+      628.0,
+      2.0,
+      -60.0
+    ],
+    "rotation": [
+      0.0,
+      25.000003814697266,
+      0.0
+    ],
+    "scale": [
+      0.800000011920929,
+      0.800000011920929,
+      0.800000011920929
+    ],
+    "component_info": {
+      "component_id": 202014,
+      "events": []
+    },
+    "in_registered_set": true,
+    "in_object_list": [
+      202014
+    ],
+    "deleted": false
+  },
+  "tolerance": 0.001,
+  "manual_cover_unchanged": true,
+  "registered_component_count": 109,
+  "offline_tests_passed": 63,
+  "notes": [
+    "Native list cache was initially empty; refreshed through refresh_all_components, not manually populated.",
+    "The exact save/exit UI sequence during the intervening work was not recorded by this agent."
+  ],
+  "engine_image": "cover_reloaded_engine.png"
+}

@@ -1,0 +1,443 @@
+{
+ "note": "2026-09-30 封面链路实机钩子记录（去掉 tick/报文噪声后按时间排序）",
+ "lines": [
+  {
+   "t": 1790763070.595,
+   "fn": "UIUGCTakePhotoNew.try_begin_shot",
+   "args": [],
+   "kw": {},
+   "ret": "None",
+   "ok": true,
+   "ms": 3.5
+  },
+  {
+   "t": 1790763070.596,
+   "fn": "UIUGCTakePhotoNew.do_before_shot",
+   "args": [],
+   "kw": {},
+   "ret": "None",
+   "ok": true,
+   "ms": 1.0
+  },
+  {
+   "t": 1790763070.596,
+   "fn": "UIUGCTakePhotoNew.do_begin_shot",
+   "args": [],
+   "kw": {},
+   "ret": "None",
+   "ok": true,
+   "ms": 1.0
+  },
+  {
+   "t": 1790763070.842,
+   "fn": "UIUGCTakePhotoNew.do_after_shot",
+   "args": [
+    "True",
+    "'<游戏根>/Documents/res/ui/live/6ed6443a619a2b8d8142455e17245ae3.jpg'",
+    "'res/ui/live/6ed6443a619a2b8d8142455e17245ae3.jpg'",
+    "'FDA67F7F0C54B8661C88549A1E0807BB'"
+   ],
+   "kw": {},
+   "ret": "None",
+   "ok": true,
+   "ms": 16.6
+  },
+  {
+   "t": 1790763070.845,
+   "fn": "FilePickerProxy.get_file_md5",
+   "args": [
+    "'<游戏根>/Documents/res/ui/live/6ed6443a619a2b8d8142455e17245ae3.jpg'"
+   ],
+   "kw": {},
+   "ret": "'fda67f7f0c54b8661c88549a1e0807bb'",
+   "ok": true,
+   "ms": 0.9
+  },
+  {
+   "t": 1790763070.845,
+   "fn": "UIUGCTakePhotoNew.screen_capture_cb",
+   "args": [
+    "True",
+    "'FDA67F7F0C54B8661C88549A1E0807BB'",
+    "'<游戏根>/Documents/res/ui/live/6ed6443a619a2b8d8142455e17245ae3.jpg'",
+    "'res/ui/live/6ed6443a619a2b8d8142455e17245ae3.jpg'"
+   ],
+   "kw": {},
+   "ret": "<mbengine.common.gen.Future object at 0x000002AFB1261410>",
+   "ok": true,
+   "ms": 11.6
+  },
+  {
+   "t": 1790763070.846,
+   "fn": "UIUGCTakePhotoNew._get_show_custom_photo_ui_args",
+   "args": [
+    "'res/ui/live/6ed6443a619a2b8d8142455e17245ae3.jpg'",
+    "'fda67f7f0c54b8661c88549a1e0807bb'",
+    "'FDA67F7F0C54B8661C88549A1E0807BB'"
+   ],
+   "kw": {},
+   "ret": "{'photo_path': 'res/ui/live/6ed6443a619a2b8d8142455e17245ae3.jpg', 'md5': 'fda67f7f0c54b8661c88549a1e0807bb', 'select_photo_index': None, 'ugc_uuid': '6ab9151ee6ebe25f903e4458'}",
+   "ok": true,
+   "ms": 0.0
+  },
+  {
+   "t": 1790763070.849,
+   "fn": "Avatar.request_photo_token",
+   "args": [
+    "'fda67f7f0c54b8661c88549a1e0807bb'"
+   ],
+   "kw": {},
+   "ret": "<mbengine.common.gen.Future object at 0x000002AFA473EDD0>",
+   "ok": true,
+   "ms": 1.0
+  },
+  {
+   "t": 1790763070.849,
+   "fn": "UIUGCTakePhotoNew._get_photo_token",
+   "args": [
+    "{'photo_path': 'res/ui/live/6ed6443a619a2b8d8142455e17245ae3.jpg', 'md5': 'fda67f7f0c54b8661c88549a1e0807bb', 'select_photo_index': None, 'ugc_uuid': '6ab9151ee"
+   ],
+   "kw": {},
+   "ret": "<mbengine.common.gen.Future object at 0x000002AFB13FC890>",
+   "ok": true,
+   "ms": 4.6
+  },
+  {
+   "t": 1790763070.898,
+   "fn": "UIManager.show_ui",
+   "args": [
+    "'UIBattleUGCPhotoCheck'"
+   ],
+   "kw": {
+    "args": "{'photo_path': 'res/ui/live/6ed6443a619a2b8d8142455e17245ae3.jpg', 'md5': 'fda67f7f0c54b8661c88549a1e0807bb', 'select_photo_index': None, 'ugc_uuid': '6ab9151ee"
+   },
+   "ret": "<ui.UIBattleUGCPart.UIBattleUGCPhotoCheck.UIBattleUGCPhotoCheck object at 0x000002B003FE9F90>",
+   "ok": true,
+   "note": "返回生成器，需 yield from 才跑完",
+   "ms": 105.8
+  },
+  {
+   "t": 1790763070.898,
+   "fn": "UIUGCTakePhotoNew._show_custom_photo_ui",
+   "args": [
+    "{'photo_path': 'res/ui/live/6ed6443a619a2b8d8142455e17245ae3.jpg', 'md5': 'fda67f7f0c54b8661c88549a1e0807bb', 'select_photo_index': None, 'ugc_uuid': '6ab9151ee"
+   ],
+   "kw": {},
+   "ret": "None",
+   "ok": true,
+   "ms": 106.7
+  },
+  {
+   "t": 1790763195.174,
+   "fn": "WorldBattleUGCEdit.set_photo_path",
+   "args": [
+    "'res/ui/live/6ed6443a619a2b8d8142455e17245ae3.jpg'"
+   ],
+   "kw": {
+    "force_index": "None"
+   },
+   "ret": "None",
+   "ok": true,
+   "ms": 0.0
+  },
+  {
+   "t": 1790763195.175,
+   "fn": "WorldBattleUGCEdit.set_photo_md5",
+   "args": [
+    "'fda67f7f0c54b8661c88549a1e0807bb'"
+   ],
+   "kw": {
+    "force_index": "None"
+   },
+   "ret": "None",
+   "ok": true,
+   "ms": 0.0
+  },
+  {
+   "t": 1790763195.343,
+   "fn": "UgcEditCivilianUnit.send_battle_event",
+   "args": [
+    "2006",
+    "{'uid': 1014626, 'key': 'update_ugc_photo_take_ui', 'flag': False}"
+   ],
+   "kw": {},
+   "ret": "None",
+   "ok": true,
+   "ms": 0.0
+  },
+  {
+   "t": 1790763195.354,
+   "fn": "UgcEditCivilianUnit.send_battle_event",
+   "args": [
+    "2006",
+    "{'uid': 1014626, 'key': 'handle_ugc_photo_take', 'is_enter_photo_take': False}"
+   ],
+   "kw": {},
+   "ret": "None",
+   "ok": true,
+   "ms": 0.0
+  },
+  {
+   "t": 1790763195.355,
+   "fn": "UIBattleUGCMapRelease.get_photo_path",
+   "args": [],
+   "kw": {},
+   "ret": "['res/ui/live/6ed6443a619a2b8d8142455e17245ae3.jpg']",
+   "ok": true,
+   "ms": 1.3
+  },
+  {
+   "t": 1790763195.357,
+   "fn": "UIBattleUGCMapRelease.fill_cover_img",
+   "args": [
+    "<ccui.ImageView object at 0x000002B02E38C130>",
+    "'res/ui/live/6ed6443a619a2b8d8142455e17245ae3.jpg'"
+   ],
+   "kw": {},
+   "ret": "None",
+   "ok": true,
+   "ms": 55.1
+  },
+  {
+   "t": 1790763195.413,
+   "fn": "UIBattleUGCMapRelease.switch_group_node_state",
+   "args": [
+    "<cc.Node object at 0x000002B02E38C040>",
+    "'nml'"
+   ],
+   "kw": {},
+   "ret": "None",
+   "ok": true,
+   "ms": 3.0
+  },
+  {
+   "t": 1790763195.413,
+   "fn": "UIBattleUGCMapRelease.update_photo_state",
+   "args": [],
+   "kw": {},
+   "ret": "None",
+   "ok": true,
+   "ms": 9.5
+  },
+  {
+   "t": 1790763195.418,
+   "fn": "UIBattleUGCMapRelease.switch_group_node_state",
+   "args": [
+    "<cc.Node object at 0x000002B02E38C070>",
+    "'can_add'"
+   ],
+   "kw": {},
+   "ret": "None",
+   "ok": true,
+   "ms": 3.0
+  },
+  {
+   "t": 1790763195.438,
+   "fn": "UgcEditCivilianUnit.send_battle_event",
+   "args": [
+    "2006",
+    "{'et': 2006, 'key': 'edit_active'}"
+   ],
+   "kw": {},
+   "ret": "None",
+   "ok": true,
+   "ms": 1.0
+  },
+  {
+   "t": 1790763925.942,
+   "fn": "UIManager.show_ui",
+   "args": [
+    "'UIBattleUGCToast'",
+    "{'text_content': '已自动保存地图', 'time': 3.0}"
+   ],
+   "kw": {},
+   "ret": "<ui.UIBattleUGCPart.UIBattleUGCToast.UIBattleUGCToast object at 0x000002B006783D10>",
+   "ok": true,
+   "note": "返回生成器，需 yield from 才跑完",
+   "ms": 2.6
+  },
+  {
+   "t": 1790763926.016,
+   "fn": "UgcEditCivilianUnit.send_battle_event",
+   "args": [
+    "2006",
+    "{'uid': 1014626, 'key': 'save_change', 'change_uid': {}, 'only_save': True, 'reload_save': False, 'from_release': False, 'del_uid': {'unit': [], 'component': []"
+   ],
+   "kw": {},
+   "ret": "None",
+   "ok": true,
+   "ms": 1.0
+  },
+  {
+   "t": 1790764541.533,
+   "fn": "FilePickerProxy.get_file_md5",
+   "args": [
+    "<common_cs.FilePickerProxy.FilePickerProxy object at 0x000002AFFEF0F790>",
+    "'<游戏根>/Documents/res/ui/live/e4b81af20a5888a6d7045fb7c6b00601.jpg'"
+   ],
+   "kw": {},
+   "err": "TypeError: FilePickerProxy.get_file_md5() takes 1 positional argument but 2 were given",
+   "ok": false
+  },
+  {
+   "t": 1790764559.431,
+   "fn": "FilePickerProxy.get_file_md5",
+   "args": [
+    "'<游戏根>/Documents/res/ui/live/e4b81af20a5888a6d7045fb7c6b00601.jpg'"
+   ],
+   "kw": {},
+   "ret": "'9372644641751e4a093d495b28863eed'",
+   "ok": true,
+   "ms": 1.0
+  },
+  {
+   "t": 1790764569.02,
+   "fn": "FilePickerProxy.get_file_md5",
+   "args": [
+    "'<游戏根>/Documents/res/ui/live/e4b81af20a5888a6d7045fb7c6b00601.jpg'"
+   ],
+   "kw": {},
+   "ret": "'9372644641751e4a093d495b28863eed'",
+   "ok": true,
+   "ms": 1.1
+  },
+  {
+   "t": 1790764569.022,
+   "fn": "WorldBattleUGCEdit.set_photo_path",
+   "args": [
+    "'res/ui/live/e4b81af20a5888a6d7045fb7c6b00601.jpg'"
+   ],
+   "kw": {
+    "force_index": "0"
+   },
+   "ret": "None",
+   "ok": true,
+   "ms": 0.0
+  },
+  {
+   "t": 1790764569.023,
+   "fn": "WorldBattleUGCEdit.set_photo_md5",
+   "args": [
+    "'9372644641751e4a093d495b28863eed'"
+   ],
+   "kw": {
+    "force_index": "0"
+   },
+   "ret": "None",
+   "ok": true,
+   "ms": 0.0
+  },
+  {
+   "t": 1790764569.023,
+   "fn": "UIBattleUGCMapRelease.switch_group_node_state",
+   "args": [
+    "<cc.Node object at 0x000002B02E38C040>",
+    "'nml'"
+   ],
+   "kw": {},
+   "ret": "None",
+   "ok": true,
+   "ms": 0.0
+  },
+  {
+   "t": 1790764569.023,
+   "fn": "UIBattleUGCMapRelease.update_photo_state",
+   "args": [],
+   "kw": {},
+   "ret": "None",
+   "ok": true,
+   "ms": 1.0
+  },
+  {
+   "t": 1790764569.024,
+   "fn": "UIBattleUGCMapRelease.switch_group_node_state",
+   "args": [
+    "<cc.Node object at 0x000002B02E38C070>",
+    "'can_add'"
+   ],
+   "kw": {},
+   "ret": "None",
+   "ok": true,
+   "ms": 0.0
+  },
+  {
+   "t": 1790764569.024,
+   "fn": "UIBattleUGCMapRelease.fill_cover_img",
+   "args": [
+    "<ccui.ImageView object at 0x000002B02E38C130>",
+    "'res/ui/live/e4b81af20a5888a6d7045fb7c6b00601.jpg'"
+   ],
+   "kw": {},
+   "ret": "None",
+   "ok": true,
+   "ms": 22.8
+  },
+  {
+   "t": 1790764569.024,
+   "fn": "UIBattleUGCMapRelease.load_save_img_photo",
+   "args": [],
+   "kw": {},
+   "ret": "None",
+   "ok": true,
+   "ms": 23.8
+  },
+  {
+   "t": 1790764569.121,
+   "fn": "Avatar.upload_img_to_filepicker",
+   "args": [
+    "'UGC_MAP_COVER_PHOTO'",
+    "'res/ui/live/e4b81af20a5888a6d7045fb7c6b00601.jpg'"
+   ],
+   "kw": {
+    "md5": "'9372644641751e4a093d495b28863eed'",
+    "other_info": "{'ugc_key': '6ab9151ee6ebe25f903e4458', 'cover_photo_idx': 0, 'extraInfo': {'origin_id': '6ab9151ee6ebe25f903e4458', 'role_id': '434898117', 'sharing_type': 'UG"
+   },
+   "ret": "None",
+   "ok": true,
+   "ms": 0.0
+  },
+  {
+   "t": 1790764569.153,
+   "fn": "FilePickerProxy.upload_img_to_filepicker",
+   "args": [
+    "<common_cs.FilePickerProxy.FilePickerProxy object at 0x000002AFFEF0F790>",
+    "'Policy VQfHU8DDh3G1+ipsOdV7yVFLURc=:eyJtZXRob2QiOiAiUE9TVCIsICJmc2l6ZUxpbWl0IjogWzAsIDEyMzc0MDE2XSwgIm1pbWVMaW1pdCI6IFsiaW1hZ2UvanBlZyIsICJpbWFnZS9wbmciXSwgInV",
+    "'https://fp.ps.netease.com/h55-ugc-mapshow/file/new/'",
+    "'res/ui/live/e4b81af20a5888a6d7045fb7c6b00601.jpg'"
+   ],
+   "kw": {
+    "real_path": "False",
+    "show_tips": "True"
+   },
+   "ret": "<mbengine.common.gen.Future object at 0x000002B02FCC2410>",
+   "ok": true,
+   "ms": 1.2
+  },
+  {
+   "t": 1790764569.517,
+   "fn": "Avatar.after_upload_photo",
+   "args": [
+    "{'sharing_type': 'UGC_MAP_COVER_PHOTO', 'img_name': 'res/ui/live/e4b81af20a5888a6d7045fb7c6b00601.jpg', 'delete_file_url': None, 'furniture_id': None, 'hall_kee",
+    "'UGC_MAP_COVER_PHOTO'",
+    "'http://h55-ugc-mapshow.fp.ps.netease.com/file/6abce619d4ced355b9c4a1baxHJ2r8G407'",
+    "'res/ui/live/e4b81af20a5888a6d7045fb7c6b00601.jpg'",
+    "False"
+   ],
+   "kw": {},
+   "ret": "None",
+   "ok": true,
+   "ms": 0.0
+  },
+  {
+   "t": 1790764570.335,
+   "fn": "WorldBattleUGCEdit.set_scene_photo_upload_flag",
+   "args": [
+    "True"
+   ],
+   "kw": {},
+   "ret": "None",
+   "ok": true,
+   "ms": 0.0
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+  "request_id": "handover-fix-20260916-01",
+  "status": "placed",
+  "scope": "server",
+  "ugc_id": 122,
+  "owner_uid": 1000080,
+  "item_id": 202009,
+  "transform": {
+    "position": [
+      635.0,
+      2.0,
+      -112.0
+    ],
+    "rotation": [
+      0.0,
+      30.000001907348633,
+      0.0
+    ],
+    "scale": [
+      0.75,
+      0.75,
+      0.75
+    ]
+  },
+  "editor_registered": true,
+  "persistence_verified": false,
+  "component_count": 106,
+  "occupancy": 211,
+  "note": "已完成原生确认；持久化须保存并重进地图核实。"
+}

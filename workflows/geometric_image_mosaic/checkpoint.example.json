@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "purpose": "State template, not an existing progress record or executable resume authorization.",
+  "project_name": "REPLACE_WITH_NEW_PROJECT_NAME",
+  "full_plan_sha256": null,
+  "run_id": null,
+  "session": {"pid": null, "editor_core": null, "connected_checked_at": null},
+  "baseline": {"map_total_components": null, "geometry_count": null, "editor_component_count": null, "occupancy": null},
+  "counts": {"placed": 0, "colored": 0, "save_submitted": 0},
+  "saved_batches": [],
+  "batch_record_fields": ["indices", "ugc_ids", "owner_uids", "color_audit_reference", "save_request_id", "save_result_kind", "dirty_evidence_reference", "count_evidence_reference"],
+  "inflight": {"placement_request_id": null, "save_request_id": null},
+  "last_save": {"request_id": null, "change_units_length": null, "save_events_length": null, "dropped_owner_uids": [], "receipt_file": null},
+  "expected_deleted_objects": [],
+  "progress_file": "plan.progress.jsonl",
+  "audit_file": "audit.jsonl",
+  "user_reentry_verification": {"confirmed": false, "source": null, "confirmation_received_date": null},
+  "resume_rule": "Require same session and matching plan hash, reconcile in-flight requests and saved batches. A new session requires new object-ID mapping."
+}

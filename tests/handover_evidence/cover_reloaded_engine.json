@@ -1,0 +1,77 @@
+{
+  "view": "cover_reloaded_current",
+  "path": "<工具根>\\tests\\handover_evidence\\cover_reloaded_engine.png",
+  "ok": true,
+  "bytes": 569359,
+  "waited": 0.6,
+  "accepted": true,
+  "pose": {
+    "position": [
+      706.5714,
+      42.4098,
+      -76.149
+    ],
+    "mode": "keep"
+  },
+  "restore": {
+    "ok": true,
+    "verified": true,
+    "delta": {
+      "position": 0.0,
+      "forward": 0.0,
+      "up": 0.0
+    },
+    "restored_to": [
+      706.5714,
+      42.4098,
+      -76.149
+    ],
+    "current": {
+      "ok": true,
+      "right": [
+        -0.0469,
+        -0.0,
+        0.9989
+      ],
+      "up": [
+        -0.4077,
+        0.9129,
+        -0.0191
+      ],
+      "forward": [
+        -0.9119,
+        -0.4082,
+        -0.0428
+      ],
+      "position": [
+        706.5714,
+        42.4098,
+        -76.149
+      ],
+      "perspective": true,
+      "projection": [
+        0.882507,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.412011,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0002,
+        1.0,
+        0.0,
+        0.0,
+        -1.0002,
+        0.0
+      ],
+      "fov": 70.613,
+      "aspect": 1.6,
+      "min_z": 1.0,
+      "max_z": 5000.0
+    },
+    "backup_cleared": true
+  }
+}

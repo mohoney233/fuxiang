@@ -1,0 +1,137 @@
+{
+  "before": {
+    "count": 113,
+    "digest": "116a7c760e8192d078ee056049728b9b76d36c5da0448905c7733bd3734afe73"
+  },
+  "request": {
+    "item_id": 202009,
+    "position": [
+      620,
+      0,
+      -60
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "scale": 1
+  },
+  "placed": {
+    "ugc_id": 114,
+    "owner_uid": 1000072,
+    "unit_class": "UgcComUnit",
+    "item_id": 202009,
+    "transform": {
+      "position": [
+        620.0,
+        0.0,
+        -60.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "model_valid": true,
+    "scope": "client_local",
+    "persistence_verified": false
+  },
+  "readback": {
+    "class": "UGCObstacleComponent",
+    "component_type": 100000,
+    "owner_uid": 1000072,
+    "ugc_id": 114,
+    "position": [
+      620.0,
+      0.0,
+      -60.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "component_info": {
+      "component_id": 202009,
+      "events": []
+    }
+  },
+  "framed_transform": {
+    "ugc_id": 114,
+    "before": {
+      "position": [
+        620.0,
+        0.0,
+        -60.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "transform": {
+      "position": [
+        648.0,
+        0.0,
+        -150.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "scope": "client_local",
+    "persistence_verified": false
+  },
+  "removed": {
+    "removed": true,
+    "owner_uid": 1000072,
+    "ugc_id": 114
+  },
+  "after": {
+    "count": 113,
+    "digest": "116a7c760e8192d078ee056049728b9b76d36c5da0448905c7733bd3734afe73"
+  },
+  "original_components_unchanged": true,
+  "visual_verification": {
+    "method": "Game-window screenshots captured through @oai/sky; inspected by agent",
+    "screenshots": {
+      "before": "before.png",
+      "placed": "placed.png",
+      "removed": "removed.png"
+    },
+    "visible_after_placement": true,
+    "absent_after_removal": true,
+    "observation": "A dark elongated structural prop appears on the grid behind the characters after API placement and disappears after API removal. The camera was unchanged.",
+    "final_item_position": [
+      648,
+      0,
+      -150
+    ],
+    "scope": "client-local rendering; persistence and gameplay collision not verified"
+  }
+}

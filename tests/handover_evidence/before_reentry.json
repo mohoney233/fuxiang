@@ -1,0 +1,8 @@
+{
+ "id": "c1789542729853_2444",
+ "ok": true,
+ "value": {
+  "error": "Traceback (most recent call last):\n  File \"<工具根>\\bridge\\fuxiang_bridge.py\", line 81, in wrapper\n    box[\"value\"] = fn()\n                   ^^^^\n  File \"<工具根>\\bridge\\fuxiang_bridge.py\", line 145, in fn\n    exec(compile(code, \"<fuxiang-eval>\", \"exec\"), ns, ns)\n  File \"<fuxiang-eval>\", line 4, in <module>\nAttributeError: 'NoneType' object has no attribute 'room'\n"
+ },
+ "elapsed": 0.022
+}

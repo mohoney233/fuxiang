@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "purpose": "Declarative planning example only; no generic runner consumes this file yet.",
+  "project_name": "REPLACE_WITH_NEW_PROJECT_NAME",
+  "source_image": "REPLACE_WITH_ABSOLUTE_IMAGE_PATH",
+  "python": "<python>",
+  "tool_root": "<工具根>",
+  "geometry": {"item_id": 301001, "component_type": 100001, "native_size": [10, 10, 10], "pivot": "bottom_center", "mode": "server", "rotation": [0, 0, 0]},
+  "sampling": {"grid_size": [1024, 576], "method": "adaptive_binary_rectangles", "piece_budget": 14500, "piece_budget_note": "Example only: verify current map capacity and reserve headroom.", "roi_normalized": [], "roi_note": "Define image-specific [x0,y0,x1,y1] regions and weights before generating plan."},
+  "canvas": {"world_width": 384.5, "world_height": null, "height_rule": "world_width * source_height / source_width", "center_x": 0, "bottom_y": 10, "center_z": 0, "depth": 0.1, "max_piece_world_dimension": 100},
+  "color": {"property": "10000110006", "format": [["RRGGBB", "RRGGBB", "RRGGBB", "RRGGBB"]], "explicit_material_path": null, "collision_property": "10000102001", "collision_value": [0], "calibration_file": "calibration.json", "reuse_previous_map_calibration_without_check": false, "gray_levels": [0,12,24,36,48,60,72,84,96,108,120,132,144,156,168,180,198,216,236,255]},
+  "execution": {"placement_concurrency": 1, "save_batch_size": 50, "color_batch_size": 20, "stop_on_error": true, "save_deadline_seconds": 180, "pilot_stop_after_saved_pieces": 50, "screenshot_interval_after_pilot": 1000, "screenshot_only_after_save": true, "minimum_screenshot_available_memory_mb": 1024, "use_limit_then_full_plan": false},
+  "camera": {"mode": "ortho", "forward": [0,0,1], "up": [0,1,0], "distance": 200, "viewport_size": null, "fit": "derive orthographic width/height from actual viewport aspect and canvas"},
+  "identity": {"source_sha256": null, "config_sha256": null, "full_plan_sha256": null, "session_file": "baseline.json", "checkpoint_file": "checkpoint.json"}
+}

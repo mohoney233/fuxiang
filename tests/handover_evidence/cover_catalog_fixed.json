@@ -1,0 +1,47 @@
+{
+  "total": 2,
+  "offset": 0,
+  "excluded_hidden_matches": 0,
+  "note": "模型相同不代表物件功能相同；请核对 item_id 与 component_id。隐藏记录需 include_hidden=true。",
+  "returned": 2,
+  "items": [
+    {
+      "item_id": 202009,
+      "component_id": 100000,
+      "item_type": 1,
+      "item_tid": "TID_UGC_ITEM_202009",
+      "model_path": "scene/model/h55_playground_ugc/dm65_scene_vip_14_ugc.gim",
+      "img_path": "image/ugc/h55_ugc_icon/ordnance_factory1/dm65_scene_vip_14_ugc.png",
+      "occupancy_value": "3.37",
+      "zoom_limit": [
+        0.1,
+        1000
+      ],
+      "rotate_limit": null,
+      "disable_edit": null,
+      "catalog_hidden": true,
+      "object_list_eligible": false,
+      "same_model_visible_item_ids": [
+        202014
+      ]
+    },
+    {
+      "item_id": 202014,
+      "component_id": 202014,
+      "item_type": 1,
+      "item_tid": "TID_UGC_ITEM_202014",
+      "model_path": "scene/model/h55_playground_ugc/dm65_scene_vip_14_ugc.gim",
+      "img_path": "image/ugc/h55_ugc_icon/ordnance_factory1/dm65_scene_vip_14_ugc.png",
+      "occupancy_value": "3.37",
+      "zoom_limit": [
+        0.1,
+        1000
+      ],
+      "rotate_limit": null,
+      "disable_edit": null,
+      "catalog_hidden": false,
+      "object_list_eligible": true,
+      "same_model_visible_item_ids": []
+    }
+  ]
+}

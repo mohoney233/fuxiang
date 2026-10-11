@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page
+    x:Class="FuxiangConsole.Pages.CoverPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <ScrollViewer Padding="20,16,20,20">
+        <StackPanel Spacing="12" MaxWidth="1100" HorizontalAlignment="Left">
+            <TextBlock Text="封面" FontSize="24" FontWeight="SemiBold"/>
+
+            <InfoBar Severity="Informational" IsOpen="True" IsClosable="False"
+                     Title="给地图换一张封面图"
+                     Message="进入本页会自动显示当前封面。换封面：右边选一张图片（会自动裁成 16:9 并压缩），点「上传并应用封面」即可。只改封面，不会发布地图。"/>
+
+            <InfoBar x:Name="ResultBar" Severity="Success" IsOpen="False"/>
+
+            <Grid ColumnSpacing="12">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/><ColumnDefinition Width="430"/>
+                </Grid.ColumnDefinitions>
+
+                <Border Grid.Column="0" Style="{StaticResource Card}">
+                    <StackPanel Spacing="8">
+                        <Grid>
+                            <TextBlock Text="当前封面" FontWeight="SemiBold"/>
+                            <ProgressRing x:Name="StateRing" IsActive="False" Width="22" Height="22"
+                                          HorizontalAlignment="Right"/>
+                        </Grid>
+                        <Border CornerRadius="8" BorderThickness="1" BorderBrush="#DDD"
+                                Background="#FAFAFA" Padding="6" HorizontalAlignment="Left">
+                            <StackPanel>
+                                <Image x:Name="CoverNow" MaxWidth="420" MaxHeight="236" Stretch="Uniform"
+                                       Visibility="Collapsed"/>
+                                <TextBlock x:Name="CoverNone" Text="这张地图还没有设置封面。&#x0a;在右边选一张图片上传即可。"
+                                           FontSize="13" Foreground="Gray" Margin="8,20"
+                                           TextAlignment="Center" Visibility="Collapsed"/>
+                            </StackPanel>
+                        </Border>
+                        <TextBlock x:Name="CoverCaption" FontSize="12" Foreground="Gray" TextWrapping="Wrap"/>
+                    </StackPanel>
+                </Border>
+
+                <Border Grid.Column="1" Style="{StaticResource Card}">
+                    <StackPanel Spacing="8">
+                        <TextBlock Text="上传新封面" FontWeight="SemiBold"/>
+                        <Border x:Name="DropZone" Height="110" CornerRadius="8"
+                                BorderBrush="Gray" BorderThickness="1" Tapped="DropZone_Tapped"
+                                Background="{ThemeResource CardBackgroundFillColorSecondaryBrush}">
+                            <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+                                <TextBlock Text="点击选择图片" HorizontalAlignment="Center"/>
+                                <TextBlock Text="jpg / png / webp / bmp" FontSize="12" Foreground="Gray" HorizontalAlignment="Center"/>
+                            </StackPanel>
+                        </Border>
+                        <Image x:Name="Preview" MaxHeight="200" Stretch="Uniform" Visibility="Collapsed"/>
+                        <TextBlock x:Name="FileInfo" FontSize="12" Foreground="Gray"/>
+                        <StackPanel Orientation="Horizontal" Spacing="8">
+                            <Button x:Name="BtnUpload" Content="上传并应用封面" Click="BtnUpload_Click" IsEnabled="False"/>
+                            <ProgressRing x:Name="UpRing" IsActive="False" Width="22" Height="22"/>
+                        </StackPanel>
+                        <TextBlock FontSize="12" Foreground="Gray" TextWrapping="Wrap"
+                                   Text="图片不用自己处理尺寸，会自动裁剪压缩到 1920×1080。"/>
+                    </StackPanel>
+                </Border>
+            </Grid>
+
+            <Expander Header="技术详情（封面状态数据）" HorizontalAlignment="Stretch" HorizontalContentAlignment="Left">
+                <StackPanel Spacing="8" Margin="0,6">
+                    <ScrollViewer MaxHeight="260">
+                        <TextBox x:Name="StateView" IsReadOnly="True" AcceptsReturn="True" TextWrapping="NoWrap"
+                                 MinHeight="60" Width="1000" HorizontalAlignment="Left"
+                                 FontFamily="Cascadia Mono" FontSize="12"
+                                 ScrollViewer.VerticalScrollBarVisibility="Auto"
+                                 ScrollViewer.HorizontalScrollBarVisibility="Auto"/>
+                    </ScrollViewer>
+                    <TextBlock x:Name="CoverUrlText" FontSize="12" Foreground="DodgerBlue" TextWrapping="Wrap"
+                               IsTextSelectionEnabled="True" Visibility="Collapsed"/>
+                    <Button x:Name="BtnState" Content="重新读取封面状态" Click="BtnState_Click"/>
+                </StackPanel>
+            </Expander>
+
+            <TextBlock Text="任务日志" FontWeight="SemiBold"/>
+            <TextBox x:Name="LogBox" IsReadOnly="True" AcceptsReturn="True" TextWrapping="NoWrap"
+                     Height="150" FontFamily="Cascadia Mono" FontSize="12"
+                     ScrollViewer.VerticalScrollBarVisibility="Auto"
+                     ScrollViewer.HorizontalScrollBarVisibility="Auto"/>
+        </StackPanel>
+    </ScrollViewer>
+</Page>

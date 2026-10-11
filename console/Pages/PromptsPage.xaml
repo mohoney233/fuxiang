@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page
+    x:Class="FuxiangConsole.Pages.PromptsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <ScrollViewer Padding="20,16,20,20">
+        <StackPanel Spacing="12" MaxWidth="1100" HorizontalAlignment="Left">
+            <TextBlock Text="AI 提示词" FontSize="24" FontWeight="SemiBold"/>
+
+            <InfoBar Severity="Informational" Title="怎么用" IsOpen="True" IsClosable="True"
+                     Message="点「复制」后把提示词发给你的 AI 助手，它会通过桥接调用工具链完成对应操作。会改动地图的操作，建议让 AI 先出预览、确认后再执行。"/>
+
+            <StackPanel x:Name="PromptList" Spacing="8"/>
+        </StackPanel>
+    </ScrollViewer>
+</Page>

@@ -1,0 +1,30 @@
+{
+  "request_id": "handover-visible-table-01",
+  "status": "placed",
+  "scope": "server",
+  "ugc_id": 117,
+  "owner_uid": 1000075,
+  "item_id": 10148,
+  "transform": {
+    "position": [
+      628.0,
+      0.0,
+      -125.0
+    ],
+    "rotation": [
+      0.0,
+      15.000000953674316,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "editor_registered": true,
+  "persistence_verified": false,
+  "component_count": 107,
+  "occupancy": 221,
+  "note": "已完成原生确认；持久化须保存并重进地图核实。"
+}

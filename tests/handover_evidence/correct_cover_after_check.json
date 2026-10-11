@@ -1,0 +1,8093 @@
+{
+ "id": "c1789560195280_2299",
+ "ok": true,
+ "value": {
+  "result": {
+   "room_identity": 2719234881360,
+   "ui_identity": 2719189192912,
+   "placement_request_ids": [],
+   "rows": [
+    {
+     "ugc_id": 114,
+     "uid": 1000069,
+     "item_id": 202009,
+     "catalog": {
+      "id": 202009,
+      "item_tid": "TID_UGC_ITEM_202009",
+      "component_id": 100000,
+      "is_visible": 1,
+      "simple_hide": 1,
+      "model_path": "scene/model/h55_playground_ugc/dm65_scene_vip_14_ugc.gim",
+      "src_model_path": "scene/model/ordnance_factory1/dm65_scene_vip_14.gim",
+      "item_type": 1,
+      "tap_order_sec": 201,
+      "occupancy_value": "3.37"
+     },
+     "position": [
+      626.0,
+      0.0,
+      -100.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 100000,
+      "events": []
+     },
+     "in_registered_set": true,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 115,
+     "uid": 1000070,
+     "item_id": 10148,
+     "catalog": {
+      "id": 10148,
+      "item_tid": "TID_UGC_ITEM_10148",
+      "component_id": 100000,
+      "is_visible": null,
+      "simple_hide": 0,
+      "model_path": "scene/model/h55_sleepingtown_ugc/h55_sleepingtown_table04_ugc.gim",
+      "src_model_path": "scene/model/h55_sleepingtown/h55_sleepingtown_table04.gim",
+      "item_type": 1,
+      "tap_order_sec": 304,
+      "occupancy_value": "9.96999999999999"
+     },
+     "position": [
+      611.0910034179688,
+      2.0,
+      -37.720916748046875
+     ],
+     "rotation": [
+      0.0,
+      -107.74357604980469,
+      -0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 100000,
+      "events": [
+       {
+        "type": 10000002002,
+        "info": [
+         1174
+        ]
+       }
+      ]
+     },
+     "in_registered_set": true,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 116,
+     "uid": 1000071,
+     "item_id": 202009,
+     "catalog": {
+      "id": 202009,
+      "item_tid": "TID_UGC_ITEM_202009",
+      "component_id": 100000,
+      "is_visible": 1,
+      "simple_hide": 1,
+      "model_path": "scene/model/h55_playground_ugc/dm65_scene_vip_14_ugc.gim",
+      "src_model_path": "scene/model/ordnance_factory1/dm65_scene_vip_14.gim",
+      "item_type": 1,
+      "tap_order_sec": 201,
+      "occupancy_value": "3.37"
+     },
+     "position": [
+      635.0,
+      2.0,
+      -112.0
+     ],
+     "rotation": [
+      0.0,
+      30.000001907348633,
+      0.0
+     ],
+     "scale": [
+      0.75,
+      0.75,
+      0.75
+     ],
+     "component_info": {
+      "component_id": 100000,
+      "events": []
+     },
+     "in_registered_set": true,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 117,
+     "uid": 1000072,
+     "item_id": 10148,
+     "catalog": {
+      "id": 10148,
+      "item_tid": "TID_UGC_ITEM_10148",
+      "component_id": 100000,
+      "is_visible": null,
+      "simple_hide": 0,
+      "model_path": "scene/model/h55_sleepingtown_ugc/h55_sleepingtown_table04_ugc.gim",
+      "src_model_path": "scene/model/h55_sleepingtown/h55_sleepingtown_table04.gim",
+      "item_type": 1,
+      "tap_order_sec": 304,
+      "occupancy_value": "9.96999999999999"
+     },
+     "position": [
+      628.0,
+      0.0,
+      -125.0
+     ],
+     "rotation": [
+      0.0,
+      15.000000953674316,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 100000,
+      "events": []
+     },
+     "in_registered_set": true,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 52,
+     "uid": 1000054,
+     "item_id": 103002,
+     "catalog": {
+      "id": 103002,
+      "item_tid": "TID_UGC_ITEM_103002",
+      "component_id": 103002,
+      "is_visible": 1,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 201,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      -65536.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 103002,
+      "events": []
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 53,
+     "uid": 1000055,
+     "item_id": 203930,
+     "catalog": {
+      "id": 203930,
+      "item_tid": "TID_UGC_ITEM_203930",
+      "component_id": 203930,
+      "is_visible": 1,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 201,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      -65536.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 203930,
+      "events": []
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 54,
+     "uid": 1000056,
+     "item_id": 10009001,
+     "catalog": {
+      "id": 10009001,
+      "item_tid": "TID_UGC_MORE_CLASSIFY_206",
+      "component_id": 10009001,
+      "is_visible": 1,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 2,
+      "tap_order_sec": 10009,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 10009001,
+      "events": [
+       {
+        "type": 1000900116003,
+        "info": [
+         0.6
+        ]
+       },
+       {
+        "type": 1000900116001,
+        "info": [
+         15000
+        ]
+       },
+       {
+        "type": 1000900116002,
+        "info": null
+       },
+       {
+        "type": 1000900116004,
+        "info": null
+       }
+      ]
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 102,
+     "uid": 1000057,
+     "item_id": 6000001,
+     "catalog": {
+      "id": 6000001,
+      "item_tid": "TID_UGC_ITEM_6000001",
+      "component_id": 200001,
+      "is_visible": null,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 3,
+      "tap_order_sec": 10010,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 200001,
+      "events": [
+       {
+        "type": 20000120098,
+        "info": [
+         43
+        ]
+       },
+       {
+        "type": 20000120097,
+        "info": [
+         1
+        ]
+       },
+       {
+        "type": 20000120001,
+        "info": [
+         "TID_UGC_UI_CAOWEI_25"
+        ]
+       },
+       {
+        "type": 20000120201,
+        "info": [
+         "100"
+        ]
+       },
+       {
+        "type": 20000120003,
+        "info": null
+       },
+       {
+        "type": 20000120209,
+        "info": null
+       }
+      ]
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 103,
+     "uid": 1000058,
+     "item_id": 10006001,
+     "catalog": {
+      "id": 10006001,
+      "item_tid": "TID_BATTLE_UGC_GAME_TIME_1",
+      "component_id": 10006001,
+      "is_visible": 1,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 2,
+      "tap_order_sec": 10006,
+      "occupancy_value": null
+     },
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 10006001,
+      "events": []
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 104,
+     "uid": 1000059,
+     "item_id": 10008001,
+     "catalog": {
+      "id": 10008001,
+      "item_tid": "TID_UGC_MORE_CLASSIFY_03_08",
+      "component_id": 10008001,
+      "is_visible": 1,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 2,
+      "tap_order_sec": 10008,
+      "occupancy_value": "1.8"
+     },
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 10008001,
+      "events": []
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 105,
+     "uid": 1000060,
+     "item_id": 10004001,
+     "catalog": {
+      "id": 10004001,
+      "item_tid": "TID_UGC_ITEM_10004001",
+      "component_id": 10004001,
+      "is_visible": 1,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 2,
+      "tap_order_sec": 10004,
+      "occupancy_value": "1.8"
+     },
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 10004001,
+      "events": [
+       {
+        "type": 1000400113101,
+        "info": [
+         {
+          "bron": [
+           {
+            "info": [
+             {
+              "a": -103.66,
+              "p": [
+               620.89,
+               3.11,
+               -114.73
+              ],
+              "t": 101001
+             }
+            ],
+            "name": null,
+            "select": true
+           }
+          ],
+          "cave": [
+           {
+            "info": [],
+            "name": null,
+            "select": true
+           }
+          ],
+          "generate": [
+           {
+            "info": [],
+            "name": null,
+            "select": true
+           }
+          ],
+          "hook": [
+           {
+            "info": [],
+            "name": null,
+            "select": true
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 110,
+     "uid": 1000065,
+     "item_id": 10001001,
+     "catalog": {
+      "id": 10001001,
+      "item_tid": "TID_UGC_ITEM_10001001",
+      "component_id": 10001001,
+      "is_visible": 1,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 2,
+      "tap_order_sec": 10001,
+      "occupancy_value": "4.37"
+     },
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 10001001,
+      "events": [
+       {
+        "type": 1000100113701,
+        "info": [
+         1105
+        ]
+       },
+       {
+        "type": 1000100112102,
+        "info": null
+       },
+       {
+        "type": 1000100112103,
+        "info": null
+       },
+       {
+        "type": 1000100112104,
+        "info": null
+       },
+       {
+        "type": 1000100112105,
+        "info": null
+       },
+       {
+        "type": 1000100112106,
+        "info": null
+       },
+       {
+        "type": 1000100122501,
+        "info": null
+       }
+      ]
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 111,
+     "uid": 1000066,
+     "item_id": 10003001,
+     "catalog": {
+      "id": 10003001,
+      "item_tid": "TID_UGC_ITEM_10003001",
+      "component_id": 10003001,
+      "is_visible": 1,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 2,
+      "tap_order_sec": 10003,
+      "occupancy_value": "1.89"
+     },
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 10003001,
+      "events": [
+       {
+        "type": 1000300112801,
+        "info": null
+       },
+       {
+        "type": 1000300112802,
+        "info": null
+       },
+       {
+        "type": 1000300112803,
+        "info": null
+       },
+       {
+        "type": 1000300112804,
+        "info": null
+       }
+      ]
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 112,
+     "uid": 1000067,
+     "item_id": 10003002,
+     "catalog": {
+      "id": 10003002,
+      "item_tid": "TID_UGC_ITEM_10003002",
+      "component_id": 10003002,
+      "is_visible": 1,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 2,
+      "tap_order_sec": 10003,
+      "occupancy_value": "2.12"
+     },
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 10003002,
+      "events": [
+       {
+        "type": 1000300212901,
+        "info": null
+       },
+       {
+        "type": 1000300212902,
+        "info": null
+       }
+      ]
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 2,
+     "uid": 1000004,
+     "item_id": 203912,
+     "catalog": {
+      "id": 203912,
+      "item_tid": "TID_UGC_ITEM_203912",
+      "component_id": 203912,
+      "is_visible": 1,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 201,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      -65536.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 203912,
+      "events": []
+     },
+     "in_registered_set": true,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 3,
+     "uid": 1000005,
+     "item_id": 203912,
+     "catalog": {
+      "id": 203912,
+      "item_tid": "TID_UGC_ITEM_203912",
+      "component_id": 203912,
+      "is_visible": 1,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 201,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      -65536.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 203912,
+      "events": []
+     },
+     "in_registered_set": true,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 4,
+     "uid": 1000006,
+     "item_id": 203912,
+     "catalog": {
+      "id": 203912,
+      "item_tid": "TID_UGC_ITEM_203912",
+      "component_id": 203912,
+      "is_visible": 1,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 201,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      -65536.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 203912,
+      "events": []
+     },
+     "in_registered_set": true,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 5,
+     "uid": 1000007,
+     "item_id": 203912,
+     "catalog": {
+      "id": 203912,
+      "item_tid": "TID_UGC_ITEM_203912",
+      "component_id": 203912,
+      "is_visible": 1,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 201,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      -65536.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 203912,
+      "events": []
+     },
+     "in_registered_set": true,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 6,
+     "uid": 1000008,
+     "item_id": 203912,
+     "catalog": {
+      "id": 203912,
+      "item_tid": "TID_UGC_ITEM_203912",
+      "component_id": 203912,
+      "is_visible": 1,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 201,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      -65536.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 203912,
+      "events": []
+     },
+     "in_registered_set": true,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 7,
+     "uid": 1000009,
+     "item_id": 203912,
+     "catalog": {
+      "id": 203912,
+      "item_tid": "TID_UGC_ITEM_203912",
+      "component_id": 203912,
+      "is_visible": 1,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 201,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      -65536.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 203912,
+      "events": []
+     },
+     "in_registered_set": true,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 8,
+     "uid": 1000010,
+     "item_id": 203912,
+     "catalog": {
+      "id": 203912,
+      "item_tid": "TID_UGC_ITEM_203912",
+      "component_id": 203912,
+      "is_visible": 1,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 201,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      -65536.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 203912,
+      "events": []
+     },
+     "in_registered_set": true,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 9,
+     "uid": 1000011,
+     "item_id": 203912,
+     "catalog": {
+      "id": 203912,
+      "item_tid": "TID_UGC_ITEM_203912",
+      "component_id": 203912,
+      "is_visible": 1,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 201,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      -65536.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 203912,
+      "events": []
+     },
+     "in_registered_set": true,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 10,
+     "uid": 1000012,
+     "item_id": 203912,
+     "catalog": {
+      "id": 203912,
+      "item_tid": "TID_UGC_ITEM_203912",
+      "component_id": 203912,
+      "is_visible": 1,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 201,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      -65536.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 203912,
+      "events": []
+     },
+     "in_registered_set": true,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 11,
+     "uid": 1000013,
+     "item_id": 203912,
+     "catalog": {
+      "id": 203912,
+      "item_tid": "TID_UGC_ITEM_203912",
+      "component_id": 203912,
+      "is_visible": 1,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 201,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      -65536.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 203912,
+      "events": []
+     },
+     "in_registered_set": true,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 12,
+     "uid": 1000014,
+     "item_id": 203912,
+     "catalog": {
+      "id": 203912,
+      "item_tid": "TID_UGC_ITEM_203912",
+      "component_id": 203912,
+      "is_visible": 1,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 201,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      -65536.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 203912,
+      "events": []
+     },
+     "in_registered_set": true,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 13,
+     "uid": 1000015,
+     "item_id": 203912,
+     "catalog": {
+      "id": 203912,
+      "item_tid": "TID_UGC_ITEM_203912",
+      "component_id": 203912,
+      "is_visible": 1,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 201,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      -65536.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 203912,
+      "events": []
+     },
+     "in_registered_set": true,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 14,
+     "uid": 1000016,
+     "item_id": 203912,
+     "catalog": {
+      "id": 203912,
+      "item_tid": "TID_UGC_ITEM_203912",
+      "component_id": 203912,
+      "is_visible": 1,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 201,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      -65536.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 203912,
+      "events": []
+     },
+     "in_registered_set": true,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 15,
+     "uid": 1000017,
+     "item_id": 203912,
+     "catalog": {
+      "id": 203912,
+      "item_tid": "TID_UGC_ITEM_203912",
+      "component_id": 203912,
+      "is_visible": 1,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 201,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      -65536.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 203912,
+      "events": []
+     },
+     "in_registered_set": true,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 16,
+     "uid": 1000018,
+     "item_id": 203912,
+     "catalog": {
+      "id": 203912,
+      "item_tid": "TID_UGC_ITEM_203912",
+      "component_id": 203912,
+      "is_visible": 1,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 201,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      -65536.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 203912,
+      "events": []
+     },
+     "in_registered_set": true,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 17,
+     "uid": 1000019,
+     "item_id": 203912,
+     "catalog": {
+      "id": 203912,
+      "item_tid": "TID_UGC_ITEM_203912",
+      "component_id": 203912,
+      "is_visible": 1,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 201,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      -65536.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 203912,
+      "events": []
+     },
+     "in_registered_set": true,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 18,
+     "uid": 1000020,
+     "item_id": 203912,
+     "catalog": {
+      "id": 203912,
+      "item_tid": "TID_UGC_ITEM_203912",
+      "component_id": 203912,
+      "is_visible": 1,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 201,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      -65536.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 203912,
+      "events": []
+     },
+     "in_registered_set": true,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 19,
+     "uid": 1000021,
+     "item_id": 203912,
+     "catalog": {
+      "id": 203912,
+      "item_tid": "TID_UGC_ITEM_203912",
+      "component_id": 203912,
+      "is_visible": 1,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 201,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      -65536.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 203912,
+      "events": []
+     },
+     "in_registered_set": true,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 20,
+     "uid": 1000022,
+     "item_id": 203912,
+     "catalog": {
+      "id": 203912,
+      "item_tid": "TID_UGC_ITEM_203912",
+      "component_id": 203912,
+      "is_visible": 1,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 201,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      -65536.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 203912,
+      "events": []
+     },
+     "in_registered_set": true,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 21,
+     "uid": 1000023,
+     "item_id": 203912,
+     "catalog": {
+      "id": 203912,
+      "item_tid": "TID_UGC_ITEM_203912",
+      "component_id": 203912,
+      "is_visible": 1,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 201,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      -65536.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 203912,
+      "events": []
+     },
+     "in_registered_set": true,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 22,
+     "uid": 1000024,
+     "item_id": 203912,
+     "catalog": {
+      "id": 203912,
+      "item_tid": "TID_UGC_ITEM_203912",
+      "component_id": 203912,
+      "is_visible": 1,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 201,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      -65536.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 203912,
+      "events": []
+     },
+     "in_registered_set": true,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 23,
+     "uid": 1000025,
+     "item_id": 203912,
+     "catalog": {
+      "id": 203912,
+      "item_tid": "TID_UGC_ITEM_203912",
+      "component_id": 203912,
+      "is_visible": 1,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 201,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      -65536.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 203912,
+      "events": []
+     },
+     "in_registered_set": true,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 24,
+     "uid": 1000026,
+     "item_id": 203912,
+     "catalog": {
+      "id": 203912,
+      "item_tid": "TID_UGC_ITEM_203912",
+      "component_id": 203912,
+      "is_visible": 1,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 201,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      -65536.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 203912,
+      "events": []
+     },
+     "in_registered_set": true,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 25,
+     "uid": 1000027,
+     "item_id": 203912,
+     "catalog": {
+      "id": 203912,
+      "item_tid": "TID_UGC_ITEM_203912",
+      "component_id": 203912,
+      "is_visible": 1,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 201,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      -65536.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 203912,
+      "events": []
+     },
+     "in_registered_set": true,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 26,
+     "uid": 1000028,
+     "item_id": 203912,
+     "catalog": {
+      "id": 203912,
+      "item_tid": "TID_UGC_ITEM_203912",
+      "component_id": 203912,
+      "is_visible": 1,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 201,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      -65536.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 203912,
+      "events": []
+     },
+     "in_registered_set": true,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 27,
+     "uid": 1000029,
+     "item_id": 203912,
+     "catalog": {
+      "id": 203912,
+      "item_tid": "TID_UGC_ITEM_203912",
+      "component_id": 203912,
+      "is_visible": 1,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 201,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      -65536.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 203912,
+      "events": []
+     },
+     "in_registered_set": true,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 28,
+     "uid": 1000030,
+     "item_id": 203912,
+     "catalog": {
+      "id": 203912,
+      "item_tid": "TID_UGC_ITEM_203912",
+      "component_id": 203912,
+      "is_visible": 1,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 201,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      -65536.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 203912,
+      "events": []
+     },
+     "in_registered_set": true,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 29,
+     "uid": 1000031,
+     "item_id": 203912,
+     "catalog": {
+      "id": 203912,
+      "item_tid": "TID_UGC_ITEM_203912",
+      "component_id": 203912,
+      "is_visible": 1,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 201,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      -65536.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 203912,
+      "events": []
+     },
+     "in_registered_set": true,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 30,
+     "uid": 1000032,
+     "item_id": 203912,
+     "catalog": {
+      "id": 203912,
+      "item_tid": "TID_UGC_ITEM_203912",
+      "component_id": 203912,
+      "is_visible": 1,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 201,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      -65536.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 203912,
+      "events": []
+     },
+     "in_registered_set": true,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 31,
+     "uid": 1000033,
+     "item_id": 203912,
+     "catalog": {
+      "id": 203912,
+      "item_tid": "TID_UGC_ITEM_203912",
+      "component_id": 203912,
+      "is_visible": 1,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 201,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      -65536.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 203912,
+      "events": []
+     },
+     "in_registered_set": true,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 32,
+     "uid": 1000034,
+     "item_id": 203912,
+     "catalog": {
+      "id": 203912,
+      "item_tid": "TID_UGC_ITEM_203912",
+      "component_id": 203912,
+      "is_visible": 1,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 201,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      -65536.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 203912,
+      "events": []
+     },
+     "in_registered_set": true,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 33,
+     "uid": 1000035,
+     "item_id": 203912,
+     "catalog": {
+      "id": 203912,
+      "item_tid": "TID_UGC_ITEM_203912",
+      "component_id": 203912,
+      "is_visible": 1,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 201,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      -65536.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 203912,
+      "events": []
+     },
+     "in_registered_set": true,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 34,
+     "uid": 1000036,
+     "item_id": 203912,
+     "catalog": {
+      "id": 203912,
+      "item_tid": "TID_UGC_ITEM_203912",
+      "component_id": 203912,
+      "is_visible": 1,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 201,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      -65536.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 203912,
+      "events": []
+     },
+     "in_registered_set": true,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 35,
+     "uid": 1000037,
+     "item_id": 203912,
+     "catalog": {
+      "id": 203912,
+      "item_tid": "TID_UGC_ITEM_203912",
+      "component_id": 203912,
+      "is_visible": 1,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 201,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      -65536.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 203912,
+      "events": []
+     },
+     "in_registered_set": true,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 36,
+     "uid": 1000038,
+     "item_id": 203912,
+     "catalog": {
+      "id": 203912,
+      "item_tid": "TID_UGC_ITEM_203912",
+      "component_id": 203912,
+      "is_visible": 1,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 201,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      -65536.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 203912,
+      "events": []
+     },
+     "in_registered_set": true,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 37,
+     "uid": 1000039,
+     "item_id": 203912,
+     "catalog": {
+      "id": 203912,
+      "item_tid": "TID_UGC_ITEM_203912",
+      "component_id": 203912,
+      "is_visible": 1,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 201,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      -65536.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 203912,
+      "events": []
+     },
+     "in_registered_set": true,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 38,
+     "uid": 1000040,
+     "item_id": 203912,
+     "catalog": {
+      "id": 203912,
+      "item_tid": "TID_UGC_ITEM_203912",
+      "component_id": 203912,
+      "is_visible": 1,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 201,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      -65536.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 203912,
+      "events": []
+     },
+     "in_registered_set": true,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 39,
+     "uid": 1000041,
+     "item_id": 203912,
+     "catalog": {
+      "id": 203912,
+      "item_tid": "TID_UGC_ITEM_203912",
+      "component_id": 203912,
+      "is_visible": 1,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 201,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      -65536.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 203912,
+      "events": []
+     },
+     "in_registered_set": true,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 40,
+     "uid": 1000042,
+     "item_id": 203912,
+     "catalog": {
+      "id": 203912,
+      "item_tid": "TID_UGC_ITEM_203912",
+      "component_id": 203912,
+      "is_visible": 1,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 201,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      -65536.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 203912,
+      "events": []
+     },
+     "in_registered_set": true,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 41,
+     "uid": 1000043,
+     "item_id": 203912,
+     "catalog": {
+      "id": 203912,
+      "item_tid": "TID_UGC_ITEM_203912",
+      "component_id": 203912,
+      "is_visible": 1,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 201,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      -65536.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 203912,
+      "events": []
+     },
+     "in_registered_set": true,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 42,
+     "uid": 1000044,
+     "item_id": 203912,
+     "catalog": {
+      "id": 203912,
+      "item_tid": "TID_UGC_ITEM_203912",
+      "component_id": 203912,
+      "is_visible": 1,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 201,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      -65536.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 203912,
+      "events": []
+     },
+     "in_registered_set": true,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 43,
+     "uid": 1000045,
+     "item_id": 203912,
+     "catalog": {
+      "id": 203912,
+      "item_tid": "TID_UGC_ITEM_203912",
+      "component_id": 203912,
+      "is_visible": 1,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 201,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      -65536.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 203912,
+      "events": []
+     },
+     "in_registered_set": true,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 44,
+     "uid": 1000046,
+     "item_id": 203912,
+     "catalog": {
+      "id": 203912,
+      "item_tid": "TID_UGC_ITEM_203912",
+      "component_id": 203912,
+      "is_visible": 1,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 201,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      -65536.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 203912,
+      "events": []
+     },
+     "in_registered_set": true,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 45,
+     "uid": 1000047,
+     "item_id": 203912,
+     "catalog": {
+      "id": 203912,
+      "item_tid": "TID_UGC_ITEM_203912",
+      "component_id": 203912,
+      "is_visible": 1,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 201,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      -65536.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 203912,
+      "events": []
+     },
+     "in_registered_set": true,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 46,
+     "uid": 1000048,
+     "item_id": 203912,
+     "catalog": {
+      "id": 203912,
+      "item_tid": "TID_UGC_ITEM_203912",
+      "component_id": 203912,
+      "is_visible": 1,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 201,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      -65536.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 203912,
+      "events": []
+     },
+     "in_registered_set": true,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 47,
+     "uid": 1000049,
+     "item_id": 203912,
+     "catalog": {
+      "id": 203912,
+      "item_tid": "TID_UGC_ITEM_203912",
+      "component_id": 203912,
+      "is_visible": 1,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 201,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      -65536.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 203912,
+      "events": []
+     },
+     "in_registered_set": true,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 48,
+     "uid": 1000050,
+     "item_id": 203912,
+     "catalog": {
+      "id": 203912,
+      "item_tid": "TID_UGC_ITEM_203912",
+      "component_id": 203912,
+      "is_visible": 1,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 201,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      -65536.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 203912,
+      "events": []
+     },
+     "in_registered_set": true,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 49,
+     "uid": 1000051,
+     "item_id": 203912,
+     "catalog": {
+      "id": 203912,
+      "item_tid": "TID_UGC_ITEM_203912",
+      "component_id": 203912,
+      "is_visible": 1,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 201,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      -65536.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 203912,
+      "events": []
+     },
+     "in_registered_set": true,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 50,
+     "uid": 1000052,
+     "item_id": 203912,
+     "catalog": {
+      "id": 203912,
+      "item_tid": "TID_UGC_ITEM_203912",
+      "component_id": 203912,
+      "is_visible": 1,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 201,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      -65536.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 203912,
+      "events": []
+     },
+     "in_registered_set": true,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 51,
+     "uid": 1000053,
+     "item_id": 203912,
+     "catalog": {
+      "id": 203912,
+      "item_tid": "TID_UGC_ITEM_203912",
+      "component_id": 203912,
+      "is_visible": 1,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 201,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      -65536.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 203912,
+      "events": []
+     },
+     "in_registered_set": true,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 106,
+     "uid": 1000061,
+     "item_id": 201009,
+     "catalog": {
+      "id": 201009,
+      "item_tid": "TID_UGC_ITEM_201009",
+      "component_id": 201009,
+      "is_visible": 1,
+      "simple_hide": 1,
+      "model_path": "scene/model/h55_ugc/h55_ugc_normal/h55_ugc_normal_woodpile01.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 201,
+      "occupancy_value": "8.15999999999999"
+     },
+     "position": [
+      1120.0,
+      0.0,
+      1120.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 201009,
+      "events": [
+       {
+        "type": 20100910005,
+        "info": [
+         1
+        ]
+       }
+      ]
+     },
+     "in_registered_set": true,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 107,
+     "uid": 1000062,
+     "item_id": 201009,
+     "catalog": {
+      "id": 201009,
+      "item_tid": "TID_UGC_ITEM_201009",
+      "component_id": 201009,
+      "is_visible": 1,
+      "simple_hide": 1,
+      "model_path": "scene/model/h55_ugc/h55_ugc_normal/h55_ugc_normal_woodpile01.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 201,
+      "occupancy_value": "8.15999999999999"
+     },
+     "position": [
+      1120.0,
+      0.0,
+      -1440.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 201009,
+      "events": [
+       {
+        "type": 20100910005,
+        "info": [
+         2
+        ]
+       }
+      ]
+     },
+     "in_registered_set": true,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 108,
+     "uid": 1000063,
+     "item_id": 201009,
+     "catalog": {
+      "id": 201009,
+      "item_tid": "TID_UGC_ITEM_201009",
+      "component_id": 201009,
+      "is_visible": 1,
+      "simple_hide": 1,
+      "model_path": "scene/model/h55_ugc/h55_ugc_normal/h55_ugc_normal_woodpile01.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 201,
+      "occupancy_value": "8.15999999999999"
+     },
+     "position": [
+      -1440.0,
+      0.0,
+      -1440.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 201009,
+      "events": [
+       {
+        "type": 20100910005,
+        "info": [
+         3
+        ]
+       }
+      ]
+     },
+     "in_registered_set": true,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 109,
+     "uid": 1000064,
+     "item_id": 201009,
+     "catalog": {
+      "id": 201009,
+      "item_tid": "TID_UGC_ITEM_201009",
+      "component_id": 201009,
+      "is_visible": 1,
+      "simple_hide": 1,
+      "model_path": "scene/model/h55_ugc/h55_ugc_normal/h55_ugc_normal_woodpile01.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 201,
+      "occupancy_value": "8.15999999999999"
+     },
+     "position": [
+      -1440.0,
+      0.0,
+      1120.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 201009,
+      "events": [
+       {
+        "type": 20100910005,
+        "info": [
+         4
+        ]
+       }
+      ]
+     },
+     "in_registered_set": true,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 118,
+     "uid": 1000073,
+     "item_id": 202014,
+     "catalog": {
+      "id": 202014,
+      "item_tid": "TID_UGC_ITEM_202014",
+      "component_id": 202014,
+      "is_visible": null,
+      "simple_hide": 1,
+      "model_path": "scene/model/h55_playground_ugc/dm65_scene_vip_14_ugc.gim",
+      "src_model_path": "scene/model/ordnance_factory1/dm65_scene_vip_14.gim",
+      "item_type": 1,
+      "tap_order_sec": 201,
+      "occupancy_value": "3.37"
+     },
+     "position": [
+      640.0616455078125,
+      2.0,
+      -59.24823760986328
+     ],
+     "rotation": [
+      0.0,
+      4.987114906311035,
+      -0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 202014,
+      "events": []
+     },
+     "in_registered_set": true,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 119,
+     "uid": 1000074,
+     "item_id": 202014,
+     "catalog": {
+      "id": 202014,
+      "item_tid": "TID_UGC_ITEM_202014",
+      "component_id": 202014,
+      "is_visible": null,
+      "simple_hide": 1,
+      "model_path": "scene/model/h55_playground_ugc/dm65_scene_vip_14_ugc.gim",
+      "src_model_path": "scene/model/ordnance_factory1/dm65_scene_vip_14.gim",
+      "item_type": 1,
+      "tap_order_sec": 201,
+      "occupancy_value": "3.37"
+     },
+     "position": [
+      628.0,
+      2.0,
+      -60.0
+     ],
+     "rotation": [
+      0.0,
+      25.000003814697266,
+      0.0
+     ],
+     "scale": [
+      0.800000011920929,
+      0.800000011920929,
+      0.800000011920929
+     ],
+     "component_info": {
+      "component_id": 202014,
+      "events": []
+     },
+     "in_registered_set": true,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 113,
+     "uid": 1000068,
+     "item_id": 10002001,
+     "catalog": {
+      "id": 10002001,
+      "item_tid": "TID_UGC_ITEM_10002001",
+      "component_id": 10002001,
+      "is_visible": 1,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 10002,
+      "occupancy_value": "7.24"
+     },
+     "position": [
+      0.0,
+      -65536.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 10002001,
+      "events": [
+       {
+        "type": 1000200111901,
+        "info": [
+         0,
+         "TID_BATTLE_UGC_TEAM_9001",
+         0,
+         "",
+         "",
+         ""
+        ]
+       },
+       {
+        "type": 1000200119102,
+        "info": [
+         "\"队伍1\"队伍获得胜利"
+        ]
+       }
+      ]
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 55,
+     "uid": 1000057,
+     "item_id": 6000001,
+     "catalog": {
+      "id": 6000001,
+      "item_tid": "TID_UGC_ITEM_6000001",
+      "component_id": 200001,
+      "is_visible": null,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 3,
+      "tap_order_sec": 10010,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 200001,
+      "events": [
+       {
+        "type": 20000120098,
+        "info": [
+         1
+        ]
+       },
+       {
+        "type": 20000120097,
+        "info": [
+         0
+        ]
+       },
+       {
+        "type": 20000120001,
+        "info": [
+         "TID_UGC_UI_CAOWEI_1"
+        ]
+       },
+       {
+        "type": 20000120201,
+        "info": [
+         "010"
+        ]
+       },
+       {
+        "type": 20000120202,
+        "info": [
+         1
+        ]
+       },
+       {
+        "type": 20000120003,
+        "info": null
+       },
+       {
+        "type": 20000120209,
+        "info": null
+       }
+      ]
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 56,
+     "uid": 1000057,
+     "item_id": 6000001,
+     "catalog": {
+      "id": 6000001,
+      "item_tid": "TID_UGC_ITEM_6000001",
+      "component_id": 200001,
+      "is_visible": null,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 3,
+      "tap_order_sec": 10010,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 200001,
+      "events": [
+       {
+        "type": 20000120098,
+        "info": [
+         1
+        ]
+       },
+       {
+        "type": 20000120097,
+        "info": [
+         1
+        ]
+       },
+       {
+        "type": 20000120001,
+        "info": [
+         "TID_UGC_UI_CAOWEI_1"
+        ]
+       },
+       {
+        "type": 20000120201,
+        "info": [
+         "010"
+        ]
+       },
+       {
+        "type": 20000120202,
+        "info": [
+         1
+        ]
+       },
+       {
+        "type": 20000120003,
+        "info": null
+       },
+       {
+        "type": 20000120209,
+        "info": null
+       }
+      ]
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 57,
+     "uid": 1000057,
+     "item_id": 6000001,
+     "catalog": {
+      "id": 6000001,
+      "item_tid": "TID_UGC_ITEM_6000001",
+      "component_id": 200001,
+      "is_visible": null,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 3,
+      "tap_order_sec": 10010,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 200001,
+      "events": [
+       {
+        "type": 20000120098,
+        "info": [
+         2
+        ]
+       },
+       {
+        "type": 20000120097,
+        "info": [
+         0
+        ]
+       },
+       {
+        "type": 20000120001,
+        "info": [
+         "TID_UGC_UI_CAOWEI_2"
+        ]
+       },
+       {
+        "type": 20000120201,
+        "info": [
+         "010"
+        ]
+       },
+       {
+        "type": 20000120202,
+        "info": [
+         2
+        ]
+       },
+       {
+        "type": 20000120003,
+        "info": null
+       },
+       {
+        "type": 20000120209,
+        "info": null
+       }
+      ]
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 58,
+     "uid": 1000057,
+     "item_id": 6000001,
+     "catalog": {
+      "id": 6000001,
+      "item_tid": "TID_UGC_ITEM_6000001",
+      "component_id": 200001,
+      "is_visible": null,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 3,
+      "tap_order_sec": 10010,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 200001,
+      "events": [
+       {
+        "type": 20000120098,
+        "info": [
+         2
+        ]
+       },
+       {
+        "type": 20000120097,
+        "info": [
+         1
+        ]
+       },
+       {
+        "type": 20000120001,
+        "info": [
+         "TID_UGC_UI_CAOWEI_2"
+        ]
+       },
+       {
+        "type": 20000120201,
+        "info": [
+         "010"
+        ]
+       },
+       {
+        "type": 20000120202,
+        "info": [
+         2
+        ]
+       },
+       {
+        "type": 20000120003,
+        "info": null
+       },
+       {
+        "type": 20000120209,
+        "info": null
+       }
+      ]
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 59,
+     "uid": 1000057,
+     "item_id": 6000001,
+     "catalog": {
+      "id": 6000001,
+      "item_tid": "TID_UGC_ITEM_6000001",
+      "component_id": 200001,
+      "is_visible": null,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 3,
+      "tap_order_sec": 10010,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 200001,
+      "events": [
+       {
+        "type": 20000120098,
+        "info": [
+         3
+        ]
+       },
+       {
+        "type": 20000120097,
+        "info": [
+         0
+        ]
+       },
+       {
+        "type": 20000120001,
+        "info": [
+         "TID_UGC_UI_CAOWEI_3"
+        ]
+       },
+       {
+        "type": 20000120201,
+        "info": [
+         "010"
+        ]
+       },
+       {
+        "type": 20000120202,
+        "info": [
+         3
+        ]
+       },
+       {
+        "type": 20000120003,
+        "info": null
+       },
+       {
+        "type": 20000120209,
+        "info": null
+       }
+      ]
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 60,
+     "uid": 1000057,
+     "item_id": 6000001,
+     "catalog": {
+      "id": 6000001,
+      "item_tid": "TID_UGC_ITEM_6000001",
+      "component_id": 200001,
+      "is_visible": null,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 3,
+      "tap_order_sec": 10010,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 200001,
+      "events": [
+       {
+        "type": 20000120098,
+        "info": [
+         3
+        ]
+       },
+       {
+        "type": 20000120097,
+        "info": [
+         1
+        ]
+       },
+       {
+        "type": 20000120001,
+        "info": [
+         "TID_UGC_UI_CAOWEI_3"
+        ]
+       },
+       {
+        "type": 20000120201,
+        "info": [
+         "010"
+        ]
+       },
+       {
+        "type": 20000120202,
+        "info": [
+         3
+        ]
+       },
+       {
+        "type": 20000120003,
+        "info": null
+       },
+       {
+        "type": 20000120209,
+        "info": null
+       }
+      ]
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 61,
+     "uid": 1000057,
+     "item_id": 6000001,
+     "catalog": {
+      "id": 6000001,
+      "item_tid": "TID_UGC_ITEM_6000001",
+      "component_id": 200001,
+      "is_visible": null,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 3,
+      "tap_order_sec": 10010,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 200001,
+      "events": [
+       {
+        "type": 20000120098,
+        "info": [
+         4
+        ]
+       },
+       {
+        "type": 20000120097,
+        "info": [
+         0
+        ]
+       },
+       {
+        "type": 20000120001,
+        "info": [
+         "TID_UGC_UI_CAOWEI_4"
+        ]
+       },
+       {
+        "type": 20000120201,
+        "info": [
+         "010"
+        ]
+       },
+       {
+        "type": 20000120202,
+        "info": [
+         4
+        ]
+       },
+       {
+        "type": 20000120003,
+        "info": null
+       },
+       {
+        "type": 20000120209,
+        "info": null
+       }
+      ]
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 62,
+     "uid": 1000057,
+     "item_id": 6000001,
+     "catalog": {
+      "id": 6000001,
+      "item_tid": "TID_UGC_ITEM_6000001",
+      "component_id": 200001,
+      "is_visible": null,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 3,
+      "tap_order_sec": 10010,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 200001,
+      "events": [
+       {
+        "type": 20000120098,
+        "info": [
+         4
+        ]
+       },
+       {
+        "type": 20000120097,
+        "info": [
+         1
+        ]
+       },
+       {
+        "type": 20000120001,
+        "info": [
+         "TID_UGC_UI_CAOWEI_4"
+        ]
+       },
+       {
+        "type": 20000120201,
+        "info": [
+         "010"
+        ]
+       },
+       {
+        "type": 20000120202,
+        "info": [
+         4
+        ]
+       },
+       {
+        "type": 20000120003,
+        "info": null
+       },
+       {
+        "type": 20000120209,
+        "info": null
+       }
+      ]
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 63,
+     "uid": 1000057,
+     "item_id": 6000001,
+     "catalog": {
+      "id": 6000001,
+      "item_tid": "TID_UGC_ITEM_6000001",
+      "component_id": 200001,
+      "is_visible": null,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 3,
+      "tap_order_sec": 10010,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 200001,
+      "events": [
+       {
+        "type": 20000120098,
+        "info": [
+         5
+        ]
+       },
+       {
+        "type": 20000120097,
+        "info": [
+         0
+        ]
+       },
+       {
+        "type": 20000120001,
+        "info": [
+         "TID_UGC_UI_CAOWEI_5"
+        ]
+       },
+       {
+        "type": 20000120201,
+        "info": [
+         "010"
+        ]
+       },
+       {
+        "type": 20000120202,
+        "info": [
+         5
+        ]
+       },
+       {
+        "type": 20000120003,
+        "info": null
+       },
+       {
+        "type": 20000120209,
+        "info": null
+       }
+      ]
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 64,
+     "uid": 1000057,
+     "item_id": 6000001,
+     "catalog": {
+      "id": 6000001,
+      "item_tid": "TID_UGC_ITEM_6000001",
+      "component_id": 200001,
+      "is_visible": null,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 3,
+      "tap_order_sec": 10010,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 200001,
+      "events": [
+       {
+        "type": 20000120098,
+        "info": [
+         5
+        ]
+       },
+       {
+        "type": 20000120097,
+        "info": [
+         1
+        ]
+       },
+       {
+        "type": 20000120001,
+        "info": [
+         "TID_UGC_UI_CAOWEI_5"
+        ]
+       },
+       {
+        "type": 20000120201,
+        "info": [
+         "010"
+        ]
+       },
+       {
+        "type": 20000120202,
+        "info": [
+         5
+        ]
+       },
+       {
+        "type": 20000120003,
+        "info": null
+       },
+       {
+        "type": 20000120209,
+        "info": null
+       }
+      ]
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 65,
+     "uid": 1000057,
+     "item_id": 6000001,
+     "catalog": {
+      "id": 6000001,
+      "item_tid": "TID_UGC_ITEM_6000001",
+      "component_id": 200001,
+      "is_visible": null,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 3,
+      "tap_order_sec": 10010,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 200001,
+      "events": [
+       {
+        "type": 20000120098,
+        "info": [
+         6
+        ]
+       },
+       {
+        "type": 20000120097,
+        "info": [
+         0
+        ]
+       },
+       {
+        "type": 20000120001,
+        "info": [
+         "TID_UGC_UI_CAOWEI_6"
+        ]
+       },
+       {
+        "type": 20000120201,
+        "info": [
+         "010"
+        ]
+       },
+       {
+        "type": 20000120202,
+        "info": [
+         6
+        ]
+       },
+       {
+        "type": 20000120003,
+        "info": null
+       },
+       {
+        "type": 20000120209,
+        "info": null
+       }
+      ]
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 66,
+     "uid": 1000057,
+     "item_id": 6000001,
+     "catalog": {
+      "id": 6000001,
+      "item_tid": "TID_UGC_ITEM_6000001",
+      "component_id": 200001,
+      "is_visible": null,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 3,
+      "tap_order_sec": 10010,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 200001,
+      "events": [
+       {
+        "type": 20000120098,
+        "info": [
+         6
+        ]
+       },
+       {
+        "type": 20000120097,
+        "info": [
+         1
+        ]
+       },
+       {
+        "type": 20000120001,
+        "info": [
+         "TID_UGC_UI_CAOWEI_6"
+        ]
+       },
+       {
+        "type": 20000120201,
+        "info": [
+         "010"
+        ]
+       },
+       {
+        "type": 20000120202,
+        "info": [
+         6
+        ]
+       },
+       {
+        "type": 20000120003,
+        "info": null
+       },
+       {
+        "type": 20000120209,
+        "info": null
+       }
+      ]
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 67,
+     "uid": 1000057,
+     "item_id": 6000001,
+     "catalog": {
+      "id": 6000001,
+      "item_tid": "TID_UGC_ITEM_6000001",
+      "component_id": 200001,
+      "is_visible": null,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 3,
+      "tap_order_sec": 10010,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 200001,
+      "events": [
+       {
+        "type": 20000120098,
+        "info": [
+         7
+        ]
+       },
+       {
+        "type": 20000120097,
+        "info": [
+         0
+        ]
+       },
+       {
+        "type": 20000120001,
+        "info": [
+         "TID_UGC_UI_CAOWEI_7"
+        ]
+       },
+       {
+        "type": 20000120201,
+        "info": [
+         "010"
+        ]
+       },
+       {
+        "type": 20000120202,
+        "info": [
+         7
+        ]
+       },
+       {
+        "type": 20000120003,
+        "info": null
+       },
+       {
+        "type": 20000120209,
+        "info": null
+       }
+      ]
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 68,
+     "uid": 1000057,
+     "item_id": 6000001,
+     "catalog": {
+      "id": 6000001,
+      "item_tid": "TID_UGC_ITEM_6000001",
+      "component_id": 200001,
+      "is_visible": null,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 3,
+      "tap_order_sec": 10010,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 200001,
+      "events": [
+       {
+        "type": 20000120098,
+        "info": [
+         7
+        ]
+       },
+       {
+        "type": 20000120097,
+        "info": [
+         1
+        ]
+       },
+       {
+        "type": 20000120001,
+        "info": [
+         "TID_UGC_UI_CAOWEI_7"
+        ]
+       },
+       {
+        "type": 20000120201,
+        "info": [
+         "010"
+        ]
+       },
+       {
+        "type": 20000120202,
+        "info": [
+         7
+        ]
+       },
+       {
+        "type": 20000120003,
+        "info": null
+       },
+       {
+        "type": 20000120209,
+        "info": null
+       }
+      ]
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 69,
+     "uid": 1000057,
+     "item_id": 6000001,
+     "catalog": {
+      "id": 6000001,
+      "item_tid": "TID_UGC_ITEM_6000001",
+      "component_id": 200001,
+      "is_visible": null,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 3,
+      "tap_order_sec": 10010,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 200001,
+      "events": [
+       {
+        "type": 20000120098,
+        "info": [
+         8
+        ]
+       },
+       {
+        "type": 20000120097,
+        "info": [
+         0
+        ]
+       },
+       {
+        "type": 20000120001,
+        "info": [
+         "TID_UGC_UI_CAOWEI_8"
+        ]
+       },
+       {
+        "type": 20000120201,
+        "info": [
+         "010"
+        ]
+       },
+       {
+        "type": 20000120202,
+        "info": [
+         8
+        ]
+       },
+       {
+        "type": 20000120003,
+        "info": null
+       },
+       {
+        "type": 20000120209,
+        "info": null
+       }
+      ]
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 70,
+     "uid": 1000057,
+     "item_id": 6000001,
+     "catalog": {
+      "id": 6000001,
+      "item_tid": "TID_UGC_ITEM_6000001",
+      "component_id": 200001,
+      "is_visible": null,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 3,
+      "tap_order_sec": 10010,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 200001,
+      "events": [
+       {
+        "type": 20000120098,
+        "info": [
+         9
+        ]
+       },
+       {
+        "type": 20000120097,
+        "info": [
+         0
+        ]
+       },
+       {
+        "type": 20000120001,
+        "info": [
+         "TID_UGC_UI_CAOWEI_9"
+        ]
+       },
+       {
+        "type": 20000120201,
+        "info": [
+         "010"
+        ]
+       },
+       {
+        "type": 20000120202,
+        "info": [
+         9
+        ]
+       },
+       {
+        "type": 20000120003,
+        "info": null
+       },
+       {
+        "type": 20000120209,
+        "info": null
+       }
+      ]
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 71,
+     "uid": 1000057,
+     "item_id": 6000001,
+     "catalog": {
+      "id": 6000001,
+      "item_tid": "TID_UGC_ITEM_6000001",
+      "component_id": 200001,
+      "is_visible": null,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 3,
+      "tap_order_sec": 10010,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 200001,
+      "events": [
+       {
+        "type": 20000120098,
+        "info": [
+         10
+        ]
+       },
+       {
+        "type": 20000120097,
+        "info": [
+         0
+        ]
+       },
+       {
+        "type": 20000120001,
+        "info": [
+         "TID_UGC_UI_CAOWEI_10"
+        ]
+       },
+       {
+        "type": 20000120201,
+        "info": [
+         "010"
+        ]
+       },
+       {
+        "type": 20000120202,
+        "info": [
+         10
+        ]
+       },
+       {
+        "type": 20000120003,
+        "info": null
+       },
+       {
+        "type": 20000120209,
+        "info": null
+       }
+      ]
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 72,
+     "uid": 1000057,
+     "item_id": 6000001,
+     "catalog": {
+      "id": 6000001,
+      "item_tid": "TID_UGC_ITEM_6000001",
+      "component_id": 200001,
+      "is_visible": null,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 3,
+      "tap_order_sec": 10010,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 200001,
+      "events": [
+       {
+        "type": 20000120098,
+        "info": [
+         11
+        ]
+       },
+       {
+        "type": 20000120097,
+        "info": [
+         0
+        ]
+       },
+       {
+        "type": 20000120001,
+        "info": [
+         "TID_UGC_UI_CAOWEI_11"
+        ]
+       },
+       {
+        "type": 20000120201,
+        "info": [
+         "010"
+        ]
+       },
+       {
+        "type": 20000120202,
+        "info": [
+         11
+        ]
+       },
+       {
+        "type": 20000120003,
+        "info": null
+       },
+       {
+        "type": 20000120209,
+        "info": null
+       }
+      ]
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 73,
+     "uid": 1000057,
+     "item_id": 6000001,
+     "catalog": {
+      "id": 6000001,
+      "item_tid": "TID_UGC_ITEM_6000001",
+      "component_id": 200001,
+      "is_visible": null,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 3,
+      "tap_order_sec": 10010,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 200001,
+      "events": [
+       {
+        "type": 20000120098,
+        "info": [
+         12
+        ]
+       },
+       {
+        "type": 20000120097,
+        "info": [
+         0
+        ]
+       },
+       {
+        "type": 20000120001,
+        "info": [
+         "TID_UGC_UI_CAOWEI_13"
+        ]
+       },
+       {
+        "type": 20000120201,
+        "info": [
+         "100"
+        ]
+       },
+       {
+        "type": 20000120003,
+        "info": null
+       },
+       {
+        "type": 20000120209,
+        "info": null
+       }
+      ]
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 74,
+     "uid": 1000057,
+     "item_id": 6000001,
+     "catalog": {
+      "id": 6000001,
+      "item_tid": "TID_UGC_ITEM_6000001",
+      "component_id": 200001,
+      "is_visible": null,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 3,
+      "tap_order_sec": 10010,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 200001,
+      "events": [
+       {
+        "type": 20000120098,
+        "info": [
+         12
+        ]
+       },
+       {
+        "type": 20000120097,
+        "info": [
+         1
+        ]
+       },
+       {
+        "type": 20000120001,
+        "info": [
+         "TID_UGC_UI_CAOWEI_13"
+        ]
+       },
+       {
+        "type": 20000120201,
+        "info": [
+         "100"
+        ]
+       },
+       {
+        "type": 20000120003,
+        "info": null
+       },
+       {
+        "type": 20000120209,
+        "info": null
+       }
+      ]
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 75,
+     "uid": 1000057,
+     "item_id": 6000001,
+     "catalog": {
+      "id": 6000001,
+      "item_tid": "TID_UGC_ITEM_6000001",
+      "component_id": 200001,
+      "is_visible": null,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 3,
+      "tap_order_sec": 10010,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 200001,
+      "events": [
+       {
+        "type": 20000120098,
+        "info": [
+         13
+        ]
+       },
+       {
+        "type": 20000120097,
+        "info": [
+         0
+        ]
+       },
+       {
+        "type": 20000120001,
+        "info": [
+         "TID_UGC_UI_CAOWEI_14"
+        ]
+       },
+       {
+        "type": 20000120201,
+        "info": [
+         "100"
+        ]
+       },
+       {
+        "type": 20000120003,
+        "info": null
+       },
+       {
+        "type": 20000120209,
+        "info": null
+       }
+      ]
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 76,
+     "uid": 1000057,
+     "item_id": 6000001,
+     "catalog": {
+      "id": 6000001,
+      "item_tid": "TID_UGC_ITEM_6000001",
+      "component_id": 200001,
+      "is_visible": null,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 3,
+      "tap_order_sec": 10010,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 200001,
+      "events": [
+       {
+        "type": 20000120098,
+        "info": [
+         13
+        ]
+       },
+       {
+        "type": 20000120097,
+        "info": [
+         1
+        ]
+       },
+       {
+        "type": 20000120001,
+        "info": [
+         "TID_UGC_UI_CAOWEI_14"
+        ]
+       },
+       {
+        "type": 20000120201,
+        "info": [
+         "100"
+        ]
+       },
+       {
+        "type": 20000120003,
+        "info": null
+       },
+       {
+        "type": 20000120209,
+        "info": null
+       }
+      ]
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 77,
+     "uid": 1000057,
+     "item_id": 6000001,
+     "catalog": {
+      "id": 6000001,
+      "item_tid": "TID_UGC_ITEM_6000001",
+      "component_id": 200001,
+      "is_visible": null,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 3,
+      "tap_order_sec": 10010,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 200001,
+      "events": [
+       {
+        "type": 20000120098,
+        "info": [
+         14
+        ]
+       },
+       {
+        "type": 20000120097,
+        "info": [
+         0
+        ]
+       },
+       {
+        "type": 20000120001,
+        "info": [
+         "TID_UGC_UI_CAOWEI_15"
+        ]
+       },
+       {
+        "type": 20000120201,
+        "info": [
+         "100"
+        ]
+       },
+       {
+        "type": 20000120003,
+        "info": null
+       },
+       {
+        "type": 20000120209,
+        "info": null
+       }
+      ]
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 78,
+     "uid": 1000057,
+     "item_id": 6000001,
+     "catalog": {
+      "id": 6000001,
+      "item_tid": "TID_UGC_ITEM_6000001",
+      "component_id": 200001,
+      "is_visible": null,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 3,
+      "tap_order_sec": 10010,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 200001,
+      "events": [
+       {
+        "type": 20000120098,
+        "info": [
+         14
+        ]
+       },
+       {
+        "type": 20000120097,
+        "info": [
+         1
+        ]
+       },
+       {
+        "type": 20000120001,
+        "info": [
+         "TID_UGC_UI_CAOWEI_15"
+        ]
+       },
+       {
+        "type": 20000120201,
+        "info": [
+         "100"
+        ]
+       },
+       {
+        "type": 20000120003,
+        "info": null
+       },
+       {
+        "type": 20000120209,
+        "info": null
+       }
+      ]
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 79,
+     "uid": 1000057,
+     "item_id": 6000001,
+     "catalog": {
+      "id": 6000001,
+      "item_tid": "TID_UGC_ITEM_6000001",
+      "component_id": 200001,
+      "is_visible": null,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 3,
+      "tap_order_sec": 10010,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 200001,
+      "events": [
+       {
+        "type": 20000120098,
+        "info": [
+         15
+        ]
+       },
+       {
+        "type": 20000120097,
+        "info": [
+         0
+        ]
+       },
+       {
+        "type": 20000120001,
+        "info": [
+         "TID_UGC_UI_CAOWEI_16"
+        ]
+       },
+       {
+        "type": 20000120201,
+        "info": [
+         "100"
+        ]
+       },
+       {
+        "type": 20000120003,
+        "info": null
+       },
+       {
+        "type": 20000120209,
+        "info": null
+       }
+      ]
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 80,
+     "uid": 1000057,
+     "item_id": 6000001,
+     "catalog": {
+      "id": 6000001,
+      "item_tid": "TID_UGC_ITEM_6000001",
+      "component_id": 200001,
+      "is_visible": null,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 3,
+      "tap_order_sec": 10010,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 200001,
+      "events": [
+       {
+        "type": 20000120098,
+        "info": [
+         15
+        ]
+       },
+       {
+        "type": 20000120097,
+        "info": [
+         1
+        ]
+       },
+       {
+        "type": 20000120001,
+        "info": [
+         "TID_UGC_UI_CAOWEI_16"
+        ]
+       },
+       {
+        "type": 20000120201,
+        "info": [
+         "100"
+        ]
+       },
+       {
+        "type": 20000120003,
+        "info": null
+       },
+       {
+        "type": 20000120209,
+        "info": null
+       }
+      ]
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 81,
+     "uid": 1000057,
+     "item_id": 6000001,
+     "catalog": {
+      "id": 6000001,
+      "item_tid": "TID_UGC_ITEM_6000001",
+      "component_id": 200001,
+      "is_visible": null,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 3,
+      "tap_order_sec": 10010,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 200001,
+      "events": [
+       {
+        "type": 20000120098,
+        "info": [
+         16
+        ]
+       },
+       {
+        "type": 20000120097,
+        "info": [
+         0
+        ]
+       },
+       {
+        "type": 20000120001,
+        "info": [
+         "TID_UGC_UI_CAOWEI_17"
+        ]
+       },
+       {
+        "type": 20000120201,
+        "info": [
+         "010"
+        ]
+       },
+       {
+        "type": 20000120202,
+        "info": [
+         16
+        ]
+       },
+       {
+        "type": 20000120003,
+        "info": null
+       },
+       {
+        "type": 20000120209,
+        "info": null
+       }
+      ]
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 82,
+     "uid": 1000057,
+     "item_id": 6000001,
+     "catalog": {
+      "id": 6000001,
+      "item_tid": "TID_UGC_ITEM_6000001",
+      "component_id": 200001,
+      "is_visible": null,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 3,
+      "tap_order_sec": 10010,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 200001,
+      "events": [
+       {
+        "type": 20000120098,
+        "info": [
+         17
+        ]
+       },
+       {
+        "type": 20000120097,
+        "info": [
+         0
+        ]
+       },
+       {
+        "type": 20000120001,
+        "info": [
+         "TID_UGC_UI_CAOWEI_18"
+        ]
+       },
+       {
+        "type": 20000120201,
+        "info": [
+         "010"
+        ]
+       },
+       {
+        "type": 20000120202,
+        "info": [
+         17
+        ]
+       },
+       {
+        "type": 20000120003,
+        "info": null
+       },
+       {
+        "type": 20000120209,
+        "info": null
+       }
+      ]
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 83,
+     "uid": 1000057,
+     "item_id": 6000001,
+     "catalog": {
+      "id": 6000001,
+      "item_tid": "TID_UGC_ITEM_6000001",
+      "component_id": 200001,
+      "is_visible": null,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 3,
+      "tap_order_sec": 10010,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 200001,
+      "events": [
+       {
+        "type": 20000120098,
+        "info": [
+         18
+        ]
+       },
+       {
+        "type": 20000120097,
+        "info": [
+         0
+        ]
+       },
+       {
+        "type": 20000120001,
+        "info": [
+         "TID_UGC_UI_CAOWEI_19"
+        ]
+       },
+       {
+        "type": 20000120201,
+        "info": [
+         "010"
+        ]
+       },
+       {
+        "type": 20000120202,
+        "info": [
+         18
+        ]
+       },
+       {
+        "type": 20000120003,
+        "info": null
+       },
+       {
+        "type": 20000120209,
+        "info": null
+       }
+      ]
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 84,
+     "uid": 1000057,
+     "item_id": 6000001,
+     "catalog": {
+      "id": 6000001,
+      "item_tid": "TID_UGC_ITEM_6000001",
+      "component_id": 200001,
+      "is_visible": null,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 3,
+      "tap_order_sec": 10010,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 200001,
+      "events": [
+       {
+        "type": 20000120098,
+        "info": [
+         19
+        ]
+       },
+       {
+        "type": 20000120097,
+        "info": [
+         0
+        ]
+       },
+       {
+        "type": 20000120001,
+        "info": [
+         "TID_UGC_UI_CAOWEI_20"
+        ]
+       },
+       {
+        "type": 20000120201,
+        "info": [
+         "010"
+        ]
+       },
+       {
+        "type": 20000120202,
+        "info": [
+         19
+        ]
+       },
+       {
+        "type": 20000120003,
+        "info": null
+       },
+       {
+        "type": 20000120209,
+        "info": null
+       }
+      ]
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 85,
+     "uid": 1000057,
+     "item_id": 6000001,
+     "catalog": {
+      "id": 6000001,
+      "item_tid": "TID_UGC_ITEM_6000001",
+      "component_id": 200001,
+      "is_visible": null,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 3,
+      "tap_order_sec": 10010,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 200001,
+      "events": [
+       {
+        "type": 20000120098,
+        "info": [
+         20
+        ]
+       },
+       {
+        "type": 20000120097,
+        "info": [
+         0
+        ]
+       },
+       {
+        "type": 20000120001,
+        "info": [
+         "TID_UGC_UI_CAOWEI_21"
+        ]
+       },
+       {
+        "type": 20000120201,
+        "info": [
+         "010"
+        ]
+       },
+       {
+        "type": 20000120202,
+        "info": [
+         20
+        ]
+       },
+       {
+        "type": 20000120003,
+        "info": null
+       },
+       {
+        "type": 20000120209,
+        "info": null
+       }
+      ]
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 86,
+     "uid": 1000057,
+     "item_id": 6000001,
+     "catalog": {
+      "id": 6000001,
+      "item_tid": "TID_UGC_ITEM_6000001",
+      "component_id": 200001,
+      "is_visible": null,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 3,
+      "tap_order_sec": 10010,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 200001,
+      "events": [
+       {
+        "type": 20000120098,
+        "info": [
+         20
+        ]
+       },
+       {
+        "type": 20000120097,
+        "info": [
+         1
+        ]
+       },
+       {
+        "type": 20000120001,
+        "info": [
+         "TID_UGC_UI_CAOWEI_21"
+        ]
+       },
+       {
+        "type": 20000120201,
+        "info": [
+         "010"
+        ]
+       },
+       {
+        "type": 20000120202,
+        "info": [
+         20
+        ]
+       },
+       {
+        "type": 20000120003,
+        "info": null
+       },
+       {
+        "type": 20000120209,
+        "info": null
+       }
+      ]
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 87,
+     "uid": 1000057,
+     "item_id": 6000001,
+     "catalog": {
+      "id": 6000001,
+      "item_tid": "TID_UGC_ITEM_6000001",
+      "component_id": 200001,
+      "is_visible": null,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 3,
+      "tap_order_sec": 10010,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 200001,
+      "events": [
+       {
+        "type": 20000120098,
+        "info": [
+         21
+        ]
+       },
+       {
+        "type": 20000120097,
+        "info": [
+         0
+        ]
+       },
+       {
+        "type": 20000120001,
+        "info": [
+         "TID_UGC_UI_CAOWEI_22"
+        ]
+       },
+       {
+        "type": 20000120201,
+        "info": [
+         "010"
+        ]
+       },
+       {
+        "type": 20000120202,
+        "info": [
+         21
+        ]
+       },
+       {
+        "type": 20000120003,
+        "info": null
+       },
+       {
+        "type": 20000120209,
+        "info": null
+       }
+      ]
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 88,
+     "uid": 1000057,
+     "item_id": 6000001,
+     "catalog": {
+      "id": 6000001,
+      "item_tid": "TID_UGC_ITEM_6000001",
+      "component_id": 200001,
+      "is_visible": null,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 3,
+      "tap_order_sec": 10010,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 200001,
+      "events": [
+       {
+        "type": 20000120098,
+        "info": [
+         22
+        ]
+       },
+       {
+        "type": 20000120097,
+        "info": [
+         0
+        ]
+       },
+       {
+        "type": 20000120001,
+        "info": [
+         "TID_UGC_UI_CAOWEI_5"
+        ]
+       },
+       {
+        "type": 20000120201,
+        "info": [
+         "010"
+        ]
+       },
+       {
+        "type": 20000120202,
+        "info": [
+         22
+        ]
+       },
+       {
+        "type": 20000120003,
+        "info": null
+       },
+       {
+        "type": 20000120209,
+        "info": null
+       }
+      ]
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 89,
+     "uid": 1000057,
+     "item_id": 6000001,
+     "catalog": {
+      "id": 6000001,
+      "item_tid": "TID_UGC_ITEM_6000001",
+      "component_id": 200001,
+      "is_visible": null,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 3,
+      "tap_order_sec": 10010,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 200001,
+      "events": [
+       {
+        "type": 20000120098,
+        "info": [
+         22
+        ]
+       },
+       {
+        "type": 20000120097,
+        "info": [
+         1
+        ]
+       },
+       {
+        "type": 20000120001,
+        "info": [
+         "TID_UGC_UI_CAOWEI_5"
+        ]
+       },
+       {
+        "type": 20000120201,
+        "info": [
+         "010"
+        ]
+       },
+       {
+        "type": 20000120202,
+        "info": [
+         22
+        ]
+       },
+       {
+        "type": 20000120003,
+        "info": null
+       },
+       {
+        "type": 20000120209,
+        "info": null
+       }
+      ]
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 90,
+     "uid": 1000057,
+     "item_id": 6000001,
+     "catalog": {
+      "id": 6000001,
+      "item_tid": "TID_UGC_ITEM_6000001",
+      "component_id": 200001,
+      "is_visible": null,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 3,
+      "tap_order_sec": 10010,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 200001,
+      "events": [
+       {
+        "type": 20000120098,
+        "info": [
+         23
+        ]
+       },
+       {
+        "type": 20000120097,
+        "info": [
+         0
+        ]
+       },
+       {
+        "type": 20000120001,
+        "info": [
+         "TID_UGC_UI_CAOWEI_24"
+        ]
+       },
+       {
+        "type": 20000120201,
+        "info": [
+         "010"
+        ]
+       },
+       {
+        "type": 20000120202,
+        "info": [
+         23
+        ]
+       },
+       {
+        "type": 20000120003,
+        "info": null
+       },
+       {
+        "type": 20000120209,
+        "info": null
+       }
+      ]
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 91,
+     "uid": 1000057,
+     "item_id": 6000001,
+     "catalog": {
+      "id": 6000001,
+      "item_tid": "TID_UGC_ITEM_6000001",
+      "component_id": 200001,
+      "is_visible": null,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 3,
+      "tap_order_sec": 10010,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 200001,
+      "events": [
+       {
+        "type": 20000120098,
+        "info": [
+         24
+        ]
+       },
+       {
+        "type": 20000120097,
+        "info": [
+         0
+        ]
+       },
+       {
+        "type": 20000120001,
+        "info": [
+         "TID_UGC_UI_CAOWEI_6"
+        ]
+       },
+       {
+        "type": 20000120201,
+        "info": [
+         "010"
+        ]
+       },
+       {
+        "type": 20000120202,
+        "info": [
+         24
+        ]
+       },
+       {
+        "type": 20000120003,
+        "info": null
+       },
+       {
+        "type": 20000120209,
+        "info": null
+       }
+      ]
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 92,
+     "uid": 1000057,
+     "item_id": 6000001,
+     "catalog": {
+      "id": 6000001,
+      "item_tid": "TID_UGC_ITEM_6000001",
+      "component_id": 200001,
+      "is_visible": null,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 3,
+      "tap_order_sec": 10010,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 200001,
+      "events": [
+       {
+        "type": 20000120098,
+        "info": [
+         24
+        ]
+       },
+       {
+        "type": 20000120097,
+        "info": [
+         1
+        ]
+       },
+       {
+        "type": 20000120001,
+        "info": [
+         "TID_UGC_UI_CAOWEI_6"
+        ]
+       },
+       {
+        "type": 20000120201,
+        "info": [
+         "010"
+        ]
+       },
+       {
+        "type": 20000120202,
+        "info": [
+         24
+        ]
+       },
+       {
+        "type": 20000120003,
+        "info": null
+       },
+       {
+        "type": 20000120209,
+        "info": null
+       }
+      ]
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 93,
+     "uid": 1000057,
+     "item_id": 6000001,
+     "catalog": {
+      "id": 6000001,
+      "item_tid": "TID_UGC_ITEM_6000001",
+      "component_id": 200001,
+      "is_visible": null,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 3,
+      "tap_order_sec": 10010,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 200001,
+      "events": [
+       {
+        "type": 20000120098,
+        "info": [
+         25
+        ]
+       },
+       {
+        "type": 20000120097,
+        "info": [
+         0
+        ]
+       },
+       {
+        "type": 20000120001,
+        "info": [
+         "TID_UGC_UI_CAOWEI_13"
+        ]
+       },
+       {
+        "type": 20000120201,
+        "info": [
+         "100"
+        ]
+       },
+       {
+        "type": 20000120003,
+        "info": null
+       },
+       {
+        "type": 20000120209,
+        "info": null
+       }
+      ]
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 94,
+     "uid": 1000057,
+     "item_id": 6000001,
+     "catalog": {
+      "id": 6000001,
+      "item_tid": "TID_UGC_ITEM_6000001",
+      "component_id": 200001,
+      "is_visible": null,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 3,
+      "tap_order_sec": 10010,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 200001,
+      "events": [
+       {
+        "type": 20000120098,
+        "info": [
+         25
+        ]
+       },
+       {
+        "type": 20000120097,
+        "info": [
+         1
+        ]
+       },
+       {
+        "type": 20000120001,
+        "info": [
+         "TID_UGC_UI_CAOWEI_13"
+        ]
+       },
+       {
+        "type": 20000120201,
+        "info": [
+         "100"
+        ]
+       },
+       {
+        "type": 20000120003,
+        "info": null
+       },
+       {
+        "type": 20000120209,
+        "info": null
+       }
+      ]
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 95,
+     "uid": 1000057,
+     "item_id": 6000001,
+     "catalog": {
+      "id": 6000001,
+      "item_tid": "TID_UGC_ITEM_6000001",
+      "component_id": 200001,
+      "is_visible": null,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 3,
+      "tap_order_sec": 10010,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 200001,
+      "events": [
+       {
+        "type": 20000120098,
+        "info": [
+         26
+        ]
+       },
+       {
+        "type": 20000120097,
+        "info": [
+         0
+        ]
+       },
+       {
+        "type": 20000120001,
+        "info": [
+         "TID_UGC_UI_CAOWEI_14"
+        ]
+       },
+       {
+        "type": 20000120201,
+        "info": [
+         "100"
+        ]
+       },
+       {
+        "type": 20000120003,
+        "info": null
+       },
+       {
+        "type": 20000120209,
+        "info": null
+       }
+      ]
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 96,
+     "uid": 1000057,
+     "item_id": 6000001,
+     "catalog": {
+      "id": 6000001,
+      "item_tid": "TID_UGC_ITEM_6000001",
+      "component_id": 200001,
+      "is_visible": null,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 3,
+      "tap_order_sec": 10010,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 200001,
+      "events": [
+       {
+        "type": 20000120098,
+        "info": [
+         26
+        ]
+       },
+       {
+        "type": 20000120097,
+        "info": [
+         1
+        ]
+       },
+       {
+        "type": 20000120001,
+        "info": [
+         "TID_UGC_UI_CAOWEI_14"
+        ]
+       },
+       {
+        "type": 20000120201,
+        "info": [
+         "100"
+        ]
+       },
+       {
+        "type": 20000120003,
+        "info": null
+       },
+       {
+        "type": 20000120209,
+        "info": null
+       }
+      ]
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 97,
+     "uid": 1000057,
+     "item_id": 6000001,
+     "catalog": {
+      "id": 6000001,
+      "item_tid": "TID_UGC_ITEM_6000001",
+      "component_id": 200001,
+      "is_visible": null,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 3,
+      "tap_order_sec": 10010,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 200001,
+      "events": [
+       {
+        "type": 20000120098,
+        "info": [
+         27
+        ]
+       },
+       {
+        "type": 20000120097,
+        "info": [
+         0
+        ]
+       },
+       {
+        "type": 20000120001,
+        "info": [
+         "TID_UGC_UI_CAOWEI_15"
+        ]
+       },
+       {
+        "type": 20000120201,
+        "info": [
+         "100"
+        ]
+       },
+       {
+        "type": 20000120003,
+        "info": null
+       },
+       {
+        "type": 20000120209,
+        "info": null
+       }
+      ]
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 98,
+     "uid": 1000057,
+     "item_id": 6000001,
+     "catalog": {
+      "id": 6000001,
+      "item_tid": "TID_UGC_ITEM_6000001",
+      "component_id": 200001,
+      "is_visible": null,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 3,
+      "tap_order_sec": 10010,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 200001,
+      "events": [
+       {
+        "type": 20000120098,
+        "info": [
+         27
+        ]
+       },
+       {
+        "type": 20000120097,
+        "info": [
+         1
+        ]
+       },
+       {
+        "type": 20000120001,
+        "info": [
+         "TID_UGC_UI_CAOWEI_15"
+        ]
+       },
+       {
+        "type": 20000120201,
+        "info": [
+         "100"
+        ]
+       },
+       {
+        "type": 20000120003,
+        "info": null
+       },
+       {
+        "type": 20000120209,
+        "info": null
+       }
+      ]
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 99,
+     "uid": 1000057,
+     "item_id": 6000001,
+     "catalog": {
+      "id": 6000001,
+      "item_tid": "TID_UGC_ITEM_6000001",
+      "component_id": 200001,
+      "is_visible": null,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 3,
+      "tap_order_sec": 10010,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 200001,
+      "events": [
+       {
+        "type": 20000120098,
+        "info": [
+         28
+        ]
+       },
+       {
+        "type": 20000120097,
+        "info": [
+         0
+        ]
+       },
+       {
+        "type": 20000120001,
+        "info": [
+         "TID_UGC_UI_CAOWEI_16"
+        ]
+       },
+       {
+        "type": 20000120201,
+        "info": [
+         "100"
+        ]
+       },
+       {
+        "type": 20000120003,
+        "info": null
+       },
+       {
+        "type": 20000120209,
+        "info": null
+       }
+      ]
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 100,
+     "uid": 1000057,
+     "item_id": 6000001,
+     "catalog": {
+      "id": 6000001,
+      "item_tid": "TID_UGC_ITEM_6000001",
+      "component_id": 200001,
+      "is_visible": null,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 3,
+      "tap_order_sec": 10010,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 200001,
+      "events": [
+       {
+        "type": 20000120098,
+        "info": [
+         28
+        ]
+       },
+       {
+        "type": 20000120097,
+        "info": [
+         1
+        ]
+       },
+       {
+        "type": 20000120001,
+        "info": [
+         "TID_UGC_UI_CAOWEI_16"
+        ]
+       },
+       {
+        "type": 20000120201,
+        "info": [
+         "100"
+        ]
+       },
+       {
+        "type": 20000120003,
+        "info": null
+       },
+       {
+        "type": 20000120209,
+        "info": null
+       }
+      ]
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 101,
+     "uid": 1000057,
+     "item_id": 6000001,
+     "catalog": {
+      "id": 6000001,
+      "item_tid": "TID_UGC_ITEM_6000001",
+      "component_id": 200001,
+      "is_visible": null,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 3,
+      "tap_order_sec": 10010,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "component_info": {
+      "component_id": 200001,
+      "events": [
+       {
+        "type": 20000120098,
+        "info": [
+         43
+        ]
+       },
+       {
+        "type": 20000120097,
+        "info": [
+         0
+        ]
+       },
+       {
+        "type": 20000120001,
+        "info": [
+         "TID_UGC_UI_CAOWEI_25"
+        ]
+       },
+       {
+        "type": 20000120201,
+        "info": [
+         "100"
+        ]
+       },
+       {
+        "type": 20000120003,
+        "info": null
+       },
+       {
+        "type": 20000120209,
+        "info": null
+       }
+      ]
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 1,
+     "uid": 1000002,
+     "item_id": 101001,
+     "catalog": {
+      "id": 101001,
+      "item_tid": "TID_UGC_ITEM_101001",
+      "component_id": 101001,
+      "is_visible": null,
+      "simple_hide": 0,
+      "model_path": "chr/player/dm65_survivor_m/dm65_survivor_m_bo/dm65_survivor_m_bo.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 101,
+      "occupancy_value": "58.66"
+     },
+     "position": [
+      620.8900146484375,
+      3.109999895095825,
+      -114.7300033569336
+     ],
+     "rotation": "None",
+     "scale": "None",
+     "component_info": {
+      "component_id": 101001,
+      "events": [
+       {
+        "type": 10100101001,
+        "info": [
+         "TID_BATTLE_UGC_TEAM_9001"
+        ]
+       },
+       {
+        "type": 10100101002,
+        "info": [
+         "TID_UGC_CLASSIFY_101"
+        ]
+       }
+      ]
+     },
+     "in_registered_set": true,
+     "in_object_list": [],
+     "deleted": false
+    },
+    {
+     "ugc_id": 120,
+     "uid": 1000080,
+     "item_id": 301042,
+     "catalog": {
+      "id": 301042,
+      "item_tid": "TID_UGC_ITEM_301042",
+      "component_id": 100001,
+      "is_visible": null,
+      "simple_hide": 1,
+      "model_path": "scene/model/h55_ugc/h55_ugc_geometry01/h55_ugc_geometry_petals01.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 301,
+      "occupancy_value": "8.08"
+     },
+     "position": [
+      0.0,
+      -65536.0,
+      0.0
+     ],
+     "rotation": [
+      65.61405944824219,
+      -165.75135803222656,
+      -34.0678825378418
+     ],
+     "scale": [
+      2.4319427013397217,
+      2.4319427013397217,
+      2.4319427013397217
+     ],
+     "component_info": {
+      "component_id": 100001,
+      "events": [
+       {
+        "type": 10000110005,
+        "info": [
+         "scene\\model\\h55_ugc\\h55_ugc_mtg\\h55_ugc_mtg_snow02.mtg"
+        ]
+       },
+       {
+        "type": 10000110006,
+        "info": [
+         [
+          "ffffff",
+          "f8b4fe",
+          "f8b4fe",
+          "f8b4fe"
+         ]
+        ]
+       },
+       {
+        "type": 10000102008,
+        "info": [
+         9999.0
+        ]
+       }
+      ]
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": true
+    },
+    {
+     "ugc_id": 121,
+     "uid": 1000081,
+     "item_id": 301042,
+     "catalog": {
+      "id": 301042,
+      "item_tid": "TID_UGC_ITEM_301042",
+      "component_id": 100001,
+      "is_visible": null,
+      "simple_hide": 1,
+      "model_path": "scene/model/h55_ugc/h55_ugc_geometry01/h55_ugc_geometry_petals01.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 301,
+      "occupancy_value": "8.08"
+     },
+     "position": [
+      0.0,
+      -65536.0,
+      0.0
+     ],
+     "rotation": [
+      66.1985855102539,
+      166.82273864746094,
+      32.060218811035156
+     ],
+     "scale": [
+      2.4319427013397217,
+      2.4319427013397217,
+      2.4319427013397217
+     ],
+     "component_info": {
+      "component_id": 100001,
+      "events": [
+       {
+        "type": 10000110005,
+        "info": [
+         "scene\\model\\h55_ugc\\h55_ugc_mtg\\h55_ugc_mtg_snow02.mtg"
+        ]
+       },
+       {
+        "type": 10000110006,
+        "info": [
+         [
+          "ffffff",
+          "f8b4fe",
+          "f8b4fe",
+          "f8b4fe"
+         ]
+        ]
+       },
+       {
+        "type": 10000102008,
+        "info": [
+         9999.0
+        ]
+       }
+      ]
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": true
+    },
+    {
+     "ugc_id": 122,
+     "uid": 1000082,
+     "item_id": 301042,
+     "catalog": {
+      "id": 301042,
+      "item_tid": "TID_UGC_ITEM_301042",
+      "component_id": 100001,
+      "is_visible": null,
+      "simple_hide": 1,
+      "model_path": "scene/model/h55_ugc/h55_ugc_geometry01/h55_ugc_geometry_petals01.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 301,
+      "occupancy_value": "8.08"
+     },
+     "position": [
+      0.0,
+      -65536.0,
+      0.0
+     ],
+     "rotation": [
+      -37.19175338745117,
+      49.96333694458008,
+      64.57427215576172
+     ],
+     "scale": [
+      2.4319427013397217,
+      2.4319427013397217,
+      2.4319427013397217
+     ],
+     "component_info": {
+      "component_id": 100001,
+      "events": [
+       {
+        "type": 10000110005,
+        "info": [
+         "scene\\model\\h55_ugc\\h55_ugc_mtg\\h55_ugc_mtg_snow02.mtg"
+        ]
+       },
+       {
+        "type": 10000110006,
+        "info": [
+         [
+          "ffffff",
+          "f8b4fe",
+          "f8b4fe",
+          "f8b4fe"
+         ]
+        ]
+       },
+       {
+        "type": 10000102008,
+        "info": [
+         9999.0
+        ]
+       }
+      ]
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": true
+    },
+    {
+     "ugc_id": 123,
+     "uid": 1000083,
+     "item_id": 301042,
+     "catalog": {
+      "id": 301042,
+      "item_tid": "TID_UGC_ITEM_301042",
+      "component_id": 100001,
+      "is_visible": null,
+      "simple_hide": 1,
+      "model_path": "scene/model/h55_ugc/h55_ugc_geometry01/h55_ugc_geometry_petals01.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 301,
+      "occupancy_value": "8.08"
+     },
+     "position": [
+      0.0,
+      -65536.0,
+      0.0
+     ],
+     "rotation": [
+      -70.00001525878906,
+      8.414258627453819e-05,
+      -2.0490568203967996e-05
+     ],
+     "scale": [
+      2.4319427013397217,
+      2.4319427013397217,
+      2.4319427013397217
+     ],
+     "component_info": {
+      "component_id": 100001,
+      "events": [
+       {
+        "type": 10000110005,
+        "info": [
+         "scene\\model\\h55_ugc\\h55_ugc_mtg\\h55_ugc_mtg_snow02.mtg"
+        ]
+       },
+       {
+        "type": 10000110006,
+        "info": [
+         [
+          "ffffff",
+          "f8b4fe",
+          "f8b4fe",
+          "f8b4fe"
+         ]
+        ]
+       },
+       {
+        "type": 10000102008,
+        "info": [
+         9999.0
+        ]
+       }
+      ]
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": true
+    },
+    {
+     "ugc_id": 124,
+     "uid": 1000084,
+     "item_id": 301042,
+     "catalog": {
+      "id": 301042,
+      "item_tid": "TID_UGC_ITEM_301042",
+      "component_id": 100001,
+      "is_visible": null,
+      "simple_hide": 1,
+      "model_path": "scene/model/h55_ugc/h55_ugc_geometry01/h55_ugc_geometry_petals01.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 301,
+      "occupancy_value": "8.08"
+     },
+     "position": [
+      0.0,
+      -65536.0,
+      0.0
+     ],
+     "rotation": [
+      -40.106929779052734,
+      -46.72021484375,
+      -63.43732833862305
+     ],
+     "scale": [
+      2.4319427013397217,
+      2.4319427013397217,
+      2.4319427013397217
+     ],
+     "component_info": {
+      "component_id": 100001,
+      "events": [
+       {
+        "type": 10000110005,
+        "info": [
+         "scene\\model\\h55_ugc\\h55_ugc_mtg\\h55_ugc_mtg_snow02.mtg"
+        ]
+       },
+       {
+        "type": 10000110006,
+        "info": [
+         [
+          "ffffff",
+          "f8b4fe",
+          "f8b4fe",
+          "f8b4fe"
+         ]
+        ]
+       },
+       {
+        "type": 10000102008,
+        "info": [
+         9999.0
+        ]
+       }
+      ]
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": true
+    },
+    {
+     "ugc_id": 125,
+     "uid": 1000085,
+     "item_id": 301042,
+     "catalog": {
+      "id": 301042,
+      "item_tid": "TID_UGC_ITEM_301042",
+      "component_id": 100001,
+      "is_visible": null,
+      "simple_hide": 1,
+      "model_path": "scene/model/h55_ugc/h55_ugc_geometry01/h55_ugc_geometry_petals01.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 301,
+      "occupancy_value": "8.08"
+     },
+     "position": [
+      0.0,
+      -65536.0,
+      0.0
+     ],
+     "rotation": [
+      15.491878509521484,
+      -110.40628814697266,
+      -48.16239547729492
+     ],
+     "scale": [
+      2.188748359680176,
+      2.188748359680176,
+      2.188748359680176
+     ],
+     "component_info": {
+      "component_id": 100001,
+      "events": [
+       {
+        "type": 10000110005,
+        "info": [
+         "scene\\model\\h55_ugc\\h55_ugc_mtg\\h55_ugc_mtg_snow02.mtg"
+        ]
+       },
+       {
+        "type": 10000110006,
+        "info": [
+         [
+          "ffffff",
+          "f8b4fe",
+          "f8b4fe",
+          "f8b4fe"
+         ]
+        ]
+       },
+       {
+        "type": 10000102001,
+        "info": [
+         0
+        ]
+       },
+       {
+        "type": 10000102008,
+        "info": [
+         9999.0
+        ]
+       }
+      ]
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": true
+    },
+    {
+     "ugc_id": 126,
+     "uid": 1000086,
+     "item_id": 301042,
+     "catalog": {
+      "id": 301042,
+      "item_tid": "TID_UGC_ITEM_301042",
+      "component_id": 100001,
+      "is_visible": null,
+      "simple_hide": 1,
+      "model_path": "scene/model/h55_ugc/h55_ugc_geometry01/h55_ugc_geometry_petals01.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 301,
+      "occupancy_value": "8.08"
+     },
+     "position": [
+      0.0,
+      -65536.0,
+      0.0
+     ],
+     "rotation": [
+      49.90837097167969,
+      -177.02984619140625,
+      -3.5335071086883545
+     ],
+     "scale": [
+      2.188748359680176,
+      2.188748359680176,
+      2.188748359680176
+     ],
+     "component_info": {
+      "component_id": 100001,
+      "events": [
+       {
+        "type": 10000110005,
+        "info": [
+         "scene\\model\\h55_ugc\\h55_ugc_mtg\\h55_ugc_mtg_snow02.mtg"
+        ]
+       },
+       {
+        "type": 10000110006,
+        "info": [
+         [
+          "ffffff",
+          "f8b4fe",
+          "f8b4fe",
+          "f8b4fe"
+         ]
+        ]
+       },
+       {
+        "type": 10000102001,
+        "info": [
+         0
+        ]
+       },
+       {
+        "type": 10000102008,
+        "info": [
+         9999.0
+        ]
+       }
+      ]
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": true
+    },
+    {
+     "ugc_id": 127,
+     "uid": 1000087,
+     "item_id": 301042,
+     "catalog": {
+      "id": 301042,
+      "item_tid": "TID_UGC_ITEM_301042",
+      "component_id": 100001,
+      "is_visible": null,
+      "simple_hide": 1,
+      "model_path": "scene/model/h55_ugc/h55_ugc_geometry01/h55_ugc_geometry_petals01.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 301,
+      "occupancy_value": "8.08"
+     },
+     "position": [
+      0.0,
+      -65536.0,
+      0.0
+     ],
+     "rotation": [
+      -45.5513916015625,
+      -21.26652717590332,
+      -23.37685775756836
+     ],
+     "scale": [
+      2.188748359680176,
+      2.188748359680176,
+      2.188748359680176
+     ],
+     "component_info": {
+      "component_id": 100001,
+      "events": [
+       {
+        "type": 10000110005,
+        "info": [
+         "scene\\model\\h55_ugc\\h55_ugc_mtg\\h55_ugc_mtg_snow02.mtg"
+        ]
+       },
+       {
+        "type": 10000110006,
+        "info": [
+         [
+          "ffffff",
+          "f8b4fe",
+          "f8b4fe",
+          "f8b4fe"
+         ]
+        ]
+       },
+       {
+        "type": 10000102001,
+        "info": [
+         0
+        ]
+       },
+       {
+        "type": 10000102008,
+        "info": [
+         9999.0
+        ]
+       }
+      ]
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": true
+    },
+    {
+     "ugc_id": 128,
+     "uid": 1000088,
+     "item_id": 301042,
+     "catalog": {
+      "id": 301042,
+      "item_tid": "TID_UGC_ITEM_301042",
+      "component_id": 100001,
+      "is_visible": null,
+      "simple_hide": 1,
+      "model_path": "scene/model/h55_ugc/h55_ugc_geometry01/h55_ugc_geometry_petals01.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 301,
+      "occupancy_value": "8.08"
+     },
+     "position": [
+      0.0,
+      -65536.0,
+      0.0
+     ],
+     "rotation": [
+      -41.91914749145508,
+      29.294382095336914,
+      30.247291564941406
+     ],
+     "scale": [
+      2.188748359680176,
+      2.188748359680176,
+      2.188748359680176
+     ],
+     "component_info": {
+      "component_id": 100001,
+      "events": [
+       {
+        "type": 10000110005,
+        "info": [
+         "scene\\model\\h55_ugc\\h55_ugc_mtg\\h55_ugc_mtg_snow02.mtg"
+        ]
+       },
+       {
+        "type": 10000110006,
+        "info": [
+         [
+          "ffffff",
+          "f8b4fe",
+          "f8b4fe",
+          "f8b4fe"
+         ]
+        ]
+       },
+       {
+        "type": 10000102001,
+        "info": [
+         0
+        ]
+       },
+       {
+        "type": 10000102008,
+        "info": [
+         9999.0
+        ]
+       }
+      ]
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": true
+    },
+    {
+     "ugc_id": 129,
+     "uid": 1000089,
+     "item_id": 301042,
+     "catalog": {
+      "id": 301042,
+      "item_tid": "TID_UGC_ITEM_301042",
+      "component_id": 100001,
+      "is_visible": null,
+      "simple_hide": 1,
+      "model_path": "scene/model/h55_ugc/h55_ugc_geometry01/h55_ugc_geometry_petals01.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 301,
+      "occupancy_value": "8.08"
+     },
+     "position": [
+      0.0,
+      -65536.0,
+      0.0
+     ],
+     "rotation": [
+      25.12149429321289,
+      123.6554946899414,
+      44.769866943359375
+     ],
+     "scale": [
+      2.188748359680176,
+      2.188748359680176,
+      2.188748359680176
+     ],
+     "component_info": {
+      "component_id": 100001,
+      "events": [
+       {
+        "type": 10000110005,
+        "info": [
+         "scene\\model\\h55_ugc\\h55_ugc_mtg\\h55_ugc_mtg_snow02.mtg"
+        ]
+       },
+       {
+        "type": 10000110006,
+        "info": [
+         [
+          "ffffff",
+          "f8b4fe",
+          "f8b4fe",
+          "f8b4fe"
+         ]
+        ]
+       },
+       {
+        "type": 10000102001,
+        "info": [
+         0
+        ]
+       },
+       {
+        "type": 10000102008,
+        "info": [
+         9999.0
+        ]
+       }
+      ]
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": true
+    },
+    {
+     "ugc_id": 130,
+     "uid": 1000090,
+     "item_id": 301042,
+     "catalog": {
+      "id": 301042,
+      "item_tid": "TID_UGC_ITEM_301042",
+      "component_id": 100001,
+      "is_visible": null,
+      "simple_hide": 1,
+      "model_path": "scene/model/h55_ugc/h55_ugc_geometry01/h55_ugc_geometry_petals01.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 301,
+      "occupancy_value": "8.08"
+     },
+     "position": [
+      0.0,
+      -65536.0,
+      0.0
+     ],
+     "rotation": [
+      16.0631103515625,
+      -123.59984588623047,
+      -25.682340621948242
+     ],
+     "scale": [
+      1.9455540180206299,
+      1.9455540180206299,
+      1.4591655731201172
+     ],
+     "component_info": {
+      "component_id": 100001,
+      "events": [
+       {
+        "type": 10000110005,
+        "info": [
+         "scene\\model\\h55_ugc\\h55_ugc_mtg\\h55_ugc_mtg_snow02.mtg"
+        ]
+       },
+       {
+        "type": 10000110006,
+        "info": [
+         [
+          "ffffff",
+          "f8b4fe",
+          "f8b4fe",
+          "f8b4fe"
+         ]
+        ]
+       },
+       {
+        "type": 10000102001,
+        "info": [
+         0
+        ]
+       },
+       {
+        "type": 10000102008,
+        "info": [
+         9999.0
+        ]
+       }
+      ]
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": true
+    },
+    {
+     "ugc_id": 131,
+     "uid": 1000091,
+     "item_id": 301042,
+     "catalog": {
+      "id": 301042,
+      "item_tid": "TID_UGC_ITEM_301042",
+      "component_id": 100001,
+      "is_visible": null,
+      "simple_hide": 1,
+      "model_path": "scene/model/h55_ugc/h55_ugc_geometry01/h55_ugc_geometry_petals01.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 301,
+      "occupancy_value": "8.08"
+     },
+     "position": [
+      0.0,
+      -65536.0,
+      0.0
+     ],
+     "rotation": [
+      29.4351749420166,
+      169.3817138671875,
+      6.072678565979004
+     ],
+     "scale": [
+      1.9455540180206299,
+      1.9455540180206299,
+      1.4591655731201172
+     ],
+     "component_info": {
+      "component_id": 100001,
+      "events": [
+       {
+        "type": 10000110005,
+        "info": [
+         "scene\\model\\h55_ugc\\h55_ugc_mtg\\h55_ugc_mtg_snow02.mtg"
+        ]
+       },
+       {
+        "type": 10000110006,
+        "info": [
+         [
+          "ffffff",
+          "f8b4fe",
+          "f8b4fe",
+          "f8b4fe"
+         ]
+        ]
+       },
+       {
+        "type": 10000102001,
+        "info": [
+         0
+        ]
+       },
+       {
+        "type": 10000102008,
+        "info": [
+         9999.0
+        ]
+       }
+      ]
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": true
+    },
+    {
+     "ugc_id": 132,
+     "uid": 1000092,
+     "item_id": 301042,
+     "catalog": {
+      "id": 301042,
+      "item_tid": "TID_UGC_ITEM_301042",
+      "component_id": 100001,
+      "is_visible": null,
+      "simple_hide": 1,
+      "model_path": "scene/model/h55_ugc/h55_ugc_geometry01/h55_ugc_geometry_petals01.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 301,
+      "occupancy_value": "8.08"
+     },
+     "position": [
+      0.0,
+      -65536.0,
+      0.0
+     ],
+     "rotation": [
+      3.1812140941619873,
+      96.37240600585938,
+      29.84650993347168
+     ],
+     "scale": [
+      1.9455540180206299,
+      1.9455540180206299,
+      1.4591655731201172
+     ],
+     "component_info": {
+      "component_id": 100001,
+      "events": [
+       {
+        "type": 10000110005,
+        "info": [
+         "scene\\model\\h55_ugc\\h55_ugc_mtg\\h55_ugc_mtg_snow02.mtg"
+        ]
+       },
+       {
+        "type": 10000110006,
+        "info": [
+         [
+          "ffffff",
+          "f8b4fe",
+          "f8b4fe",
+          "f8b4fe"
+         ]
+        ]
+       },
+       {
+        "type": 10000102001,
+        "info": [
+         0
+        ]
+       },
+       {
+        "type": 10000102008,
+        "info": [
+         9999.0
+        ]
+       }
+      ]
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": true
+    },
+    {
+     "ugc_id": 133,
+     "uid": 1000093,
+     "item_id": 301042,
+     "catalog": {
+      "id": 301042,
+      "item_tid": "TID_UGC_ITEM_301042",
+      "component_id": 100001,
+      "is_visible": null,
+      "simple_hide": 1,
+      "model_path": "scene/model/h55_ugc/h55_ugc_geometry01/h55_ugc_geometry_petals01.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 301,
+      "occupancy_value": "8.08"
+     },
+     "position": [
+      0.0,
+      -65536.0,
+      0.0
+     ],
+     "rotation": [
+      -28.53202247619629,
+      17.196155548095703,
+      9.686418533325195
+     ],
+     "scale": [
+      1.9455540180206299,
+      1.9455540180206299,
+      1.4591655731201172
+     ],
+     "component_info": {
+      "component_id": 100001,
+      "events": [
+       {
+        "type": 10000110005,
+        "info": [
+         "scene\\model\\h55_ugc\\h55_ugc_mtg\\h55_ugc_mtg_snow02.mtg"
+        ]
+       },
+       {
+        "type": 10000110006,
+        "info": [
+         [
+          "ffffff",
+          "f8b4fe",
+          "f8b4fe",
+          "f8b4fe"
+         ]
+        ]
+       },
+       {
+        "type": 10000102001,
+        "info": [
+         0
+        ]
+       },
+       {
+        "type": 10000102008,
+        "info": [
+         9999.0
+        ]
+       }
+      ]
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": true
+    },
+    {
+     "ugc_id": 134,
+     "uid": 1000094,
+     "item_id": 301042,
+     "catalog": {
+      "id": 301042,
+      "item_tid": "TID_UGC_ITEM_301042",
+      "component_id": 100001,
+      "is_visible": null,
+      "simple_hide": 1,
+      "model_path": "scene/model/h55_ugc/h55_ugc_geometry01/h55_ugc_geometry_petals01.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 301,
+      "occupancy_value": "8.08"
+     },
+     "position": [
+      0.0,
+      -65536.0,
+      0.0
+     ],
+     "rotation": [
+      -19.694869995117188,
+      -47.621665954589844,
+      -23.098060607910156
+     ],
+     "scale": [
+      1.9455540180206299,
+      1.9455540180206299,
+      1.4591655731201172
+     ],
+     "component_info": {
+      "component_id": 100001,
+      "events": [
+       {
+        "type": 10000110005,
+        "info": [
+         "scene\\model\\h55_ugc\\h55_ugc_mtg\\h55_ugc_mtg_snow02.mtg"
+        ]
+       },
+       {
+        "type": 10000110006,
+        "info": [
+         [
+          "ffffff",
+          "f8b4fe",
+          "f8b4fe",
+          "f8b4fe"
+         ]
+        ]
+       },
+       {
+        "type": 10000102001,
+        "info": [
+         0
+        ]
+       },
+       {
+        "type": 10000102008,
+        "info": [
+         9999.0
+        ]
+       }
+      ]
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": true
+    },
+    {
+     "ugc_id": 135,
+     "uid": 1000095,
+     "item_id": 301042,
+     "catalog": {
+      "id": 301042,
+      "item_tid": "TID_UGC_ITEM_301042",
+      "component_id": 100001,
+      "is_visible": null,
+      "simple_hide": 1,
+      "model_path": "scene/model/h55_ugc/h55_ugc_geometry01/h55_ugc_geometry_petals01.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 301,
+      "occupancy_value": "8.08"
+     },
+     "position": [
+      0.0,
+      -65536.0,
+      0.0
+     ],
+     "rotation": [
+      1.6026502847671509,
+      -108.71684265136719,
+      -4.736783027648926
+     ],
+     "scale": [
+      1.4591655731201172,
+      1.9455540180206299,
+      1.4591655731201172
+     ],
+     "component_info": {
+      "component_id": 100001,
+      "events": [
+       {
+        "type": 10000110005,
+        "info": [
+         "scene\\model\\h55_ugc\\h55_ugc_mtg\\h55_ugc_mtg_snow02.mtg"
+        ]
+       },
+       {
+        "type": 10000110006,
+        "info": [
+         [
+          "ffffff",
+          "f8b4fe",
+          "f8b4fe",
+          "f8b4fe"
+         ]
+        ]
+       },
+       {
+        "type": 10000102008,
+        "info": [
+         9999.0
+        ]
+       }
+      ]
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": true
+    },
+    {
+     "ugc_id": 136,
+     "uid": 1000096,
+     "item_id": 301042,
+     "catalog": {
+      "id": 301042,
+      "item_tid": "TID_UGC_ITEM_301042",
+      "component_id": 100001,
+      "is_visible": null,
+      "simple_hide": 1,
+      "model_path": "scene/model/h55_ugc/h55_ugc_geometry01/h55_ugc_geometry_petals01.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 301,
+      "occupancy_value": "8.08"
+     },
+     "position": [
+      0.0,
+      -65536.0,
+      0.0
+     ],
+     "rotation": [
+      4.9995951652526855,
+      179.2926788330078,
+      0.06190863624215126
+     ],
+     "scale": [
+      1.4591655731201172,
+      1.9455540180206299,
+      1.4591655731201172
+     ],
+     "component_info": {
+      "component_id": 100001,
+      "events": [
+       {
+        "type": 10000110005,
+        "info": [
+         "scene\\model\\h55_ugc\\h55_ugc_mtg\\h55_ugc_mtg_snow02.mtg"
+        ]
+       },
+       {
+        "type": 10000110006,
+        "info": [
+         [
+          "ffffff",
+          "f8b4fe",
+          "f8b4fe",
+          "f8b4fe"
+         ]
+        ]
+       },
+       {
+        "type": 10000102008,
+        "info": [
+         9999.0
+        ]
+       }
+      ]
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": true
+    },
+    {
+     "ugc_id": 137,
+     "uid": 1000097,
+     "item_id": 301042,
+     "catalog": {
+      "id": 301042,
+      "item_tid": "TID_UGC_ITEM_301042",
+      "component_id": 100001,
+      "is_visible": null,
+      "simple_hide": 1,
+      "model_path": "scene/model/h55_ugc/h55_ugc_geometry01/h55_ugc_geometry_petals01.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 301,
+      "occupancy_value": "8.08"
+     },
+     "position": [
+      0.0,
+      -65536.0,
+      0.0
+     ],
+     "rotation": [
+      1.975677251815796,
+      113.30126190185547,
+      4.594001770019531
+     ],
+     "scale": [
+      1.4591655731201172,
+      1.9455540180206299,
+      1.4591655731201172
+     ],
+     "component_info": {
+      "component_id": 100001,
+      "events": [
+       {
+        "type": 10000110005,
+        "info": [
+         "scene\\model\\h55_ugc\\h55_ugc_mtg\\h55_ugc_mtg_snow02.mtg"
+        ]
+       },
+       {
+        "type": 10000110006,
+        "info": [
+         [
+          "ffffff",
+          "f8b4fe",
+          "f8b4fe",
+          "f8b4fe"
+         ]
+        ]
+       },
+       {
+        "type": 10000102008,
+        "info": [
+         9999.0
+        ]
+       }
+      ]
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": true
+    },
+    {
+     "ugc_id": 138,
+     "uid": 1000098,
+     "item_id": 301042,
+     "catalog": {
+      "id": 301042,
+      "item_tid": "TID_UGC_ITEM_301042",
+      "component_id": 100001,
+      "is_visible": null,
+      "simple_hide": 1,
+      "model_path": "scene/model/h55_ugc/h55_ugc_geometry01/h55_ugc_geometry_petals01.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 301,
+      "occupancy_value": "8.08"
+     },
+     "position": [
+      0.0,
+      -65536.0,
+      0.0
+     ],
+     "rotation": [
+      -4.257132530212402,
+      -31.599586486816406,
+      -2.624744176864624
+     ],
+     "scale": [
+      1.4591655731201172,
+      1.9455540180206299,
+      1.4591655731201172
+     ],
+     "component_info": {
+      "component_id": 100001,
+      "events": [
+       {
+        "type": 10000110005,
+        "info": [
+         "scene\\model\\h55_ugc\\h55_ugc_mtg\\h55_ugc_mtg_snow02.mtg"
+        ]
+       },
+       {
+        "type": 10000110006,
+        "info": [
+         [
+          "ffffff",
+          "f8b4fe",
+          "f8b4fe",
+          "f8b4fe"
+         ]
+        ]
+       },
+       {
+        "type": 10000102008,
+        "info": [
+         9999.0
+        ]
+       }
+      ]
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": true
+    },
+    {
+     "ugc_id": 139,
+     "uid": 1000099,
+     "item_id": 301042,
+     "catalog": {
+      "id": 301042,
+      "item_tid": "TID_UGC_ITEM_301042",
+      "component_id": 100001,
+      "is_visible": null,
+      "simple_hide": 1,
+      "model_path": "scene/model/h55_ugc/h55_ugc_geometry01/h55_ugc_geometry_petals01.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 301,
+      "occupancy_value": "8.08"
+     },
+     "position": [
+      0.0,
+      -65536.0,
+      0.0
+     ],
+     "rotation": [
+      -3.7786178588867188,
+      40.693424224853516,
+      3.2908198833465576
+     ],
+     "scale": [
+      1.4591655731201172,
+      1.9455540180206299,
+      1.4591655731201172
+     ],
+     "component_info": {
+      "component_id": 100001,
+      "events": [
+       {
+        "type": 10000110005,
+        "info": [
+         "scene\\model\\h55_ugc\\h55_ugc_mtg\\h55_ugc_mtg_snow02.mtg"
+        ]
+       },
+       {
+        "type": 10000110006,
+        "info": [
+         [
+          "ffffff",
+          "f8b4fe",
+          "f8b4fe",
+          "f8b4fe"
+         ]
+        ]
+       },
+       {
+        "type": 10000102008,
+        "info": [
+         9999.0
+        ]
+       }
+      ]
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": true
+    },
+    {
+     "ugc_id": 140,
+     "uid": 1000100,
+     "item_id": 301002,
+     "catalog": {
+      "id": 301002,
+      "item_tid": "TID_UGC_ITEM_301002",
+      "component_id": 100001,
+      "is_visible": null,
+      "simple_hide": 0,
+      "model_path": "scene/model/h55_ugc/h55_ugc_geometry/h55_ugc_geometry_spherical01.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 301,
+      "occupancy_value": "10"
+     },
+     "position": [
+      0.0,
+      -65536.0,
+      0.0
+     ],
+     "rotation": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      0.38911083340644836,
+      0.9727770090103149,
+      0.38911083340644836
+     ],
+     "component_info": {
+      "component_id": 100001,
+      "events": [
+       {
+        "type": 10000110005,
+        "info": [
+         "scene\\model\\h55_ugc\\h55_ugc_mtg\\h55_ugc_mtg_snow02.mtg"
+        ]
+       },
+       {
+        "type": 10000110006,
+        "info": [
+         [
+          "ffffff",
+          "f8b4fe",
+          "f8b4fe",
+          "f8b4fe"
+         ]
+        ]
+       },
+       {
+        "type": 10000102008,
+        "info": [
+         9999.0
+        ]
+       }
+      ]
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": true
+    },
+    {
+     "ugc_id": 141,
+     "uid": 1000101,
+     "item_id": 203900,
+     "catalog": {
+      "id": 203900,
+      "item_tid": "TID_UGC_ITEM_203900",
+      "component_id": 203900,
+      "is_visible": 1,
+      "simple_hide": 1,
+      "model_path": "fx/model/fx_empty.gim",
+      "src_model_path": null,
+      "item_type": 1,
+      "tap_order_sec": 201,
+      "occupancy_value": "1"
+     },
+     "position": [
+      0.0,
+      -65536.0,
+      0.0
+     ],
+     "rotation": [
+      65.61405944824219,
+      -165.75135803222656,
+      -34.0678825378418
+     ],
+     "scale": [
+      2.4319427013397217,
+      2.4319427013397217,
+      2.4319427013397217
+     ],
+     "component_info": {
+      "component_id": 203900,
+      "events": [
+       {
+        "type": 20390003001,
+        "info": [
+         [
+          120,
+          121,
+          122,
+          123,
+          124,
+          125,
+          126,
+          127,
+          128,
+          129,
+          130,
+          131,
+          132,
+          133,
+          134,
+          135,
+          136,
+          137,
+          138,
+          139,
+          140
+         ]
+        ]
+       },
+       {
+        "type": 20390003089,
+        "info": [
+         "65552"
+        ]
+       },
+       {
+        "type": 20390003088,
+        "info": [
+         "0"
+        ]
+       }
+      ]
+     },
+     "in_registered_set": false,
+     "in_object_list": [],
+     "deleted": true
+    }
+   ],
+   "matching_catalog": [
+    {
+     "id": 202014,
+     "item_tid": "TID_UGC_ITEM_202014",
+     "component_id": 202014,
+     "is_visible": null,
+     "simple_hide": 1,
+     "model_path": "scene/model/h55_playground_ugc/dm65_scene_vip_14_ugc.gim",
+     "src_model_path": "scene/model/ordnance_factory1/dm65_scene_vip_14.gim",
+     "item_type": 1,
+     "tap_order_sec": 201,
+     "occupancy_value": "3.37"
+    },
+    {
+     "id": 202009,
+     "item_tid": "TID_UGC_ITEM_202009",
+     "component_id": 100000,
+     "is_visible": 1,
+     "simple_hide": 1,
+     "model_path": "scene/model/h55_playground_ugc/dm65_scene_vip_14_ugc.gim",
+     "src_model_path": "scene/model/ordnance_factory1/dm65_scene_vip_14.gim",
+     "item_type": 1,
+     "tap_order_sec": 201,
+     "occupancy_value": "3.37"
+    }
+   ],
+   "selected_uid": null,
+   "list_keys": [],
+   "count": 109
+  }
+ },
+ "elapsed": 0.017
+}

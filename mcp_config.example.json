@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "fuxiang-ugc-editor": {
+      "command": "<python-完整路径>",
+      "args": ["-u", "<工具根>\\mcp\\server.py"]
+    }
+  }
+}

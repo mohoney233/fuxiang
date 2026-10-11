@@ -1,0 +1,34 @@
+{
+  "total": 1,
+  "offset": 0,
+  "excluded_hidden_matches": 1,
+  "note": "模型相同不代表物件功能相同；请核对 item_id 与 component_id。隐藏记录需 include_hidden=true。component_creatable=false 表示该物件没有实现类，无法通过接口创建。",
+  "returned": 1,
+  "items": [
+    {
+      "item_id": 202014,
+      "name_cn": "地下室盖板",
+      "component_id": 202014,
+      "component_name": "BASEMENT",
+      "component_class": "UGCBasementComponent",
+      "component_creatable": true,
+      "category_id": 201,
+      "category_cn": "基础",
+      "category_group_cn": "功能",
+      "item_type": 1,
+      "item_tid": "TID_UGC_ITEM_202014",
+      "model_path": "scene/model/h55_playground_ugc/dm65_scene_vip_14_ugc.gim",
+      "img_path": "image/ugc/h55_ugc_icon/ordnance_factory1/dm65_scene_vip_14_ugc.png",
+      "occupancy_value": "3.37",
+      "zoom_limit": [
+        0.1,
+        1000
+      ],
+      "rotate_limit": null,
+      "disable_edit": null,
+      "catalog_hidden": false,
+      "object_list_eligible": true,
+      "same_model_visible_item_ids": []
+    }
+  ]
+}

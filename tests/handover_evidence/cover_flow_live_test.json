@@ -1,0 +1,55 @@
+{
+ "note": "2026-09-30 地图封面（COVER）实机闭环。原始钩子流水见 cover_flow_hook_log.json（tick/报文噪声已剔除）。",
+ "map": {
+  "name": "春岚",
+  "ugc_key": "6ab9151ee6ebe25f903e4458",
+  "total_components": 14998
+ },
+ "native_chain": {
+  "entry": "UIBattleUGCMapRelease.on_btn_photo -> show_ui(UIUGCTakePhotoNew) RPC(evt=2006, key=handle_ugc_photo_take, is_enter_photo_take=True)",
+  "shot": "UITakePhotoNewBase.do_begin_shot -> scene.save_screen_to_file_ex -> <doc_dir>/res/ui/live/<md5(time)>.jpg",
+  "verify": "screen_capture_cb 用 FilePickerProxy.get_file_md5(abs) 复核，不一致 log_custom_tamper_photo 并中止",
+  "token": "Avatar.request_photo_token(md5) -> photo_token",
+  "confirm": "UIBattleUGCPhotoCheck.on_btn_confirm = room.set_photo_path(rel, force_index) + room.set_photo_md5(md5, force_index)",
+  "upload": "Avatar.upload_img_to_filepicker(\"UGC_MAP_COVER_PHOTO\", rel, md5=…, other_info={ugc_key, cover_photo_idx, extraInfo})",
+  "reply": "Avatar.after_upload_photo(info, sharing_type, share_url, …) —— UGC 那一支只交给已打开的发布面板（get_ui 未注册时返回 Swallow 哨兵，URL 被吞）",
+  "persist": "Avatar.set_ugc_map_cover_photo(ugc_key, [url…]) -> call_server_method"
+ },
+ "live_run": {
+  "photo_mode_shot": {
+   "path": "res/ui/live/6ed6443a619a2b8d8142455e17245ae3.jpg",
+   "bytes": 257956,
+   "md5": "fda67f7f0c54b8661c88549a1e0807bb"
+  },
+  "cover_image_used": {
+   "src": "游戏图片目录里那张成品插画 res/ui/live/e4b81af20a5888a6d7045fb7c6b00601.jpg",
+   "bytes": 218339,
+   "md5": "9372644641751e4a093d495b28863eed"
+  },
+  "share_url": "http://h55-ugc-mapshow.fp.ps.netease.com/file/6abce619d4ced355b9c4a1baxHJ2r8G407",
+  "upload_reply_ms": 396,
+  "cdn_check": {
+   "http": 200,
+   "bytes": 218339,
+   "content_type": "image/jpeg",
+   "md5_equals_local": true
+  },
+  "apply_rpc": "set_ugc_map_cover_photo(6ab9151ee6ebe25f903e4458, [share_url]) 已上送",
+  "save_dirty_after_cover": {
+   "change_units_length": 0,
+   "note": "封面不进地图保存通道"
+  }
+ },
+ "not_verified": {
+  "reentry_ugc_room_cover": "需要人工退出编辑器重进（终审）",
+  "publish": "未做，也不该由工具做"
+ },
+ "bug_found_by_offline_test": {
+  "what": "_to_rel 只挡了以 / 开头的路径，Windows 的 C:/... 会被当相对路径拼到 doc_dir 后面",
+  "fix": "bridge/fuxiang_cover.py::_to_rel 增加盘符/绝对路径判定",
+  "test": "tests/test_cover.py::TestSetSlotGuards::test_path_outside_doc_dir_rejected"
+ },
+ "timestamps": {
+  "run_local": "2026-09-30 18:53"
+ }
+}

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page
+    x:Class="FuxiangConsole.Pages.SnapshotPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <ScrollViewer Padding="20,16,20,20">
+        <StackPanel Spacing="12" MaxWidth="1100" HorizontalAlignment="Left">
+            <TextBlock Text="备份与恢复" FontSize="24" FontWeight="SemiBold"/>
+
+            <InfoBar Severity="Informational" IsOpen="True" IsClosable="False"
+                     Title="备份与恢复是什么？"
+                     Message="备份 = 把当前地图完整存成一个文件（不会改动地图，随时可做）。恢复 = 把某份备份的内容放回当前地图（会改动地图，改动前可以先预览）。"/>
+
+            <Border Style="{StaticResource Card}">
+                <StackPanel Spacing="8">
+                    <TextBlock Text="① 备份当前地图" FontWeight="SemiBold" FontSize="15"/>
+                    <StackPanel Orientation="Horizontal" Spacing="12">
+                        <Button x:Name="BtnExport" Content="开始备份" Click="BtnExport_Click"/>
+                        <ProgressRing x:Name="ExportRing" IsActive="False" Width="22" Height="22"/>
+                    </StackPanel>
+                    <TextBlock Text="大的地图需要一点时间，期间可以去干别的，页面会提示完成。" FontSize="12" Foreground="Gray"/>
+                </StackPanel>
+            </Border>
+
+            <InfoBar x:Name="ExportBar" Severity="Success" IsOpen="False"/>
+
+            <Border Style="{StaticResource Card}">
+                <Grid ColumnSpacing="12">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/><ColumnDefinition Width="430"/>
+                    </Grid.ColumnDefinitions>
+                    <StackPanel Grid.Column="0" Spacing="6">
+                        <Grid>
+                            <TextBlock Text="② 备份记录" FontWeight="SemiBold"/>
+                            <Button Content="刷新" FontSize="11" Padding="8,2" HorizontalAlignment="Right" Click="BtnReload_Click"/>
+                        </Grid>
+                        <ListBox x:Name="FileList" MinHeight="220" MaxHeight="330" SelectionMode="Single"/>
+                    </StackPanel>
+                    <StackPanel Grid.Column="1" Spacing="8" VerticalAlignment="Top">
+                        <TextBlock Text="对选中的这份备份" FontWeight="SemiBold"/>
+                        <StackPanel Orientation="Horizontal" Spacing="8">
+                            <Button Content="查看详情" Click="BtnInspect_Click"/>
+                            <Button Content="安全体检" Click="BtnCheck_Click"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Spacing="8">
+                            <Button Content="和另一份对比" Click="BtnDiff_Click"/>
+                            <Button Content="恢复这份备份…" Click="BtnRestoreOpen_Click"/>
+                        </StackPanel>
+                        <TextBlock Text="详情 / 体检会打开日志窗口，内容偏技术，普通使用看「开始恢复」前的预览就够了。" FontSize="12" Foreground="Gray" TextWrapping="Wrap"/>
+                    </StackPanel>
+                </Grid>
+            </Border>
+
+            <Border x:Name="RestoreCard" Style="{StaticResource Card}" Visibility="Collapsed">
+                <StackPanel Spacing="8">
+                    <TextBlock FontWeight="SemiBold" FontSize="15">
+                        <Run Text="③ 恢复："/>
+                        <Run x:Name="RestoreFile" Foreground="DodgerBlue"/>
+                        <Run Text="  →  当前地图"/>
+                    </TextBlock>
+                    <InfoBar Severity="Warning" Title="恢复会改动当前地图" IsOpen="True" IsClosable="False"
+                             Message="恢复会把备份里的物件、属性、事件放回当前地图，已摆好的东西可能被移动或重复。如果不确定，先做下面第 1 步预览。"/>
+                    <GridView x:Name="RestoreFlags" SelectionMode="None" IsItemClickEnabled="False">
+                        <GridView.Resources>
+                            <Style TargetType="GridViewItem">
+                                <Setter Property="Margin" Value="0"/>
+                            </Style>
+                        </GridView.Resources>
+                        <CheckBox x:Name="RfStory" Content="连同剧情一起恢复"/>
+                        <CheckBox x:Name="RfUi" Content="包含界面控件"/>
+                        <CheckBox x:Name="RfMotion" Content="包含运动器"/>
+                        <CheckBox x:Name="RfGlobal" Content="包含全局对象"/>
+                        <CheckBox x:Name="RfSync" Content="同步玩法设置"/>
+                        <CheckBox x:Name="RfNoProps" Content="不恢复属性"/>
+                        <CheckBox x:Name="RfNoEvents" Content="不恢复事件"/>
+                        <CheckBox x:Name="RfNewRun" Content="从头开始（忽略上次进度）"/>
+                        <CheckBox x:Name="RfSentinel" Content="高级：允许哨兵位"/>
+                        <CheckBox x:Name="RfSameMap" Content="高级：允许同图恢复"/>
+                        <CheckBox x:Name="RfDangling" Content="高级：允许悬空引用"/>
+                    </GridView>
+                    <StackPanel Orientation="Horizontal" Spacing="10">
+                        <TextBox x:Name="RfLimit" Header="只恢复前 N 件（空=全部）" Width="150"/>
+                        <TextBox x:Name="RfBatch" Header="每批数量（默认50）" Width="140"/>
+                        <ComboBox x:Name="RfResumeFrom" Header="从上次中断处继续（选最新备份）" MinWidth="260"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Spacing="10">
+                        <Button x:Name="BtnDry" Content="第 1 步：预览将改动什么（安全）" Click="BtnDry_Click"/>
+                        <Button x:Name="BtnApply" Content="第 2 步：开始恢复（改动地图）" Click="BtnApply_Click"
+                               />
+                        <CheckBox x:Name="ConfirmChk" Content="我确认要改动当前地图"/>
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+
+            <InfoBar x:Name="RestoreBar" Severity="Success" IsOpen="False"/>
+
+            <TextBlock Text="任务日志" FontWeight="SemiBold"/>
+            <TextBox x:Name="LogBox" IsReadOnly="True" AcceptsReturn="True" TextWrapping="NoWrap"
+                     Height="200" FontFamily="Cascadia Mono" FontSize="12"
+                     ScrollViewer.VerticalScrollBarVisibility="Auto"
+                     ScrollViewer.HorizontalScrollBarVisibility="Auto"/>
+        </StackPanel>
+    </ScrollViewer>
+</Page>

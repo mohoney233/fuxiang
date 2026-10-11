@@ -1,0 +1,4 @@
+﻿PID=13372 Name=cua-driver Start=09/18/2026 15:43:18 Path=
+PID=15256 Name=TabTip Start=09/18/2026 15:43:24 Path=
+PID=5500 Name=TextInputHost Start=09/18/2026 15:43:30 Path=C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\TextInputHost.exe
+--- 窗口层级（Z 序）---

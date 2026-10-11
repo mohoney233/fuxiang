@@ -1,0 +1,32 @@
+{
+  "request_id": "correct-cover-202014-01",
+  "status": "placed",
+  "scope": "server",
+  "ugc_id": 119,
+  "owner_uid": 1000077,
+  "item_id": 202014,
+  "transform": {
+    "position": [
+      628.0,
+      2.0,
+      -60.0
+    ],
+    "rotation": [
+      0.0,
+      25.000001907348633,
+      0.0
+    ],
+    "scale": [
+      0.800000011920929,
+      0.800000011920929,
+      0.800000011920929
+    ]
+  },
+  "editor_registered": true,
+  "persistence_verified": false,
+  "catalog_hidden": false,
+  "object_list_eligible": true,
+  "component_count": 109,
+  "occupancy": 229,
+  "note": "已完成原生确认；持久化须保存并重进地图核实。"
+}

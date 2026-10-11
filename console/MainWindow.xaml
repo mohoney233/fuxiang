@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window
+    x:Class="FuxiangConsole.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="随笔浮想 · 桥接控制台">
+    <NavigationView x:Name="Nav"
+                    PaneDisplayMode="Left"
+                    IsBackButtonVisible="Collapsed"
+                    IsSettingsVisible="False"
+                    SelectionChanged="Nav_SelectionChanged"
+                    OpenPaneLength="190">
+        <NavigationView.Resources>
+            <Thickness x:Key="NavigationViewContentGridBorderThickness">1,0,0,0</Thickness>
+        </NavigationView.Resources>
+        <NavigationView.MenuItems>
+            <NavigationViewItem Tag="dashboard" Content="首页">
+                <NavigationViewItem.Icon><FontIcon Glyph="&#xE80F;"/></NavigationViewItem.Icon>
+            </NavigationViewItem>
+            <NavigationViewItemSeparator/>
+            <NavigationViewItem Tag="snapshots" Content="备份与恢复">
+                <NavigationViewItem.Icon><FontIcon Glyph="&#xE8E5;"/></NavigationViewItem.Icon>
+            </NavigationViewItem>
+            <NavigationViewItem Tag="story" Content="剧情">
+                <NavigationViewItem.Icon><FontIcon Glyph="&#xE8A5;"/></NavigationViewItem.Icon>
+            </NavigationViewItem>
+            <NavigationViewItem Tag="events" Content="事件">
+                <NavigationViewItem.Icon><FontIcon Glyph="&#xE945;"/></NavigationViewItem.Icon>
+            </NavigationViewItem>
+            <NavigationViewItem Tag="teams" Content="队伍">
+                <NavigationViewItem.Icon><FontIcon Glyph="&#xE716;"/></NavigationViewItem.Icon>
+            </NavigationViewItem>
+            <NavigationViewItem Tag="cover" Content="封面">
+                <NavigationViewItem.Icon><FontIcon Glyph="&#xE8B9;"/></NavigationViewItem.Icon>
+            </NavigationViewItem>
+            <NavigationViewItem Tag="shots" Content="截图">
+                <NavigationViewItem.Icon><FontIcon Glyph="&#xE722;"/></NavigationViewItem.Icon>
+            </NavigationViewItem>
+            <NavigationViewItem Tag="prompts" Content="AI 提示词">
+                <NavigationViewItem.Icon><FontIcon Glyph="&#xE8BD;"/></NavigationViewItem.Icon>
+            </NavigationViewItem>
+        </NavigationView.MenuItems>
+        <NavigationView.FooterMenuItems>
+            <NavigationViewItem Tag="console" Content="高级（开发者）">
+                <NavigationViewItem.Icon><FontIcon Glyph="&#xE756;"/></NavigationViewItem.Icon>
+            </NavigationViewItem>
+            <NavigationViewItem Tag="about" Content="关于">
+                <NavigationViewItem.Icon><FontIcon Glyph="&#xE946;"/></NavigationViewItem.Icon>
+            </NavigationViewItem>
+            <NavigationViewItem x:Name="FooterBridge" IsEnabled="False">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Ellipse x:Name="BridgeDot" Width="9" Height="9" Fill="Gray"
+                             VerticalAlignment="Center" Margin="0,0,8,0"/>
+                    <TextBlock x:Name="BridgeText" Text="正在检查游戏…" FontSize="12"
+                               TextTrimming="CharacterEllipsis" VerticalAlignment="Center"/>
+                </Grid>
+            </NavigationViewItem>
+        </NavigationView.FooterMenuItems>
+        <Frame x:Name="ContentFrame"/>
+    </NavigationView>
+</Window>

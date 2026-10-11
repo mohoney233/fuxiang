@@ -1,0 +1,7107 @@
+{
+ "201005": {
+  "label": "胜利条件(None)",
+  "schema": {
+   "component_type": 201005,
+   "sources": {
+    "ugc_item_property": null,
+    "ugc_control_panel": null
+   },
+   "available": false,
+   "note": "该组件类型没有属性 schema；可能是全局/内部类型，或目录里的隐藏记录。"
+  }
+ },
+ "201006": {
+  "label": "平局条件(None)",
+  "schema": {
+   "component_type": 201006,
+   "sources": {
+    "ugc_item_property": null,
+    "ugc_control_panel": null
+   },
+   "available": false,
+   "note": "该组件类型没有属性 schema；可能是全局/内部类型，或目录里的隐藏记录。"
+  }
+ },
+ "202019": {
+  "label": "HANDHELD_POINT 手递手点",
+  "schema": {
+   "component_type": 202019,
+   "sources": {
+    "ugc_item_property": {
+     "1": {
+      "100": {
+       "1": {
+        "enable_copy": 1,
+        "id": 202019,
+        "default_show_state": 0,
+        "property_id": 20201910001,
+        "tab_id": 1,
+        "class_sort": 10,
+        "show_default": 1,
+        "class_id": 100,
+        "property_params": "{1,100003}",
+        "item_id": 1,
+        "property_sort": 1,
+        "property_type": "70001",
+        "simple_hide": 0
+       },
+       "2": {
+        "id": 202019,
+        "property_id": 20201910002,
+        "class_id": 100,
+        "property_params": "{2,100004}",
+        "property_sort": 2,
+        "tab_id": 1,
+        "property_type": "70001",
+        "item_id": 2,
+        "simple_hide": 0,
+        "show_default": 1
+       }
+      },
+      "138": {
+       "1": {
+        "property_id": 20201913801,
+        "tab_id": 1,
+        "id": 202019,
+        "class_sort": 1,
+        "extra_params_1": "global_property_id:1000100112105;1000100112106,sub_property_id:20201913802",
+        "simple_hide": 1,
+        "property_sort": 1,
+        "property_type": "20001",
+        "class_id": 138,
+        "item_id": 1,
+        "default_show_state": 1,
+        "property_params": "{100315,1,1,99,0,1}",
+        "detail_rule": 203018,
+        "show_default": 1
+       },
+       "2": {
+        "extra_params_1": "global_property_id:1000100112106,parent_property_id:20201913801",
+        "show_default": 1,
+        "id": 202019,
+        "property_params": "{100314}",
+        "detail_rule": 203019,
+        "property_sort": 2,
+        "class_id": 138,
+        "property_type": "60007",
+        "simple_hide": 0,
+        "item_id": 2,
+        "property_id": 20201913802,
+        "tab_id": 1
+       }
+      },
+      "20": {
+       "1": {
+        "enable_copy_property": 1,
+        "id": 202019,
+        "default_show_state": 0,
+        "property_id": 20201902001,
+        "tab_id": 1,
+        "class_sort": 2,
+        "show_default": 1,
+        "class_id": 20,
+        "property_params": "{100288,5,1,999,100009,1}",
+        "item_id": 1,
+        "property_sort": 1,
+        "property_type": "20001",
+        "simple_hide": 1
+       },
+       "2": {
+        "class_id": 20,
+        "id": 202019,
+        "show_default": 1,
+        "enable_copy_property": 1,
+        "property_type": "20001",
+        "item_id": 2,
+        "tab_id": 1,
+        "property_params": "{100316,30,-999,999,100009,1}",
+        "property_sort": 2,
+        "property_id": 20201902002,
+        "simple_hide": 1
+       },
+       "3": {
+        "class_id": 20,
+        "id": 202019,
+        "show_default": 1,
+        "enable_copy_property": 1,
+        "property_type": "30001",
+        "item_id": 3,
+        "tab_id": 1,
+        "property_params": "{100317,0}",
+        "property_sort": 3,
+        "property_id": 20201902003,
+        "simple_hide": 1
+       },
+       "4": {
+        "class_id": 20,
+        "id": 202019,
+        "show_default": 1,
+        "enable_copy_property": 1,
+        "property_type": "30001",
+        "item_id": 4,
+        "tab_id": 1,
+        "property_params": "{100012,1}",
+        "property_sort": 4,
+        "property_id": 20201902004,
+        "simple_hide": 1
+       },
+       "5": {
+        "class_id": 20,
+        "id": 202019,
+        "show_default": 1,
+        "enable_copy_property": 1,
+        "property_type": "80001",
+        "item_id": 5,
+        "tab_id": 1,
+        "property_params": "{100396,2}",
+        "property_sort": 5,
+        "property_id": 20201902005,
+        "simple_hide": 1
+       },
+       "6": {
+        "class_id": 20,
+        "id": 202019,
+        "show_default": 1,
+        "enable_copy_property": 1,
+        "property_type": "80001",
+        "item_id": 6,
+        "tab_id": 1,
+        "property_params": "{100397,2}",
+        "property_sort": 6,
+        "property_id": 20201902006,
+        "simple_hide": 1
+       },
+       "7": {
+        "class_id": 20,
+        "id": 202019,
+        "show_default": 1,
+        "enable_copy_property": 1,
+        "property_type": "30001",
+        "item_id": 7,
+        "tab_id": 1,
+        "property_params": "{100398,1}",
+        "property_sort": 7,
+        "property_id": 20201902007,
+        "simple_hide": 1
+       },
+       "8": {
+        "class_id": 20,
+        "id": 202019,
+        "show_default": 1,
+        "enable_copy_property": 1,
+        "property_type": "80001",
+        "item_id": 8,
+        "tab_id": 1,
+        "property_params": "{100399,2}",
+        "property_sort": 8,
+        "property_id": 20201902008,
+        "simple_hide": 1
+       },
+       "9": {
+        "class_id": 20,
+        "id": 202019,
+        "show_default": 1,
+        "enable_copy_property": 1,
+        "property_type": "80001",
+        "item_id": 9,
+        "tab_id": 1,
+        "property_params": "{100400,2}",
+        "property_sort": 9,
+        "property_id": 20201902009,
+        "simple_hide": 1
+       },
+       "91": {
+        "id": 202019,
+        "property_id": 20201902091,
+        "class_id": 20,
+        "property_params": "{}",
+        "property_sort": 91,
+        "tab_id": 1,
+        "property_type": "110006",
+        "item_id": 91,
+        "simple_hide": 1,
+        "show_default": 1
+       }
+      }
+     }
+    },
+    "ugc_control_panel": null
+   },
+   "available": true
+  }
+ },
+ "202024": {
+  "label": "FIXED_STATUE 往返雕像",
+  "schema": {
+   "component_type": 202024,
+   "sources": {
+    "ugc_item_property": {
+     "1": {
+      "100": {
+       "1": {
+        "enable_copy": 1,
+        "id": 202024,
+        "default_show_state": 0,
+        "property_id": 20202410001,
+        "tab_id": 1,
+        "class_sort": 10,
+        "show_default": 1,
+        "class_id": 100,
+        "property_params": "{1,100003}",
+        "item_id": 1,
+        "property_sort": 1,
+        "property_type": "70001",
+        "simple_hide": 0
+       },
+       "2": {
+        "id": 202024,
+        "property_id": 20202410002,
+        "class_id": 100,
+        "property_params": "{2,100004}",
+        "property_sort": 2,
+        "tab_id": 1,
+        "property_type": "70001",
+        "item_id": 2,
+        "simple_hide": 0,
+        "show_default": 1
+       }
+      },
+      "20": {
+       "1": {
+        "enable_copy": 1,
+        "id": 202024,
+        "default_show_state": 1,
+        "property_id": 20202402001,
+        "tab_id": 1,
+        "class_sort": 1,
+        "show_default": 1,
+        "class_id": 20,
+        "property_params": "{100332,9999,1,9999,0,1}",
+        "item_id": 1,
+        "property_sort": 1,
+        "property_type": "20001",
+        "simple_hide": 1
+       },
+       "91": {
+        "id": 202024,
+        "property_id": 20202402091,
+        "class_id": 20,
+        "property_params": "{}",
+        "property_sort": 91,
+        "tab_id": 1,
+        "property_type": "110006",
+        "item_id": 91,
+        "simple_hide": 1,
+        "show_default": 1
+       }
+      },
+      "30": {
+       "1": {
+        "property_id": 20202403001,
+        "tab_id": 1,
+        "id": 202024,
+        "class_sort": 2,
+        "property_params": "{100735,0,0,999,0,1}",
+        "simple_hide": 1,
+        "enable_copy": 1,
+        "property_type": "20001",
+        "class_id": 30,
+        "item_id": 1,
+        "default_show_state": 1,
+        "enable_copy_property": 1,
+        "property_sort": 1,
+        "show_default": 0
+       }
+      }
+     }
+    },
+    "ugc_control_panel": null
+   },
+   "available": true
+  }
+ },
+ "202025": {
+  "label": "RANDOM_STATUE 随机雕像",
+  "schema": {
+   "component_type": 202025,
+   "sources": {
+    "ugc_item_property": {
+     "1": {
+      "100": {
+       "1": {
+        "enable_copy": 1,
+        "id": 202025,
+        "default_show_state": 0,
+        "property_id": 20202510001,
+        "tab_id": 1,
+        "class_sort": 10,
+        "show_default": 1,
+        "class_id": 100,
+        "property_params": "{1,100003}",
+        "item_id": 1,
+        "property_sort": 1,
+        "property_type": "70001",
+        "simple_hide": 0
+       },
+       "2": {
+        "id": 202025,
+        "property_id": 20202510002,
+        "class_id": 100,
+        "property_params": "{2,100004}",
+        "property_sort": 2,
+        "tab_id": 1,
+        "property_type": "70001",
+        "item_id": 2,
+        "simple_hide": 0,
+        "show_default": 1
+       }
+      },
+      "20": {
+       "1": {
+        "id": 202025,
+        "show_default": 1,
+        "class_sort": 1,
+        "property_params": "{100319,50,1,1,999,100010}",
+        "default_show_state": 1,
+        "property_sort": 1,
+        "class_id": 20,
+        "property_type": "20004",
+        "simple_hide": 1,
+        "item_id": 1,
+        "property_id": 20202502001,
+        "tab_id": 1
+       },
+       "2": {
+        "class_id": 20,
+        "id": 202025,
+        "show_default": 1,
+        "enable_copy_property": 1,
+        "property_type": "20001",
+        "item_id": 2,
+        "tab_id": 1,
+        "property_params": "{100332,3,1,9999,0,1}",
+        "property_sort": 2,
+        "property_id": 20202502002,
+        "simple_hide": 1
+       },
+       "91": {
+        "id": 202025,
+        "property_id": 20202502091,
+        "class_id": 20,
+        "property_params": "{}",
+        "property_sort": 91,
+        "tab_id": 1,
+        "property_type": "110006",
+        "item_id": 91,
+        "simple_hide": 1,
+        "show_default": 1
+       }
+      },
+      "30": {
+       "1": {
+        "property_id": 20202503001,
+        "tab_id": 1,
+        "id": 202025,
+        "class_sort": 2,
+        "property_params": "{100735,0,0,999,0,1}",
+        "simple_hide": 1,
+        "enable_copy": 1,
+        "property_type": "20001",
+        "class_id": 30,
+        "item_id": 1,
+        "default_show_state": 1,
+        "enable_copy_property": 1,
+        "property_sort": 1,
+        "show_default": 0
+       }
+      }
+     }
+    },
+    "ugc_control_panel": null
+   },
+   "available": true
+  }
+ },
+ "202026": {
+  "label": "RANDOM_TENTACLE 触手区",
+  "schema": {
+   "component_type": 202026,
+   "sources": {
+    "ugc_item_property": {
+     "1": {
+      "100": {
+       "1": {
+        "enable_copy": 1,
+        "id": 202026,
+        "default_show_state": 0,
+        "property_id": 20202610001,
+        "tab_id": 1,
+        "class_sort": 10,
+        "show_default": 1,
+        "class_id": 100,
+        "property_params": "{1,100003}",
+        "item_id": 1,
+        "property_sort": 1,
+        "property_type": "70001",
+        "simple_hide": 0
+       },
+       "2": {
+        "id": 202026,
+        "property_id": 20202610002,
+        "class_id": 100,
+        "property_params": "{2,100004}",
+        "property_sort": 2,
+        "tab_id": 1,
+        "property_type": "70001",
+        "item_id": 2,
+        "simple_hide": 0,
+        "show_default": 1
+       }
+      },
+      "20": {
+       "1": {
+        "enable_copy_property": 1,
+        "id": 202026,
+        "default_show_state": 1,
+        "property_id": 20202602001,
+        "tab_id": 1,
+        "class_sort": 1,
+        "show_default": 1,
+        "class_id": 20,
+        "property_params": "{100319,50,1,1,999,100010}",
+        "item_id": 1,
+        "property_sort": 1,
+        "property_type": "20004",
+        "simple_hide": 1
+       },
+       "91": {
+        "id": 202026,
+        "property_id": 20202602091,
+        "class_id": 20,
+        "property_params": "{}",
+        "property_sort": 91,
+        "tab_id": 1,
+        "property_type": "110006",
+        "item_id": 91,
+        "simple_hide": 1,
+        "show_default": 1
+       }
+      },
+      "30": {
+       "1": {
+        "property_id": 20202603001,
+        "tab_id": 1,
+        "id": 202026,
+        "class_sort": 2,
+        "property_params": "{100735,0,0,999,0,1}",
+        "simple_hide": 1,
+        "enable_copy": 1,
+        "property_type": "20001",
+        "class_id": 30,
+        "item_id": 1,
+        "default_show_state": 1,
+        "enable_copy_property": 1,
+        "property_sort": 1,
+        "show_default": 0
+       }
+      }
+     }
+    },
+    "ugc_control_panel": null
+   },
+   "available": true
+  }
+ },
+ "202027": {
+  "label": "BELL_AREA 铃铛区",
+  "schema": {
+   "component_type": 202027,
+   "sources": {
+    "ugc_item_property": {
+     "1": {
+      "100": {
+       "1": {
+        "enable_copy": 1,
+        "id": 202027,
+        "default_show_state": 0,
+        "property_id": 20202710001,
+        "tab_id": 1,
+        "class_sort": 10,
+        "show_default": 1,
+        "class_id": 100,
+        "property_params": "{1,100003}",
+        "item_id": 1,
+        "property_sort": 1,
+        "property_type": "70001",
+        "simple_hide": 0
+       },
+       "2": {
+        "id": 202027,
+        "property_id": 20202710002,
+        "class_id": 100,
+        "property_params": "{2,100004}",
+        "property_sort": 2,
+        "tab_id": 1,
+        "property_type": "70001",
+        "item_id": 2,
+        "simple_hide": 0,
+        "show_default": 1
+       }
+      },
+      "30": {
+       "1": {
+        "property_id": 20202703001,
+        "tab_id": 1,
+        "id": 202027,
+        "class_sort": 1,
+        "property_params": "{100735,0,0,999,0,1}",
+        "simple_hide": 1,
+        "enable_copy": 1,
+        "property_type": "20001",
+        "class_id": 30,
+        "item_id": 1,
+        "default_show_state": 1,
+        "enable_copy_property": 1,
+        "property_sort": 1,
+        "show_default": 0
+       }
+      }
+     }
+    },
+    "ugc_control_panel": null
+   },
+   "available": true
+  }
+ },
+ "202028": {
+  "label": "VIOLIN_AREA 弦音区",
+  "schema": {
+   "component_type": 202028,
+   "sources": {
+    "ugc_item_property": {
+     "1": {
+      "100": {
+       "1": {
+        "enable_copy": 1,
+        "id": 202028,
+        "default_show_state": 0,
+        "property_id": 20202810001,
+        "tab_id": 1,
+        "class_sort": 10,
+        "show_default": 1,
+        "class_id": 100,
+        "property_params": "{1,100003}",
+        "item_id": 1,
+        "property_sort": 1,
+        "property_type": "70001",
+        "simple_hide": 0
+       },
+       "2": {
+        "id": 202028,
+        "property_id": 20202810002,
+        "class_id": 100,
+        "property_params": "{2,100004}",
+        "property_sort": 2,
+        "tab_id": 1,
+        "property_type": "70001",
+        "item_id": 2,
+        "simple_hide": 0,
+        "show_default": 1
+       }
+      },
+      "139": {
+       "1": {
+        "id": 202028,
+        "show_default": 1,
+        "class_sort": 1,
+        "property_params": "{100321,1,1,999,0,1}",
+        "default_show_state": 1,
+        "property_sort": 1,
+        "class_id": 139,
+        "property_type": "20008",
+        "simple_hide": 0,
+        "item_id": 1,
+        "property_id": 20202813901,
+        "tab_id": 1
+       },
+       "2": {
+        "enable_copy": 2,
+        "enable_copy_property": 1,
+        "id": 202028,
+        "property_sort": 2,
+        "property_params": "{100322,1,1,999,0,1}",
+        "show_default": 1,
+        "class_id": 139,
+        "property_type": "20009",
+        "simple_hide": 0,
+        "item_id": 2,
+        "property_id": 20202813902,
+        "tab_id": 1
+       }
+      },
+      "20": {
+       "1": {
+        "property_id": 20202802001,
+        "tab_id": 1,
+        "id": 202028,
+        "class_sort": 2,
+        "property_params": "{100323,0.8,0.1,999,100009}",
+        "simple_hide": 0,
+        "enable_copy": 2,
+        "property_type": "20001",
+        "class_id": 20,
+        "item_id": 1,
+        "default_show_state": 1,
+        "enable_copy_property": 1,
+        "property_sort": 2,
+        "show_default": 1
+       },
+       "2": {
+        "enable_copy": 2,
+        "enable_copy_property": 1,
+        "id": 202028,
+        "property_sort": 3,
+        "property_params": "{100324,2,0.1,999,100009}",
+        "show_default": 1,
+        "class_id": 20,
+        "property_type": "20001",
+        "simple_hide": 0,
+        "item_id": 2,
+        "property_id": 20202802002,
+        "tab_id": 1
+       },
+       "3": {
+        "class_id": 20,
+        "id": 202028,
+        "show_default": 1,
+        "enable_copy_property": 1,
+        "property_type": "20004",
+        "item_id": 3,
+        "tab_id": 1,
+        "property_params": "{100319,50,1,1,999,100010}",
+        "property_sort": 1,
+        "property_id": 20202802003,
+        "simple_hide": 0
+       },
+       "91": {
+        "id": 202028,
+        "property_id": 20202802091,
+        "class_id": 20,
+        "property_params": "{}",
+        "property_sort": 91,
+        "tab_id": 1,
+        "property_type": "110006",
+        "item_id": 91,
+        "simple_hide": 0,
+        "show_default": 1
+       }
+      }
+     }
+    },
+    "ugc_control_panel": null
+   },
+   "available": true
+  }
+ },
+ "202029": {
+  "label": "FOG_HIT 雾刃区",
+  "schema": {
+   "component_type": 202029,
+   "sources": {
+    "ugc_item_property": {
+     "1": {
+      "100": {
+       "1": {
+        "enable_copy": 1,
+        "id": 202029,
+        "default_show_state": 0,
+        "property_id": 20202910001,
+        "tab_id": 1,
+        "class_sort": 10,
+        "show_default": 1,
+        "class_id": 100,
+        "property_params": "{1,100003}",
+        "item_id": 1,
+        "property_sort": 1,
+        "property_type": "70001",
+        "simple_hide": 0
+       },
+       "2": {
+        "id": 202029,
+        "property_id": 20202910002,
+        "class_id": 100,
+        "property_params": "{2,100004}",
+        "property_sort": 2,
+        "tab_id": 1,
+        "property_type": "70001",
+        "item_id": 2,
+        "simple_hide": 0,
+        "show_default": 1
+       }
+      },
+      "30": {
+       "1": {
+        "property_id": 20202903001,
+        "tab_id": 1,
+        "id": 202029,
+        "class_sort": 1,
+        "property_params": "{100735,0,0,999,0,1}",
+        "simple_hide": 1,
+        "enable_copy": 1,
+        "property_type": "20001",
+        "class_id": 30,
+        "item_id": 1,
+        "default_show_state": 1,
+        "enable_copy_property": 1,
+        "property_sort": 1,
+        "show_default": 0
+       }
+      }
+     }
+    },
+    "ugc_control_panel": null
+   },
+   "available": true
+  }
+ },
+ "202030": {
+  "label": "SPEED_UP_AREA 加速带",
+  "schema": {
+   "component_type": 202030,
+   "sources": {
+    "ugc_item_property": {
+     "1": {
+      "100": {
+       "1": {
+        "enable_copy": 1,
+        "id": 202030,
+        "default_show_state": 0,
+        "property_id": 20203010001,
+        "tab_id": 1,
+        "class_sort": 10,
+        "show_default": 1,
+        "class_id": 100,
+        "property_params": "{1,100003}",
+        "item_id": 1,
+        "property_sort": 1,
+        "property_type": "70001",
+        "simple_hide": 0
+       },
+       "2": {
+        "id": 202030,
+        "property_id": 20203010002,
+        "class_id": 100,
+        "property_params": "{2,100004}",
+        "property_sort": 2,
+        "tab_id": 1,
+        "property_type": "70001",
+        "item_id": 2,
+        "simple_hide": 0,
+        "show_default": 1
+       },
+       "3": {
+        "id": 202030,
+        "property_id": 20203010003,
+        "class_id": 100,
+        "property_params": "{3,100005}",
+        "property_sort": 3,
+        "tab_id": 1,
+        "property_type": "70001",
+        "item_id": 3,
+        "simple_hide": 1,
+        "show_default": 1
+       },
+       "4": {
+        "id": 202030,
+        "property_id": 20203010004,
+        "class_id": 100,
+        "property_params": "{4,100006}",
+        "property_sort": 4,
+        "tab_id": 1,
+        "property_type": "70001",
+        "item_id": 4,
+        "simple_hide": 0,
+        "show_default": 1
+       }
+      }
+     }
+    },
+    "ugc_control_panel": null
+   },
+   "available": true
+  }
+ },
+ "202032": {
+  "label": "SMALL_AREA 缩小区域",
+  "schema": {
+   "component_type": 202032,
+   "sources": {
+    "ugc_item_property": {
+     "1": {
+      "100": {
+       "1": {
+        "enable_copy": 1,
+        "id": 202032,
+        "default_show_state": 0,
+        "property_id": 20203210001,
+        "tab_id": 1,
+        "class_sort": 10,
+        "show_default": 1,
+        "class_id": 100,
+        "property_params": "{1,100003}",
+        "item_id": 1,
+        "property_sort": 1,
+        "property_type": "70001",
+        "simple_hide": 0
+       },
+       "2": {
+        "id": 202032,
+        "property_id": 20203210002,
+        "class_id": 100,
+        "property_params": "{2,100004}",
+        "property_sort": 2,
+        "tab_id": 1,
+        "property_type": "70001",
+        "item_id": 2,
+        "simple_hide": 0,
+        "show_default": 1
+       },
+       "3": {
+        "id": 202032,
+        "property_id": 20203210003,
+        "class_id": 100,
+        "property_params": "{3,100005}",
+        "property_sort": 3,
+        "tab_id": 1,
+        "property_type": "70001",
+        "item_id": 3,
+        "simple_hide": 1,
+        "show_default": 1
+       },
+       "4": {
+        "id": 202032,
+        "property_id": 20203210004,
+        "class_id": 100,
+        "property_params": "{4,100006}",
+        "property_sort": 4,
+        "tab_id": 1,
+        "property_type": "70001",
+        "item_id": 4,
+        "simple_hide": 0,
+        "show_default": 1
+       }
+      }
+     }
+    },
+    "ugc_control_panel": null
+   },
+   "available": true
+  }
+ },
+ "202041": {
+  "label": "DETECT_REGION 人数检测",
+  "schema": {
+   "component_type": 202041,
+   "sources": {
+    "ugc_item_property": {
+     "1": {
+      "100": {
+       "1": {
+        "enable_copy": 1,
+        "id": 202041,
+        "default_show_state": 0,
+        "property_id": 20400210001,
+        "tab_id": 1,
+        "class_sort": 10,
+        "show_default": 1,
+        "class_id": 100,
+        "property_params": "{1,100003}",
+        "item_id": 1,
+        "property_sort": 1,
+        "property_type": "70001",
+        "simple_hide": 0
+       },
+       "2": {
+        "id": 202041,
+        "property_id": 20400210002,
+        "class_id": 100,
+        "property_params": "{2,100004}",
+        "property_sort": 2,
+        "tab_id": 1,
+        "property_type": "70001",
+        "item_id": 2,
+        "simple_hide": 0,
+        "show_default": 1
+       },
+       "3": {
+        "id": 202041,
+        "property_id": 20400210003,
+        "class_id": 100,
+        "property_params": "{3,100005}",
+        "property_sort": 3,
+        "tab_id": 1,
+        "property_type": "70001",
+        "item_id": 3,
+        "simple_hide": 1,
+        "show_default": 1
+       },
+       "4": {
+        "id": 202041,
+        "property_id": 20400210004,
+        "class_id": 100,
+        "property_params": "{4,100006}",
+        "property_sort": 4,
+        "tab_id": 1,
+        "property_type": "70001",
+        "item_id": 4,
+        "simple_hide": 0,
+        "show_default": 1
+       }
+      },
+      "20": {
+       "1": {
+        "enable_copy_property": 1,
+        "id": 202041,
+        "default_show_state": 0,
+        "property_id": 20204102001,
+        "tab_id": 1,
+        "class_sort": 1,
+        "show_default": 1,
+        "class_id": 20,
+        "property_params": "{8001~8004;8165~8167;8005~8081;8083~8174,8001}",
+        "item_id": 1,
+        "property_sort": 1,
+        "property_type": "120001",
+        "simple_hide": 1
+       },
+       "2": {
+        "property_params": "{4,7001~7035,7029}",
+        "enable_copy_property": 1,
+        "id": 202041,
+        "property_sort": 2,
+        "extra_params_1": "variable_len_mat:20204102001",
+        "show_default": 1,
+        "class_id": 20,
+        "property_type": "120002",
+        "simple_hide": 1,
+        "item_id": 2,
+        "property_id": 20204102002,
+        "tab_id": 1
+       },
+       "3": {
+        "class_id": 20,
+        "id": 202041,
+        "show_default": 1,
+        "enable_copy_property": 1,
+        "property_type": "20004",
+        "item_id": 3,
+        "tab_id": 1,
+        "property_params": "{100275,90,1,0,100,%}",
+        "property_sort": 3,
+        "property_id": 20204102003,
+        "simple_hide": 1
+       },
+       "91": {
+        "id": 202041,
+        "property_id": 20204102091,
+        "class_id": 20,
+        "property_params": "{}",
+        "property_sort": 91,
+        "tab_id": 1,
+        "property_type": "110006",
+        "item_id": 91,
+        "simple_hide": 1,
+        "show_default": 1
+       }
+      },
+      "111": {
+       "1": {
+        "enable_copy_property": 1,
+        "id": 202041,
+        "default_show_state": 1,
+        "property_id": 20204111101,
+        "tab_id": 1,
+        "class_sort": 2,
+        "show_default": 1,
+        "class_id": 111,
+        "property_params": "{100736,4,1,1,10,0},{100737,10,1,999,100009},{100001,1}",
+        "item_id": 1,
+        "property_sort": 1,
+        "property_type": "20004;20001;80001",
+        "simple_hide": 0
+       },
+       "90": {
+        "id": 202041,
+        "property_id": 20204111190,
+        "class_id": 111,
+        "property_params": "{2}",
+        "property_sort": 90,
+        "tab_id": 1,
+        "property_type": "110005",
+        "item_id": 90,
+        "simple_hide": 1,
+        "show_default": 1
+       },
+       "91": {
+        "id": 202041,
+        "property_id": 20204111191,
+        "class_id": 111,
+        "property_params": "{}",
+        "property_sort": 91,
+        "tab_id": 1,
+        "property_type": "110006",
+        "item_id": 91,
+        "simple_hide": 1,
+        "show_default": 1
+       }
+      },
+      "30": {
+       "1": {
+        "id": 202041,
+        "enable_copy_property": 1,
+        "class_sort": 3,
+        "property_sort": 1,
+        "property_params": "{100012,1}",
+        "show_default": 1,
+        "class_id": 30,
+        "property_type": "30001",
+        "simple_hide": 1,
+        "item_id": 1,
+        "property_id": 20204103001,
+        "tab_id": 1
+       },
+       "2": {
+        "enable_copy": 2,
+        "enable_copy_property": 1,
+        "id": 202041,
+        "property_sort": 2,
+        "property_params": "{100350,2}",
+        "show_default": 1,
+        "class_id": 30,
+        "property_type": "80001",
+        "simple_hide": 1,
+        "item_id": 2,
+        "property_id": 20204103002,
+        "tab_id": 1
+       },
+       "3": {
+        "enable_copy": 2,
+        "enable_copy_property": 1,
+        "id": 202041,
+        "property_sort": 3,
+        "property_params": "{100349,2}",
+        "show_default": 1,
+        "class_id": 30,
+        "property_type": "80001",
+        "simple_hide": 1,
+        "item_id": 3,
+        "property_id": 20204103003,
+        "tab_id": 1
+       },
+       "4": {
+        "enable_copy": 2,
+        "enable_copy_property": 1,
+        "id": 202041,
+        "property_sort": 4,
+        "property_params": "{100002,2},{0,100145}",
+        "show_default": 1,
+        "class_id": 30,
+        "property_type": "80001;70001",
+        "simple_hide": 1,
+        "item_id": 4,
+        "property_id": 20204103004,
+        "tab_id": 1
+       },
+       "5": {
+        "enable_copy": 2,
+        "enable_copy_property": 1,
+        "id": 202041,
+        "property_sort": 5,
+        "property_params": "{100002,2},{5,100348}",
+        "show_default": 1,
+        "class_id": 30,
+        "property_type": "80001;70001",
+        "simple_hide": 1,
+        "item_id": 5,
+        "property_id": 20204103005,
+        "tab_id": 1
+       },
+       "90": {
+        "class_id": 30,
+        "id": 202041,
+        "show_default": 1,
+        "enable_copy_property": 1,
+        "property_type": "110005",
+        "item_id": 90,
+        "tab_id": 1,
+        "property_params": "{2}",
+        "property_sort": 90,
+        "property_id": 20204103090,
+        "simple_hide": 1
+       },
+       "91": {
+        "class_id": 30,
+        "id": 202041,
+        "show_default": 1,
+        "enable_copy_property": 1,
+        "property_type": "110006",
+        "item_id": 91,
+        "tab_id": 1,
+        "property_params": "{}",
+        "property_sort": 91,
+        "property_id": 20204103091,
+        "simple_hide": 1
+       }
+      },
+      "195": {
+       "1": {
+        "id": 202041,
+        "enable_copy_property": 1,
+        "class_sort": 11,
+        "property_sort": 1,
+        "property_params": "{100644,203930,20393019601~20393019603;20393019699;20393019701~20393019703}",
+        "show_default": 1,
+        "class_id": 195,
+        "property_type": "110012",
+        "simple_hide": 1,
+        "item_id": 1,
+        "property_id": 20204119501,
+        "tab_id": 1
+       }
+      }
+     },
+     "8": {
+      "187": {
+       "1": {
+        "property_id": 20204118701,
+        "tab_id": 8,
+        "id": 202041,
+        "class_sort": 1,
+        "property_params": "{100591,20391202001,100}",
+        "simple_hide": 1,
+        "property_sort": 1,
+        "property_type": "200001",
+        "class_id": 187,
+        "item_id": 1,
+        "default_show_state": 1,
+        "enable_copy_property": 1,
+        "detail_rule": 203038,
+        "show_default": 1
+       }
+      }
+     }
+    },
+    "ugc_control_panel": null
+   },
+   "available": true
+  }
+ },
+ "202051": {
+  "label": "SHOWCASE 观赏组件",
+  "schema": {
+   "component_type": 202051,
+   "sources": {
+    "ugc_item_property": {
+     "1": {
+      "100": {
+       "1": {
+        "enable_copy": 1,
+        "id": 202051,
+        "default_show_state": 0,
+        "property_id": 20205110001,
+        "tab_id": 1,
+        "class_sort": 10,
+        "show_default": 1,
+        "class_id": 100,
+        "property_params": "{1,100003}",
+        "item_id": 1,
+        "property_sort": 1,
+        "property_type": "70001",
+        "simple_hide": 0
+       },
+       "2": {
+        "id": 202051,
+        "property_id": 20205110002,
+        "class_id": 100,
+        "property_params": "{2,100004}",
+        "property_sort": 2,
+        "tab_id": 1,
+        "property_type": "70001",
+        "item_id": 2,
+        "simple_hide": 0,
+        "show_default": 1
+       },
+       "3": {
+        "id": 202051,
+        "property_id": 20205110003,
+        "class_id": 100,
+        "property_params": "{3,100005}",
+        "property_sort": 3,
+        "tab_id": 1,
+        "property_type": "70001",
+        "item_id": 3,
+        "simple_hide": 1,
+        "show_default": 1
+       },
+       "4": {
+        "id": 202051,
+        "property_id": 20205110004,
+        "class_id": 100,
+        "property_params": "{4,100006}",
+        "property_sort": 4,
+        "tab_id": 1,
+        "property_type": "70001",
+        "item_id": 4,
+        "simple_hide": 0,
+        "show_default": 1
+       }
+      },
+      "216": {
+       "1": {
+        "property_id": 20205121601,
+        "tab_id": 1,
+        "id": 202051,
+        "class_sort": 1,
+        "property_params": "{100315,1,1,10,0,1}",
+        "simple_hide": 0,
+        "property_sort": 1,
+        "property_type": "20001",
+        "class_id": 216,
+        "item_id": 1,
+        "default_show_state": 1,
+        "enable_copy_property": 1,
+        "detail_rule": 203050,
+        "show_default": 1
+       },
+       "2": {
+        "class_id": 216,
+        "id": 202051,
+        "show_default": 1,
+        "enable_copy_property": 1,
+        "property_type": "220001",
+        "item_id": 2,
+        "tab_id": 1,
+        "property_params": "{100712}",
+        "property_sort": 2,
+        "property_id": 20205121602,
+        "simple_hide": 0
+       },
+       "99": {
+        "class_id": 216,
+        "id": 202051,
+        "show_default": 0,
+        "enable_copy_property": 1,
+        "property_type": "220001",
+        "item_id": 99,
+        "tab_id": 1,
+        "property_params": "{100712}",
+        "property_sort": 99,
+        "property_id": 20205121699,
+        "simple_hide": 0
+       }
+      }
+     }
+    },
+    "ugc_control_panel": null
+   },
+   "available": true
+  }
+ },
+ "203003": {
+  "label": "REGION 功能方块",
+  "schema": {
+   "component_type": 203003,
+   "sources": {
+    "ugc_item_property": {
+     "1": {
+      "100": {
+       "1": {
+        "enable_copy": 1,
+        "id": 203003,
+        "default_show_state": 0,
+        "property_id": 20300310001,
+        "tab_id": 1,
+        "class_sort": 10,
+        "show_default": 1,
+        "class_id": 100,
+        "property_params": "{1,100003}",
+        "item_id": 1,
+        "property_sort": 11,
+        "property_type": "70001",
+        "simple_hide": 0
+       },
+       "2": {
+        "id": 203003,
+        "property_id": 20300310002,
+        "class_id": 100,
+        "property_params": "{2,100004}",
+        "property_sort": 12,
+        "tab_id": 1,
+        "property_type": "70001",
+        "item_id": 2,
+        "simple_hide": 0,
+        "show_default": 1
+       },
+       "3": {
+        "id": 203003,
+        "property_id": 20300310003,
+        "class_id": 100,
+        "property_params": "{3,100005}",
+        "property_sort": 13,
+        "tab_id": 1,
+        "property_type": "70001",
+        "item_id": 3,
+        "simple_hide": 1,
+        "show_default": 1
+       },
+       "4": {
+        "id": 203003,
+        "property_id": 20300310004,
+        "class_id": 100,
+        "property_params": "{4,100006}",
+        "property_sort": 14,
+        "tab_id": 1,
+        "property_type": "70001",
+        "item_id": 4,
+        "simple_hide": 0,
+        "show_default": 1
+       }
+      },
+      "20": {
+       "1": {
+        "extra_params_1": "variable_len_mat:20300310006",
+        "id": 203003,
+        "default_show_state": 0,
+        "property_id": 20300310005,
+        "tab_id": 1,
+        "class_sort": 1,
+        "show_default": 1,
+        "class_id": 20,
+        "property_params": "{4,7001~7035,7029}",
+        "item_id": 1,
+        "property_sort": 2,
+        "property_type": "120002",
+        "simple_hide": 0
+       },
+       "2": {
+        "id": 203003,
+        "property_id": 20300310006,
+        "class_id": 20,
+        "property_params": "{8001~8004;8165~8167;8005~8081;8083~8174,8001}",
+        "property_sort": 1,
+        "tab_id": 1,
+        "property_type": "120001",
+        "item_id": 2,
+        "simple_hide": 0,
+        "show_default": 1
+       },
+       "3": {
+        "id": 203003,
+        "property_id": 20300310007,
+        "class_id": 20,
+        "property_params": "{100275,0,1,0,100,%}",
+        "property_sort": 3,
+        "tab_id": 1,
+        "property_type": "20004",
+        "item_id": 3,
+        "simple_hide": 1,
+        "show_default": 1
+       },
+       "91": {
+        "id": 203003,
+        "property_id": 20300302091,
+        "class_id": 20,
+        "property_params": "{}",
+        "property_sort": 91,
+        "tab_id": 1,
+        "property_type": "110006",
+        "item_id": 91,
+        "simple_hide": 1,
+        "show_default": 1
+       }
+      },
+      "111": {
+       "1": {
+        "enable_copy_property": 1,
+        "id": 203003,
+        "default_show_state": 1,
+        "property_id": 20300311101,
+        "tab_id": 1,
+        "class_sort": 2,
+        "show_default": 1,
+        "class_id": 111,
+        "property_params": "{100012,0}",
+        "item_id": 1,
+        "property_sort": 4,
+        "property_type": "30001",
+        "simple_hide": 1
+       },
+       "2": {
+        "enable_copy_pgc_text": 1,
+        "show_default": 0,
+        "id": 203003,
+        "property_sort": 2,
+        "property_params": "{100101,2,9001,9002}",
+        "property_type": "80002",
+        "class_id": 111,
+        "check_update_ui_params": "{20300311111:1:010}",
+        "simple_hide": 1,
+        "item_id": 2,
+        "property_id": 20300311102,
+        "tab_id": 1
+       },
+       "3": {
+        "id": 203003,
+        "property_id": 20300311103,
+        "class_id": 111,
+        "property_params": "{100102}",
+        "property_sort": 98,
+        "tab_id": 1,
+        "property_type": "80003",
+        "item_id": 3,
+        "simple_hide": 1,
+        "show_default": 0
+       },
+       "4": {
+        "class_id": 111,
+        "id": 203003,
+        "show_default": 1,
+        "enable_copy_property": 1,
+        "property_type": "30001",
+        "item_id": 4,
+        "tab_id": 1,
+        "property_params": "{100014,1}",
+        "property_sort": 5,
+        "property_id": 20300311104,
+        "simple_hide": 1
+       },
+       "5": {
+        "id": 203003,
+        "property_id": 20300311105,
+        "class_id": 111,
+        "property_params": "{100015,9999,0,10000,0}",
+        "property_sort": 99,
+        "tab_id": 1,
+        "property_type": "20001",
+        "item_id": 5,
+        "simple_hide": 0,
+        "show_default": 0
+       },
+       "6": {
+        "enable_copy": 2,
+        "enable_copy_property": 1,
+        "id": 203003,
+        "property_sort": 6,
+        "property_params": "{100199,1},{100455,1286;1276~1278;1287~1288,1286}",
+        "show_default": 1,
+        "class_id": 111,
+        "property_type": "80001;50001",
+        "simple_hide": 0,
+        "item_id": 6,
+        "property_id": 20300311106,
+        "tab_id": 1
+       },
+       "7": {
+        "enable_copy": 2,
+        "enable_copy_property": 1,
+        "id": 203003,
+        "property_sort": 8,
+        "property_params": "{100200,1},{100455,1286;1276~1278;1287~1288,1286}",
+        "show_default": 1,
+        "class_id": 111,
+        "property_type": "80001;50001",
+        "simple_hide": 1,
+        "item_id": 7,
+        "property_id": 20300311107,
+        "tab_id": 1
+       },
+       "8": {
+        "enable_copy": 2,
+        "enable_copy_property": 1,
+        "id": 203003,
+        "property_sort": 10,
+        "property_params": "{100201,2}",
+        "show_default": 1,
+        "class_id": 111,
+        "property_type": "80001",
+        "simple_hide": 1,
+        "item_id": 8,
+        "property_id": 20300311108,
+        "tab_id": 1
+       },
+       "9": {
+        "enable_copy": 2,
+        "enable_copy_property": 1,
+        "id": 203003,
+        "property_sort": 12,
+        "property_params": "{100202,2}",
+        "show_default": 1,
+        "class_id": 111,
+        "property_type": "80001",
+        "simple_hide": 1,
+        "item_id": 9,
+        "property_id": 20300311109,
+        "tab_id": 1
+       },
+       "10": {
+        "enable_copy": 2,
+        "enable_copy_property": 1,
+        "id": 203003,
+        "property_sort": 13,
+        "property_params": "{100203,2}",
+        "show_default": 1,
+        "class_id": 111,
+        "property_type": "80001",
+        "simple_hide": 1,
+        "item_id": 10,
+        "property_id": 20300311110,
+        "tab_id": 1
+       },
+       "11": {
+        "class_id": 111,
+        "item_id": 11,
+        "show_default": 1,
+        "id": 203003,
+        "property_type": "40001",
+        "property_sort": 1,
+        "tab_id": 1,
+        "property_params": "{100016,1,1051~1053,1051,1}",
+        "update_ui": 1,
+        "property_id": 20300311111,
+        "simple_hide": 1
+       },
+       "12": {
+        "property_params": "{100262,999,0,10000,0}",
+        "enable_copy_property": 1,
+        "id": 203003,
+        "property_sort": 7,
+        "detail_rule": 203052,
+        "show_default": 1,
+        "class_id": 111,
+        "property_type": "20001",
+        "simple_hide": 1,
+        "item_id": 12,
+        "property_id": 20300311112,
+        "tab_id": 1
+       },
+       "13": {
+        "property_params": "{100263,999,0,10000,0}",
+        "enable_copy_property": 1,
+        "id": 203003,
+        "property_sort": 9,
+        "detail_rule": 203052,
+        "show_default": 1,
+        "class_id": 111,
+        "property_type": "20001",
+        "simple_hide": 1,
+        "item_id": 13,
+        "property_id": 20300311113,
+        "tab_id": 1
+       },
+       "14": {
+        "enable_copy": 2,
+        "enable_copy_property": 1,
+        "id": 203003,
+        "property_sort": 14,
+        "property_params": "{100271,2}",
+        "show_default": 1,
+        "class_id": 111,
+        "property_type": "80001",
+        "simple_hide": 1,
+        "item_id": 14,
+        "property_id": 20300311114,
+        "tab_id": 1
+       },
+       "15": {
+        "enable_copy": 2,
+        "enable_copy_property": 1,
+        "id": 203003,
+        "property_sort": 15,
+        "property_params": "{100272,2}",
+        "show_default": 1,
+        "class_id": 111,
+        "property_type": "80001",
+        "simple_hide": 1,
+        "item_id": 15,
+        "property_id": 20300311115,
+        "tab_id": 1
+       },
+       "16": {
+        "enable_copy": 2,
+        "enable_copy_property": 1,
+        "id": 203003,
+        "property_sort": 11,
+        "property_params": "{100273,2}",
+        "show_default": 1,
+        "class_id": 111,
+        "property_type": "80001",
+        "simple_hide": 1,
+        "item_id": 16,
+        "property_id": 20300311116,
+        "tab_id": 1
+       },
+       "17": {
+        "enable_copy": 2,
+        "enable_copy_property": 1,
+        "id": 203003,
+        "property_sort": 16,
+        "property_params": "{100002,2},{0,100274}",
+        "show_default": 1,
+        "class_id": 111,
+        "property_type": "80001;70001",
+        "simple_hide": 1,
+        "item_id": 17,
+        "property_id": 20300311117,
+        "tab_id": 1
+       },
+       "18": {
+        "enable_copy_pgc_text": 1,
+        "show_default": 0,
+        "id": 203003,
+        "property_sort": 3,
+        "property_params": "{100102}",
+        "property_type": "80003",
+        "class_id": 111,
+        "check_update_ui_params": "{20300311111:1:001}",
+        "simple_hide": 1,
+        "item_id": 18,
+        "property_id": 20300311118,
+        "tab_id": 1
+       },
+       "19": {
+        "enable_copy": 2,
+        "enable_copy_property": 1,
+        "id": 203003,
+        "property_sort": 17,
+        "property_params": "{100002,2},{5,100348}",
+        "show_default": 1,
+        "class_id": 111,
+        "property_type": "80001;70001",
+        "simple_hide": 1,
+        "item_id": 19,
+        "property_id": 20300311119,
+        "tab_id": 1
+       },
+       "90": {
+        "id": 203003,
+        "property_id": 20300311190,
+        "class_id": 111,
+        "property_params": "{2}",
+        "property_sort": 90,
+        "tab_id": 1,
+        "property_type": "110005",
+        "item_id": 90,
+        "simple_hide": 1,
+        "show_default": 1
+       },
+       "91": {
+        "id": 203003,
+        "property_id": 20300311191,
+        "class_id": 111,
+        "property_params": "{}",
+        "property_sort": 91,
+        "tab_id": 1,
+        "property_type": "110006",
+        "item_id": 91,
+        "simple_hide": 1,
+        "show_default": 1
+       }
+      }
+     },
+     "8": {
+      "187": {
+       "1": {
+        "enable_copy_property": 1,
+        "id": 203003,
+        "default_show_state": 1,
+        "property_id": 20300318701,
+        "tab_id": 8,
+        "class_sort": 1,
+        "show_default": 1,
+        "class_id": 187,
+        "property_params": "{100591,20391202001,100}",
+        "item_id": 1,
+        "property_sort": 1,
+        "property_type": "200001",
+        "simple_hide": 1
+       }
+      }
+     }
+    },
+    "ugc_control_panel": null
+   },
+   "available": true
+  }
+ },
+ "203004": {
+  "label": "MIST 信息提示",
+  "schema": {
+   "component_type": 203004,
+   "sources": {
+    "ugc_item_property": {
+     "1": {
+      "100": {
+       "1": {
+        "enable_copy": 1,
+        "id": 203004,
+        "default_show_state": 0,
+        "property_id": 20300410001,
+        "tab_id": 1,
+        "class_sort": 10,
+        "show_default": 1,
+        "class_id": 100,
+        "property_params": "{1,100003}",
+        "item_id": 1,
+        "property_sort": 1,
+        "property_type": "70001",
+        "simple_hide": 0
+       },
+       "2": {
+        "id": 203004,
+        "property_id": 20300410002,
+        "class_id": 100,
+        "property_params": "{2,100004}",
+        "property_sort": 2,
+        "tab_id": 1,
+        "property_type": "70001",
+        "item_id": 2,
+        "simple_hide": 0,
+        "show_default": 1
+       }
+      },
+      "112": {
+       "1": {
+        "property_id": 20300411201,
+        "id": 203004,
+        "default_show_state": 1,
+        "property_params": "{100204,100289,0,20}",
+        "tab_id": 1,
+        "class_sort": 1,
+        "show_default": 1,
+        "class_id": 112,
+        "enable_copy_pgc_text": 1,
+        "item_id": 1,
+        "property_sort": 5,
+        "property_type": "10002",
+        "simple_hide": 0
+       },
+       "2": {
+        "enable_copy_pgc_text": 1,
+        "show_default": 0,
+        "id": 203004,
+        "property_sort": 2,
+        "property_params": "{100101,2,9001}",
+        "property_type": "80002",
+        "class_id": 112,
+        "check_update_ui_params": "{20300411207:1:010}",
+        "simple_hide": 0,
+        "item_id": 2,
+        "property_id": 20300411202,
+        "tab_id": 1
+       },
+       "3": {
+        "enable_copy_pgc_text": 1,
+        "show_default": 0,
+        "id": 203004,
+        "property_sort": 3,
+        "property_params": "{100102}",
+        "property_type": "80003",
+        "class_id": 112,
+        "check_update_ui_params": "{20300411207:1:010}",
+        "simple_hide": 1,
+        "item_id": 3,
+        "property_id": 20300411203,
+        "tab_id": 1
+       },
+       "4": {
+        "class_id": 112,
+        "id": 203004,
+        "show_default": 1,
+        "enable_copy_property": 1,
+        "property_type": "20001",
+        "item_id": 4,
+        "tab_id": 1,
+        "property_params": "{100205,10,0,1000,100009}",
+        "property_sort": 6,
+        "property_id": 20300411204,
+        "simple_hide": 0
+       },
+       "5": {
+        "enable_copy": 2,
+        "enable_copy_property": 1,
+        "id": 203004,
+        "property_sort": 8,
+        "property_params": "{100206,2}",
+        "show_default": 1,
+        "class_id": 112,
+        "property_type": "80001",
+        "simple_hide": 0,
+        "item_id": 5,
+        "property_id": 20300411205,
+        "tab_id": 1
+       },
+       "6": {
+        "enable_copy": 2,
+        "enable_copy_property": 1,
+        "id": 203004,
+        "property_sort": 9,
+        "property_params": "{100207,2}",
+        "show_default": 1,
+        "class_id": 112,
+        "property_type": "80001",
+        "simple_hide": 1,
+        "item_id": 6,
+        "property_id": 20300411206,
+        "tab_id": 1
+       },
+       "7": {
+        "class_id": 112,
+        "item_id": 7,
+        "show_default": 1,
+        "id": 203004,
+        "property_type": "40001",
+        "property_sort": 1,
+        "tab_id": 1,
+        "property_params": "{100016,1,1051~1052;1313,1051,1}",
+        "update_ui": 1,
+        "property_id": 20300411207,
+        "simple_hide": 1
+       },
+       "8": {
+        "class_id": 112,
+        "id": 203004,
+        "show_default": 1,
+        "enable_copy_property": 1,
+        "property_type": "40001",
+        "item_id": 8,
+        "tab_id": 1,
+        "property_params": "{100246,1,1091~1092,1091}",
+        "property_sort": 7,
+        "property_id": 20300411208,
+        "simple_hide": 1
+       },
+       "9": {
+        "property_id": 20300411209,
+        "id": 203004,
+        "property_sort": 10,
+        "detail_rule": 203014,
+        "tab_id": 1,
+        "enable_copy_property": 1,
+        "show_default": 1,
+        "class_id": 112,
+        "property_params": "{100310,0}",
+        "item_id": 9,
+        "update_ui": 1,
+        "property_type": "30001",
+        "simple_hide": 1
+       },
+       "10": {
+        "property_id": 20300411210,
+        "id": 203004,
+        "property_sort": 11,
+        "detail_rule": 203015,
+        "tab_id": 1,
+        "enable_copy_property": 1,
+        "show_default": 0,
+        "class_id": 112,
+        "property_params": "{100311,10,0,1000,100009}",
+        "item_id": 10,
+        "check_update_ui_params": "{20300411209:1:1}",
+        "property_type": "20001",
+        "simple_hide": 1
+       },
+       "11": {
+        "class_id": 112,
+        "item_id": 11,
+        "show_default": 0,
+        "id": 203004,
+        "property_type": "50001",
+        "property_params": "{100471,1314~1318,1314}",
+        "tab_id": 1,
+        "check_update_ui_params": "{20300411207:1:001}",
+        "property_sort": 4,
+        "property_id": 20300411211,
+        "simple_hide": 1
+       },
+       "90": {
+        "id": 203004,
+        "property_id": 20300411290,
+        "class_id": 112,
+        "property_params": "{2}",
+        "property_sort": 90,
+        "tab_id": 1,
+        "property_type": "110005",
+        "item_id": 90,
+        "simple_hide": 1,
+        "show_default": 1
+       },
+       "91": {
+        "id": 203004,
+        "property_id": 20300411291,
+        "class_id": 112,
+        "property_params": "{}",
+        "property_sort": 91,
+        "tab_id": 1,
+        "property_type": "110006",
+        "item_id": 91,
+        "simple_hide": 1,
+        "show_default": 1
+       }
+      }
+     }
+    },
+    "ugc_control_panel": null
+   },
+   "available": true
+  }
+ },
+ "203005": {
+  "label": "CLOCK 计时器",
+  "schema": {
+   "component_type": 203005,
+   "sources": {
+    "ugc_item_property": {
+     "1": {
+      "100": {
+       "1": {
+        "enable_copy": 1,
+        "id": 203005,
+        "default_show_state": 0,
+        "property_id": 20300510001,
+        "tab_id": 1,
+        "class_sort": 10,
+        "show_default": 1,
+        "class_id": 100,
+        "property_params": "{1,100003}",
+        "item_id": 1,
+        "property_sort": 1,
+        "property_type": "70001",
+        "simple_hide": 0
+       },
+       "2": {
+        "id": 203005,
+        "property_id": 20300510002,
+        "class_id": 100,
+        "property_params": "{2,100004}",
+        "property_sort": 2,
+        "tab_id": 1,
+        "property_type": "70001",
+        "item_id": 2,
+        "simple_hide": 0,
+        "show_default": 1
+       }
+      },
+      "20": {
+       "1": {
+        "enable_copy_property": 1,
+        "id": 203005,
+        "default_show_state": 0,
+        "property_id": 20300502001,
+        "tab_id": 1,
+        "class_sort": 1,
+        "show_default": 1,
+        "class_id": 20,
+        "property_params": "{100012,1}",
+        "item_id": 1,
+        "property_sort": 1,
+        "property_type": "30001",
+        "simple_hide": 1
+       },
+       "91": {
+        "id": 203005,
+        "property_id": 20300502091,
+        "class_id": 20,
+        "property_params": "{}",
+        "property_sort": 91,
+        "tab_id": 1,
+        "property_type": "110006",
+        "item_id": 91,
+        "simple_hide": 1,
+        "show_default": 1
+       }
+      },
+      "113": {
+       "1": {
+        "enable_copy_property": 1,
+        "id": 203005,
+        "default_show_state": 1,
+        "property_id": 20300511301,
+        "tab_id": 1,
+        "class_sort": 2,
+        "show_default": 1,
+        "class_id": 113,
+        "property_params": "{100208,0}",
+        "item_id": 1,
+        "property_sort": 1,
+        "property_type": "30001",
+        "simple_hide": 1
+       },
+       "2": {
+        "class_id": 113,
+        "id": 203005,
+        "show_default": 1,
+        "enable_copy_property": 1,
+        "property_type": "40001",
+        "item_id": 2,
+        "tab_id": 1,
+        "property_params": "{100209,1,1031~1032,1031,1}",
+        "property_sort": 2,
+        "property_id": 20300511302,
+        "simple_hide": 1
+       },
+       "3": {
+        "class_id": 113,
+        "id": 203005,
+        "show_default": 1,
+        "enable_copy_property": 1,
+        "property_type": "20001",
+        "item_id": 3,
+        "tab_id": 1,
+        "property_params": "{100210,0,0,1000,100009}",
+        "property_sort": 3,
+        "property_id": 20300511303,
+        "simple_hide": 0
+       },
+       "4": {
+        "enable_copy": 2,
+        "enable_copy_property": 1,
+        "id": 203005,
+        "property_sort": 4,
+        "property_params": "{100211,1}",
+        "show_default": 1,
+        "class_id": 113,
+        "property_type": "80001",
+        "simple_hide": 0,
+        "item_id": 4,
+        "property_id": 20300511304,
+        "tab_id": 1
+       },
+       "5": {
+        "enable_copy": 2,
+        "enable_copy_property": 1,
+        "id": 203005,
+        "property_sort": 5,
+        "property_params": "{100212,0,0,1000,100009},{100001,1}",
+        "show_default": 1,
+        "class_id": 113,
+        "property_type": "20001;80001",
+        "simple_hide": 1,
+        "item_id": 5,
+        "property_id": 20300511305,
+        "tab_id": 1
+       },
+       "6": {
+        "enable_copy": 2,
+        "enable_copy_property": 1,
+        "id": 203005,
+        "property_sort": 6,
+        "property_params": "{100213,2}",
+        "show_default": 1,
+        "class_id": 113,
+        "property_type": "80001",
+        "simple_hide": 0,
+        "item_id": 6,
+        "property_id": 20300511306,
+        "tab_id": 1
+       },
+       "7": {
+        "enable_copy": 2,
+        "enable_copy_property": 1,
+        "id": 203005,
+        "property_sort": 7,
+        "property_params": "{100214,2}",
+        "show_default": 1,
+        "class_id": 113,
+        "property_type": "80001",
+        "simple_hide": 1,
+        "item_id": 7,
+        "property_id": 20300511307,
+        "tab_id": 1
+       },
+       "8": {
+        "enable_copy": 2,
+        "enable_copy_property": 1,
+        "id": 203005,
+        "property_sort": 8,
+        "property_params": "{100215,2}",
+        "show_default": 1,
+        "class_id": 113,
+        "property_type": "80001",
+        "simple_hide": 1,
+        "item_id": 8,
+        "property_id": 20300511308,
+        "tab_id": 1
+       },
+       "9": {
+        "enable_copy": 2,
+        "enable_copy_property": 1,
+        "id": 203005,
+        "property_sort": 9,
+        "property_params": "{100216,2}",
+        "show_default": 1,
+        "class_id": 113,
+        "property_type": "80001",
+        "simple_hide": 1,
+        "item_id": 9,
+        "property_id": 20300511309,
+        "tab_id": 1
+       },
+       "10": {
+        "enable_copy": 2,
+        "enable_copy_property": 1,
+        "id": 203005,
+        "property_sort": 10,
+        "property_params": "{100217,1}",
+        "show_default": 1,
+        "class_id": 113,
+        "property_type": "80001",
+        "simple_hide": 1,
+        "item_id": 10,
+        "property_id": 20300511310,
+        "tab_id": 1
+       },
+       "11": {
+        "enable_copy": 2,
+        "enable_copy_property": 1,
+        "id": 203005,
+        "property_sort": 11,
+        "property_params": "{100218,1}",
+        "show_default": 1,
+        "class_id": 113,
+        "property_type": "80001",
+        "simple_hide": 1,
+        "item_id": 11,
+        "property_id": 20300511311,
+        "tab_id": 1
+       },
+       "12": {
+        "enable_copy": 2,
+        "enable_copy_property": 1,
+        "id": 203005,
+        "property_sort": 12,
+        "property_params": "{100219,1}",
+        "show_default": 1,
+        "class_id": 113,
+        "property_type": "80001",
+        "simple_hide": 1,
+        "item_id": 12,
+        "property_id": 20300511312,
+        "tab_id": 1
+       },
+       "13": {
+        "enable_copy": 2,
+        "enable_copy_property": 1,
+        "id": 203005,
+        "property_sort": 13,
+        "property_params": "{100002,2},{100539,0,0,1000,100009}",
+        "show_default": 1,
+        "class_id": 113,
+        "property_type": "80001;20001",
+        "simple_hide": 1,
+        "item_id": 13,
+        "property_id": 20300511313,
+        "tab_id": 1
+       },
+       "14": {
+        "enable_copy": 2,
+        "enable_copy_property": 1,
+        "id": 203005,
+        "property_sort": 14,
+        "property_params": "{100002,2},{100540,1221~1222,1221},{100534,0,0,1000,100009,1}",
+        "show_default": 1,
+        "class_id": 113,
+        "property_type": "80001;50001;20001",
+        "simple_hide": 1,
+        "item_id": 14,
+        "property_id": 20300511314,
+        "tab_id": 1
+       },
+       "15": {
+        "enable_copy": 2,
+        "enable_copy_property": 1,
+        "id": 203005,
+        "property_sort": 15,
+        "property_params": "{100541,1071~1072,1071},{100534,0,0,1000,100009,0,1},{100001,1}",
+        "show_default": 1,
+        "class_id": 113,
+        "property_type": "50001;20001;80001",
+        "simple_hide": 1,
+        "item_id": 15,
+        "property_id": 20300511315,
+        "tab_id": 1
+       },
+       "16": {
+        "enable_copy": 2,
+        "enable_copy_property": 1,
+        "id": 203005,
+        "property_sort": 16,
+        "property_params": "{100542,0,0,1000,100009,1},{100543,0,0,1000,100009,1},{100001,1}",
+        "show_default": 1,
+        "class_id": 113,
+        "property_type": "20001;20001;80001",
+        "simple_hide": 1,
+        "item_id": 16,
+        "property_id": 20300511316,
+        "tab_id": 1
+       },
+       "90": {
+        "id": 203005,
+        "property_id": 20300511390,
+        "class_id": 113,
+        "property_params": "{2}",
+        "property_sort": 90,
+        "tab_id": 1,
+        "property_type": "110005",
+        "item_id": 90,
+        "simple_hide": 1,
+        "show_default": 1
+       },
+       "91": {
+        "id": 203005,
+        "property_id": 20300511391,
+        "class_id": 113,
+        "property_params": "{}",
+        "property_sort": 91,
+        "tab_id": 1,
+        "property_type": "110006",
+        "item_id": 91,
+        "simple_hide": 1,
+        "show_default": 1
+       }
+      }
+     }
+    },
+    "ugc_control_panel": null
+   },
+   "available": true
+  }
+ },
+ "203006": {
+  "label": "COUNTER 计数器",
+  "schema": {
+   "component_type": 203006,
+   "sources": {
+    "ugc_item_property": {
+     "1": {
+      "100": {
+       "1": {
+        "enable_copy": 1,
+        "id": 203006,
+        "default_show_state": 0,
+        "property_id": 20300610001,
+        "tab_id": 1,
+        "class_sort": 10,
+        "show_default": 1,
+        "class_id": 100,
+        "property_params": "{1,100003}",
+        "item_id": 1,
+        "property_sort": 1,
+        "property_type": "70001",
+        "simple_hide": 0
+       },
+       "2": {
+        "id": 203006,
+        "property_id": 20300610002,
+        "class_id": 100,
+        "property_params": "{2,100004}",
+        "property_sort": 2,
+        "tab_id": 1,
+        "property_type": "70001",
+        "item_id": 2,
+        "simple_hide": 0,
+        "show_default": 1
+       }
+      },
+      "20": {
+       "1": {
+        "enable_copy_property": 1,
+        "id": 203006,
+        "default_show_state": 0,
+        "property_id": 20300602001,
+        "tab_id": 1,
+        "class_sort": 1,
+        "show_default": 1,
+        "class_id": 20,
+        "property_params": "{100012,1}",
+        "item_id": 1,
+        "property_sort": 1,
+        "property_type": "30001",
+        "simple_hide": 1
+       },
+       "91": {
+        "id": 203006,
+        "property_id": 20300602091,
+        "class_id": 20,
+        "property_params": "{}",
+        "property_sort": 91,
+        "tab_id": 1,
+        "property_type": "110006",
+        "item_id": 91,
+        "simple_hide": 1,
+        "show_default": 1
+       }
+      },
+      "114": {
+       "1": {
+        "enable_copy_property": 1,
+        "id": 203006,
+        "default_show_state": 1,
+        "property_id": 20300611401,
+        "tab_id": 1,
+        "class_sort": 2,
+        "show_default": 1,
+        "class_id": 114,
+        "property_params": "{100222,0,0,1000,0}",
+        "item_id": 1,
+        "property_sort": 1,
+        "property_type": "20001",
+        "simple_hide": 0
+       },
+       "2": {
+        "property_sort": 3,
+        "enable_copy_property": 1,
+        "id": 203006,
+        "property_type": "20001",
+        "property_params": "{100223,0,0,1000,0}",
+        "show_default": 0,
+        "class_id": 114,
+        "check_update_ui_params": "{20300611413:1:1703}",
+        "simple_hide": 0,
+        "item_id": 2,
+        "property_id": 20300611402,
+        "tab_id": 1
+       },
+       "3": {
+        "enable_copy": 2,
+        "enable_copy_property": 1,
+        "id": 203006,
+        "property_sort": 10,
+        "property_params": "{100224,1}",
+        "show_default": 1,
+        "class_id": 114,
+        "property_type": "80001",
+        "simple_hide": 0,
+        "item_id": 3,
+        "property_id": 20300611403,
+        "tab_id": 1
+       },
+       "4": {
+        "enable_copy": 2,
+        "enable_copy_property": 1,
+        "id": 203006,
+        "property_sort": 11,
+        "property_params": "{100225,0,0,1000,0},{100001,1}",
+        "show_default": 1,
+        "class_id": 114,
+        "property_type": "20001;80001",
+        "simple_hide": 1,
+        "item_id": 4,
+        "property_id": 20300611404,
+        "tab_id": 1
+       },
+       "5": {
+        "enable_copy": 2,
+        "enable_copy_property": 1,
+        "id": 203006,
+        "property_sort": 12,
+        "property_params": "{100226,2}",
+        "show_default": 1,
+        "class_id": 114,
+        "property_type": "80001",
+        "simple_hide": 1,
+        "item_id": 5,
+        "property_id": 20300611405,
+        "tab_id": 1
+       },
+       "6": {
+        "enable_copy": 2,
+        "enable_copy_property": 1,
+        "id": 203006,
+        "property_sort": 14,
+        "property_params": "{100227,2}",
+        "show_default": 1,
+        "class_id": 114,
+        "property_type": "80001",
+        "simple_hide": 0,
+        "item_id": 6,
+        "property_id": 20300611406,
+        "tab_id": 1
+       },
+       "7": {
+        "enable_copy": 2,
+        "enable_copy_property": 1,
+        "id": 203006,
+        "property_sort": 15,
+        "property_params": "{100228,2}",
+        "show_default": 1,
+        "class_id": 114,
+        "property_type": "80001",
+        "simple_hide": 0,
+        "item_id": 7,
+        "property_id": 20300611407,
+        "tab_id": 1
+       },
+       "8": {
+        "enable_copy": 2,
+        "enable_copy_property": 1,
+        "id": 203006,
+        "property_sort": 16,
+        "property_params": "{100002,2},{100535,1,0,999,0,1}",
+        "show_default": 1,
+        "class_id": 114,
+        "property_type": "80001;20001",
+        "simple_hide": 1,
+        "item_id": 8,
+        "property_id": 20300611408,
+        "tab_id": 1
+       },
+       "9": {
+        "enable_copy": 2,
+        "enable_copy_property": 1,
+        "id": 203006,
+        "property_sort": 17,
+        "property_params": "{100002,2},{100533,1221~1222,1221},{100534,1,0,999,0,1}",
+        "show_default": 1,
+        "class_id": 114,
+        "property_type": "80001;50001;20001",
+        "simple_hide": 1,
+        "item_id": 9,
+        "property_id": 20300611409,
+        "tab_id": 1
+       },
+       "10": {
+        "enable_copy": 2,
+        "enable_copy_property": 1,
+        "id": 203006,
+        "property_sort": 18,
+        "property_params": "{100536,1071~1072,1071},{100534,1,0,999,0,1},{100001,1}",
+        "show_default": 1,
+        "class_id": 114,
+        "property_type": "50001;20001;80001",
+        "simple_hide": 1,
+        "item_id": 10,
+        "property_id": 20300611410,
+        "tab_id": 1
+       },
+       "11": {
+        "enable_copy": 2,
+        "enable_copy_property": 1,
+        "id": 203006,
+        "property_sort": 19,
+        "property_params": "{100537,1,0,999,0,1},{100538,1,0,999,0,1},{100001,1}",
+        "show_default": 1,
+        "class_id": 114,
+        "property_type": "20001;20001;80001",
+        "simple_hide": 1,
+        "item_id": 11,
+        "property_id": 20300611411,
+        "tab_id": 1
+       },
+       "12": {
+        "enable_copy": 2,
+        "enable_copy_property": 1,
+        "id": 203006,
+        "property_sort": 13,
+        "property_params": "{100557,1}",
+        "show_default": 1,
+        "class_id": 114,
+        "property_type": "80001",
+        "simple_hide": 1,
+        "item_id": 12,
+        "property_id": 20300611412,
+        "tab_id": 1
+       },
+       "13": {
+        "class_id": 114,
+        "id": 203006,
+        "show_default": 1,
+        "enable_copy_property": 1,
+        "property_type": "50001",
+        "item_id": 13,
+        "tab_id": 1,
+        "property_params": "{100632,1703~1705,1703}",
+        "property_sort": 2,
+        "property_id": 20300611413,
+        "simple_hide": 1
+       },
+       "14": {
+        "property_sort": 4,
+        "enable_copy_property": 1,
+        "id": 203006,
+        "property_type": "80002",
+        "property_params": "{100633,2,9001,9002}",
+        "show_default": 0,
+        "class_id": 114,
+        "check_update_ui_params": "{20300611413:1:1704}",
+        "simple_hide": 1,
+        "item_id": 14,
+        "property_id": 20300611414,
+        "tab_id": 1
+       },
+       "15": {
+        "property_sort": 5,
+        "enable_copy_property": 1,
+        "id": 203006,
+        "property_type": "80003",
+        "property_params": "{100634}",
+        "show_default": 0,
+        "class_id": 114,
+        "check_update_ui_params": "{20300611413:1:1705}",
+        "simple_hide": 1,
+        "item_id": 15,
+        "property_id": 20300611415,
+        "tab_id": 1
+       },
+       "90": {
+        "id": 203006,
+        "property_id": 20300611490,
+        "class_id": 114,
+        "property_params": "{2}",
+        "property_sort": 90,
+        "tab_id": 1,
+        "property_type": "110005",
+        "item_id": 90,
+        "simple_hide": 1,
+        "show_default": 1
+       },
+       "91": {
+        "id": 203006,
+        "property_id": 20300611491,
+        "class_id": 114,
+        "property_params": "{}",
+        "property_sort": 91,
+        "tab_id": 1,
+        "property_type": "110006",
+        "item_id": 91,
+        "simple_hide": 1,
+        "show_default": 1
+       }
+      }
+     }
+    },
+    "ugc_control_panel": null
+   },
+   "available": true
+  }
+ },
+ "203008": {
+  "label": "BILLBOARD 基础公告牌",
+  "schema": {
+   "component_type": 203008,
+   "sources": {
+    "ugc_item_property": {
+     "1": {
+      "100": {
+       "1": {
+        "enable_copy": 1,
+        "id": 203008,
+        "default_show_state": 0,
+        "property_id": 20300810001,
+        "tab_id": 1,
+        "class_sort": 10,
+        "show_default": 1,
+        "class_id": 100,
+        "property_params": "{1,100003}",
+        "item_id": 1,
+        "property_sort": 1,
+        "property_type": "70001",
+        "simple_hide": 0
+       },
+       "2": {
+        "id": 203008,
+        "property_id": 20300810002,
+        "class_id": 100,
+        "property_params": "{2,100004}",
+        "property_sort": 2,
+        "tab_id": 1,
+        "property_type": "70001",
+        "item_id": 2,
+        "simple_hide": 0,
+        "show_default": 1
+       },
+       "3": {
+        "id": 203008,
+        "property_id": 20300810003,
+        "class_id": 100,
+        "property_params": "{3,100005}",
+        "property_sort": 3,
+        "tab_id": 1,
+        "property_type": "70001",
+        "item_id": 3,
+        "simple_hide": 1,
+        "show_default": 1
+       },
+       "4": {
+        "id": 203008,
+        "property_id": 20300810004,
+        "class_id": 100,
+        "property_params": "{4,100006}",
+        "property_sort": 4,
+        "tab_id": 1,
+        "property_type": "70001",
+        "item_id": 4,
+        "simple_hide": 0,
+        "show_default": 1
+       }
+      },
+      "30": {
+       "1": {
+        "enable_copy_property": 1,
+        "id": 203008,
+        "default_show_state": 0,
+        "property_id": 20300803001,
+        "tab_id": 1,
+        "class_sort": 1,
+        "show_default": 1,
+        "class_id": 30,
+        "property_params": "{100012,1}",
+        "item_id": 1,
+        "property_sort": 1,
+        "property_type": "30001",
+        "simple_hide": 1
+       },
+       "2": {
+        "enable_copy": 2,
+        "enable_copy_property": 1,
+        "id": 203008,
+        "property_sort": 2,
+        "property_params": "{100308,2}",
+        "show_default": 1,
+        "class_id": 30,
+        "property_type": "80001",
+        "simple_hide": 1,
+        "item_id": 2,
+        "property_id": 20300803002,
+        "tab_id": 1
+       },
+       "3": {
+        "enable_copy": 2,
+        "enable_copy_property": 1,
+        "id": 203008,
+        "property_sort": 3,
+        "property_params": "{100309,2}",
+        "show_default": 1,
+        "class_id": 30,
+        "property_type": "80001",
+        "simple_hide": 1,
+        "item_id": 3,
+        "property_id": 20300803003,
+        "tab_id": 1
+       },
+       "4": {
+        "property_id": 20300803004,
+        "id": 203008,
+        "enable_copy": 2,
+        "property_sort": 4,
+        "tab_id": 1,
+        "enable_copy_property": 1,
+        "show_default": 1,
+        "class_id": 30,
+        "property_params": "{100002,2},{0,100145}",
+        "item_id": 4,
+        "update_ui": 0,
+        "property_type": "80001;70001",
+        "simple_hide": 1
+       },
+       "5": {
+        "property_id": 20300803005,
+        "id": 203008,
+        "enable_copy": 2,
+        "property_sort": 5,
+        "tab_id": 1,
+        "enable_copy_property": 1,
+        "show_default": 1,
+        "class_id": 30,
+        "property_params": "{100002,2},{5,100348}",
+        "item_id": 5,
+        "update_ui": 0,
+        "property_type": "80001;70001",
+        "simple_hide": 1
+       },
+       "6": {
+        "property_id": 20300803006,
+        "id": 203008,
+        "enable_copy": 2,
+        "property_sort": 6,
+        "tab_id": 1,
+        "enable_copy_property": 1,
+        "show_default": 1,
+        "class_id": 30,
+        "property_params": "{100002,2},{100564,100289,0,200}",
+        "item_id": 6,
+        "update_ui": 0,
+        "property_type": "80001;10002",
+        "simple_hide": 1
+       },
+       "90": {
+        "id": 203008,
+        "property_id": 20300803090,
+        "class_id": 30,
+        "property_params": "{2}",
+        "property_sort": 90,
+        "tab_id": 1,
+        "property_type": "110005",
+        "item_id": 90,
+        "simple_hide": 1,
+        "show_default": 1
+       },
+       "91": {
+        "id": 203008,
+        "property_id": 20300803091,
+        "class_id": 30,
+        "property_params": "{}",
+        "property_sort": 91,
+        "tab_id": 1,
+        "property_type": "110006",
+        "item_id": 91,
+        "simple_hide": 1,
+        "show_default": 1
+       }
+      },
+      "120": {
+       "1": {
+        "property_id": 20300812001,
+        "tab_id": 1,
+        "id": 203008,
+        "class_sort": 2,
+        "enable_copy_pgc_text": 1,
+        "simple_hide": 0,
+        "property_sort": 1,
+        "property_type": "10002",
+        "class_id": 120,
+        "item_id": 1,
+        "default_show_state": 1,
+        "enable_copy_property": 1,
+        "property_params": "{100229,100289,0,200}",
+        "show_default": 1
+       },
+       "2": {
+        "class_id": 120,
+        "id": 203008,
+        "show_default": 2,
+        "enable_copy_property": 1,
+        "property_type": "50003",
+        "item_id": 2,
+        "tab_id": 1,
+        "property_params": "{100230,1086;1081~1085,1086}",
+        "property_sort": 2,
+        "property_id": 20300812002,
+        "simple_hide": 0
+       },
+       "3": {
+        "class_id": 120,
+        "id": 203008,
+        "show_default": 3,
+        "enable_copy_property": 1,
+        "property_type": "20004",
+        "item_id": 3,
+        "tab_id": 1,
+        "property_params": "{100231,50,1,0,100,%}",
+        "property_sort": 3,
+        "property_id": 20300812003,
+        "simple_hide": 0
+       },
+       "4": {
+        "class_id": 120,
+        "id": 203008,
+        "show_default": 4,
+        "enable_copy_property": 1,
+        "property_type": "120002",
+        "item_id": 4,
+        "tab_id": 1,
+        "property_params": "{1,7001~7035,7029}",
+        "property_sort": 4,
+        "property_id": 20300812004,
+        "simple_hide": 0
+       },
+       "5": {
+        "class_id": 120,
+        "id": 203008,
+        "show_default": 1,
+        "enable_copy_property": 1,
+        "property_type": "50001",
+        "item_id": 5,
+        "tab_id": 1,
+        "property_params": "{100513,1521~1523,1522}",
+        "property_sort": 5,
+        "property_id": 20300812005,
+        "simple_hide": 0
+       },
+       "6": {
+        "class_id": 120,
+        "id": 203008,
+        "show_default": 1,
+        "enable_copy_property": 1,
+        "property_type": "50001",
+        "item_id": 6,
+        "tab_id": 1,
+        "property_params": "{100514,1531~1533,1532}",
+        "property_sort": 6,
+        "property_id": 20300812006,
+        "simple_hide": 0
+       },
+       "90": {
+        "id": 203008,
+        "property_id": 20300812090,
+        "class_id": 120,
+        "property_params": "{2}",
+        "property_sort": 90,
+        "tab_id": 1,
+        "property_type": "110005",
+        "item_id": 90,
+        "simple_hide": 1,
+        "show_default": 1
+       },
+       "91": {
+        "id": 203008,
+        "property_id": 20300812091,
+        "class_id": 120,
+        "property_params": "{}",
+        "property_sort": 91,
+        "tab_id": 1,
+        "property_type": "110006",
+        "item_id": 91,
+        "simple_hide": 1,
+        "show_default": 1
+       }
+      },
+      "195": {
+       "1": {
+        "enable_copy_property": 1,
+        "id": 203008,
+        "property_id": 20300819501,
+        "property_sort": 1,
+        "tab_id": 1,
+        "class_sort": 11,
+        "show_default": 1,
+        "class_id": 195,
+        "property_params": "{100644,203930,20393019601~20393019603;20393019701~20393019703}",
+        "item_id": 1,
+        "property_type": "110012",
+        "simple_hide": 1,
+        "detail_type_of_rule": 202003
+       }
+      }
+     },
+     "8": {
+      "187": {
+       "1": {
+        "enable_copy_property": 1,
+        "id": 203008,
+        "default_show_state": 1,
+        "property_id": 20300818701,
+        "tab_id": 8,
+        "class_sort": 1,
+        "show_default": 1,
+        "class_id": 187,
+        "property_params": "{100591,20391202001,100}",
+        "item_id": 1,
+        "property_sort": 1,
+        "property_type": "200001",
+        "simple_hide": 1
+       },
+       "2": {
+        "property_params": "{100652,0}",
+        "enable_copy_property": 1,
+        "id": 203008,
+        "property_sort": 2,
+        "detail_rule": 203038,
+        "show_default": 1,
+        "class_id": 187,
+        "property_type": "30001",
+        "simple_hide": 1,
+        "item_id": 2,
+        "property_id": 20300818702,
+        "tab_id": 8
+       }
+      }
+     }
+    },
+    "ugc_control_panel": null
+   },
+   "available": true
+  }
+ },
+ "203011": {
+  "label": "未知预留(203011)",
+  "schema": {
+   "component_type": 203011,
+   "sources": {
+    "ugc_item_property": null,
+    "ugc_control_panel": null
+   },
+   "available": false,
+   "note": "该组件类型没有属性 schema；可能是全局/内部类型，或目录里的隐藏记录。"
+  }
+ },
+ "203012": {
+  "label": "LOGIC 或与逻辑",
+  "schema": {
+   "component_type": 203012,
+   "sources": {
+    "ugc_item_property": {
+     "1": {
+      "100": {
+       "1": {
+        "enable_copy": 1,
+        "id": 203012,
+        "default_show_state": 0,
+        "property_id": 20301210001,
+        "tab_id": 1,
+        "class_sort": 10,
+        "show_default": 1,
+        "class_id": 100,
+        "property_params": "{1,100003}",
+        "item_id": 1,
+        "property_sort": 1,
+        "property_type": "70001",
+        "simple_hide": 0
+       },
+       "2": {
+        "id": 203012,
+        "property_id": 20301210002,
+        "class_id": 100,
+        "property_params": "{2,100004}",
+        "property_sort": 2,
+        "tab_id": 1,
+        "property_type": "70001",
+        "item_id": 2,
+        "simple_hide": 0,
+        "show_default": 1
+       }
+      },
+      "127": {
+       "1": {
+        "id": 203012,
+        "show_default": 1,
+        "class_sort": 1,
+        "property_params": "{100232,1063~1064,1063},{100233,100234,100269,1},{100001,1}",
+        "default_show_state": 1,
+        "property_sort": 1,
+        "class_id": 127,
+        "property_type": "50001;140001;140002",
+        "simple_hide": 0,
+        "item_id": 1,
+        "property_id": 20301212701,
+        "tab_id": 1
+       }
+      }
+     }
+    },
+    "ugc_control_panel": null
+   },
+   "available": true
+  }
+ },
+ "203013": {
+  "label": "PHOTO_WALL 图片墙",
+  "schema": {
+   "component_type": 203013,
+   "sources": {
+    "ugc_item_property": {
+     "1": {
+      "100": {
+       "1": {
+        "enable_copy": 1,
+        "id": 203013,
+        "default_show_state": 0,
+        "property_id": 20301310001,
+        "tab_id": 1,
+        "class_sort": 10,
+        "show_default": 1,
+        "class_id": 100,
+        "property_params": "{1,100003}",
+        "item_id": 1,
+        "property_sort": 1,
+        "property_type": "70001",
+        "simple_hide": 0
+       },
+       "2": {
+        "id": 203013,
+        "property_id": 20301310002,
+        "class_id": 100,
+        "property_params": "{2,100004}",
+        "property_sort": 2,
+        "tab_id": 1,
+        "property_type": "70001",
+        "item_id": 2,
+        "simple_hide": 0,
+        "show_default": 1
+       },
+       "3": {
+        "id": 203013,
+        "property_id": 20301310003,
+        "class_id": 100,
+        "property_params": "{3,100005}",
+        "property_sort": 3,
+        "tab_id": 1,
+        "property_type": "70001",
+        "item_id": 3,
+        "simple_hide": 1,
+        "show_default": 1
+       },
+       "4": {
+        "id": 203013,
+        "property_id": 20301310004,
+        "class_id": 100,
+        "property_params": "{4,100006}",
+        "property_sort": 4,
+        "tab_id": 1,
+        "property_type": "70001",
+        "item_id": 4,
+        "simple_hide": 0,
+        "show_default": 1
+       }
+      },
+      "130": {
+       "1": {
+        "id": 203013,
+        "show_default": 1,
+        "class_sort": 1,
+        "property_params": "{}",
+        "default_show_state": 1,
+        "property_sort": 1,
+        "class_id": 130,
+        "property_type": "160001",
+        "simple_hide": 1,
+        "item_id": 1,
+        "property_id": 20301313001,
+        "tab_id": 1
+       }
+      }
+     }
+    },
+    "ugc_control_panel": null
+   },
+   "available": true
+  }
+ },
+ "203014": {
+  "label": "NEW_BILLBOARD 无框公告牌",
+  "schema": {
+   "component_type": 203014,
+   "sources": {
+    "ugc_item_property": {
+     "1": {
+      "100": {
+       "1": {
+        "enable_copy": 1,
+        "id": 203014,
+        "default_show_state": 0,
+        "property_id": 20301410001,
+        "tab_id": 1,
+        "class_sort": 10,
+        "show_default": 1,
+        "class_id": 100,
+        "property_params": "{1,100003}",
+        "item_id": 1,
+        "property_sort": 1,
+        "property_type": "70001",
+        "simple_hide": 0
+       },
+       "2": {
+        "class_id": 100,
+        "item_id": 2,
+        "show_default": 1,
+        "id": 203014,
+        "property_type": "70001",
+        "property_id": 20301410002,
+        "tab_id": 1,
+        "property_params": "{2,100004}",
+        "property_sort": 2,
+        "class_sort": 10,
+        "simple_hide": 0
+       },
+       "3": {
+        "class_id": 100,
+        "item_id": 3,
+        "show_default": 1,
+        "id": 203014,
+        "property_type": "70001",
+        "property_id": 20301410003,
+        "tab_id": 1,
+        "property_params": "{3,100005}",
+        "property_sort": 3,
+        "class_sort": 10,
+        "simple_hide": 1
+       },
+       "4": {
+        "class_id": 100,
+        "item_id": 4,
+        "show_default": 1,
+        "id": 203014,
+        "property_type": "70001",
+        "property_id": 20301410004,
+        "tab_id": 1,
+        "property_params": "{4,100006}",
+        "property_sort": 4,
+        "class_sort": 10,
+        "simple_hide": 0
+       }
+      },
+      "20": {
+       "1": {
+        "property_id": 20301402001,
+        "tab_id": 1,
+        "id": 203014,
+        "class_sort": 1,
+        "extra_params_1": "_col_state_list",
+        "simple_hide": 1,
+        "property_sort": 1,
+        "property_type": "30001",
+        "class_id": 20,
+        "item_id": 1,
+        "default_show_state": 1,
+        "enable_copy_property": 1,
+        "property_params": "{100276,1}",
+        "show_default": 1
+       },
+       "2": {
+        "enable_copy_property": 1,
+        "item_id": 2,
+        "property_id": 20301402002,
+        "property_params": "{100312,1181~1184,1181}",
+        "detail_rule": 203033,
+        "id": 203014,
+        "property_sort": 2,
+        "property_type": "50001",
+        "show_default": 0,
+        "enable_copy": 3,
+        "extra_params_1": "{engine_check,7},{detour_apply_all:100000,100001,203014,203027,204001}",
+        "simple_hide": 1,
+        "class_id": 20,
+        "check_update_ui_params": "{20301402001:1:1}",
+        "tab_id": 1
+       },
+       "5": {
+        "class_id": 20,
+        "id": 203014,
+        "show_default": 1,
+        "enable_copy_property": 1,
+        "property_type": "120001",
+        "item_id": 5,
+        "tab_id": 1,
+        "property_params": "{8001~8004;8165~8167;8005~8081;8083~8174,8001}",
+        "property_sort": 5,
+        "property_id": 20301402005,
+        "simple_hide": 0
+       },
+       "6": {
+        "property_params": "{4,7001~7035,7029}",
+        "enable_copy_property": 1,
+        "id": 203014,
+        "property_sort": 6,
+        "extra_params_1": "variable_len_mat:20301402005",
+        "show_default": 1,
+        "class_id": 20,
+        "property_type": "120002",
+        "simple_hide": 0,
+        "item_id": 6,
+        "property_id": 20301402006,
+        "tab_id": 1
+       },
+       "7": {
+        "class_id": 20,
+        "id": 203014,
+        "show_default": 1,
+        "enable_copy_property": 1,
+        "property_type": "20004",
+        "item_id": 7,
+        "tab_id": 1,
+        "property_params": "{100275,0,1,0,100,%}",
+        "property_sort": 7,
+        "property_id": 20301402007,
+        "simple_hide": 0
+       },
+       "91": {
+        "id": 203014,
+        "property_id": 20301402091,
+        "class_id": 20,
+        "property_params": "{}",
+        "property_sort": 91,
+        "tab_id": 1,
+        "property_type": "110006",
+        "item_id": 91,
+        "simple_hide": 1,
+        "show_default": 1
+       }
+      },
+      "30": {
+       "1": {
+        "enable_copy_property": 1,
+        "id": 203014,
+        "default_show_state": 0,
+        "property_id": 20301403001,
+        "tab_id": 1,
+        "class_sort": 2,
+        "show_default": 1,
+        "class_id": 30,
+        "property_params": "{100012,1}",
+        "item_id": 1,
+        "property_sort": 1,
+        "property_type": "30001",
+        "simple_hide": 1
+       },
+       "2": {
+        "enable_copy": 2,
+        "enable_copy_property": 1,
+        "id": 203014,
+        "property_sort": 2,
+        "property_params": "{100308,2}",
+        "show_default": 1,
+        "class_id": 30,
+        "property_type": "80001",
+        "simple_hide": 1,
+        "item_id": 2,
+        "property_id": 20301403002,
+        "tab_id": 1
+       },
+       "3": {
+        "enable_copy": 2,
+        "enable_copy_property": 1,
+        "id": 203014,
+        "property_sort": 3,
+        "property_params": "{100309,2}",
+        "show_default": 1,
+        "class_id": 30,
+        "property_type": "80001",
+        "simple_hide": 1,
+        "item_id": 3,
+        "property_id": 20301403003,
+        "tab_id": 1
+       },
+       "4": {
+        "property_id": 20301403004,
+        "id": 203014,
+        "enable_copy": 2,
+        "property_sort": 4,
+        "tab_id": 1,
+        "enable_copy_property": 1,
+        "show_default": 1,
+        "class_id": 30,
+        "property_params": "{100002,2},{0,100145}",
+        "item_id": 4,
+        "update_ui": 0,
+        "property_type": "80001;70001",
+        "simple_hide": 1
+       },
+       "5": {
+        "property_id": 20301403005,
+        "id": 203014,
+        "enable_copy": 2,
+        "property_sort": 5,
+        "tab_id": 1,
+        "enable_copy_property": 1,
+        "show_default": 1,
+        "class_id": 30,
+        "property_params": "{100002,2},{5,100348}",
+        "item_id": 5,
+        "update_ui": 0,
+        "property_type": "80001;70001",
+        "simple_hide": 1
+       },
+       "6": {
+        "property_id": 20301403006,
+        "id": 203014,
+        "enable_copy": 2,
+        "property_sort": 6,
+        "tab_id": 1,
+        "enable_copy_property": 1,
+        "show_default": 1,
+        "class_id": 30,
+        "property_params": "{100002,2},{100564,100289,0,200}",
+        "item_id": 6,
+        "update_ui": 0,
+        "property_type": "80001;10002",
+        "simple_hide": 1
+       },
+       "90": {
+        "id": 203014,
+        "property_id": 20301403090,
+        "class_id": 30,
+        "property_params": "{2}",
+        "property_sort": 90,
+        "tab_id": 1,
+        "property_type": "110005",
+        "item_id": 90,
+        "simple_hide": 1,
+        "show_default": 1
+       },
+       "91": {
+        "id": 203014,
+        "property_id": 20301403091,
+        "class_id": 30,
+        "property_params": "{}",
+        "property_sort": 91,
+        "tab_id": 1,
+        "property_type": "110006",
+        "item_id": 91,
+        "simple_hide": 1,
+        "show_default": 1
+       }
+      },
+      "120": {
+       "1": {
+        "property_id": 20301412001,
+        "tab_id": 1,
+        "id": 203014,
+        "class_sort": 3,
+        "enable_copy_pgc_text": 1,
+        "simple_hide": 0,
+        "property_sort": 1,
+        "property_type": "10002",
+        "class_id": 120,
+        "item_id": 1,
+        "default_show_state": 1,
+        "enable_copy_property": 1,
+        "property_params": "{100229,100289,0,200}",
+        "show_default": 1
+       },
+       "2": {
+        "class_id": 120,
+        "id": 203014,
+        "show_default": 1,
+        "enable_copy_property": 1,
+        "property_type": "50003",
+        "item_id": 2,
+        "tab_id": 1,
+        "property_params": "{100230,1086;1081~1085,1086}",
+        "property_sort": 2,
+        "property_id": 20301412002,
+        "simple_hide": 0
+       },
+       "3": {
+        "class_id": 120,
+        "id": 203014,
+        "show_default": 1,
+        "enable_copy_property": 1,
+        "property_type": "20004",
+        "item_id": 3,
+        "tab_id": 1,
+        "property_params": "{100231,50,1,1,100,%}",
+        "property_sort": 3,
+        "property_id": 20301412003,
+        "simple_hide": 0
+       },
+       "4": {
+        "class_id": 120,
+        "id": 203014,
+        "show_default": 1,
+        "enable_copy_property": 1,
+        "property_type": "120002",
+        "item_id": 4,
+        "tab_id": 1,
+        "property_params": "{1,7001~7035,7029}",
+        "property_sort": 4,
+        "property_id": 20301412004,
+        "simple_hide": 0
+       },
+       "5": {
+        "class_id": 120,
+        "id": 203014,
+        "show_default": 1,
+        "enable_copy_property": 1,
+        "property_type": "50001",
+        "item_id": 5,
+        "tab_id": 1,
+        "property_params": "{100513,1521~1523,1522}",
+        "property_sort": 5,
+        "property_id": 20301412005,
+        "simple_hide": 0
+       },
+       "6": {
+        "class_id": 120,
+        "id": 203014,
+        "show_default": 1,
+        "enable_copy_property": 1,
+        "property_type": "50001",
+        "item_id": 6,
+        "tab_id": 1,
+        "property_params": "{100514,1531~1533,1532}",
+        "property_sort": 6,
+        "property_id": 20301412006,
+        "simple_hide": 0
+       },
+       "90": {
+        "id": 203014,
+        "property_id": 20301412090,
+        "class_id": 120,
+        "property_params": "{2}",
+        "property_sort": 90,
+        "tab_id": 1,
+        "property_type": "110005",
+        "item_id": 90,
+        "simple_hide": 1,
+        "show_default": 1
+       },
+       "91": {
+        "id": 203014,
+        "property_id": 20301412091,
+        "class_id": 120,
+        "property_params": "{}",
+        "property_sort": 91,
+        "tab_id": 1,
+        "property_type": "110006",
+        "item_id": 91,
+        "simple_hide": 1,
+        "show_default": 1
+       }
+      },
+      "195": {
+       "1": {
+        "enable_copy_property": 1,
+        "id": 203014,
+        "property_id": 20301419501,
+        "property_sort": 1,
+        "tab_id": 1,
+        "class_sort": 11,
+        "show_default": 1,
+        "class_id": 195,
+        "property_params": "{100644,203930,20393019601~20393019603;20393019701~20393019703}",
+        "item_id": 1,
+        "property_type": "110012",
+        "simple_hide": 1,
+        "detail_type_of_rule": 202003
+       }
+      }
+     },
+     "8": {
+      "187": {
+       "1": {
+        "enable_copy_property": 1,
+        "id": 203014,
+        "default_show_state": 1,
+        "property_id": 20301418701,
+        "tab_id": 8,
+        "class_sort": 1,
+        "show_default": 1,
+        "class_id": 187,
+        "property_params": "{100591,20391202001,100}",
+        "item_id": 1,
+        "property_sort": 1,
+        "property_type": "200001",
+        "simple_hide": 1
+       },
+       "2": {
+        "property_params": "{100652,0}",
+        "enable_copy_property": 1,
+        "id": 203014,
+        "property_sort": 2,
+        "detail_rule": 203038,
+        "show_default": 1,
+        "class_id": 187,
+        "property_type": "30001",
+        "simple_hide": 1,
+        "item_id": 2,
+        "property_id": 20301418702,
+        "tab_id": 8
+       }
+      }
+     }
+    },
+    "ugc_control_panel": null
+   },
+   "available": true
+  }
+ },
+ "203015": {
+  "label": "SAVE_REGION 存档区域",
+  "schema": {
+   "component_type": 203015,
+   "sources": {
+    "ugc_item_property": {
+     "1": {
+      "100": {
+       "1": {
+        "enable_copy": 1,
+        "id": 203015,
+        "default_show_state": 0,
+        "property_id": 20301510001,
+        "tab_id": 1,
+        "class_sort": 10,
+        "show_default": 1,
+        "class_id": 100,
+        "property_params": "{1,100003}",
+        "item_id": 1,
+        "property_sort": 1,
+        "property_type": "70001",
+        "simple_hide": 0
+       },
+       "2": {
+        "id": 203015,
+        "property_id": 20301510002,
+        "class_id": 100,
+        "property_params": "{2,100004}",
+        "property_sort": 2,
+        "tab_id": 1,
+        "property_type": "70001",
+        "item_id": 2,
+        "simple_hide": 0,
+        "show_default": 1
+       },
+       "3": {
+        "id": 203015,
+        "property_id": 20301510003,
+        "class_id": 100,
+        "property_params": "{3,100005}",
+        "property_sort": 3,
+        "tab_id": 1,
+        "property_type": "70001",
+        "item_id": 3,
+        "simple_hide": 1,
+        "show_default": 1
+       },
+       "4": {
+        "id": 203015,
+        "property_id": 20301510004,
+        "class_id": 100,
+        "property_params": "{4,100006}",
+        "property_sort": 4,
+        "tab_id": 1,
+        "property_type": "70001",
+        "item_id": 4,
+        "simple_hide": 0,
+        "show_default": 1
+       }
+      },
+      "20": {
+       "1": {
+        "enable_copy_property": 1,
+        "id": 203015,
+        "default_show_state": 1,
+        "property_id": 20301502001,
+        "tab_id": 1,
+        "class_sort": 2,
+        "show_default": 1,
+        "class_id": 20,
+        "property_params": "{100012,1}",
+        "item_id": 1,
+        "property_sort": 1,
+        "property_type": "30001",
+        "simple_hide": 1
+       },
+       "2": {
+        "id": 203015,
+        "property_id": 20301502002,
+        "class_id": 20,
+        "property_params": "{100325,0,0,999,0,1}",
+        "property_sort": 2,
+        "tab_id": 1,
+        "property_type": "20001",
+        "item_id": 2,
+        "simple_hide": 1,
+        "show_default": 1
+       },
+       "3": {
+        "class_id": 20,
+        "id": 203015,
+        "show_default": 1,
+        "enable_copy_property": 1,
+        "property_type": "120001",
+        "item_id": 3,
+        "tab_id": 1,
+        "property_params": "{8001~8004;8165~8167;8005~8081;8083~8174,8001}",
+        "property_sort": 3,
+        "property_id": 20301502003,
+        "simple_hide": 0
+       },
+       "4": {
+        "property_params": "{4,7001~7035,7029}",
+        "enable_copy_property": 1,
+        "id": 203015,
+        "property_sort": 4,
+        "extra_params_1": "variable_len_mat:20301502003",
+        "show_default": 1,
+        "class_id": 20,
+        "property_type": "120002",
+        "simple_hide": 0,
+        "item_id": 4,
+        "property_id": 20301502004,
+        "tab_id": 1
+       },
+       "5": {
+        "class_id": 20,
+        "id": 203015,
+        "show_default": 1,
+        "enable_copy_property": 1,
+        "property_type": "20004",
+        "item_id": 5,
+        "tab_id": 1,
+        "property_params": "{100275,0,1,0,100,%}",
+        "property_sort": 5,
+        "property_id": 20301502005,
+        "simple_hide": 1
+       },
+       "91": {
+        "id": 203015,
+        "property_id": 20301502091,
+        "class_id": 20,
+        "property_params": "{}",
+        "property_sort": 91,
+        "tab_id": 1,
+        "property_type": "110006",
+        "item_id": 91,
+        "simple_hide": 1,
+        "show_default": 1
+       }
+      },
+      "111": {
+       "1": {
+        "property_id": 20301511101,
+        "id": 203015,
+        "default_show_state": 0,
+        "property_sort": 1,
+        "tab_id": 1,
+        "class_sort": 3,
+        "show_default": 1,
+        "class_id": 111,
+        "property_params": "{100016,1,1051~1053,1051,1}",
+        "item_id": 1,
+        "update_ui": 1,
+        "property_type": "40001",
+        "simple_hide": 1
+       },
+       "2": {
+        "property_id": 20301511102,
+        "id": 203015,
+        "property_params": "{100101,2,9001,9002}",
+        "property_sort": 2,
+        "tab_id": 1,
+        "class_sort": 3,
+        "show_default": 0,
+        "class_id": 111,
+        "enable_copy_pgc_text": 1,
+        "item_id": 2,
+        "check_update_ui_params": "{20301511101:1:010}",
+        "property_type": "80002",
+        "simple_hide": 1
+       },
+       "3": {
+        "property_id": 20301511103,
+        "id": 203015,
+        "property_params": "{100102}",
+        "property_sort": 3,
+        "tab_id": 1,
+        "class_sort": 3,
+        "show_default": 0,
+        "class_id": 111,
+        "enable_copy_pgc_text": 1,
+        "item_id": 3,
+        "check_update_ui_params": "{20301511101:1:001}",
+        "property_type": "80003",
+        "simple_hide": 1
+       },
+       "4": {
+        "enable_copy_property": 1,
+        "id": 203015,
+        "enable_copy": 2,
+        "property_id": 20301511104,
+        "tab_id": 1,
+        "class_sort": 3,
+        "show_default": 1,
+        "class_id": 111,
+        "property_params": "{100201,2}",
+        "item_id": 4,
+        "property_sort": 4,
+        "property_type": "80001",
+        "simple_hide": 1
+       },
+       "5": {
+        "enable_copy_property": 1,
+        "id": 203015,
+        "enable_copy": 2,
+        "property_id": 20301511105,
+        "tab_id": 1,
+        "class_sort": 3,
+        "show_default": 1,
+        "class_id": 111,
+        "property_params": "{100273,2}",
+        "item_id": 5,
+        "property_sort": 5,
+        "property_type": "80001",
+        "simple_hide": 1
+       },
+       "6": {
+        "enable_copy_property": 1,
+        "id": 203015,
+        "enable_copy": 2,
+        "property_id": 20301511106,
+        "tab_id": 1,
+        "class_sort": 3,
+        "show_default": 1,
+        "class_id": 111,
+        "property_params": "{100002,2},{0,100604}",
+        "item_id": 6,
+        "property_sort": 6,
+        "property_type": "80001;70001",
+        "simple_hide": 1
+       },
+       "7": {
+        "enable_copy_property": 1,
+        "id": 203015,
+        "enable_copy": 2,
+        "property_id": 20301511107,
+        "tab_id": 1,
+        "class_sort": 3,
+        "show_default": 1,
+        "class_id": 111,
+        "property_params": "{100002,2},{0,100605}",
+        "item_id": 7,
+        "property_sort": 7,
+        "property_type": "80001;70001",
+        "simple_hide": 1
+       },
+       "90": {
+        "id": 203015,
+        "property_id": 20301511190,
+        "class_id": 111,
+        "property_params": "{2}",
+        "property_sort": 90,
+        "tab_id": 1,
+        "property_type": "110005",
+        "item_id": 90,
+        "simple_hide": 1,
+        "show_default": 1
+       },
+       "91": {
+        "id": 203015,
+        "property_id": 20301511191,
+        "class_id": 111,
+        "property_params": "{}",
+        "property_sort": 91,
+        "tab_id": 1,
+        "property_type": "110006",
+        "item_id": 91,
+        "simple_hide": 1,
+        "show_default": 1
+       }
+      }
+     }
+    },
+    "ugc_control_panel": null
+   },
+   "available": true
+  }
+ },
+ "203016": {
+  "label": "DESTROY_REGION 销毁方块",
+  "schema": {
+   "component_type": 203016,
+   "sources": {
+    "ugc_item_property": {
+     "1": {
+      "100": {
+       "1": {
+        "enable_copy": 1,
+        "id": 203016,
+        "default_show_state": 0,
+        "property_id": 20301610001,
+        "tab_id": 1,
+        "class_sort": 10,
+        "show_default": 1,
+        "class_id": 100,
+        "property_params": "{1,100003}",
+        "item_id": 1,
+        "property_sort": 1,
+        "property_type": "70001",
+        "simple_hide": 0
+       },
+       "2": {
+        "id": 203016,
+        "property_id": 20301610002,
+        "class_id": 100,
+        "property_params": "{2,100004}",
+        "property_sort": 2,
+        "tab_id": 1,
+        "property_type": "70001",
+        "item_id": 2,
+        "simple_hide": 0,
+        "show_default": 1
+       },
+       "3": {
+        "id": 203016,
+        "property_id": 20301610003,
+        "class_id": 100,
+        "property_params": "{3,100005}",
+        "property_sort": 3,
+        "tab_id": 1,
+        "property_type": "70001",
+        "item_id": 3,
+        "simple_hide": 1,
+        "show_default": 1
+       },
+       "4": {
+        "id": 203016,
+        "property_id": 20301610004,
+        "class_id": 100,
+        "property_params": "{4,100006}",
+        "property_sort": 4,
+        "tab_id": 1,
+        "property_type": "70001",
+        "item_id": 4,
+        "simple_hide": 0,
+        "show_default": 1
+       }
+      },
+      "20": {
+       "1": {
+        "enable_copy_property": 1,
+        "id": 203016,
+        "default_show_state": 1,
+        "property_id": 20301602001,
+        "tab_id": 1,
+        "class_sort": 2,
+        "show_default": 1,
+        "class_id": 20,
+        "property_params": "{100012,1}",
+        "item_id": 1,
+        "property_sort": 1,
+        "property_type": "30001",
+        "simple_hide": 1
+       },
+       "2": {
+        "class_id": 20,
+        "id": 203016,
+        "show_default": 1,
+        "enable_copy_property": 1,
+        "property_type": "120001",
+        "item_id": 2,
+        "tab_id": 1,
+        "property_params": "{8001~8004;8165~8167;8005~8081;8083~8174,8001}",
+        "property_sort": 2,
+        "property_id": 20301602002,
+        "simple_hide": 0
+       },
+       "3": {
+        "property_params": "{4,7001~7035,7029}",
+        "enable_copy_property": 1,
+        "id": 203016,
+        "property_sort": 3,
+        "extra_params_1": "variable_len_mat:20301602002",
+        "show_default": 1,
+        "class_id": 20,
+        "property_type": "120002",
+        "simple_hide": 0,
+        "item_id": 3,
+        "property_id": 20301602003,
+        "tab_id": 1
+       },
+       "4": {
+        "class_id": 20,
+        "id": 203016,
+        "show_default": 1,
+        "enable_copy_property": 1,
+        "property_type": "20004",
+        "item_id": 4,
+        "tab_id": 1,
+        "property_params": "{100275,0,1,0,100,%}",
+        "property_sort": 4,
+        "property_id": 20301602004,
+        "simple_hide": 1
+       },
+       "91": {
+        "id": 203016,
+        "property_id": 20301602091,
+        "class_id": 20,
+        "property_params": "{}",
+        "property_sort": 91,
+        "tab_id": 1,
+        "property_type": "110006",
+        "item_id": 91,
+        "simple_hide": 1,
+        "show_default": 1
+       }
+      },
+      "111": {
+       "1": {
+        "id": 203016,
+        "show_default": 1,
+        "class_sort": 3,
+        "property_sort": 1,
+        "property_params": "{100016,1,1051~1053,1051,1}",
+        "simple_hide": 1,
+        "class_id": 111,
+        "property_type": "40001",
+        "tab_id": 1,
+        "item_id": 1,
+        "property_id": 20301611101,
+        "update_ui": 1
+       },
+       "2": {
+        "property_id": 20301611102,
+        "id": 203016,
+        "property_params": "{100101,2,9001,9002}",
+        "property_sort": 2,
+        "tab_id": 1,
+        "class_sort": 3,
+        "show_default": 0,
+        "class_id": 111,
+        "enable_copy_pgc_text": 1,
+        "item_id": 2,
+        "check_update_ui_params": "{20301611101:1:010}",
+        "property_type": "80002",
+        "simple_hide": 1
+       },
+       "3": {
+        "property_id": 20301611103,
+        "id": 203016,
+        "property_params": "{100102}",
+        "property_sort": 3,
+        "tab_id": 1,
+        "class_sort": 3,
+        "show_default": 0,
+        "class_id": 111,
+        "enable_copy_pgc_text": 1,
+        "item_id": 3,
+        "check_update_ui_params": "{20301611101:1:001}",
+        "property_type": "80003",
+        "simple_hide": 1
+       },
+       "4": {
+        "enable_copy_property": 1,
+        "id": 203016,
+        "enable_copy": 2,
+        "property_id": 20301611104,
+        "tab_id": 1,
+        "class_sort": 3,
+        "show_default": 1,
+        "class_id": 111,
+        "property_params": "{100201,2}",
+        "item_id": 4,
+        "property_sort": 4,
+        "property_type": "80001",
+        "simple_hide": 1
+       },
+       "5": {
+        "enable_copy_property": 1,
+        "id": 203016,
+        "enable_copy": 2,
+        "property_id": 20301611105,
+        "tab_id": 1,
+        "class_sort": 3,
+        "show_default": 1,
+        "class_id": 111,
+        "property_params": "{100273,2}",
+        "item_id": 5,
+        "property_sort": 5,
+        "property_type": "80001",
+        "simple_hide": 1
+       },
+       "6": {
+        "enable_copy_property": 1,
+        "id": 203016,
+        "enable_copy": 2,
+        "property_id": 20301611106,
+        "tab_id": 1,
+        "class_sort": 3,
+        "show_default": 1,
+        "class_id": 111,
+        "property_params": "{100002,2},{0,100274}",
+        "item_id": 6,
+        "property_sort": 6,
+        "property_type": "80001;70001",
+        "simple_hide": 1
+       },
+       "90": {
+        "id": 203016,
+        "property_id": 20301611190,
+        "class_id": 111,
+        "property_params": "{2}",
+        "property_sort": 90,
+        "tab_id": 1,
+        "property_type": "110005",
+        "item_id": 90,
+        "simple_hide": 1,
+        "show_default": 1
+       },
+       "91": {
+        "id": 203016,
+        "property_id": 20301611191,
+        "class_id": 111,
+        "property_params": "{}",
+        "property_sort": 91,
+        "tab_id": 1,
+        "property_type": "110006",
+        "item_id": 91,
+        "simple_hide": 1,
+        "show_default": 1
+       }
+      }
+     }
+    },
+    "ugc_control_panel": null
+   },
+   "available": true
+  }
+ },
+ "203017": {
+  "label": "未知预留(203017)",
+  "schema": {
+   "component_type": 203017,
+   "sources": {
+    "ugc_item_property": null,
+    "ugc_control_panel": null
+   },
+   "available": false,
+   "note": "该组件类型没有属性 schema；可能是全局/内部类型，或目录里的隐藏记录。"
+  }
+ },
+ "203020": {
+  "label": "未知预留(203020)",
+  "schema": {
+   "component_type": 203020,
+   "sources": {
+    "ugc_item_property": null,
+    "ugc_control_panel": null
+   },
+   "available": false,
+   "note": "该组件类型没有属性 schema；可能是全局/内部类型，或目录里的隐藏记录。"
+  }
+ },
+ "203021": {
+  "label": "RANDOM_EVENT 随机事件",
+  "schema": {
+   "component_type": 203021,
+   "sources": {
+    "ugc_item_property": {
+     "1": {
+      "100": {
+       "1": {
+        "enable_copy": 1,
+        "show_default": 1,
+        "class_sort": 10,
+        "id": 203021,
+        "property_params": "{1,100003}",
+        "property_sort": 1,
+        "class_id": 100,
+        "property_type": "70001",
+        "simple_hide": 0,
+        "item_id": 1,
+        "property_id": 20302110001,
+        "tab_id": 1
+       },
+       "2": {
+        "class_id": 100,
+        "item_id": 2,
+        "show_default": 1,
+        "id": 203021,
+        "property_type": "70001",
+        "property_id": 20302110002,
+        "tab_id": 1,
+        "property_params": "{2,100004}",
+        "property_sort": 2,
+        "class_sort": 10,
+        "simple_hide": 0
+       },
+       "3": {
+        "class_id": 100,
+        "item_id": 3,
+        "show_default": 1,
+        "id": 203021,
+        "property_type": "70001",
+        "property_id": 20302110003,
+        "tab_id": 1,
+        "property_params": "{3,100005}",
+        "property_sort": 3,
+        "class_sort": 10,
+        "simple_hide": 1
+       },
+       "4": {
+        "class_id": 100,
+        "item_id": 4,
+        "show_default": 1,
+        "id": 203021,
+        "property_type": "70001",
+        "property_id": 20302110004,
+        "tab_id": 1,
+        "property_params": "{4,100006}",
+        "property_sort": 4,
+        "class_sort": 10,
+        "simple_hide": 0
+       }
+      },
+      "163": {
+       "1": {
+        "enable_copy_property": 1,
+        "id": 203021,
+        "default_show_state": 1,
+        "property_id": 20302116301,
+        "tab_id": 1,
+        "class_sort": 1,
+        "show_default": 1,
+        "class_id": 163,
+        "property_params": "{100002,2}",
+        "item_id": 1,
+        "property_sort": 2,
+        "property_type": "80001",
+        "simple_hide": 0
+       },
+       "2": {
+        "enable_copy": 2,
+        "enable_copy_property": 1,
+        "id": 203021,
+        "property_sort": 3,
+        "property_params": "{100417,1}",
+        "show_default": 1,
+        "class_id": 163,
+        "property_type": "80006",
+        "simple_hide": 0,
+        "item_id": 2,
+        "property_id": 20302116302,
+        "tab_id": 1
+       },
+       "3": {
+        "property_id": 20302116303,
+        "id": 203021,
+        "enable_copy": 2,
+        "property_sort": 5,
+        "tab_id": 1,
+        "enable_copy_property": 1,
+        "show_default": 0,
+        "class_id": 163,
+        "property_params": "{100418,100419,0,0,999,1}",
+        "item_id": 3,
+        "check_update_ui_params": "{20302116305:1:0}",
+        "property_type": "140003",
+        "simple_hide": 0
+       },
+       "4": {
+        "property_sort": 80,
+        "enable_copy_property": 1,
+        "id": 203021,
+        "property_type": "110003",
+        "property_params": "{100429,20302116303}",
+        "show_default": 0,
+        "class_id": 163,
+        "check_update_ui_params": "{20302116305:1:0}",
+        "simple_hide": 0,
+        "item_id": 4,
+        "property_id": 20302116304,
+        "tab_id": 1
+       },
+       "5": {
+        "property_id": 20302116305,
+        "id": 203021,
+        "property_sort": 1,
+        "detail_rule": 203046,
+        "tab_id": 1,
+        "enable_copy_property": 1,
+        "show_default": 1,
+        "class_id": 163,
+        "property_params": "{100688,0}",
+        "item_id": 5,
+        "update_ui": 1,
+        "property_type": "30001",
+        "simple_hide": 0
+       },
+       "6": {
+        "property_sort": 81,
+        "enable_copy_property": 1,
+        "id": 203021,
+        "property_type": "110003",
+        "property_params": "{100429,20302116307}",
+        "show_default": 0,
+        "class_id": 163,
+        "check_update_ui_params": "{20302116305:1:1}",
+        "simple_hide": 0,
+        "item_id": 6,
+        "property_id": 20302116306,
+        "tab_id": 1
+       },
+       "7": {
+        "property_id": 20302116307,
+        "id": 203021,
+        "enable_copy": 2,
+        "property_sort": 6,
+        "tab_id": 1,
+        "enable_copy_property": 1,
+        "show_default": 0,
+        "class_id": 163,
+        "property_params": "{100418,100419,0,0,999,1},{100689,1,1,9999,100690,1}",
+        "item_id": 7,
+        "check_update_ui_params": "{20302116305:1:1}",
+        "property_type": "140003;20001",
+        "simple_hide": 0
+       },
+       "10": {
+        "class_id": 163,
+        "id": 203021,
+        "show_default": 1,
+        "enable_copy_property": 1,
+        "property_type": "110005",
+        "item_id": 10,
+        "tab_id": 1,
+        "property_params": "{2}",
+        "property_sort": 10,
+        "property_id": 20302116310,
+        "simple_hide": 1
+       },
+       "91": {
+        "id": 203021,
+        "property_id": 20302116391,
+        "class_id": 163,
+        "property_params": "{}",
+        "property_sort": 91,
+        "tab_id": 1,
+        "property_type": "110006",
+        "item_id": 91,
+        "simple_hide": 1,
+        "show_default": 1
+       }
+      }
+     }
+    },
+    "ugc_control_panel": null
+   },
+   "available": true
+  }
+ },
+ "203022": {
+  "label": "INTER_AREA 交互按钮",
+  "schema": {
+   "component_type": 203022,
+   "sources": {
+    "ugc_item_property": {
+     "1": {
+      "100": {
+       "1": {
+        "enable_copy": 1,
+        "id": 203022,
+        "default_show_state": 0,
+        "property_id": 20302210001,
+        "tab_id": 1,
+        "class_sort": 10,
+        "show_default": 1,
+        "class_id": 100,
+        "property_params": "{1,100003}",
+        "item_id": 1,
+        "property_sort": 1,
+        "property_type": "70001",
+        "simple_hide": 0
+       },
+       "2": {
+        "class_id": 100,
+        "item_id": 2,
+        "show_default": 1,
+        "id": 203022,
+        "property_type": "70001",
+        "property_id": 20302210002,
+        "tab_id": 1,
+        "property_params": "{2,100004}",
+        "property_sort": 2,
+        "class_sort": 10,
+        "simple_hide": 0
+       },
+       "3": {
+        "class_id": 100,
+        "item_id": 3,
+        "show_default": 1,
+        "id": 203022,
+        "property_type": "70001",
+        "property_id": 20302210003,
+        "tab_id": 1,
+        "property_params": "{3,100005}",
+        "property_sort": 3,
+        "class_sort": 10,
+        "simple_hide": 1
+       },
+       "4": {
+        "class_id": 100,
+        "item_id": 4,
+        "show_default": 1,
+        "id": 203022,
+        "property_type": "70001",
+        "property_id": 20302210004,
+        "tab_id": 1,
+        "property_params": "{4,100006}",
+        "property_sort": 4,
+        "class_sort": 10,
+        "simple_hide": 1
+       }
+      },
+      "111": {
+       "1": {
+        "id": 203022,
+        "show_default": 1,
+        "class_sort": 2,
+        "property_sort": 1,
+        "property_params": "{100016,1,1051~1053,1051,1}",
+        "simple_hide": 1,
+        "class_id": 111,
+        "property_type": "40001",
+        "tab_id": 1,
+        "item_id": 1,
+        "property_id": 20302211101,
+        "update_ui": 1
+       },
+       "2": {
+        "property_id": 20302211102,
+        "id": 203022,
+        "property_params": "{100101,2,9001,9002}",
+        "property_sort": 2,
+        "tab_id": 1,
+        "class_sort": 2,
+        "show_default": 0,
+        "class_id": 111,
+        "enable_copy_pgc_text": 1,
+        "item_id": 2,
+        "check_update_ui_params": "{20302211101:1:010}",
+        "property_type": "80002",
+        "simple_hide": 1
+       },
+       "3": {
+        "property_id": 20302211103,
+        "id": 203022,
+        "property_params": "{100102}",
+        "property_sort": 3,
+        "tab_id": 1,
+        "class_sort": 2,
+        "show_default": 0,
+        "class_id": 111,
+        "enable_copy_pgc_text": 1,
+        "item_id": 3,
+        "check_update_ui_params": "{20302211101:1:001}",
+        "property_type": "80003",
+        "simple_hide": 1
+       },
+       "4": {
+        "enable_copy_property": 1,
+        "id": 203022,
+        "enable_copy": 2,
+        "property_id": 20302211104,
+        "tab_id": 1,
+        "class_sort": 2,
+        "show_default": 1,
+        "class_id": 111,
+        "property_params": "{100201,2}",
+        "item_id": 4,
+        "property_sort": 4,
+        "property_type": "80001",
+        "simple_hide": 1
+       },
+       "5": {
+        "enable_copy_property": 1,
+        "id": 203022,
+        "enable_copy": 2,
+        "property_id": 20302211105,
+        "tab_id": 1,
+        "class_sort": 2,
+        "show_default": 1,
+        "class_id": 111,
+        "property_params": "{100273,2}",
+        "item_id": 5,
+        "property_sort": 5,
+        "property_type": "80001",
+        "simple_hide": 1
+       },
+       "6": {
+        "enable_copy_property": 1,
+        "id": 203022,
+        "enable_copy": 2,
+        "property_id": 20302211106,
+        "tab_id": 1,
+        "class_sort": 2,
+        "show_default": 1,
+        "class_id": 111,
+        "property_params": "{100002,2},{0,100274}",
+        "item_id": 6,
+        "property_sort": 6,
+        "property_type": "80001;70001",
+        "simple_hide": 1
+       },
+       "90": {
+        "id": 203022,
+        "property_id": 20302211190,
+        "class_id": 111,
+        "property_params": "{2}",
+        "property_sort": 90,
+        "tab_id": 1,
+        "property_type": "110005",
+        "item_id": 90,
+        "simple_hide": 1,
+        "show_default": 1
+       },
+       "91": {
+        "id": 203022,
+        "property_id": 20302211191,
+        "class_id": 111,
+        "property_params": "{}",
+        "property_sort": 91,
+        "tab_id": 1,
+        "property_type": "110006",
+        "item_id": 91,
+        "simple_hide": 1,
+        "show_default": 1
+       }
+      },
+      "167": {
+       "1": {
+        "property_id": 20302216701,
+        "tab_id": 1,
+        "id": 203022,
+        "class_sort": 1,
+        "property_params": "{100462,1},{100455,1286;1276~1278;1287~1288,1286}",
+        "simple_hide": 0,
+        "enable_copy": 2,
+        "property_type": "80001;50001",
+        "class_id": 167,
+        "item_id": 1,
+        "default_show_state": 1,
+        "enable_copy_property": 1,
+        "property_sort": 1,
+        "show_default": 1
+       },
+       "2": {
+        "class_id": 167,
+        "id": 203022,
+        "show_default": 1,
+        "enable_copy_property": 1,
+        "property_type": "120003",
+        "item_id": 2,
+        "tab_id": 1,
+        "property_params": "{100463,1401~1425,1401}",
+        "property_sort": 2,
+        "property_id": 20302216702,
+        "simple_hide": 0
+       },
+       "3": {
+        "enable_copy_pgc_text": 1,
+        "enable_copy_property": 1,
+        "id": 203022,
+        "property_sort": 3,
+        "property_params": "{100464,0,10}",
+        "show_default": 1,
+        "class_id": 167,
+        "property_type": "10001",
+        "simple_hide": 0,
+        "item_id": 3,
+        "property_id": 20302216703,
+        "tab_id": 1
+       },
+       "4": {
+        "class_id": 167,
+        "id": 203022,
+        "show_default": 1,
+        "enable_copy_property": 1,
+        "property_type": "20001",
+        "item_id": 4,
+        "tab_id": 1,
+        "property_params": "{100465,10,1,999,100009,1}",
+        "property_sort": 4,
+        "property_id": 20302216704,
+        "simple_hide": 1
+       },
+       "5": {
+        "property_params": "{100466,1,1,999,0,1}",
+        "enable_copy_property": 1,
+        "id": 203022,
+        "property_sort": 5,
+        "detail_rule": 203026,
+        "show_default": 1,
+        "class_id": 167,
+        "property_type": "20001",
+        "simple_hide": 1,
+        "item_id": 5,
+        "property_id": 20302216705,
+        "tab_id": 1
+       },
+       "8": {
+        "class_id": 167,
+        "id": 203022,
+        "show_default": 1,
+        "enable_copy_property": 1,
+        "property_type": "120003",
+        "item_id": 8,
+        "tab_id": 1,
+        "property_params": "{100478,1331~1332,1331}",
+        "property_sort": 6,
+        "property_id": 20302216708,
+        "simple_hide": 1
+       },
+       "9": {
+        "class_id": 167,
+        "id": 203022,
+        "show_default": 1,
+        "enable_copy_property": 1,
+        "property_type": "20001",
+        "item_id": 9,
+        "tab_id": 1,
+        "property_params": "{100606,9999,0,9999,0,1}",
+        "property_sort": 9,
+        "property_id": 20302216709,
+        "simple_hide": 1
+       },
+       "90": {
+        "id": 203022,
+        "property_id": 20302216790,
+        "class_id": 167,
+        "property_params": "{2}",
+        "property_sort": 90,
+        "tab_id": 1,
+        "property_type": "110005",
+        "item_id": 90,
+        "simple_hide": 1,
+        "show_default": 1
+       },
+       "91": {
+        "id": 203022,
+        "property_id": 20302216791,
+        "class_id": 167,
+        "property_params": "{}",
+        "property_sort": 91,
+        "tab_id": 1,
+        "property_type": "110006",
+        "item_id": 91,
+        "simple_hide": 1,
+        "show_default": 1
+       }
+      },
+      "180": {
+       "1": {
+        "enable_copy_property": 1,
+        "id": 203022,
+        "property_id": 20302216706,
+        "detail_rule": 203027,
+        "tab_id": 1,
+        "class_sort": 2,
+        "show_default": 1,
+        "class_id": 180,
+        "property_params": "{100476,1}",
+        "item_id": 1,
+        "property_sort": 1,
+        "property_type": "30001",
+        "simple_hide": 1
+       },
+       "2": {
+        "property_sort": 2,
+        "enable_copy_property": 1,
+        "id": 203022,
+        "show_default": 1,
+        "property_params": "{100571,1561~1562,1561}",
+        "simple_hide": 1,
+        "class_id": 180,
+        "property_type": "50001",
+        "tab_id": 1,
+        "item_id": 2,
+        "property_id": 20302218002,
+        "update_ui": 1
+       },
+       "3": {
+        "property_sort": 3,
+        "enable_copy_property": 1,
+        "id": 203022,
+        "property_type": "20001",
+        "property_params": "{100477,10,1,9999,100010}",
+        "show_default": 0,
+        "class_id": 180,
+        "check_update_ui_params": "{20302218002:1:1561}",
+        "simple_hide": 1,
+        "item_id": 3,
+        "property_id": 20302216707,
+        "tab_id": 1
+       },
+       "4": {
+        "property_id": 20302218004,
+        "id": 203022,
+        "enable_copy": 2,
+        "property_sort": 4,
+        "tab_id": 1,
+        "enable_copy_property": 1,
+        "show_default": 0,
+        "class_id": 180,
+        "property_params": "{100002,2},{100572,1571~1572,1571}",
+        "item_id": 4,
+        "check_update_ui_params": "{20302218002:1:1562}",
+        "property_type": "80001;50001",
+        "simple_hide": 1
+       },
+       "5": {
+        "class_id": 180,
+        "id": 203022,
+        "show_default": 1,
+        "enable_copy_property": 1,
+        "property_type": "30001",
+        "item_id": 5,
+        "tab_id": 1,
+        "property_params": "{100575,1}",
+        "property_sort": 5,
+        "property_id": 20302218005,
+        "simple_hide": 1
+       },
+       "6": {
+        "class_id": 180,
+        "id": 203022,
+        "show_default": 1,
+        "enable_copy_property": 1,
+        "property_type": "30001",
+        "item_id": 6,
+        "tab_id": 1,
+        "property_params": "{100568,1}",
+        "property_sort": 6,
+        "property_id": 20302218006,
+        "simple_hide": 1
+       },
+       "90": {
+        "class_id": 180,
+        "id": 203022,
+        "show_default": 1,
+        "enable_copy_property": 1,
+        "property_type": "110005",
+        "item_id": 90,
+        "tab_id": 1,
+        "property_params": "{2}",
+        "property_sort": 90,
+        "property_id": 20302218090,
+        "simple_hide": 1
+       },
+       "91": {
+        "id": 203022,
+        "property_id": 20302218091,
+        "class_id": 180,
+        "property_params": "{}",
+        "property_sort": 91,
+        "tab_id": 1,
+        "property_type": "110006",
+        "item_id": 91,
+        "simple_hide": 1,
+        "show_default": 1
+       }
+      }
+     }
+    },
+    "ugc_control_panel": null
+   },
+   "available": true
+  }
+ },
+ "203023": {
+  "label": "未知预留(203023)",
+  "schema": {
+   "component_type": 203023,
+   "sources": {
+    "ugc_item_property": null,
+    "ugc_control_panel": null
+   },
+   "available": false,
+   "note": "该组件类型没有属性 schema；可能是全局/内部类型，或目录里的隐藏记录。"
+  }
+ },
+ "203024": {
+  "label": "未知预留(203024)",
+  "schema": {
+   "component_type": 203024,
+   "sources": {
+    "ugc_item_property": null,
+    "ugc_control_panel": null
+   },
+   "available": false,
+   "note": "该组件类型没有属性 schema；可能是全局/内部类型，或目录里的隐藏记录。"
+  }
+ },
+ "203025": {
+  "label": "CHAT_EVENT 消息事件",
+  "schema": {
+   "component_type": 203025,
+   "sources": {
+    "ugc_item_property": {
+     "1": {
+      "100": {
+       "1": {
+        "enable_copy": 1,
+        "id": 203025,
+        "default_show_state": 0,
+        "property_id": 20302510001,
+        "tab_id": 1,
+        "class_sort": 10,
+        "show_default": 1,
+        "class_id": 100,
+        "property_params": "{1,100003}",
+        "item_id": 1,
+        "property_sort": 1,
+        "property_type": "70001",
+        "simple_hide": 0
+       },
+       "2": {
+        "class_id": 100,
+        "item_id": 2,
+        "show_default": 1,
+        "id": 203025,
+        "property_type": "70001",
+        "property_id": 20302510002,
+        "tab_id": 1,
+        "property_params": "{2,100004}",
+        "property_sort": 2,
+        "class_sort": 10,
+        "simple_hide": 0
+       },
+       "3": {
+        "class_id": 100,
+        "item_id": 3,
+        "show_default": 1,
+        "id": 203025,
+        "property_type": "70001",
+        "property_id": 20302510003,
+        "tab_id": 1,
+        "property_params": "{3,100005}",
+        "property_sort": 3,
+        "class_sort": 10,
+        "simple_hide": 1
+       },
+       "4": {
+        "class_id": 100,
+        "item_id": 4,
+        "show_default": 1,
+        "id": 203025,
+        "property_type": "70001",
+        "property_id": 20302510004,
+        "tab_id": 1,
+        "property_params": "{4,100006}",
+        "property_sort": 4,
+        "class_sort": 10,
+        "simple_hide": 0
+       }
+      },
+      "169": {
+       "1": {
+        "id": 203025,
+        "default_show_state": 1,
+        "item_id": 1,
+        "property_params": "{100459,1051~1053,1051}",
+        "enable_copy_property": 1,
+        "class_sort": 1,
+        "property_sort": 1,
+        "property_type": "50001",
+        "show_default": 1,
+        "enable_copy": 2,
+        "property_id": 20302516901,
+        "simple_hide": 1,
+        "class_id": 169,
+        "update_ui": 1,
+        "tab_id": 1
+       },
+       "2": {
+        "property_id": 20302516902,
+        "tab_id": 1,
+        "id": 203025,
+        "property_sort": 2,
+        "enable_copy_pgc_text": 1,
+        "check_update_ui_params": "{20302516901:1:1052}",
+        "enable_copy": 2,
+        "property_type": "80002",
+        "class_id": 169,
+        "item_id": 2,
+        "property_params": "{100101,2,9001,9002}",
+        "enable_copy_property": 1,
+        "show_default": 0,
+        "simple_hide": 1
+       },
+       "3": {
+        "property_id": 20302516903,
+        "tab_id": 1,
+        "id": 203025,
+        "property_sort": 3,
+        "enable_copy_pgc_text": 1,
+        "check_update_ui_params": "{20302516901:1:1053}",
+        "enable_copy": 2,
+        "property_type": "80003",
+        "class_id": 169,
+        "item_id": 3,
+        "property_params": "{100102}",
+        "enable_copy_property": 1,
+        "show_default": 0,
+        "simple_hide": 1
+       },
+       "4": {
+        "property_id": 20302516904,
+        "id": 203025,
+        "enable_copy": 2,
+        "property_sort": 4,
+        "tab_id": 1,
+        "enable_copy_property": 1,
+        "show_default": 1,
+        "class_id": 169,
+        "property_params": "{100479,1341~1342,1341}",
+        "item_id": 4,
+        "update_ui": 1,
+        "property_type": "50001",
+        "simple_hide": 0
+       },
+       "5": {
+        "property_id": 20302516905,
+        "tab_id": 1,
+        "id": 203025,
+        "property_sort": 5,
+        "enable_copy_pgc_text": 1,
+        "check_update_ui_params": "{20302516904:1:1341}",
+        "enable_copy": 2,
+        "property_type": "10002",
+        "class_id": 169,
+        "item_id": 5,
+        "property_params": "{100480,100289,0,20}",
+        "enable_copy_property": 1,
+        "show_default": 0,
+        "simple_hide": 0
+       },
+       "6": {
+        "property_id": 20302516906,
+        "id": 203025,
+        "enable_copy": 2,
+        "property_sort": 6,
+        "tab_id": 1,
+        "enable_copy_property": 1,
+        "show_default": 0,
+        "class_id": 169,
+        "property_params": "{100480,1501~1504,1501}",
+        "item_id": 6,
+        "check_update_ui_params": "{20302516904:1:1342}",
+        "property_type": "50001",
+        "simple_hide": 0
+       },
+       "7": {
+        "id": 203025,
+        "property_id": 20302516907,
+        "class_id": 169,
+        "property_params": "{100481,1351~1352,1351}",
+        "property_sort": 7,
+        "tab_id": 1,
+        "property_type": "50001",
+        "item_id": 7,
+        "simple_hide": 0,
+        "show_default": 1
+       },
+       "8": {
+        "enable_copy": 2,
+        "enable_copy_property": 1,
+        "id": 203025,
+        "property_sort": 8,
+        "property_params": "{100482,1}",
+        "show_default": 1,
+        "class_id": 169,
+        "property_type": "80001",
+        "simple_hide": 0,
+        "item_id": 8,
+        "property_id": 20302516908,
+        "tab_id": 1
+       },
+       "11": {
+        "class_id": 169,
+        "id": 203025,
+        "show_default": 1,
+        "enable_copy_property": 1,
+        "property_type": "30001",
+        "item_id": 11,
+        "tab_id": 1,
+        "property_params": "{100483,1}",
+        "property_sort": 11,
+        "property_id": 20302516911,
+        "simple_hide": 1
+       },
+       "12": {
+        "enable_copy": 2,
+        "enable_copy_property": 1,
+        "id": 203025,
+        "property_sort": 12,
+        "property_params": "{100484,2}",
+        "show_default": 1,
+        "class_id": 169,
+        "property_type": "80001",
+        "simple_hide": 1,
+        "item_id": 12,
+        "property_id": 20302516912,
+        "tab_id": 1
+       },
+       "13": {
+        "enable_copy": 2,
+        "enable_copy_property": 1,
+        "id": 203025,
+        "property_sort": 13,
+        "property_params": "{100485,2}",
+        "show_default": 1,
+        "class_id": 169,
+        "property_type": "80001",
+        "simple_hide": 1,
+        "item_id": 13,
+        "property_id": 20302516913,
+        "tab_id": 1
+       },
+       "90": {
+        "id": 203025,
+        "property_id": 20302516990,
+        "class_id": 169,
+        "property_params": "{2}",
+        "property_sort": 90,
+        "tab_id": 1,
+        "property_type": "110005",
+        "item_id": 90,
+        "simple_hide": 1,
+        "show_default": 1
+       },
+       "91": {
+        "id": 203025,
+        "property_id": 20302516991,
+        "class_id": 169,
+        "property_params": "{}",
+        "property_sort": 91,
+        "tab_id": 1,
+        "property_type": "110006",
+        "item_id": 91,
+        "simple_hide": 1,
+        "show_default": 1
+       }
+      }
+     }
+    },
+    "ugc_control_panel": null
+   },
+   "available": true
+  }
+ },
+ "203026": {
+  "label": "GUIDER 寻路指引",
+  "schema": {
+   "component_type": 203026,
+   "sources": {
+    "ugc_item_property": {
+     "1": {
+      "100": {
+       "1": {
+        "enable_copy": 1,
+        "id": 203026,
+        "default_show_state": 0,
+        "property_id": 20302610001,
+        "tab_id": 1,
+        "class_sort": 10,
+        "show_default": 1,
+        "class_id": 100,
+        "property_params": "{1,100003}",
+        "item_id": 1,
+        "property_sort": 1,
+        "property_type": "70001",
+        "simple_hide": 0
+       },
+       "2": {
+        "class_id": 100,
+        "item_id": 2,
+        "show_default": 1,
+        "id": 203026,
+        "property_type": "70001",
+        "property_id": 20302610002,
+        "tab_id": 1,
+        "property_params": "{2,100004}",
+        "property_sort": 2,
+        "class_sort": 10,
+        "simple_hide": 0
+       },
+       "3": {
+        "class_id": 100,
+        "item_id": 3,
+        "show_default": 1,
+        "id": 203026,
+        "property_type": "70001",
+        "property_id": 20302610003,
+        "tab_id": 1,
+        "property_params": "{3,100005}",
+        "property_sort": 3,
+        "class_sort": 10,
+        "simple_hide": 1
+       },
+       "4": {
+        "class_id": 100,
+        "item_id": 4,
+        "show_default": 1,
+        "id": 203026,
+        "property_type": "70001",
+        "property_id": 20302610004,
+        "tab_id": 1,
+        "property_params": "{4,100006}",
+        "property_sort": 4,
+        "class_sort": 10,
+        "simple_hide": 0
+       }
+      },
+      "171": {
+       "1": {
+        "property_id": 20302617101,
+        "tab_id": 1,
+        "id": 203026,
+        "class_sort": 1,
+        "property_params": "{100459,1051~1053,1051}",
+        "simple_hide": 1,
+        "property_sort": 1,
+        "property_type": "50001",
+        "class_id": 171,
+        "item_id": 1,
+        "default_show_state": 1,
+        "enable_copy_property": 1,
+        "show_default": 1,
+        "update_ui": 1
+       },
+       "2": {
+        "property_id": 20302617102,
+        "id": 203026,
+        "property_params": "{100101,2,9001,9002}",
+        "property_sort": 2,
+        "tab_id": 1,
+        "enable_copy_property": 1,
+        "show_default": 0,
+        "class_id": 171,
+        "enable_copy_pgc_text": 1,
+        "item_id": 2,
+        "check_update_ui_params": "{20302617101:1:1052}",
+        "property_type": "80002",
+        "simple_hide": 1
+       },
+       "3": {
+        "property_id": 20302617103,
+        "id": 203026,
+        "property_params": "{100102}",
+        "property_sort": 3,
+        "tab_id": 1,
+        "enable_copy_property": 1,
+        "show_default": 0,
+        "class_id": 171,
+        "enable_copy_pgc_text": 1,
+        "item_id": 3,
+        "check_update_ui_params": "{20302617101:1:1053}",
+        "property_type": "80003",
+        "simple_hide": 1
+       },
+       "4": {
+        "property_sort": 4,
+        "enable_copy_property": 1,
+        "id": 203026,
+        "show_default": 1,
+        "property_params": "{100553,1561~1562,1561}",
+        "simple_hide": 0,
+        "class_id": 171,
+        "property_type": "50001",
+        "tab_id": 1,
+        "item_id": 4,
+        "property_id": 20302617104,
+        "update_ui": 1
+       },
+       "5": {
+        "property_id": 20302617105,
+        "id": 203026,
+        "enable_copy": 2,
+        "property_sort": 5,
+        "tab_id": 1,
+        "enable_copy_property": 1,
+        "show_default": 0,
+        "class_id": 171,
+        "property_params": "{100554,10,1,9999,100010},{100555,1071~1072,1071},{100556,1571~1572,1571}",
+        "item_id": 5,
+        "check_update_ui_params": "{20302617104:1:1561}",
+        "property_type": "20001;50001;50001",
+        "simple_hide": 0
+       },
+       "6": {
+        "property_id": 20302617106,
+        "id": 203026,
+        "enable_copy": 2,
+        "property_sort": 6,
+        "tab_id": 1,
+        "enable_copy_property": 1,
+        "show_default": 0,
+        "class_id": 171,
+        "property_params": "{100002,2},{100556,1571~1572,1571}",
+        "item_id": 6,
+        "check_update_ui_params": "{20302617104:1:1562}",
+        "property_type": "80001;50001",
+        "simple_hide": 0
+       },
+       "7": {
+        "class_id": 171,
+        "id": 203026,
+        "show_default": 1,
+        "enable_copy_property": 1,
+        "property_type": "30001",
+        "item_id": 7,
+        "tab_id": 1,
+        "property_params": "{100532,1}",
+        "property_sort": 7,
+        "property_id": 20302617107,
+        "simple_hide": 1
+       },
+       "8": {
+        "class_id": 171,
+        "id": 203026,
+        "show_default": 1,
+        "enable_copy_property": 1,
+        "property_type": "30001",
+        "item_id": 8,
+        "tab_id": 1,
+        "property_params": "{100506,1}",
+        "property_sort": 8,
+        "property_id": 20302617108,
+        "simple_hide": 1
+       },
+       "90": {
+        "id": 203026,
+        "property_id": 20302617190,
+        "class_id": 171,
+        "property_params": "{2}",
+        "property_sort": 90,
+        "tab_id": 1,
+        "property_type": "110005",
+        "item_id": 90,
+        "simple_hide": 1,
+        "show_default": 1
+       },
+       "91": {
+        "id": 203026,
+        "property_id": 20302617191,
+        "class_id": 171,
+        "property_params": "{}",
+        "property_sort": 91,
+        "tab_id": 1,
+        "property_type": "110006",
+        "item_id": 91,
+        "simple_hide": 1,
+        "show_default": 1
+       }
+      }
+     }
+    },
+    "ugc_control_panel": null
+   },
+   "available": true
+  }
+ },
+ "203027": {
+  "label": "CHARA_PIC_WALL 角色立绘墙",
+  "schema": {
+   "component_type": 203027,
+   "sources": {
+    "ugc_item_property": {
+     "1": {
+      "100": {
+       "1": {
+        "enable_copy": 1,
+        "id": 203027,
+        "default_show_state": 0,
+        "property_id": 20302710001,
+        "tab_id": 1,
+        "class_sort": 10,
+        "show_default": 1,
+        "class_id": 100,
+        "property_params": "{1,100003}",
+        "item_id": 1,
+        "property_sort": 1,
+        "property_type": "70001",
+        "simple_hide": 0
+       },
+       "2": {
+        "id": 203027,
+        "property_id": 20302710002,
+        "class_id": 100,
+        "property_params": "{2,100004}",
+        "property_sort": 2,
+        "tab_id": 1,
+        "property_type": "70001",
+        "item_id": 2,
+        "simple_hide": 0,
+        "show_default": 1
+       },
+       "3": {
+        "id": 203027,
+        "property_id": 20302710003,
+        "class_id": 100,
+        "property_params": "{3,100005}",
+        "property_sort": 3,
+        "tab_id": 1,
+        "property_type": "70001",
+        "item_id": 3,
+        "simple_hide": 1,
+        "show_default": 1
+       },
+       "4": {
+        "id": 203027,
+        "property_id": 20302710004,
+        "class_id": 100,
+        "property_params": "{4,100006}",
+        "property_sort": 4,
+        "tab_id": 1,
+        "property_type": "70001",
+        "item_id": 4,
+        "simple_hide": 0,
+        "show_default": 1
+       }
+      },
+      "173": {
+       "1": {
+        "property_id": 20302717301,
+        "tab_id": 1,
+        "id": 203027,
+        "class_sort": 1,
+        "property_params": "{100546,3,1}",
+        "simple_hide": 0,
+        "property_sort": 1,
+        "property_type": "60001",
+        "class_id": 173,
+        "item_id": 1,
+        "default_show_state": 1,
+        "enable_copy_property": 1,
+        "show_default": 1,
+        "update_ui": 1
+       },
+       "2": {
+        "class_id": 173,
+        "id": 203027,
+        "show_default": 1,
+        "enable_copy_property": 1,
+        "property_type": "50001",
+        "item_id": 2,
+        "tab_id": 1,
+        "property_params": "{100547,1581~1582,1582}",
+        "property_sort": 2,
+        "property_id": 20302717302,
+        "simple_hide": 0
+       },
+       "91": {
+        "class_id": 173,
+        "id": 203027,
+        "show_default": 1,
+        "enable_copy_property": 1,
+        "property_type": "110006",
+        "item_id": 91,
+        "tab_id": 1,
+        "property_params": "{}",
+        "property_sort": 91,
+        "property_id": 20302717391,
+        "simple_hide": 1
+       }
+      },
+      "20": {
+       "1": {
+        "enable_copy_property": 1,
+        "id": 203027,
+        "extra_params_1": "_col_state_list",
+        "property_id": 20302702001,
+        "tab_id": 1,
+        "class_sort": 2,
+        "show_default": 1,
+        "class_id": 20,
+        "property_params": "{100276,1}",
+        "item_id": 1,
+        "property_sort": 1,
+        "property_type": "30001",
+        "simple_hide": 1
+       },
+       "2": {
+        "enable_copy_property": 1,
+        "item_id": 2,
+        "property_id": 20302702002,
+        "property_params": "{100312,1181~1184,1181}",
+        "detail_rule": 203033,
+        "id": 203027,
+        "property_sort": 2,
+        "property_type": "50001",
+        "show_default": 0,
+        "enable_copy": 3,
+        "extra_params_1": "{engine_check,7},{detour_apply_all:100000,100001,203014,203027,204001}",
+        "simple_hide": 1,
+        "class_id": 20,
+        "check_update_ui_params": "{20302702001:1:1}",
+        "tab_id": 1
+       },
+       "5": {
+        "class_id": 20,
+        "id": 203027,
+        "show_default": 1,
+        "enable_copy_property": 1,
+        "property_type": "120001",
+        "item_id": 5,
+        "tab_id": 1,
+        "property_params": "{8001~8004;8165~8167;8005~8081;8083~8174,8001}",
+        "property_sort": 5,
+        "property_id": 20302702005,
+        "simple_hide": 0
+       },
+       "6": {
+        "property_params": "{4,7001~7035,7029}",
+        "enable_copy_property": 1,
+        "id": 203027,
+        "property_sort": 6,
+        "extra_params_1": "variable_len_mat:20302702005",
+        "show_default": 1,
+        "class_id": 20,
+        "property_type": "120002",
+        "simple_hide": 0,
+        "item_id": 6,
+        "property_id": 20302702006,
+        "tab_id": 1
+       },
+       "7": {
+        "class_id": 20,
+        "id": 203027,
+        "show_default": 1,
+        "enable_copy_property": 1,
+        "property_type": "20004",
+        "item_id": 7,
+        "tab_id": 1,
+        "property_params": "{100275,90,1,0,100,%}",
+        "property_sort": 7,
+        "property_id": 20302702007,
+        "simple_hide": 0
+       },
+       "91": {
+        "id": 203027,
+        "property_id": 20302702091,
+        "class_id": 20,
+        "property_params": "{}",
+        "property_sort": 91,
+        "tab_id": 1,
+        "property_type": "110006",
+        "item_id": 91,
+        "simple_hide": 1,
+        "show_default": 1
+       }
+      },
+      "30": {
+       "1": {
+        "id": 203027,
+        "enable_copy_property": 1,
+        "class_sort": 3,
+        "property_sort": 1,
+        "property_params": "{100012,1}",
+        "show_default": 1,
+        "class_id": 30,
+        "property_type": "30001",
+        "simple_hide": 1,
+        "item_id": 1,
+        "property_id": 20302703001,
+        "tab_id": 1
+       },
+       "2": {
+        "enable_copy": 2,
+        "enable_copy_property": 1,
+        "id": 203027,
+        "property_sort": 2,
+        "property_params": "{100548,2}",
+        "show_default": 1,
+        "class_id": 30,
+        "property_type": "80001",
+        "simple_hide": 1,
+        "item_id": 2,
+        "property_id": 20302703002,
+        "tab_id": 1
+       },
+       "3": {
+        "enable_copy": 2,
+        "enable_copy_property": 1,
+        "id": 203027,
+        "property_sort": 3,
+        "property_params": "{100549,2}",
+        "show_default": 1,
+        "class_id": 30,
+        "property_type": "80001",
+        "simple_hide": 1,
+        "item_id": 3,
+        "property_id": 20302703003,
+        "tab_id": 1
+       },
+       "4": {
+        "enable_copy": 2,
+        "enable_copy_property": 1,
+        "id": 203027,
+        "property_sort": 4,
+        "property_params": "{100002,2},{0,100145}",
+        "show_default": 1,
+        "class_id": 30,
+        "property_type": "80001;70001",
+        "simple_hide": 1,
+        "item_id": 4,
+        "property_id": 20302703004,
+        "tab_id": 1
+       },
+       "5": {
+        "enable_copy": 2,
+        "enable_copy_property": 1,
+        "id": 203027,
+        "property_sort": 5,
+        "property_params": "{100002,2},{5,100348}",
+        "show_default": 1,
+        "class_id": 30,
+        "property_type": "80001;70001",
+        "simple_hide": 1,
+        "item_id": 5,
+        "property_id": 20302703005,
+        "tab_id": 1
+       },
+       "90": {
+        "class_id": 30,
+        "id": 203027,
+        "show_default": 1,
+        "enable_copy_property": 1,
+        "property_type": "110005",
+        "item_id": 90,
+        "tab_id": 1,
+        "property_params": "{2}",
+        "property_sort": 90,
+        "property_id": 20302703090,
+        "simple_hide": 1
+       },
+       "91": {
+        "class_id": 30,
+        "id": 203027,
+        "show_default": 1,
+        "enable_copy_property": 1,
+        "property_type": "110006",
+        "item_id": 91,
+        "tab_id": 1,
+        "property_params": "{}",
+        "property_sort": 91,
+        "property_id": 20302703091,
+        "simple_hide": 1
+       }
+      }
+     }
+    },
+    "ugc_control_panel": null
+   },
+   "available": true
+  }
+ },
+ "203028": {
+  "label": "TAKE_PHOTO_WALL 拍摄照片墙",
+  "schema": {
+   "component_type": 203028,
+   "sources": {
+    "ugc_item_property": {
+     "1": {
+      "100": {
+       "1": {
+        "enable_copy": 1,
+        "id": 203028,
+        "default_show_state": 0,
+        "property_id": 20302810001,
+        "tab_id": 1,
+        "class_sort": 10,
+        "show_default": 1,
+        "class_id": 100,
+        "property_params": "{1,100003}",
+        "item_id": 1,
+        "property_sort": 1,
+        "property_type": "70001",
+        "simple_hide": 0
+       },
+       "2": {
+        "id": 203028,
+        "property_id": 20302810002,
+        "class_id": 100,
+        "property_params": "{2,100004}",
+        "property_sort": 2,
+        "tab_id": 1,
+        "property_type": "70001",
+        "item_id": 2,
+        "simple_hide": 0,
+        "show_default": 1
+       },
+       "3": {
+        "id": 203028,
+        "property_id": 20302810003,
+        "class_id": 100,
+        "property_params": "{3,100005}",
+        "property_sort": 3,
+        "tab_id": 1,
+        "property_type": "70001",
+        "item_id": 3,
+        "simple_hide": 1,
+        "show_default": 1
+       },
+       "4": {
+        "id": 203028,
+        "property_id": 20302810004,
+        "class_id": 100,
+        "property_params": "{4,100006}",
+        "property_sort": 4,
+        "tab_id": 1,
+        "property_type": "70001",
+        "item_id": 4,
+        "simple_hide": 0,
+        "show_default": 1
+       }
+      },
+      "194": {
+       "1": {
+        "id": 203028,
+        "show_default": 1,
+        "class_sort": 3,
+        "property_params": "{}",
+        "default_show_state": 1,
+        "property_sort": 1,
+        "class_id": 194,
+        "property_type": "160002",
+        "simple_hide": 0,
+        "item_id": 1,
+        "property_id": 20302819401,
+        "tab_id": 1
+       }
+      },
+      "195": {
+       "1": {
+        "enable_copy_property": 1,
+        "id": 203028,
+        "property_id": 20302819501,
+        "property_sort": 1,
+        "tab_id": 1,
+        "class_sort": 11,
+        "show_default": 1,
+        "class_id": 195,
+        "property_params": "{100644,203930,20393019601~20393019603;20393019701~20393019703}",
+        "item_id": 1,
+        "property_type": "110012",
+        "simple_hide": 1,
+        "detail_type_of_rule": 202003
+       }
+      }
+     },
+     "8": {
+      "187": {
+       "1": {
+        "enable_copy_property": 1,
+        "id": 203028,
+        "default_show_state": 1,
+        "property_id": 20302818701,
+        "tab_id": 8,
+        "class_sort": 1,
+        "show_default": 1,
+        "class_id": 187,
+        "property_params": "{100591,20391202001,100}",
+        "item_id": 1,
+        "property_sort": 1,
+        "property_type": "200001",
+        "simple_hide": 1
+       },
+       "2": {
+        "property_params": "{100652,0}",
+        "enable_copy_property": 1,
+        "id": 203028,
+        "property_sort": 2,
+        "detail_rule": 203038,
+        "show_default": 1,
+        "class_id": 187,
+        "property_type": "30001",
+        "simple_hide": 1,
+        "item_id": 2,
+        "property_id": 20302818702,
+        "tab_id": 8
+       }
+      }
+     }
+    },
+    "ugc_control_panel": null
+   },
+   "available": true
+  }
+ },
+ "204001": {
+  "label": "POSTER_WALL 涂鸦墙",
+  "schema": {
+   "component_type": 204001,
+   "sources": {
+    "ugc_item_property": {
+     "1": {
+      "100": {
+       "1": {
+        "enable_copy": 1,
+        "id": 204001,
+        "default_show_state": 0,
+        "property_id": 20400110001,
+        "tab_id": 1,
+        "class_sort": 10,
+        "show_default": 1,
+        "class_id": 100,
+        "property_params": "{1,100003}",
+        "item_id": 1,
+        "property_sort": 1,
+        "property_type": "70001",
+        "simple_hide": 0
+       },
+       "2": {
+        "id": 204001,
+        "property_id": 20400110002,
+        "class_id": 100,
+        "property_params": "{2,100004}",
+        "property_sort": 2,
+        "tab_id": 1,
+        "property_type": "70001",
+        "item_id": 2,
+        "simple_hide": 0,
+        "show_default": 1
+       },
+       "3": {
+        "id": 204001,
+        "property_id": 20400110003,
+        "class_id": 100,
+        "property_params": "{3,100005}",
+        "property_sort": 3,
+        "tab_id": 1,
+        "property_type": "70001",
+        "item_id": 3,
+        "simple_hide": 1,
+        "show_default": 1
+       },
+       "4": {
+        "id": 204001,
+        "property_id": 20400110004,
+        "class_id": 100,
+        "property_params": "{4,100006}",
+        "property_sort": 4,
+        "tab_id": 1,
+        "property_type": "70001",
+        "item_id": 4,
+        "simple_hide": 0,
+        "show_default": 1
+       }
+      },
+      "198": {
+       "1": {
+        "enable_copy_property": 1,
+        "default_show_state": 1,
+        "id": 204001,
+        "item_id": 1,
+        "detail_rule": 203042,
+        "class_sort": 1,
+        "property_params": "{100655,3,1}",
+        "property_type": "120004",
+        "property_sort": 1,
+        "show_default": 1,
+        "property_id": 20400119801,
+        "simple_hide": 0,
+        "class_id": 198,
+        "update_ui": 1,
+        "tab_id": 1
+       },
+       "2": {
+        "property_sort": 2,
+        "enable_copy_property": 1,
+        "id": 204001,
+        "show_default": 1,
+        "property_params": "{100653,1}",
+        "simple_hide": 0,
+        "class_id": 198,
+        "property_type": "30001",
+        "tab_id": 1,
+        "item_id": 2,
+        "property_id": 20400119802,
+        "update_ui": 1
+       },
+       "91": {
+        "class_id": 198,
+        "id": 204001,
+        "show_default": 1,
+        "enable_copy_property": 1,
+        "property_type": "110006",
+        "item_id": 91,
+        "tab_id": 1,
+        "property_params": "{}",
+        "property_sort": 91,
+        "property_id": 20400119891,
+        "simple_hide": 1
+       }
+      },
+      "20": {
+       "1": {
+        "enable_copy_property": 1,
+        "id": 204001,
+        "extra_params_1": "_col_state_list",
+        "property_id": 20400102001,
+        "tab_id": 1,
+        "class_sort": 2,
+        "show_default": 1,
+        "class_id": 20,
+        "property_params": "{100276,1}",
+        "item_id": 1,
+        "property_sort": 1,
+        "property_type": "30001",
+        "simple_hide": 1
+       },
+       "2": {
+        "enable_copy_property": 1,
+        "item_id": 2,
+        "property_id": 20400102002,
+        "property_params": "{100312,1181~1184,1181}",
+        "detail_rule": 203033,
+        "id": 204001,
+        "property_sort": 2,
+        "property_type": "50001",
+        "show_default": 0,
+        "enable_copy": 3,
+        "extra_params_1": "{engine_check,7},{detour_apply_all:100000,100001,203014,203027,204001}",
+        "simple_hide": 1,
+        "class_id": 20,
+        "check_update_ui_params": "{20400102002:1:1}",
+        "tab_id": 1
+       },
+       "5": {
+        "class_id": 20,
+        "id": 204001,
+        "show_default": 1,
+        "enable_copy_property": 1,
+        "property_type": "120001",
+        "item_id": 5,
+        "tab_id": 1,
+        "property_params": "{8001~8004;8165~8167;8005~8081;8083~8174,8001}",
+        "property_sort": 5,
+        "property_id": 20400102005,
+        "simple_hide": 0
+       },
+       "6": {
+        "property_params": "{4,7001~7035,7029}",
+        "enable_copy_property": 1,
+        "id": 204001,
+        "property_sort": 6,
+        "extra_params_1": "variable_len_mat:20400102006",
+        "show_default": 1,
+        "class_id": 20,
+        "property_type": "120002",
+        "simple_hide": 0,
+        "item_id": 6,
+        "property_id": 20400102006,
+        "tab_id": 1
+       },
+       "7": {
+        "class_id": 20,
+        "id": 204001,
+        "show_default": 1,
+        "enable_copy_property": 1,
+        "property_type": "20004",
+        "item_id": 7,
+        "tab_id": 1,
+        "property_params": "{100275,90,1,0,100,%}",
+        "property_sort": 7,
+        "property_id": 20400102007,
+        "simple_hide": 0
+       },
+       "91": {
+        "id": 204001,
+        "property_id": 20400102091,
+        "class_id": 20,
+        "property_params": "{}",
+        "property_sort": 91,
+        "tab_id": 1,
+        "property_type": "110006",
+        "item_id": 91,
+        "simple_hide": 1,
+        "show_default": 1
+       }
+      },
+      "30": {
+       "1": {
+        "id": 204001,
+        "enable_copy_property": 1,
+        "class_sort": 3,
+        "property_sort": 1,
+        "property_params": "{100012,1}",
+        "show_default": 1,
+        "class_id": 30,
+        "property_type": "30001",
+        "simple_hide": 1,
+        "item_id": 1,
+        "property_id": 20400103001,
+        "tab_id": 1
+       },
+       "2": {
+        "enable_copy": 2,
+        "enable_copy_property": 1,
+        "id": 204001,
+        "property_sort": 2,
+        "property_params": "{100548,2}",
+        "show_default": 1,
+        "class_id": 30,
+        "property_type": "80001",
+        "simple_hide": 1,
+        "item_id": 2,
+        "property_id": 20400103002,
+        "tab_id": 1
+       },
+       "3": {
+        "enable_copy": 2,
+        "enable_copy_property": 1,
+        "id": 204001,
+        "property_sort": 3,
+        "property_params": "{100549,2}",
+        "show_default": 1,
+        "class_id": 30,
+        "property_type": "80001",
+        "simple_hide": 1,
+        "item_id": 3,
+        "property_id": 20400103003,
+        "tab_id": 1
+       },
+       "4": {
+        "enable_copy": 2,
+        "enable_copy_property": 1,
+        "id": 204001,
+        "property_sort": 4,
+        "property_params": "{100002,2},{0,100145}",
+        "show_default": 1,
+        "class_id": 30,
+        "property_type": "80001;70001",
+        "simple_hide": 1,
+        "item_id": 4,
+        "property_id": 20400103004,
+        "tab_id": 1
+       },
+       "5": {
+        "enable_copy": 2,
+        "enable_copy_property": 1,
+        "id": 204001,
+        "property_sort": 5,
+        "property_params": "{100002,2},{5,100348}",
+        "show_default": 1,
+        "class_id": 30,
+        "property_type": "80001;70001",
+        "simple_hide": 1,
+        "item_id": 5,
+        "property_id": 20400103005,
+        "tab_id": 1
+       },
+       "90": {
+        "class_id": 30,
+        "id": 204001,
+        "show_default": 1,
+        "enable_copy_property": 1,
+        "property_type": "110005",
+        "item_id": 90,
+        "tab_id": 1,
+        "property_params": "{2}",
+        "property_sort": 90,
+        "property_id": 20400103090,
+        "simple_hide": 1
+       },
+       "91": {
+        "class_id": 30,
+        "id": 204001,
+        "show_default": 1,
+        "enable_copy_property": 1,
+        "property_type": "110006",
+        "item_id": 91,
+        "tab_id": 1,
+        "property_params": "{}",
+        "property_sort": 91,
+        "property_id": 20400103091,
+        "simple_hide": 1
+       }
+      },
+      "195": {
+       "1": {
+        "id": 204001,
+        "enable_copy_property": 1,
+        "class_sort": 11,
+        "property_sort": 1,
+        "property_params": "{100644,203930,20393019601~20393019603;20393019699;20393019701~20393019703}",
+        "show_default": 1,
+        "class_id": 195,
+        "property_type": "110012",
+        "simple_hide": 1,
+        "item_id": 1,
+        "property_id": 20400119501,
+        "tab_id": 1
+       }
+      }
+     },
+     "8": {
+      "187": {
+       "1": {
+        "enable_copy_property": 1,
+        "id": 204001,
+        "default_show_state": 1,
+        "property_id": 20400118701,
+        "tab_id": 8,
+        "class_sort": 1,
+        "show_default": 1,
+        "class_id": 187,
+        "property_params": "{100591,20391202001,100}",
+        "item_id": 1,
+        "property_sort": 1,
+        "property_type": "200001",
+        "simple_hide": 1
+       },
+       "2": {
+        "property_params": "{100652,0}",
+        "enable_copy_property": 1,
+        "id": 204001,
+        "property_sort": 2,
+        "detail_rule": 203038,
+        "show_default": 1,
+        "class_id": 187,
+        "property_type": "30001",
+        "simple_hide": 1,
+        "item_id": 2,
+        "property_id": 20400118702,
+        "tab_id": 8
+       }
+      }
+     }
+    },
+    "ugc_control_panel": null
+   },
+   "available": true
+  }
+ },
+ "204002": {
+  "label": "SKETCH_PHOTO_WALL 临摹图片墙",
+  "schema": {
+   "component_type": 204002,
+   "sources": {
+    "ugc_item_property": {
+     "1": {
+      "100": {
+       "1": {
+        "enable_copy": 1,
+        "id": 204002,
+        "default_show_state": 0,
+        "property_id": 20400210001,
+        "tab_id": 1,
+        "class_sort": 10,
+        "show_default": 1,
+        "class_id": 100,
+        "property_params": "{1,100003}",
+        "item_id": 1,
+        "property_sort": 1,
+        "property_type": "70001",
+        "simple_hide": 0
+       },
+       "2": {
+        "id": 204002,
+        "property_id": 20400210002,
+        "class_id": 100,
+        "property_params": "{2,100004}",
+        "property_sort": 2,
+        "tab_id": 1,
+        "property_type": "70001",
+        "item_id": 2,
+        "simple_hide": 0,
+        "show_default": 1
+       },
+       "3": {
+        "id": 204002,
+        "property_id": 20400210003,
+        "class_id": 100,
+        "property_params": "{3,100005}",
+        "property_sort": 3,
+        "tab_id": 1,
+        "property_type": "70001",
+        "item_id": 3,
+        "simple_hide": 1,
+        "show_default": 1
+       },
+       "4": {
+        "id": 204002,
+        "property_id": 20400210004,
+        "class_id": 100,
+        "property_params": "{4,100006}",
+        "property_sort": 4,
+        "tab_id": 1,
+        "property_type": "70001",
+        "item_id": 4,
+        "simple_hide": 0,
+        "show_default": 1
+       }
+      },
+      "130": {
+       "1": {
+        "property_id": 20400213001,
+        "id": 204002,
+        "default_show_state": 1,
+        "property_sort": 3,
+        "tab_id": 1,
+        "class_sort": 1,
+        "show_default": 0,
+        "class_id": 130,
+        "property_params": "{}",
+        "item_id": 1,
+        "check_update_ui_params": "{20400213005:1:1952}",
+        "property_type": "160001",
+        "simple_hide": 0
+       },
+       "2": {
+        "class_id": 130,
+        "id": 204002,
+        "show_default": 1,
+        "enable_copy_property": 1,
+        "property_type": "50001",
+        "item_id": 2,
+        "tab_id": 1,
+        "property_params": "{100680,1731~1734,1732}",
+        "property_sort": 11,
+        "property_id": 20400213002,
+        "simple_hide": 1
+       },
+       "3": {
+        "class_id": 130,
+        "id": 204002,
+        "show_default": 1,
+        "enable_copy_property": 1,
+        "property_type": "20004",
+        "item_id": 3,
+        "tab_id": 1,
+        "property_params": "{100681,50,1,0,100,%}",
+        "property_sort": 12,
+        "property_id": 20400213003,
+        "simple_hide": 1
+       },
+       "4": {
+        "class_id": 130,
+        "id": 204002,
+        "show_default": 1,
+        "enable_copy_property": 1,
+        "property_type": "120002",
+        "item_id": 4,
+        "tab_id": 1,
+        "property_params": "{1,7001~7035,7029,100682}",
+        "property_sort": 13,
+        "property_id": 20400213004,
+        "simple_hide": 0
+       },
+       "5": {
+        "class_id": 130,
+        "item_id": 5,
+        "show_default": 1,
+        "id": 204002,
+        "property_type": "50001",
+        "property_sort": 1,
+        "tab_id": 1,
+        "property_params": "{100732,1951~1952,1952}",
+        "update_ui": 1,
+        "property_id": 20400213005,
+        "simple_hide": 0
+       },
+       "6": {
+        "class_id": 130,
+        "item_id": 6,
+        "show_default": 0,
+        "id": 204002,
+        "property_type": "210007",
+        "property_params": "{100731,27001~27039}",
+        "tab_id": 1,
+        "check_update_ui_params": "{20400213005:1:1951}",
+        "property_sort": 2,
+        "property_id": 20400213006,
+        "simple_hide": 0
+       }
+      },
+      "195": {
+       "1": {
+        "enable_copy_property": 1,
+        "id": 204002,
+        "property_id": 20400219501,
+        "property_sort": 1,
+        "tab_id": 1,
+        "class_sort": 11,
+        "show_default": 1,
+        "class_id": 195,
+        "property_params": "{100644,203930,20393019601~20393019603;20393019701~20393019703}",
+        "item_id": 1,
+        "property_type": "110012",
+        "simple_hide": 1,
+        "detail_type_of_rule": 202003
+       }
+      }
+     }
+    },
+    "ugc_control_panel": null
+   },
+   "available": true
+  }
+ },
+ "204005": {
+  "label": "CHECKPOINT_ROUTE 通关路线",
+  "schema": {
+   "component_type": 204005,
+   "sources": {
+    "ugc_item_property": {
+     "1": {
+      "100": {
+       "1": {
+        "enable_copy": 1,
+        "show_default": 1,
+        "class_sort": 10,
+        "id": 204005,
+        "property_params": "{1,100003}",
+        "property_sort": 1,
+        "class_id": 100,
+        "property_type": "70001",
+        "simple_hide": 0,
+        "item_id": 1,
+        "property_id": 20400510001,
+        "tab_id": 1
+       },
+       "2": {
+        "class_id": 100,
+        "item_id": 2,
+        "show_default": 1,
+        "id": 204005,
+        "property_type": "70001",
+        "property_id": 20400510002,
+        "tab_id": 1,
+        "property_params": "{2,100004}",
+        "property_sort": 2,
+        "class_sort": 10,
+        "simple_hide": 0
+       },
+       "3": {
+        "class_id": 100,
+        "item_id": 3,
+        "show_default": 1,
+        "id": 204005,
+        "property_type": "70001",
+        "property_id": 20400510003,
+        "tab_id": 1,
+        "property_params": "{3,100005}",
+        "property_sort": 3,
+        "class_sort": 10,
+        "simple_hide": 1
+       },
+       "4": {
+        "class_id": 100,
+        "item_id": 4,
+        "show_default": 1,
+        "id": 204005,
+        "property_type": "70001",
+        "property_id": 20400510004,
+        "tab_id": 1,
+        "property_params": "{4,100006}",
+        "property_sort": 4,
+        "class_sort": 10,
+        "simple_hide": 0
+       }
+      },
+      "199": {
+       "1": {
+        "enable_copy_property": 1,
+        "id": 204005,
+        "default_show_state": 1,
+        "property_id": 20400519901,
+        "tab_id": 1,
+        "class_sort": 1,
+        "show_default": 1,
+        "class_id": 199,
+        "property_params": "{100696,1,1,999,0,1}",
+        "item_id": 1,
+        "property_sort": 1,
+        "property_type": "20001",
+        "simple_hide": 0
+       },
+       "2": {
+        "class_id": 199,
+        "id": 204005,
+        "show_default": 1,
+        "enable_copy_property": 1,
+        "property_type": "30001",
+        "item_id": 2,
+        "tab_id": 1,
+        "property_params": "{100532,0}",
+        "property_sort": 2,
+        "property_id": 20400519902,
+        "simple_hide": 0
+       },
+       "3": {
+        "class_id": 199,
+        "id": 204005,
+        "show_default": 1,
+        "enable_copy_property": 1,
+        "property_type": "20004",
+        "item_id": 3,
+        "tab_id": 1,
+        "property_params": "{100703,10,1,1,999,100010}",
+        "property_sort": 3,
+        "property_id": 20400519903,
+        "simple_hide": 1
+       },
+       "91": {
+        "class_id": 199,
+        "id": 204005,
+        "show_default": 1,
+        "enable_copy_property": 1,
+        "property_type": "110014",
+        "item_id": 91,
+        "tab_id": 1,
+        "property_params": "{100697}",
+        "property_sort": 91,
+        "property_id": 20400519991,
+        "simple_hide": 0
+       },
+       "92": {
+        "class_id": 199,
+        "id": 204005,
+        "show_default": 1,
+        "enable_copy_property": 1,
+        "property_type": "110014",
+        "item_id": 92,
+        "tab_id": 1,
+        "property_params": "{100698}",
+        "property_sort": 92,
+        "property_id": 20400519992,
+        "simple_hide": 0
+       }
+      },
+      "30": {
+       "1": {
+        "property_id": 20400503001,
+        "tab_id": 1,
+        "id": 204005,
+        "class_sort": 2,
+        "property_params": "{100699,1},{100455,1286;1613~1617,1286}",
+        "simple_hide": 1,
+        "enable_copy": 2,
+        "property_type": "80001;50001",
+        "class_id": 30,
+        "item_id": 1,
+        "default_show_state": 1,
+        "enable_copy_property": 1,
+        "property_sort": 1,
+        "show_default": 1
+       },
+       "2": {
+        "enable_copy": 2,
+        "enable_copy_property": 1,
+        "id": 204005,
+        "property_sort": 2,
+        "property_params": "{100002,2},{0,100700}",
+        "show_default": 1,
+        "class_id": 30,
+        "property_type": "80001;70001",
+        "simple_hide": 1,
+        "item_id": 2,
+        "property_id": 20400503002,
+        "tab_id": 1
+       },
+       "3": {
+        "enable_copy": 2,
+        "enable_copy_property": 1,
+        "id": 204005,
+        "property_sort": 3,
+        "property_params": "{100701,2}",
+        "show_default": 1,
+        "class_id": 30,
+        "property_type": "80001",
+        "simple_hide": 1,
+        "item_id": 3,
+        "property_id": 20400503003,
+        "tab_id": 1
+       },
+       "4": {
+        "enable_copy": 2,
+        "enable_copy_property": 1,
+        "id": 204005,
+        "property_sort": 4,
+        "property_params": "{100702,2}",
+        "show_default": 1,
+        "class_id": 30,
+        "property_type": "80001",
+        "simple_hide": 1,
+        "item_id": 4,
+        "property_id": 20400503004,
+        "tab_id": 1
+       }
+      }
+     }
+    },
+    "ugc_control_panel": null
+   },
+   "available": true
+  }
+ },
+ "204041": {
+  "label": "RECOMMEND_CHECK_POINT 映像模板",
+  "schema": {
+   "component_type": 204041,
+   "sources": {
+    "ugc_item_property": {
+     "1": {
+      "100": {
+       "1": {
+        "enable_copy": 1,
+        "id": 204041,
+        "default_show_state": 0,
+        "property_id": 20404110001,
+        "tab_id": 1,
+        "class_sort": 10,
+        "show_default": 1,
+        "class_id": 100,
+        "property_params": "{1,100003}",
+        "item_id": 1,
+        "property_sort": 1,
+        "property_type": "70001",
+        "simple_hide": 0
+       },
+       "2": {
+        "id": 204041,
+        "property_id": 20404110002,
+        "class_id": 100,
+        "property_params": "{2,100004}",
+        "property_sort": 2,
+        "tab_id": 1,
+        "property_type": "70001",
+        "item_id": 2,
+        "simple_hide": 0,
+        "show_default": 1
+       },
+       "3": {
+        "id": 204041,
+        "property_id": 20404110003,
+        "class_id": 100,
+        "property_params": "{3,100005}",
+        "property_sort": 3,
+        "tab_id": 1,
+        "property_type": "70001",
+        "item_id": 3,
+        "simple_hide": 1,
+        "show_default": 1
+       },
+       "4": {
+        "id": 204041,
+        "property_id": 20404110004,
+        "class_id": 100,
+        "property_params": "{4,100006}",
+        "property_sort": 4,
+        "tab_id": 1,
+        "property_type": "70001",
+        "item_id": 4,
+        "simple_hide": 0,
+        "show_default": 1
+       }
+      },
+      "211": {
+       "1": {
+        "enable_copy_property": 1,
+        "id": 204041,
+        "default_show_state": 1,
+        "property_id": 20404121101,
+        "tab_id": 1,
+        "class_sort": 1,
+        "show_default": 1,
+        "class_id": 211,
+        "property_params": "{100691}",
+        "item_id": 1,
+        "property_sort": 2,
+        "property_type": "110007",
+        "simple_hide": 0
+       },
+       "2": {
+        "class_id": 211,
+        "id": 204041,
+        "show_default": 1,
+        "enable_copy_property": 1,
+        "property_type": "110008",
+        "item_id": 2,
+        "tab_id": 1,
+        "property_params": "{100692}",
+        "property_sort": 3,
+        "property_id": 20404121102,
+        "simple_hide": 0
+       },
+       "3": {
+        "class_id": 211,
+        "id": 204041,
+        "show_default": 0,
+        "enable_copy_property": 1,
+        "property_type": "20001",
+        "item_id": 3,
+        "tab_id": 1,
+        "property_params": "{100001,0,0,100,0}",
+        "property_sort": 4,
+        "property_id": 20404121103,
+        "simple_hide": 0
+       }
+      },
+      "210": {
+       "1": {
+        "enable_copy_property": 1,
+        "id": 204041,
+        "default_show_state": 1,
+        "property_id": 20404121001,
+        "tab_id": 1,
+        "class_sort": 2,
+        "show_default": 1,
+        "class_id": 210,
+        "property_params": "{100463,1401~1425,1407}",
+        "item_id": 1,
+        "property_sort": 1,
+        "property_type": "120003",
+        "simple_hide": 1
+       },
+       "2": {
+        "class_id": 210,
+        "id": 204041,
+        "show_default": 1,
+        "enable_copy_property": 1,
+        "property_type": "10001",
+        "item_id": 2,
+        "tab_id": 1,
+        "property_params": "{100694,100695,10}",
+        "property_sort": 2,
+        "property_id": 20404121002,
+        "simple_hide": 1
+       },
+       "3": {
+        "enable_copy_pgc_text": 1,
+        "enable_copy_property": 1,
+        "id": 204041,
+        "property_sort": 3,
+        "property_params": "{100478,1331~1332,1331}",
+        "show_default": 1,
+        "class_id": 210,
+        "property_type": "120003",
+        "simple_hide": 1,
+        "item_id": 3,
+        "property_id": 20404121003,
+        "tab_id": 1
+       },
+       "91": {
+        "id": 204041,
+        "property_id": 20404121091,
+        "class_id": 210,
+        "property_params": "{}",
+        "property_sort": 91,
+        "tab_id": 1,
+        "property_type": "110006",
+        "item_id": 91,
+        "simple_hide": 1,
+        "show_default": 1
+       }
+      }
+     }
+    },
+    "ugc_control_panel": null
+   },
+   "available": true
+  }
+ },
+ "205029": {
+  "label": "EMOJI_WALL 表情墙",
+  "schema": {
+   "component_type": 205029,
+   "sources": {
+    "ugc_item_property": {
+     "1": {
+      "100": {
+       "1": {
+        "enable_copy": 1,
+        "id": 205029,
+        "default_show_state": 0,
+        "property_id": 20502910001,
+        "tab_id": 1,
+        "class_sort": 10,
+        "show_default": 1,
+        "class_id": 100,
+        "property_params": "{1,100003}",
+        "item_id": 1,
+        "property_sort": 1,
+        "property_type": "70001",
+        "simple_hide": 0
+       },
+       "2": {
+        "id": 205029,
+        "property_id": 20502910002,
+        "class_id": 100,
+        "property_params": "{2,100004}",
+        "property_sort": 2,
+        "tab_id": 1,
+        "property_type": "70001",
+        "item_id": 2,
+        "simple_hide": 0,
+        "show_default": 1
+       },
+       "3": {
+        "id": 205029,
+        "property_id": 20502910003,
+        "class_id": 100,
+        "property_params": "{3,100005}",
+        "property_sort": 3,
+        "tab_id": 1,
+        "property_type": "70001",
+        "item_id": 3,
+        "simple_hide": 1,
+        "show_default": 1
+       },
+       "4": {
+        "id": 205029,
+        "property_id": 20502910004,
+        "class_id": 100,
+        "property_params": "{4,100006}",
+        "property_sort": 4,
+        "tab_id": 1,
+        "property_type": "70001",
+        "item_id": 4,
+        "simple_hide": 0,
+        "show_default": 1
+       }
+      },
+      "198": {
+       "1": {
+        "enable_copy_property": 1,
+        "default_show_state": 1,
+        "id": 205029,
+        "item_id": 1,
+        "detail_rule": 203049,
+        "class_sort": 1,
+        "property_params": "{100707,3,1}",
+        "property_type": "120005",
+        "property_sort": 1,
+        "show_default": 1,
+        "property_id": 20502919801,
+        "simple_hide": 0,
+        "class_id": 198,
+        "update_ui": 1,
+        "tab_id": 1
+       },
+       "91": {
+        "class_id": 198,
+        "id": 205029,
+        "show_default": 1,
+        "enable_copy_property": 1,
+        "property_type": "110006",
+        "item_id": 91,
+        "tab_id": 1,
+        "property_params": "{}",
+        "property_sort": 91,
+        "property_id": 20502919891,
+        "simple_hide": 1
+       }
+      },
+      "20": {
+       "1": {
+        "enable_copy_property": 1,
+        "id": 205029,
+        "extra_params_1": "_col_state_list",
+        "property_id": 20502902001,
+        "tab_id": 1,
+        "class_sort": 2,
+        "show_default": 1,
+        "class_id": 20,
+        "property_params": "{100276,1}",
+        "item_id": 1,
+        "property_sort": 1,
+        "property_type": "30001",
+        "simple_hide": 1
+       },
+       "2": {
+        "enable_copy_property": 1,
+        "item_id": 2,
+        "property_id": 20502902002,
+        "property_params": "{100312,1181~1184,1181}",
+        "detail_rule": 203033,
+        "id": 205029,
+        "property_sort": 2,
+        "property_type": "50001",
+        "show_default": 0,
+        "enable_copy": 3,
+        "extra_params_1": "{engine_check,7},{detour_apply_all:100000,100001,203014,203027,204001}",
+        "simple_hide": 0,
+        "class_id": 20,
+        "check_update_ui_params": "{20400102002:1:1}",
+        "tab_id": 1
+       },
+       "5": {
+        "class_id": 20,
+        "id": 205029,
+        "show_default": 1,
+        "enable_copy_property": 1,
+        "property_type": "120001",
+        "item_id": 5,
+        "tab_id": 1,
+        "property_params": "{8001~8004;8165~8167;8005~8081;8083~8174,8001}",
+        "property_sort": 5,
+        "property_id": 20502902005,
+        "simple_hide": 0
+       },
+       "6": {
+        "property_params": "{4,7001~7035,7029}",
+        "enable_copy_property": 1,
+        "id": 205029,
+        "property_sort": 6,
+        "extra_params_1": "variable_len_mat:20502902005",
+        "show_default": 1,
+        "class_id": 20,
+        "property_type": "120002",
+        "simple_hide": 0,
+        "item_id": 6,
+        "property_id": 20502902006,
+        "tab_id": 1
+       },
+       "7": {
+        "class_id": 20,
+        "id": 205029,
+        "show_default": 1,
+        "enable_copy_property": 1,
+        "property_type": "20004",
+        "item_id": 7,
+        "tab_id": 1,
+        "property_params": "{100275,90,1,0,100,%}",
+        "property_sort": 7,
+        "property_id": 20502902007,
+        "simple_hide": 1
+       },
+       "91": {
+        "id": 205029,
+        "property_id": 20502902091,
+        "class_id": 20,
+        "property_params": "{}",
+        "property_sort": 91,
+        "tab_id": 1,
+        "property_type": "110006",
+        "item_id": 91,
+        "simple_hide": 1,
+        "show_default": 1
+       }
+      },
+      "30": {
+       "1": {
+        "id": 205029,
+        "enable_copy_property": 1,
+        "class_sort": 3,
+        "property_sort": 1,
+        "property_params": "{100012,1}",
+        "show_default": 1,
+        "class_id": 30,
+        "property_type": "30001",
+        "simple_hide": 1,
+        "item_id": 1,
+        "property_id": 20502903001,
+        "tab_id": 1
+       },
+       "2": {
+        "enable_copy": 2,
+        "enable_copy_property": 1,
+        "id": 205029,
+        "property_sort": 2,
+        "property_params": "{100548,2}",
+        "show_default": 1,
+        "class_id": 30,
+        "property_type": "80001",
+        "simple_hide": 1,
+        "item_id": 2,
+        "property_id": 20502903002,
+        "tab_id": 1
+       },
+       "3": {
+        "enable_copy": 2,
+        "enable_copy_property": 1,
+        "id": 205029,
+        "property_sort": 3,
+        "property_params": "{100549,2}",
+        "show_default": 1,
+        "class_id": 30,
+        "property_type": "80001",
+        "simple_hide": 1,
+        "item_id": 3,
+        "property_id": 20502903003,
+        "tab_id": 1
+       },
+       "4": {
+        "enable_copy": 2,
+        "enable_copy_property": 1,
+        "id": 205029,
+        "property_sort": 4,
+        "property_params": "{100002,2},{0,100145}",
+        "show_default": 1,
+        "class_id": 30,
+        "property_type": "80001;70001",
+        "simple_hide": 1,
+        "item_id": 4,
+        "property_id": 20502903004,
+        "tab_id": 1
+       },
+       "5": {
+        "enable_copy": 2,
+        "enable_copy_property": 1,
+        "id": 205029,
+        "property_sort": 5,
+        "property_params": "{100002,2},{5,100348}",
+        "show_default": 1,
+        "class_id": 30,
+        "property_type": "80001;70001",
+        "simple_hide": 1,
+        "item_id": 5,
+        "property_id": 20502903005,
+        "tab_id": 1
+       },
+       "90": {
+        "class_id": 30,
+        "id": 205029,
+        "show_default": 1,
+        "enable_copy_property": 1,
+        "property_type": "110005",
+        "item_id": 90,
+        "tab_id": 1,
+        "property_params": "{2}",
+        "property_sort": 90,
+        "property_id": 20502903090,
+        "simple_hide": 1
+       },
+       "91": {
+        "class_id": 30,
+        "id": 205029,
+        "show_default": 1,
+        "enable_copy_property": 1,
+        "property_type": "110006",
+        "item_id": 91,
+        "tab_id": 1,
+        "property_params": "{}",
+        "property_sort": 91,
+        "property_id": 20502903091,
+        "simple_hide": 1
+       }
+      },
+      "195": {
+       "1": {
+        "id": 205029,
+        "enable_copy_property": 1,
+        "class_sort": 11,
+        "property_sort": 1,
+        "property_params": "{100644,203930,20393019601~20393019603;20393019699;20393019701~20393019703}",
+        "show_default": 1,
+        "class_id": 195,
+        "property_type": "110012",
+        "simple_hide": 1,
+        "item_id": 1,
+        "property_id": 20502919501,
+        "tab_id": 1
+       }
+      }
+     },
+     "8": {
+      "187": {
+       "1": {
+        "enable_copy_property": 1,
+        "id": 205029,
+        "default_show_state": 1,
+        "property_id": 20502918701,
+        "tab_id": 8,
+        "class_sort": 1,
+        "show_default": 1,
+        "class_id": 187,
+        "property_params": "{100591,20391202001,100}",
+        "item_id": 1,
+        "property_sort": 1,
+        "property_type": "200001",
+        "simple_hide": 1
+       },
+       "2": {
+        "property_params": "{100652,0}",
+        "enable_copy_property": 1,
+        "id": 205029,
+        "property_sort": 2,
+        "detail_rule": 203038,
+        "show_default": 1,
+        "class_id": 187,
+        "property_type": "30001",
+        "simple_hide": 1,
+        "item_id": 2,
+        "property_id": 20502918702,
+        "tab_id": 8
+       }
+      }
+     }
+    },
+    "ugc_control_panel": null
+   },
+   "available": true
+  }
+ },
+ "207004": {
+  "label": "ARROW_BLOCK 龙骨弓靶区",
+  "schema": {
+   "component_type": 207004,
+   "sources": {
+    "ugc_item_property": {
+     "1": {
+      "100": {
+       "1": {
+        "enable_copy": 1,
+        "id": 207004,
+        "default_show_state": 0,
+        "property_id": 20700410001,
+        "tab_id": 1,
+        "class_sort": 10,
+        "show_default": 1,
+        "class_id": 100,
+        "property_params": "{1,100003}",
+        "item_id": 1,
+        "property_sort": 1,
+        "property_type": "70001",
+        "simple_hide": 0
+       },
+       "2": {
+        "id": 207004,
+        "property_id": 20700410002,
+        "class_id": 100,
+        "property_params": "{2,100004}",
+        "property_sort": 2,
+        "tab_id": 1,
+        "property_type": "70001",
+        "item_id": 2,
+        "simple_hide": 0,
+        "show_default": 1
+       },
+       "3": {
+        "id": 207004,
+        "property_id": 20700410003,
+        "class_id": 100,
+        "property_params": "{3,100005}",
+        "property_sort": 3,
+        "tab_id": 1,
+        "property_type": "70001",
+        "item_id": 3,
+        "simple_hide": 1,
+        "show_default": 1
+       },
+       "4": {
+        "id": 207004,
+        "property_id": 20700410004,
+        "class_id": 100,
+        "property_params": "{4,100006}",
+        "property_sort": 4,
+        "tab_id": 1,
+        "property_type": "70001",
+        "item_id": 4,
+        "simple_hide": 0,
+        "show_default": 1
+       }
+      },
+      "20": {
+       "1": {
+        "enable_copy_property": 1,
+        "id": 207004,
+        "default_show_state": 0,
+        "property_id": 20700402001,
+        "tab_id": 1,
+        "class_sort": 1,
+        "show_default": 1,
+        "class_id": 20,
+        "property_params": "{8001~8004;8165~8167;8005~8081;8083~8174,8001}",
+        "item_id": 1,
+        "property_sort": 1,
+        "property_type": "120001",
+        "simple_hide": 1
+       },
+       "2": {
+        "property_params": "{4,7001~7035,7029}",
+        "enable_copy_property": 1,
+        "id": 207004,
+        "property_sort": 2,
+        "extra_params_1": "variable_len_mat:20700402001",
+        "show_default": 1,
+        "class_id": 20,
+        "property_type": "120002",
+        "simple_hide": 1,
+        "item_id": 2,
+        "property_id": 20700402002,
+        "tab_id": 1
+       },
+       "3": {
+        "class_id": 20,
+        "id": 207004,
+        "show_default": 1,
+        "enable_copy_property": 1,
+        "property_type": "20004",
+        "item_id": 3,
+        "tab_id": 1,
+        "property_params": "{100275,90,1,0,100,%}",
+        "property_sort": 3,
+        "property_id": 20700402003,
+        "simple_hide": 1
+       },
+       "91": {
+        "id": 207004,
+        "property_id": 20700402091,
+        "class_id": 20,
+        "property_params": "{}",
+        "property_sort": 91,
+        "tab_id": 1,
+        "property_type": "110006",
+        "item_id": 91,
+        "simple_hide": 1,
+        "show_default": 1
+       }
+      },
+      "111": {
+       "1": {
+        "property_id": 20700411101,
+        "tab_id": 1,
+        "id": 207004,
+        "class_sort": 2,
+        "property_params": "{100741,1},{100455,1286;1276~1278;1287~1288,1286}",
+        "simple_hide": 0,
+        "enable_copy": 2,
+        "property_type": "80001;50001",
+        "class_id": 111,
+        "item_id": 1,
+        "default_show_state": 1,
+        "enable_copy_property": 1,
+        "property_sort": 1,
+        "show_default": 1
+       },
+       "90": {
+        "id": 207004,
+        "property_id": 20700411190,
+        "class_id": 111,
+        "property_params": "{2}",
+        "property_sort": 90,
+        "tab_id": 1,
+        "property_type": "110005",
+        "item_id": 90,
+        "simple_hide": 1,
+        "show_default": 1
+       },
+       "91": {
+        "id": 207004,
+        "property_id": 20700411191,
+        "class_id": 111,
+        "property_params": "{}",
+        "property_sort": 91,
+        "tab_id": 1,
+        "property_type": "110006",
+        "item_id": 91,
+        "simple_hide": 1,
+        "show_default": 1
+       }
+      },
+      "30": {
+       "1": {
+        "id": 207004,
+        "enable_copy_property": 1,
+        "class_sort": 3,
+        "property_sort": 1,
+        "property_params": "{100012,1}",
+        "show_default": 1,
+        "class_id": 30,
+        "property_type": "30001",
+        "simple_hide": 1,
+        "item_id": 1,
+        "property_id": 20700403001,
+        "tab_id": 1
+       },
+       "2": {
+        "enable_copy": 2,
+        "enable_copy_property": 1,
+        "id": 207004,
+        "property_sort": 2,
+        "property_params": "{100350,2}",
+        "show_default": 1,
+        "class_id": 30,
+        "property_type": "80001",
+        "simple_hide": 1,
+        "item_id": 2,
+        "property_id": 20700403002,
+        "tab_id": 1
+       },
+       "3": {
+        "enable_copy": 2,
+        "enable_copy_property": 1,
+        "id": 207004,
+        "property_sort": 3,
+        "property_params": "{100349,2}",
+        "show_default": 1,
+        "class_id": 30,
+        "property_type": "80001",
+        "simple_hide": 1,
+        "item_id": 3,
+        "property_id": 20700403003,
+        "tab_id": 1
+       },
+       "4": {
+        "enable_copy": 2,
+        "enable_copy_property": 1,
+        "id": 207004,
+        "property_sort": 4,
+        "property_params": "{100002,2},{0,100145}",
+        "show_default": 1,
+        "class_id": 30,
+        "property_type": "80001;70001",
+        "simple_hide": 1,
+        "item_id": 4,
+        "property_id": 20700403004,
+        "tab_id": 1
+       },
+       "5": {
+        "enable_copy": 2,
+        "enable_copy_property": 1,
+        "id": 207004,
+        "property_sort": 5,
+        "property_params": "{100002,2},{5,100348}",
+        "show_default": 1,
+        "class_id": 30,
+        "property_type": "80001;70001",
+        "simple_hide": 1,
+        "item_id": 5,
+        "property_id": 20700403005,
+        "tab_id": 1
+       },
+       "90": {
+        "class_id": 30,
+        "id": 207004,
+        "show_default": 1,
+        "enable_copy_property": 1,
+        "property_type": "110005",
+        "item_id": 90,
+        "tab_id": 1,
+        "property_params": "{2}",
+        "property_sort": 90,
+        "property_id": 20700403090,
+        "simple_hide": 1
+       },
+       "91": {
+        "class_id": 30,
+        "id": 207004,
+        "show_default": 1,
+        "enable_copy_property": 1,
+        "property_type": "110006",
+        "item_id": 91,
+        "tab_id": 1,
+        "property_params": "{}",
+        "property_sort": 91,
+        "property_id": 20700403091,
+        "simple_hide": 1
+       }
+      },
+      "195": {
+       "1": {
+        "id": 207004,
+        "enable_copy_property": 1,
+        "class_sort": 11,
+        "property_sort": 1,
+        "property_params": "{100644,203930,20393019601~20393019603;20393019699;20393019701~20393019703}",
+        "show_default": 1,
+        "class_id": 195,
+        "property_type": "110012",
+        "simple_hide": 1,
+        "item_id": 1,
+        "property_id": 20700419501,
+        "tab_id": 1
+       }
+      }
+     },
+     "8": {
+      "187": {
+       "1": {
+        "property_id": 20700418701,
+        "tab_id": 8,
+        "id": 207004,
+        "class_sort": 1,
+        "property_params": "{100591,20391202001,100}",
+        "simple_hide": 1,
+        "property_sort": 1,
+        "property_type": "200001",
+        "class_id": 187,
+        "item_id": 1,
+        "default_show_state": 1,
+        "enable_copy_property": 1,
+        "detail_rule": 203038,
+        "show_default": 1
+       }
+      }
+     }
+    },
+    "ugc_control_panel": null
+   },
+   "available": true
+  }
+ }
+}

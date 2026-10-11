@@ -1,0 +1,14 @@
+{
+  "pid": 9228,
+  "bridge_alive": true,
+  "editor_core": {
+    "repr": "<common_cs.ugc_edit_core.core.UGCEditCore.UGCEditCore object at 0x0000027925DB4A50>",
+    "is_client": true,
+    "room": "<worlds.WorldBattleUGCEdit.WorldBattleUGCEdit object at 0x000002791F077750>"
+  },
+  "component_manager": true,
+  "event_manager": true,
+  "frame_count": 395524,
+  "frame_rate": 60,
+  "component_count": 141
+}

@@ -1,0 +1,86 @@
+# ============================================================================
+# 「随笔浮想」工具链独立仓库（2026-10-03 自游戏安装目录迁出，见 INJECTOR_USAGE.md）
+# 默认忽略运行时产物与体积爆炸的二进制；源码 / 文档 / 编目入库。
+# ============================================================================
+
+# ---- 运行时产物 ----
+/ipc/
+/backups/
+/__pycache__/
+*.py[co]
+
+# .NET 构建产物（源码在 injector/ 下，csproj 已跟踪）
+[Bb]in/
+[Oo]bj/
+*.user
+*.suo
+
+# 引擎截图与视觉证据：可由桥接层重新生成，二进制会永久膨胀 git 历史
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.ico
+
+# 例外：README.md / HANDOVER_FIX.md 直接链接的证据图，不纳入会产生死链
+!/tests/handover_evidence/after_reentry.png
+!/tests/handover_evidence/api_placed_122.png
+!/tests/handover_evidence/correct_cover_list.png
+!/tests/handover_evidence/cover_reloaded_engine.png
+!/tests/handover_evidence/table_placed.png
+!/tests/visual_evidence/before.png
+!/tests/visual_evidence/placed.png
+!/tests/visual_evidence/removed.png
+
+# 逆向研究工作区：体量大且属分析产物，仅 tools_extract（导出表）入库
+/research/*
+!/research/tools_extract/neox_exports.txt
+!/research/tools_extract/pe_exports.js
+
+# 日志与临时转储
+*.log
+*.err
+*~
+*.tmp
+
+# ---- 跨平台/编辑器杂项 ----
+.DS_Store
+Thumbs.db
+.vs/
+.idea/
+*.swp
+
+# ---- WinUI3 桥接控制台 ----
+console/bin/
+console/obj/
+console/settings.json
+console/bridges/
+
+# 运行时 IPC 命令/回执（与根 /ipc/ 同一类，可从桥重新生成）
+src_tree/ipc/
+
+# ---- 开发态产物与个人工程（不入公开仓库；本地保留） ----
+/offline-studio/
+/projects/
+/snapshots/
+/preview/
+/builds/
+/probe/
+/src_tree/
+/ipc_src/
+/lab/
+/_archive/
+/.workbuddy/
+night_*.py
+place_main_street.py
+temp_*.txt
+temp_*.json
+_ct_*.json
+_schema_*.json
+_tick_dis.txt
+--help
+--help.out.json
+*.bak
+# 会话工具与本地工作区
+.zcodeignore
+/console/_work/

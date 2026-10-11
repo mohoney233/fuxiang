@@ -1,0 +1,80 @@
+{
+  "move": {
+    "ugc_id": 117,
+    "before": {
+      "position": [
+        628.0,
+        0.0,
+        -125.0
+      ],
+      "rotation": [
+        0.0,
+        15.000000953674316,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "transform": {
+      "position": [
+        629.0,
+        0.0,
+        -125.0
+      ],
+      "rotation": [
+        0.0,
+        15.000000953674316,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "scope": "server",
+    "persistence_verified": false
+  },
+  "restore": {
+    "ugc_id": 117,
+    "before": {
+      "position": [
+        629.0,
+        0.0,
+        -125.0
+      ],
+      "rotation": [
+        0.0,
+        15.000000953674316,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "transform": {
+      "position": [
+        628.0,
+        0.0,
+        -125.0
+      ],
+      "rotation": [
+        0.0,
+        15.000000953674316,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "scope": "server",
+    "persistence_verified": false
+  }
+}
